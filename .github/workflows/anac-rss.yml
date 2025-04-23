@@ -1,4 +1,3 @@
-# .github/workflows/anac_feed.yml
 name: ANAC RSS Feed Generator
 
 on:
@@ -17,40 +16,37 @@ jobs:
         with:
           deno-version: '1.40.x'
 
-      - name: Generate JSON and RSS
+      - name: Generate Feeds
         run: |
           cat << 'EOF' > script.ts
-          // Script Deno inline
           import { Feed } from "https://esm.sh/feed@4.2.2";
 
           const ANAC_URL = "https://www.gov.br/anac/pt-br/noticias";
           
-          async function fetchNews() {
+          async function main() {
             try {
-              // 1. Fetch and parse HTML
+              // 1. Fetch data
               const res = await fetch(ANAC_URL);
               const html = await res.text();
               const doc = new DOMParser().parseFromString(html, "text/html");
 
-              // 2. Extract news data
+              // 2. Parse news
               const news = Array.from(doc.querySelectorAll("article.tileItem"))
                 .slice(0, 20)
                 .map((article) => ({
                   title: article.querySelector("h2 a")?.textContent?.trim() || "Sem título",
                   link: new URL(
-                    article.querySelector("h2 a")?.getAttribute("href") || "#",
+                    article.querySelector("h2 a")?.getAttribute("href") || "/",
                     ANAC_URL
                   ).toString(),
                   description: article.querySelector("p.tileBody span")?.textContent?.trim() || "",
-                  date: new Date(
-                    article.querySelector(".icon-day")?.nextSibling?.textContent?.trim() || new Date()
-                  ),
+                  date: new Date(),
                 }));
 
-              // 3. Generate JSON
+              // 3. Save JSON
               await Deno.writeTextFile(
-                "anac_feed.json",
-                JSON.stringify({ updated: new Date(), items: news }, null, 2)
+                "anac.json",
+                JSON.stringify({ updated: new Date().toISOString(), items: news }, null, 2)
               );
 
               // 4. Generate RSS
@@ -64,32 +60,41 @@ jobs:
 
               news.forEach(item => feed.addItem({
                 title: item.title,
+                id: item.link,
                 link: item.link,
                 description: item.description,
                 date: item.date,
               }));
 
-              await Deno.writeTextFile("anac_feed.xml", feed.rss2());
-              console.log("Feeds gerados com sucesso!");
+              await Deno.writeTextFile("anac.rss.xml", feed.rss2());
+              console.log("✅ Feeds gerados!");
 
             } catch (error) {
-              console.error("Erro:", error);
+              console.error("❌ Erro:", error);
               Deno.exit(1);
             }
           }
 
-          await fetchNews();
+          await main();
           EOF
 
           deno run --allow-net --allow-write script.ts
 
-      - name: Commit Results
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: anac-feeds
+          path: |
+            anac.json
+            anac.rss.xml
+
+      - name: Commit to Repository
         run: |
           mkdir -p feeds
-          mv anac_feed.json feeds/anac.json
-          mv anac_feed.xml feeds/anac.rss.xml
+          mv anac.json feeds/
+          mv anac.rss.xml feeds/
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add feeds/
-          git commit -m "📌 Atualiza feed ANAC [$(date +'%d/%m/%Y %H:%M')]"
+          git commit -m "📌 Update feeds [$(date +'%Y-%m-%d %H:%M')]" || echo "No changes"
           git push
