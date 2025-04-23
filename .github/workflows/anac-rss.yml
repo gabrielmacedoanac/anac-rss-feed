@@ -1,203 +1,95 @@
+# .github/workflows/anac_feed.yml
 name: ANAC RSS Feed Generator
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Executa a cada 4 horas
-  workflow_dispatch:       # Permite execução manual
-  push:
-    branches: [ main ]
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+    - cron: '0 */6 * * *'  # Atualiza a cada 6 horas
+  workflow_dispatch:
 
 jobs:
-  generate-feed:
+  generate-feeds:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: '1.40.x'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install beautifulsoup4 feedgenerator requests html2text
+      - name: Generate JSON and RSS
+        run: |
+          cat << 'EOF' > script.ts
+          // Script Deno inline
+          import { Feed } from "https://esm.sh/feed@4.2.2";
 
-    - name: Create Python script
-      run: |
-        cat > anac_rss_generator.py << 'EOF'
-        import requests
-        from bs4 import BeautifulSoup
-        from feedgenerator import Rss201rev2Feed
-        from datetime import datetime
-        import pytz
-        import html2text
-        import sys
-        import os
+          const ANAC_URL = "https://www.gov.br/anac/pt-br/noticias";
+          
+          async function fetchNews() {
+            try {
+              // 1. Fetch and parse HTML
+              const res = await fetch(ANAC_URL);
+              const html = await res.text();
+              const doc = new DOMParser().parseFromString(html, "text/html");
 
-        def clean_text(text):
-            if not text:
-                return ""
-            return ' '.join(text.strip().split())
+              // 2. Extract news data
+              const news = Array.from(doc.querySelectorAll("article.tileItem"))
+                .slice(0, 20)
+                .map((article) => ({
+                  title: article.querySelector("h2 a")?.textContent?.trim() || "Sem título",
+                  link: new URL(
+                    article.querySelector("h2 a")?.getAttribute("href") || "#",
+                    ANAC_URL
+                  ).toString(),
+                  description: article.querySelector("p.tileBody span")?.textContent?.trim() || "",
+                  date: new Date(
+                    article.querySelector(".icon-day")?.nextSibling?.textContent?.trim() || new Date()
+                  ),
+                }));
 
-        def parse_date(date_str):
-            try:
-                date_formats = [
-                    '%d/%m/%Y %H:%M',
-                    '%d/%m/%Y',
-                    '%Y-%m-%d %H:%M:%S'
-                ]
-                for fmt in date_formats:
-                    try:
-                        return datetime.strptime(date_str, fmt).astimezone(pytz.timezone('America/Sao_Paulo'))
-                    except ValueError:
-                        continue
-                return datetime.now(pytz.timezone('America/Sao_Paulo'))
-            except:
-                return datetime.now(pytz.timezone('America/Sao_Paulo'))
+              // 3. Generate JSON
+              await Deno.writeTextFile(
+                "anac_feed.json",
+                JSON.stringify({ updated: new Date(), items: news }, null, 2)
+              );
 
-        def get_news_items():
-            base_url = "https://www.gov.br/anac/pt-br/noticias"
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) RSS Generator'
+              // 4. Generate RSS
+              const feed = new Feed({
+                title: "ANAC Notícias",
+                description: "Feed RSS oficial",
+                id: ANAC_URL,
+                link: ANAC_URL,
+                updated: new Date(),
+              });
+
+              news.forEach(item => feed.addItem({
+                title: item.title,
+                link: item.link,
+                description: item.description,
+                date: item.date,
+              }));
+
+              await Deno.writeTextFile("anac_feed.xml", feed.rss2());
+              console.log("Feeds gerados com sucesso!");
+
+            } catch (error) {
+              console.error("Erro:", error);
+              Deno.exit(1);
             }
-            
-            try:
-                print("::debug::Acessando página de notícias da ANAC")
-                response = requests.get(base_url, headers=headers, timeout=30)
-                response.raise_for_status()
-                soup = BeautifulSoup(response.text, 'html.parser')
-                
-                items = []
-                news_cards = soup.select('div#content-core article.tileItem')
-                print(f"::debug::Encontrados {len(news_cards)} artigos")
-                
-                for card in news_cards:
-                    try:
-                        title_tag = card.select_one('h2.tileHeadline a') or card.select_one('h2 a')
-                        if not title_tag:
-                            continue
-                            
-                        title = clean_text(title_tag.get_text())
-                        link = title_tag['href']
-                        if not link.startswith('http'):
-                            link = f"https://www.gov.br{link}"
-                        
-                        description = ""
-                        desc_tag = card.select_one('div.description') or card.select_one('div.tileBody')
-                        if desc_tag:
-                            description = clean_text(desc_tag.get_text())
-                        
-                        date_str = ""
-                        date_tag = card.select_one('span.summary-view-icon') or card.select_one('span.documentPublished')
-                        if date_tag:
-                            date_str = clean_text(date_tag.get_text())
-                        
-                        full_content = description
-                        try:
-                            article_resp = requests.get(link, headers=headers, timeout=20)
-                            if article_resp.status_code == 200:
-                                article_soup = BeautifulSoup(article_resp.text, 'html.parser')
-                                content_div = article_soup.select_one('div#content-core') or article_soup.select_one('div.documentDescription')
-                                if content_div:
-                                    h = html2text.HTML2Text()
-                                    h.ignore_links = False
-                                    full_content = h.handle(str(content_div))
-                        except Exception as e:
-                            print(f"::warning::Erro ao obter conteúdo: {str(e)}")
-                        
-                        items.append({
-                            'title': title,
-                            'link': link,
-                            'description': description,
-                            'content': full_content,
-                            'date_str': date_str
-                        })
-                    except Exception as e:
-                        print(f"::warning::Erro ao processar item: {str(e)}")
-                        continue
-                
-                return items
-            except Exception as e:
-                print(f"::error::Erro ao acessar página: {str(e)}")
-                return []
+          }
 
-        def generate_feed():
-            feed = Rss201rev2Feed(
-                title="Notícias da ANAC",
-                link="https://www.gov.br/anac/pt-br/noticias",
-                description="Últimas notícias da Agência Nacional de Aviação Civil",
-                language="pt-br"
-            )
-            
-            news_items = get_news_items()
-            if not news_items:
-                print("::error::Nenhuma notícia encontrada!")
-                sys.exit(1)
-            
-            for item in news_items:
-                pub_date = parse_date(item['date_str'])
-                feed.add_item(
-                    title=item['title'],
-                    link=item['link'],
-                    description=item['description'],
-                    content=item['content'],
-                    pubdate=pub_date,
-                    author="ANAC",
-                    unique_id=item['link']
-                )
-            
-            with open('anac-feed.xml', 'w', encoding='utf-8') as f:
-                feed.write(f, 'utf-8')
-            print("::notice::Feed RSS gerado com sucesso!")
+          await fetchNews();
+          EOF
 
-        if __name__ == "__main__":
-            generate_feed()
-        EOF
+          deno run --allow-net --allow-write script.ts
 
-    - name: Run Python script
-      run: python anac_rss_generator.py
-
-    - name: Verify XML file
-      run: |
-        if [ ! -f "anac-feed.xml" ]; then
-          echo "::error::Arquivo anac-feed.xml não foi gerado!"
-          exit 1
-        elif [ ! -s "anac-feed.xml" ]; then
-          echo "::error::Arquivo anac-feed.xml está vazio!"
-          exit 1
-        else
-          echo "Arquivo XML válido encontrado"
-          echo "Tamanho: $(wc -c < anac-feed.xml) bytes"
-        fi
-
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
-      with:
-        path: anac-feed.xml
-        name: rss-feed
-
-  deploy:
-    needs: generate-feed
-    permissions:
-      pages: write
-      id-token: write
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    
-    steps:
-    - name: Setup Pages
-      uses: actions/configure-pages@v3
-
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v2
+      - name: Commit Results
+        run: |
+          mkdir -p feeds
+          mv anac_feed.json feeds/anac.json
+          mv anac_feed.xml feeds/anac.rss.xml
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add feeds/
+          git commit -m "📌 Atualiza feed ANAC [$(date +'%d/%m/%Y %H:%M')]"
+          git push
