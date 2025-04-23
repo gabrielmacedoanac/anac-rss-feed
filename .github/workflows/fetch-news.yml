@@ -19,10 +19,10 @@ jobs:
           deno-version: v1.x
 
       - name: Run scraper
-        run: deno run --allow-net deno/fetch_news.ts > data/noticias.json
+        run: deno run --allow-net --allow-write deno/fetch_news.ts
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "📰 Atualiza notícias ANAC"
-          file_pattern: 'data/noticias.json'
+          commit_message: "📰 Atualiza notícias ANAC (JSON, RSS e HTML)"
+          file_pattern: 'data/noticias.*'
