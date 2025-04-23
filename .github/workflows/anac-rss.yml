@@ -1,17 +1,12 @@
-name: ANAC News RSS Generator
+name: ANAC RSS Feed Generator
 
 on:
   schedule:
     - cron: '0 */4 * * *'  # Executa a cada 4 horas
   workflow_dispatch:
-  push:
-    branches: [ main ]
 
-# Permissões explícitas
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   generate-feed:
@@ -20,8 +15,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0  # Necessário para histórico completo
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -33,10 +26,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install beautifulsoup4 feedgenerator requests html2text
 
-    - name: Generate RSS feed with debug
+    - name: Create and run Python script
       run: |
-        # Script Python com verificação de conteúdo
-        cat > anac_rss_generator.py << 'EOF'
+        cat << 'EOF' > anac_rss_generator.py
         import requests
         from bs4 import BeautifulSoup
         from feedgenerator import Rss201rev2Feed
@@ -45,100 +37,90 @@ jobs:
         import html2text
         import sys
 
-        def debug_log(message):
-            print(f"::debug::{message}")
-            sys.stdout.flush()
+        def log(message):
+            print(message, file=sys.stderr)
+            sys.stderr.flush()
 
-        def clean_text(text):
-            return ' '.join(text.strip().split()) if text else ""
-
-        def parse_date(date_str):
+        def get_news():
             try:
-                date_formats = ['%d/%m/%Y %H:%M', '%d/%m/%Y', '%Y-%m-%d %H:%M:%S']
-                for fmt in date_formats:
-                    try:
-                        return datetime.strptime(date_str, fmt).astimezone(pytz.timezone('America/Sao_Paulo'))
-                    except ValueError:
-                        continue
-                return datetime.now(pytz.timezone('America/Sao_Paulo'))
-            except:
-                return datetime.now(pytz.timezone('America/Sao_Paulo'))
-
-        def get_news_items():
-            base_url = "https://www.gov.br/anac/pt-br/noticias"
-            headers = {'User-Agent': 'ANAC-RSS-Feed/1.0'}
-            
-            try:
-                debug_log("Fetching ANAC news page")
-                response = requests.get(base_url, headers=headers, timeout=30)
+                url = "https://www.gov.br/anac/pt-br/noticias"
+                log(f"Acessando: {url}")
+                headers = {'User-Agent': 'ANAC-RSS-Feed/1.0'}
+                response = requests.get(url, headers=headers, timeout=30)
                 response.raise_for_status()
                 
                 soup = BeautifulSoup(response.text, 'html.parser')
-                news_cards = soup.select('div#content-core article.tileItem')
-                debug_log(f"Found {len(news_cards)} news articles")
+                articles = soup.find_all('article', class_='tileItem')
+                log(f"Encontrados {len(articles)} artigos")
                 
-                items = []
-                for card in news_cards[:5]:  # Process only 5 for testing
-                    try:
-                        title_tag = card.select_one('h2.tileHeadline a') or card.select_one('h2 a')
-                        if not title_tag:
-                            continue
-                            
-                        item = {
-                            'title': clean_text(title_tag.get_text()),
-                            'link': title_tag['href'] if title_tag['href'].startswith('http') else f"https://www.gov.br{title_tag['href']}",
-                            'description': "",
-                            'content': "",
-                            'date_str': ""
-                        }
-                        
-                        if desc_tag := card.select_one('div.description') or card.select_one('div.tileBody'):
-                            item['description'] = clean_text(desc_tag.get_text())
-                        
-                        if date_tag := card.select_one('span.summary-view-icon') or card.select_one('span.documentPublished'):
-                            item['date_str'] = clean_text(date_tag.get_text())
-                        
-                        debug_log(f"Processing: {item['title']}")
-                        items.append(item)
-                    except Exception as e:
-                        print(f"::warning::Error processing item: {str(e)}")
-                
-                return items
-            except Exception as e:
-                print(f"::error::Failed to fetch news: {str(e)}")
-                return []
-
-        def generate_feed():
-            feed = Rss201rev2Feed(
-                title="Notícias da ANAC",
-                link="https://www.gov.br/anac/pt-br/noticias",
-                description="Últimas notícias da ANAC",
-                language="pt-br"
-            )
-            
-            news_items = get_news_items()
-            if not news_items:
-                print("::error::No news items found!")
-                sys.exit(1)
-            
-            for item in news_items:
-                feed.add_item(
-                    title=item['title'],
-                    link=item['link'],
-                    description=item['description'],
-                    content=item['content'],
-                    pubdate=parse_date(item['date_str']),
-                    author="ANAC",
-                    unique_id=item['link']
+                feed = Rss201rev2Feed(
+                    title="Notícias da ANAC",
+                    link=url,
+                    description="Feed RSS das notícias da ANAC",
+                    language="pt-br"
                 )
-            
-            with open('anac-feed.xml', 'w', encoding='utf-8') as f:
-                feed.write(f, 'utf-8')
-            debug_log("RSS feed generated successfully")
+                
+                for article in articles:
+                    try:
+                        title = article.find('h2').get_text(strip=True)
+                        link = article.find('a')['href']
+                        if not link.startswith('http'):
+                            link = f"https://www.gov.br{link}"
+                        
+                        date_tag = article.find('span', class_='summary-view-icon')
+                        pub_date = datetime.now(pytz.timezone('America/Sao_Paulo'))
+                        if date_tag:
+                            try:
+                                pub_date = datetime.strptime(
+                                    date_tag.get_text(strip=True), 
+                                    '%d/%m/%Y %H:%M'
+                                ).astimezone(pytz.timezone('America/Sao_Paulo'))
+                            except ValueError:
+                                pass
+                        
+                        desc = article.find('div', class_='description')
+                        description = desc.get_text(strip=True) if desc else ""
+                        
+                        feed.add_item(
+                            title=title,
+                            link=link,
+                            description=description,
+                            pubdate=pub_date
+                        )
+                        
+                    except Exception as e:
+                        log(f"Erro ao processar artigo: {str(e)}")
+                        continue
+                
+                with open('anac-feed.xml', 'w', encoding='utf-8') as f:
+                    feed.write(f, 'utf-8')
+                log("Feed gerado com sucesso!")
+                
+            except Exception as e:
+                log(f"ERRO CRÍTICO: {str(e)}")
+                sys.exit(1)
 
         if __name__ == "__main__":
-            generate_feed()
+            get_news()
         EOF
 
-        # Executar e verificar saída
-        python anac_rss
+        python anac_rss_generator.py
+
+    - name: Verify XML file
+      run: |
+        if [ ! -f "anac-feed.xml" ]; then
+          echo "::error::Arquivo anac-feed.xml não foi gerado!"
+          exit 1
+        elif [ ! -s "anac-feed.xml" ]; then
+          echo "::error::Arquivo anac-feed.xml está vazio!"
+          exit 1
+        else
+          echo "Arquivo XML gerado com sucesso:"
+          head -n 10 anac-feed.xml
+        fi
+
+    - name: Commit and push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
