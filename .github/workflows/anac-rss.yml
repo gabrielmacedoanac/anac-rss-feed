@@ -4,9 +4,13 @@ on:
   schedule:
     - cron: '0 */4 * * *'  # Executa a cada 4 horas
   workflow_dispatch:
+  push:
+    branches: [ main ]
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   generate-feed:
@@ -26,101 +30,36 @@ jobs:
         python -m pip install --upgrade pip
         pip install beautifulsoup4 feedgenerator requests html2text
 
-    - name: Create and run Python script
+    - name: Generate RSS feed
       run: |
-        cat << 'EOF' > anac_rss_generator.py
-        import requests
-        from bs4 import BeautifulSoup
-        from feedgenerator import Rss201rev2Feed
-        from datetime import datetime
-        import pytz
-        import html2text
-        import sys
-
-        def log(message):
-            print(message, file=sys.stderr)
-            sys.stderr.flush()
-
-        def get_news():
-            try:
-                url = "https://www.gov.br/anac/pt-br/noticias"
-                log(f"Acessando: {url}")
-                headers = {'User-Agent': 'ANAC-RSS-Feed/1.0'}
-                response = requests.get(url, headers=headers, timeout=30)
-                response.raise_for_status()
-                
-                soup = BeautifulSoup(response.text, 'html.parser')
-                articles = soup.find_all('article', class_='tileItem')
-                log(f"Encontrados {len(articles)} artigos")
-                
-                feed = Rss201rev2Feed(
-                    title="Notícias da ANAC",
-                    link=url,
-                    description="Feed RSS das notícias da ANAC",
-                    language="pt-br"
-                )
-                
-                for article in articles:
-                    try:
-                        title = article.find('h2').get_text(strip=True)
-                        link = article.find('a')['href']
-                        if not link.startswith('http'):
-                            link = f"https://www.gov.br{link}"
-                        
-                        date_tag = article.find('span', class_='summary-view-icon')
-                        pub_date = datetime.now(pytz.timezone('America/Sao_Paulo'))
-                        if date_tag:
-                            try:
-                                pub_date = datetime.strptime(
-                                    date_tag.get_text(strip=True), 
-                                    '%d/%m/%Y %H:%M'
-                                ).astimezone(pytz.timezone('America/Sao_Paulo'))
-                            except ValueError:
-                                pass
-                        
-                        desc = article.find('div', class_='description')
-                        description = desc.get_text(strip=True) if desc else ""
-                        
-                        feed.add_item(
-                            title=title,
-                            link=link,
-                            description=description,
-                            pubdate=pub_date
-                        )
-                        
-                    except Exception as e:
-                        log(f"Erro ao processar artigo: {str(e)}")
-                        continue
-                
-                with open('anac-feed.xml', 'w', encoding='utf-8') as f:
-                    feed.write(f, 'utf-8')
-                log("Feed gerado com sucesso!")
-                
-            except Exception as e:
-                log(f"ERRO CRÍTICO: {str(e)}")
-                sys.exit(1)
-
-        if __name__ == "__main__":
-            get_news()
-        EOF
-
+        # [Seu script Python completo aqui - mantém o mesmo conteúdo do Colab]
         python anac_rss_generator.py
 
-    - name: Verify XML file
+    - name: Verify XML
       run: |
-        if [ ! -f "anac-feed.xml" ]; then
-          echo "::error::Arquivo anac-feed.xml não foi gerado!"
+        if [ ! -s "anac-feed.xml" ]; then
+          echo "::error::O arquivo RSS está vazio!"
           exit 1
-        elif [ ! -s "anac-feed.xml" ]; then
-          echo "::error::Arquivo anac-feed.xml está vazio!"
-          exit 1
-        else
-          echo "Arquivo XML gerado com sucesso:"
-          head -n 10 anac-feed.xml
         fi
 
-    - name: Commit and push
-      uses: ad-m/github-push-action@master
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+        path: anac-feed.xml
+
+  deploy:
+    needs: generate-feed
+    permissions:
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
