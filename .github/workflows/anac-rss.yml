@@ -3,7 +3,7 @@ name: ANAC RSS Feed Generator
 on:
   schedule:
     - cron: '0 */6 * * *'  # Executa a cada 6 horas
-  workflow_dispatch:       # Permite acionamento manual
+  workflow_dispatch:
 
 jobs:
   generate-feeds:
@@ -21,44 +21,48 @@ jobs:
         run: |
           cat << 'EOF' > script.ts
           import { Feed } from "https://esm.sh/feed@4.2.2";
-          import { parse } from "https://deno.land/x/html_parser@v1.0.0/mod.ts";
 
           const ANAC_URL = "https://www.gov.br/anac/pt-br/noticias";
 
           async function generateFeeds() {
             try {
-              // 1. Fetch and parse HTML
+              // 1. Fetch HTML
               const response = await fetch(ANAC_URL);
               const html = await response.text();
-              const doc = parse(html);
+              
+              // 2. Parse HTML usando DOMParser nativo
+              const doc = new DOMParser().parseFromString(html, "text/html");
+              if (!doc) throw new Error("Falha ao parsear HTML");
 
-              // 2. Extract news items
+              // 3. Extract news items
               const newsItems = Array.from(doc.querySelectorAll("article.tileItem"))
                 .slice(0, 20)
                 .map((article) => {
-                  const title = article.querySelector("h2.tileHeadline a")?.textContent?.trim() || "Sem título";
-                  const relativeLink = article.querySelector("h2.tileHeadline a")?.getAttribute("href") || "";
-                  const link = relativeLink.startsWith("http") ? relativeLink : `${ANAC_URL}${relativeLink}`;
+                  const titleElem = article.querySelector("h2.tileHeadline a");
+                  const link = titleElem?.getAttribute("href")?.startsWith("http") 
+                    ? titleElem.getAttribute("href") 
+                    : `${ANAC_URL}${titleElem?.getAttribute("href") || ""}`;
                   
                   return {
-                    title,
-                    link,
+                    title: titleElem?.textContent?.trim() || "Sem título",
+                    link: link || ANAC_URL,
                     description: article.querySelector("p.tileBody span.description")?.textContent?.trim() || "",
                     date: new Date().toISOString() // Adapte conforme necessário
                   };
                 });
 
-              // 3. Generate JSON
+              // 4. Generate JSON
               await Deno.writeTextFile(
                 "anac-news.json",
                 JSON.stringify({
                   generatedAt: new Date().toISOString(),
                   source: ANAC_URL,
+                  count: newsItems.length,
                   items: newsItems
                 }, null, 2)
               );
 
-              // 4. Generate RSS
+              // 5. Generate RSS
               const feed = new Feed({
                 title: "ANAC Notícias",
                 description: "Feed RSS das notícias da Agência Nacional de Aviação Civil",
@@ -79,10 +83,10 @@ jobs:
               });
 
               await Deno.writeTextFile("anac-news.rss.xml", feed.rss2());
-              console.log("Feeds gerados com sucesso!");
+              console.log("✅ Feeds gerados com sucesso!");
 
             } catch (error) {
-              console.error("Erro ao gerar feeds:", error);
+              console.error("❌ Erro ao gerar feeds:", error);
               Deno.exit(1);
             }
           }
