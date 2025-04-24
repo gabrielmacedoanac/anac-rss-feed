@@ -3,7 +3,7 @@
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 import { parse } from "https://denopkg.com/ThauEx/deno-fast-xml-parser/mod.ts";
 
-const NUM_NOTICIAS = 20;
+const NUM_NOTICIAS = 30;
 const NUM_VIDEOS = 10;
 
 async function main() {
@@ -103,7 +103,7 @@ function geraHTML(itens) {
   <title>Notícias e Vídeos ANAC</title>
 </head>
 <body>
-  ${itens.map(n => `<a href="${n.link}">${n.title} (${n.type === 'video' ? 'vídeo' : 'texto'})</a> (${n.date})</br>`).join("\n")}
+  ${itens.map(n => `<a href="${n.link}">${n.title} (${n.type === 'video' ? 'vídeo' : 'texto'})</a> (${formatDate(n.date)})</br>`).join("\n")}
 </body>
 </html>`;
 }
@@ -112,9 +112,9 @@ function geraRSS(itens) {
   const rssItems = itens.map(n => {
     let pubDate;
     try {
-      pubDate = new Date(n.date).toUTCString();
+      pubDate = formatDate(n.date);
     } catch {
-      pubDate = new Date().toUTCString();
+      pubDate = new Date().toLocaleString();
     }
 
     return `
@@ -142,9 +142,9 @@ function geraATOM(itens) {
     const id = n.link;
     let updated;
     try {
-      updated = new Date(n.date).toISOString();
+      updated = formatDate(n.date);
     } catch {
-      updated = new Date().toISOString();
+      updated = new Date().toLocaleString();
     }
 
     return `
@@ -165,6 +165,17 @@ function geraATOM(itens) {
   <id>https://www.gov.br/anac/pt-br/noticias</id>
   ${atomItems}
 </feed>`;
+}
+
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  const day = ("0" + date.getDate()).slice(-2);
+  const month = ("0" + (date.getMonth() + 1)).slice(-2);
+  const year = date.getFullYear();
+  const hours = ("0" + date.getHours()).slice(-2);
+  const minutes = ("0" + date.getMinutes()).slice(-2);
+
+  return `${day}/${month}/${year} ${hours}:${minutes}`;
 }
 
 main();
