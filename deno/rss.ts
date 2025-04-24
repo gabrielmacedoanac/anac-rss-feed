@@ -1,4 +1,6 @@
-const youtubeChannelUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=UC5ynmbMZXolM-jo2hGR31qg"; // Substitua pelo canal desejado
+import { parse } from "https://deno.land/x/xml/mod.ts";  // Importando o parser XML
+
+const youtubeChannelUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=UCtQR5Vv7gyS9j2ZjPQ38tWA"; // Substitua pelo canal desejado
 
 // Função para buscar vídeos do YouTube
 async function fetchYoutubeVideos() {
@@ -7,23 +9,18 @@ async function fetchYoutubeVideos() {
   const res = await fetch(youtubeChannelUrl, { headers });
   const xmlText = await res.text();
 
-  // Usando DOMParser para parse do XML
-  const parser = new DOMParser();
-  const xmlDoc = parser.parseFromString(xmlText, "application/xml");
-
-  if (xmlDoc.querySelector("parsererror")) {
-    throw new Error("Erro ao parsear XML");
-  }
-
-  const entries = xmlDoc.querySelectorAll("entry");
+  // Usando a biblioteca xml para parsear o XML
+  const parsedXml = parse(xmlText);
 
   // Extraímos os vídeos
-  const videos = Array.from(entries).map((entry: any) => {
+  const entries = parsedXml.rss.channel[0].entry;
+
+  const videos = entries.map((entry: any) => {
     return {
-      title: entry.querySelector("title")?.textContent,
-      link: entry.querySelector("link")?.getAttribute("href"),
-      date: entry.querySelector("published")?.textContent,
-      description: entry.querySelector("summary")?.textContent,
+      title: entry.title[0],
+      link: entry.link[0].$["href"],
+      date: entry.published[0],
+      description: entry.summary[0],
     };
   });
 
