@@ -19,7 +19,7 @@ jobs:
           deno-version: v1.x
 
       - name: Gera feeds (RSS, JSON, HTML, Atom)
-        run: deno run --allow-net --allow-write gerar_feeds.ts
+        run: deno run --allow-net --allow-write deno/gerar_feeds.ts
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
