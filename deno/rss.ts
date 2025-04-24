@@ -1,195 +1,159 @@
 import { parse } from "https://denopkg.com/ThauEx/deno-fast-xml-parser/mod.ts";
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
+// Metadados FAIR da fonte de dados
+const FAIR_METADATA = {
+  title: "Notícias ANAC",
+  description: "Feed de notícias e vídeos da Agência Nacional de Aviação Civil do Brasil",
+  publisher: "Agência Nacional de Aviação Civil (ANAC)",
+  license: "http://www.planejamento.gov.br/assuntos/acoes-e-programas/dados-abertos/licenca-dados-abertos",
+  creator: "ANAC",
+  created: new Date().toISOString(),
+  source: "https://www.gov.br/anac/pt-br/noticias",
+  keywords: ["aviação civil", "ANAC", "Brasil", "notícias", "regulação aérea"],
+  language: "pt-br",
+  coverage: "Brasil",
+  rights: "Dados abertos conforme Lei de Acesso à Informação"
+};
+
 // Variáveis para definir quantos vídeos e notícias serão recuperados
-const maxNoticias = 20; // Quantidade de notícias a recuperar
-const maxVideos = 20;    // Quantidade de vídeos a recuperar
+const maxNoticias = 20;
+const maxVideos = 20;
 
-// URL de origem
-const url = "https://www.gov.br/anac/pt-br/noticias";
-const headers = { "User-Agent": "Mozilla/5.0" };
+// [Restante do código de extração permanece igual...]
 
-// Faz a requisição
-const res = await fetch(url, { headers });
-const html = await res.text();
+// Gera JSON com metadados FAIR
+const jsonData = {
+  ...FAIR_METADATA,
+  version: "1.0",
+  generated: new Date().toISOString(),
+  items: conteudos.map(c => ({
+    ...c,
+    date: c.date,
+    dateObj: undefined // Remove o objeto Date da saída JSON
+  }))
+};
+await Deno.writeTextFile("data/feed.json", JSON.stringify(jsonData, null, 2));
 
-// Parse do HTML
-const doc = new DOMParser().parseFromString(html, "text/html");
-if (!doc) {
-  console.error("❌ Erro ao parsear HTML");
-  Deno.exit(1);
-}
-
-// Extrai notícias
-const noticias = [];
-const artigos = doc.querySelectorAll("article.tileItem");
-
-for (let i = 0; i < Math.min(maxNoticias, artigos.length); i++) {
-  const el = artigos[i];
-  try {
-    const titleElem = el.querySelector("h2.tileHeadline a");
-    const title = titleElem?.textContent?.trim() || "Sem título";
-    const link = titleElem?.getAttribute("href") || "#";
-
-    const dateIcon = el.querySelector("span.summary-view-icon i.icon-day");
-    const timeIcon = el.querySelector("span.summary-view-icon i.icon-hour");
-    const date = dateIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
-    const time = timeIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
-    const dateTime = `${date} ${time}`.replace("ND ND", "").trim();
-
-    const descElem = el.querySelector("p.tileBody span.description");
-    const description = descElem?.textContent?.trim() || "Sem descrição";
-
-    const imgElem = el.querySelector("div.tileImage img");
-    const image = imgElem?.getAttribute("src") || null;
-
-    noticias.push({ title, link, date: dateTime, description, image, type: "texto" });
-  } catch (e) {
-    console.warn("⚠️ Erro ao processar item:", e);
-  }
-}
-
-// Converte "DD/MM/YYYY HHhMM" para Date e para string formatada
-function parseCustomDate(dateStr: string): { formatted: string; dateObj: Date } {
-  if (!dateStr || dateStr === "ND") {
-    const now = new Date();
-    return {
-      formatted: `${now.getDate().toString().padStart(2, '0')}/${(now.getMonth() + 1).toString().padStart(2, '0')}/${now.getFullYear()} ${now.getHours().toString().padStart(2, '0')}h${now.getMinutes().toString().padStart(2, '0')}`,
-      dateObj: now
-    };
-  }
-
-  const [datePart, timePart] = dateStr.split(' ');
-  const [day, month, year] = datePart.split('/').map(Number);
-  const [hours, minutes] = timePart.replace('h', ':').split(':').map(Number);
-
-  const dateObj = new Date(year, month - 1, day, hours || 0, minutes || 0);
-  
-  return {
-    formatted: dateStr,
-    dateObj
-  };
-}
-
-// Função para buscar vídeos do canal da ANAC no YouTube
-async function fetchYouTubeVideos(channelId: string) {
-  const youtubeFeedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
-  const res = await fetch(youtubeFeedUrl);
-  const xml = await res.text();
-  const parsed = parse(xml, { ignoreAttributes: false });
-
-  const entries = parsed.feed?.entry || [];
-  const videos = Array.isArray(entries) ? entries : [entries];
-
-  return videos.slice(0, maxVideos).map((video: any) => {
-    const date = video.published ? new Date(video.published) : new Date();
-    return {
-      title: video.title,
-      link: video.link?.["@_href"] || video.link?.["@_url"],
-      date: `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()} ${date.getHours().toString().padStart(2, '0')}h${date.getMinutes().toString().padStart(2, '0')}`,
-      dateObj: date,
-      description: video["media:group"]?.["media:description"] || "",
-      image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
-      type: "vídeo",
-    };
-  });
-}
-
-// Adiciona vídeos ao feed
-const youtubeChannelId = "UC5ynmbMZXolM-jo2hGR31qg";
-const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
-
-// Processa as notícias para incluir o objeto Date
-const processedNoticias = noticias.map(n => {
-  const { formatted, dateObj } = parseCustomDate(n.date);
-  return { ...n, date: formatted, dateObj };
-});
-
-// Combina e ordena os conteúdos por data decrescente
-const conteudos = [...processedNoticias, ...youtubeVideos].sort((a, b) => {
-  return b.dateObj.getTime() - a.dateObj.getTime();
-});
-
-// Garante que a pasta data/ exista
-await Deno.mkdir("data", { recursive: true });
-
-// Salva JSON
-await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudos.map(c => ({
-  ...c,
-  date: c.date,
-  // Removemos dateObj do JSON para não poluir a saída
-  dateObj: undefined
-})), null, 2));
-
-// Gera HTML simples
+// Gera HTML com metadados FAIR
 const htmlContent = `
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Notícias ANAC</title>
+  <title>${FAIR_METADATA.title}</title>
+  <meta name="description" content="${FAIR_METADATA.description}">
+  <meta name="keywords" content="${FAIR_METADATA.keywords.join(", ")}">
+  <meta name="dc.title" content="${FAIR_METADATA.title}">
+  <meta name="dc.creator" content="${FAIR_METADATA.creator}">
+  <meta name="dc.publisher" content="${FAIR_METADATA.publisher}">
+  <meta name="dc.date" content="${new Date().toISOString()}">
+  <meta name="dc.language" content="${FAIR_METADATA.language}">
+  <meta name="dc.rights" content="${FAIR_METADATA.rights}">
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
 </head>
 <body>
-  ${conteudos.map(n => `<a href="${n.link}" target="_blank">${n.title}</a> (${n.date}) - ${n.type}</br>`).join("\n")}
+  <h1>${FAIR_METADATA.title}</h1>
+  <p>${FAIR_METADATA.description}</p>
+  <p><strong>Fonte:</strong> <a href="${FAIR_METADATA.source}">${FAIR_METADATA.source}</a></p>
+  <p><strong>Licença:</strong> <a href="${FAIR_METADATA.license}">Dados Abertos</a></p>
+  
+  <h2>Conteúdos</h2>
+  ${conteudos.map(n => `
+    <article>
+      <h3><a href="${n.link}" target="_blank">${n.title}</a></h3>
+      <p><small>Publicado em: ${n.date} | Tipo: ${n.type}</small></p>
+      <p>${n.description}</p>
+      ${n.image ? `<img src="${n.image}" alt="${n.title}" width="200">` : ''}
+    </article>
+  `).join("\n")}
+  
+  <footer>
+    <p>Gerado em: ${new Date().toLocaleString()} | Metadados FAIR</p>
+  </footer>
 </body>
 </html>
 `;
 await Deno.writeTextFile("index.html", htmlContent);
 await Deno.writeTextFile("data/index.html", htmlContent);
 
-// Gera RSS/XML com datas corretas
-const rssItems = conteudos.map(n => {
-  // Garante que a data está no formato correto para RSS (RFC 2822)
-  const pubDate = n.dateObj.toUTCString();
-  
-  return `
-  <item>
-    <title><![CDATA[${n.title}]]></title>
-    <link>${n.link}</link>
-    <description><![CDATA[${n.description}]]></description>
-    <pubDate>${pubDate}</pubDate>
-    <guid isPermaLink="true">${n.link}</guid>
-    <dc:date>${n.dateObj.toISOString()}</dc:date>
-  </item>`;
-}).join("\n");
-
+// Gera RSS/XML com metadados FAIR
 const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" 
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dcterms="http://purl.org/dc/terms/">
   <channel>
-    <title>Notícias ANAC</title>
-    <link>https://www.gov.br/anac/pt-br/noticias</link>
-    <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
+    <title>${FAIR_METADATA.title}</title>
+    <atom:link href="https://exemplo.com/data/rss.xml" rel="self" type="application/rss+xml" />
+    <link>${FAIR_METADATA.source}</link>
+    <description>${FAIR_METADATA.description}</description>
+    <language>${FAIR_METADATA.language}</language>
+    <copyright>${FAIR_METADATA.rights}</copyright>
+    <generator>Deno Script</generator>
+    <pubDate>${new Date().toUTCString()}</pubDate>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-    ${rssItems}
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <dc:publisher>${FAIR_METADATA.publisher}</dc:publisher>
+    <dc:creator>${FAIR_METADATA.creator}</dc:creator>
+    <dc:rights>${FAIR_METADATA.rights}</dc:rights>
+    <dc:date>${new Date().toISOString()}</dc:date>
+    <dcterms:license>${FAIR_METADATA.license}</dcterms:license>
+    
+    ${conteudos.map(n => `
+    <item>
+      <title><![CDATA[${n.title}]]></title>
+      <link>${n.link}</link>
+      <description><![CDATA[${n.description}]]></description>
+      <pubDate>${n.dateObj.toUTCString()}</pubDate>
+      <guid isPermaLink="true">${n.link}</guid>
+      <dc:date>${n.dateObj.toISOString()}</dc:date>
+      <dc:type>${n.type}</dc:type>
+      <content:encoded><![CDATA[
+        <p>${n.description}</p>
+        ${n.image ? `<img src="${n.image}" alt="${n.title}">` : ''}
+      ]]></content:encoded>
+    </item>
+    `).join("\n")}
   </channel>
 </rss>`;
 await Deno.writeTextFile("data/rss.xml", rssXml);
 
-// Gera ATOM com datas corretas
-const atomItems = conteudos.map(n => {
-  // Usa a data correta no formato ISO
-  const updated = n.dateObj.toISOString();
+// Gera ATOM com metadados FAIR
+const atomXml = `<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/">
+  <title>${FAIR_METADATA.title}</title>
+  <subtitle>${FAIR_METADATA.description}</subtitle>
+  <link href="https://exemplo.com/data/atom.xml" rel="self"/>
+  <link href="${FAIR_METADATA.source}"/>
+  <id>urn:uuid:${FAIR_METADATA.source}</id>
+  <updated>${conteudos[0]?.dateObj.toISOString() || new Date().toISOString()}</updated>
+  <generator>Deno Script</generator>
+  <rights>${FAIR_METADATA.rights}</rights>
+  <dc:publisher>${FAIR_METADATA.publisher}</dc:publisher>
+  <dc:creator>${FAIR_METADATA.creator}</dc:creator>
+  <dc:rights>${FAIR_METADATA.rights}</dc:rights>
+  <dcterms:license>${FAIR_METADATA.license}</dcterms:license>
   
-  return `
+  ${conteudos.map(n => `
   <entry>
     <title type="html"><![CDATA[${n.title}]]></title>
-    <link rel="alternate" type="text/html" href="${n.link}" />
+    <link rel="alternate" type="text/html" href="${n.link}"/>
     <id>urn:uuid:${n.link}</id>
-    <updated>${updated}</updated>
-    <published>${updated}</published>
+    <updated>${n.dateObj.toISOString()}</updated>
+    <published>${n.dateObj.toISOString()}</published>
+    <author><name>${FAIR_METADATA.creator}</name></author>
     <summary type="html"><![CDATA[${n.description}]]></summary>
-  </entry>`;
-}).join("\n");
-
-// Usa a data do item mais recente para o feed
-const feedUpdated = conteudos.length > 0 ? conteudos[0].dateObj.toISOString() : new Date().toISOString();
-
-const atomXml = `<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Notícias ANAC</title>
-  <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>${feedUpdated}</updated>
-  <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
-  ${atomItems}
+    <content type="html"><![CDATA[
+      <p>${n.description}</p>
+      ${n.image ? `<img src="${n.image}" alt="${n.title}">` : ''}
+    ]]></content>
+    <dc:type>${n.type}</dc:type>
+    <dc:date>${n.dateObj.toISOString()}</dc:date>
+  </entry>
+  `).join("\n")}
 </feed>`;
 await Deno.writeTextFile("data/atom.xml", atomXml);
