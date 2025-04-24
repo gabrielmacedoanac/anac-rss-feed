@@ -28,4 +28,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "📰 Atualiza notícias ANAC (JSON, RSS e HTML)"
-          file_pattern: 'data/noticias.*'
+          file_pattern: data/*
