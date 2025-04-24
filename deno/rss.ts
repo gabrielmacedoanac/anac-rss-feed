@@ -1,11 +1,30 @@
-// Defina a quantidade de notícias e vídeos que você quer pegar
-const maxNotícias = 10; // Exemplo de 10 notícias
-const maxVídeos = 5; // Exemplo de 5 vídeos
+import { parse } from "https://denopkg.com/ThauEx/deno-fast-xml-parser/mod.ts";
+import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-// Extrai as notícias (máximo de `maxNotícias` notícias)
+// Variáveis para definir quantos vídeos e notícias serão recuperados
+const maxNoticias = 10; // Quantidade de notícias a recuperar
+const maxVideos = 5;    // Quantidade de vídeos a recuperar
+
+// URL de origem
+const url = "https://www.gov.br/anac/pt-br/noticias";
+const headers = { "User-Agent": "Mozilla/5.0" };
+
+// Faz a requisição
+const res = await fetch(url, { headers });
+const html = await res.text();
+
+// Parse do HTML
+const doc = new DOMParser().parseFromString(html, "text/html");
+if (!doc) {
+  console.error("❌ Erro ao parsear HTML");
+  Deno.exit(1);
+}
+
+// Extrai notícias
 const noticias = [];
 const artigos = doc.querySelectorAll("article.tileItem");
-for (let i = 0; i < Math.min(maxNotícias, artigos.length); i++) {
+
+for (let i = 0; i < Math.min(maxNoticias, artigos.length); i++) {
   const el = artigos[i];
   try {
     const titleElem = el.querySelector("h2.tileHeadline a");
@@ -24,10 +43,17 @@ for (let i = 0; i < Math.min(maxNotícias, artigos.length); i++) {
     const imgElem = el.querySelector("div.tileImage img");
     const image = imgElem?.getAttribute("src") || null;
 
-    noticias.push({ title, link, date: dateTime, description, image, type: "texto" });
+    noticias.push({ title, link, date: dateTime, description, image, type: "notícia" });
   } catch (e) {
     console.warn("⚠️ Erro ao processar item:", e);
   }
+}
+
+// Converte ISO 8601 para "DD/MM/YYYY HH:MM"
+function formatDate(isoDate: string): string {
+  const d = new Date(isoDate);
+  const pad = (n: number) => n.toString().padStart(2, "0");
+  return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
 }
 
 // Função para buscar vídeos do canal da ANAC no YouTube
@@ -40,7 +66,7 @@ async function fetchYouTubeVideos(channelId: string) {
   const entries = parsed.feed?.entry || [];
   const videos = Array.isArray(entries) ? entries : [entries];
 
-  return videos.map((video: any) => {
+  return videos.slice(0, maxVideos).map((video: any) => {
     const date = video.published ? formatDate(video.published) : "ND";
     return {
       title: video.title,
@@ -48,7 +74,7 @@ async function fetchYouTubeVideos(channelId: string) {
       date,
       description: video["media:group"]?.["media:description"] || "",
       image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
-      type: "vídeo", // Adiciona o tipo para identificar
+      type: "vídeo",
     };
   });
 }
@@ -59,9 +85,9 @@ const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
 
 // Combina e ordena os conteúdos por data decrescente
 const conteudos = [...noticias, ...youtubeVideos].sort((a, b) => {
-  const d1 = new Date(a.date);
-  const d2 = new Date(b.date);
-  return d2.getTime() - d1.getTime(); // Ordena do mais recente para o mais antigo
+  const d1 = new Date(b.date);
+  const d2 = new Date(a.date);
+  return d1.getTime() - d2.getTime();
 });
 
 // Garante que a pasta data/ exista
@@ -71,16 +97,18 @@ await Deno.mkdir("data", { recursive: true });
 await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudos, null, 2));
 
 // Gera HTML simples
-const htmlContent = `<!DOCTYPE html>
+const htmlContent = `
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Notícias e Vídeos ANAC</title>
+  <title>Notícias ANAC</title>
 </head>
 <body>
-  ${conteudos.map(n => `<a href="${n.link}">${n.title}</a> (${n.date}) (${n.type})</br>`).join("\n")}
+  ${conteudos.map(n => `<a href="${n.link}">${n.title}</a> (${n.date}) - ${n.type}</br>`).join("\n")}
 </body>
-</html>`;
+</html>
+`;
 await Deno.writeTextFile("index.html", htmlContent);
 await Deno.writeTextFile("data/index.html", htmlContent);
 
@@ -106,9 +134,9 @@ const rssItems = conteudos.map(n => {
 const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>Notícias e Vídeos ANAC</title>
+    <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
-    <description>Últimas notícias e vídeos da ANAC</description>
+    <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
     ${rssItems}
   </channel>
 </rss>`;
@@ -137,7 +165,7 @@ const atomItems = conteudos.map(n => {
 
 const atomXml = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Notícias e Vídeos ANAC</title>
+  <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
   <updated>${new Date().toISOString()}</updated>
   <id>https://www.gov.br/anac/pt-br/noticias</id>
