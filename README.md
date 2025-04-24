@@ -41,7 +41,7 @@ anac-rss-feed/
 ├── .github/
 │   └── workflows/
 │       └── rss.yml        # GitHub Action para execução automatizada
-└── index.html             # Página de boas-vindas
+└── index.html             # Página para carregamento automático com o GitHub Pages.
 ```
 
 ## Automação
