@@ -1,4 +1,4 @@
-// deno run --allow-net --allow-write deno/fetch_news.ts
+// deno run --allow-net --allow-write deno/feed.ts
 
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
@@ -50,7 +50,7 @@ for (let i = 0; i < Math.min(30, artigos.length); i++) {
 await Deno.mkdir("data", { recursive: true });
 
 // Salva JSON
-await Deno.writeTextFile("data/news.json", JSON.stringify(noticias, null, 2));
+await Deno.writeTextFile("data/feed.json", JSON.stringify(noticias, null, 2));
 
 // Gera HTML simples
 const htmlContent = `
@@ -61,9 +61,7 @@ const htmlContent = `
   <title>Notícias ANAC</title>
 </head>
 <body>
-  <ul>
-    ${noticias.map(n => `<a href="${n.link}">${n.title}</a> (${n.date})</br>`).join("\n")}
-  </ul>
+  ${noticias.map(n => `<a href="${n.link}">${n.title}</a> (${n.date})</br>`).join("\n")}
 </body>
 </html>
 `;
