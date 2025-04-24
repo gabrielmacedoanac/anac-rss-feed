@@ -61,9 +61,8 @@ const htmlContent = `
   <title>Notícias ANAC</title>
 </head>
 <body>
-  <h1>Últimas Notícias da ANAC</h1>
   <ul>
-    ${noticias.map(n => `<li><a href="${n.link}">${n.title}</a> (${n.date})</li>`).join("\n")}
+    ${noticias.map(n => `<a href="${n.link}">${n.title}</a> (${n.date})</br>`).join("\n")}
   </ul>
 </body>
 </html>
