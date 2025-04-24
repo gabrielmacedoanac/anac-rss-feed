@@ -118,15 +118,14 @@ async function generateHtml(noticias: any[]) {
   <meta charset="UTF-8">
   <title>Notícias ANAC</title>
   <style>
-    body { font-family: sans-serif; padding: 1em; max-width: 800px; margin: auto; }
-    .noticia { margin-bottom: 2em; }
+    body { margin: auto; }
+    .noticia { margin-bottom: 1em; }
     h2 { margin-bottom: 0.2em; }
     p { margin-top: 0.2em; }
     time { color: gray; font-size: 0.9em; }
   </style>
 </head>
 <body>
-  <h1>Notícias ANAC</h1>
   ${noticias.map((n) => `
     <div class="noticia">
       <h2><a href="${n.link}" target="_blank" rel="noopener">${escapeXml(n.title)}</a></h2>
