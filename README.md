@@ -46,7 +46,7 @@ anac-rss-feed/
 
 ## Automação
 
-Este repositório possui uma GitHub Action que executa o script de scraping automaticamente a cada hora. O workflow está configurado em `.github/workflows/rss.yml`.
+Este repositório possui uma GitHub Action que executa o script de scraping automaticamente. O workflow está configurado em `.github/workflows/rss.yml`.
 
 ## Feeds Públicos
 
