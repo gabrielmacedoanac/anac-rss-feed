@@ -1,345 +1,195 @@
 import { parse } from "https://denopkg.com/ThauEx/deno-fast-xml-parser/mod.ts";
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-// ==================== CONFIGURAÇÕES ====================
-const FAIR_METADATA = {
-  title: "Notícias ANAC",
-  description: "Feed de notícias e vídeos da Agência Nacional de Aviação Civil",
-  identifier: "urn:uuid:anac-feed-" + crypto.randomUUID(),
-  publisher: {
-    name: "Agência Nacional de Aviação Civil (ANAC)",
-    url: "https://www.gov.br/anac"
-  },
-  creator: "Divisão de Comunicação Social - ANAC",
-  source: "https://www.gov.br/anac/pt-br/noticias",
-  license: {
-    name: "Licença Creative Commons Atribuição 4.0",
-    url: "https://creativecommons.org/licenses/by/4.0/"
-  },
-  rights: "Dados abertos para uso público",
-  keywords: ["aviação", "ANAC", "Brasil", "notícias", "regulação aérea"],
-  language: "pt-BR",
-  coverage: "Brasil"
-};
+// Variáveis para definir quantos vídeos e notícias serão recuperados
+const maxNoticias = 20; // Quantidade de notícias a recuperar
+const maxVideos = 20;    // Quantidade de vídeos a recuperar
 
-const CONFIG = {
-  maxNoticias: 20,
-  maxVideos: 15,
-  youtubeChannelId: "UC5ynmbMZXolM-jo2hGR31qg",
-  baseUrl: "https://www.gov.br/anac/pt-br/noticias",
-  outputDir: "data"
-};
+// URL de origem
+const url = "https://www.gov.br/anac/pt-br/noticias";
+const headers = { "User-Agent": "Mozilla/5.0" };
 
-// ==================== FUNÇÕES AUXILIARES ====================
-function escapeXml(text: string): string {
-  return text.replace(/[<>&'"]/g, char => 
-    ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[char] || char));
+// Faz a requisição
+const res = await fetch(url, { headers });
+const html = await res.text();
+
+// Parse do HTML
+const doc = new DOMParser().parseFromString(html, "text/html");
+if (!doc) {
+  console.error("❌ Erro ao parsear HTML");
+  Deno.exit(1);
 }
 
-function parseCustomDate(dateInput: Date | string): { display: string; iso: string; obj: Date } {
-  const now = new Date();
-  
-  // Fallback padrão
-  const fallback = {
-    display: now.toLocaleString("pt-BR"),
-    iso: now.toISOString(),
-    obj: now
-  };
+// Extrai notícias
+const noticias = [];
+const artigos = doc.querySelectorAll("article.tileItem");
 
-  // Se já for um objeto Date válido
-  if (dateInput instanceof Date && !isNaN(dateInput.getTime())) {
+for (let i = 0; i < Math.min(maxNoticias, artigos.length); i++) {
+  const el = artigos[i];
+  try {
+    const titleElem = el.querySelector("h2.tileHeadline a");
+    const title = titleElem?.textContent?.trim() || "Sem título";
+    const link = titleElem?.getAttribute("href") || "#";
+
+    const dateIcon = el.querySelector("span.summary-view-icon i.icon-day");
+    const timeIcon = el.querySelector("span.summary-view-icon i.icon-hour");
+    const date = dateIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
+    const time = timeIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
+    const dateTime = `${date} ${time}`.replace("ND ND", "").trim();
+
+    const descElem = el.querySelector("p.tileBody span.description");
+    const description = descElem?.textContent?.trim() || "Sem descrição";
+
+    const imgElem = el.querySelector("div.tileImage img");
+    const image = imgElem?.getAttribute("src") || null;
+
+    noticias.push({ title, link, date: dateTime, description, image, type: "texto" });
+  } catch (e) {
+    console.warn("⚠️ Erro ao processar item:", e);
+  }
+}
+
+// Converte "DD/MM/YYYY HHhMM" para Date e para string formatada
+function parseCustomDate(dateStr: string): { formatted: string; dateObj: Date } {
+  if (!dateStr || dateStr === "ND") {
+    const now = new Date();
     return {
-      display: dateInput.toLocaleString("pt-BR"),
-      iso: dateInput.toISOString(),
-      obj: dateInput
+      formatted: `${now.getDate().toString().padStart(2, '0')}/${(now.getMonth() + 1).toString().padStart(2, '0')}/${now.getFullYear()} ${now.getHours().toString().padStart(2, '0')}h${now.getMinutes().toString().padStart(2, '0')}`,
+      dateObj: now
     };
   }
 
-  // Se for string vazia
-  if (typeof dateInput !== 'string' || !dateInput || dateInput === "ND") {
-    return fallback;
-  }
+  const [datePart, timePart] = dateStr.split(' ');
+  const [day, month, year] = datePart.split('/').map(Number);
+  const [hours, minutes] = timePart.replace('h', ':').split(':').map(Number);
 
-  try {
-    // Formato "DD/MM/YYYY HHhMM"
-    if (/^\d{2}\/\d{2}\/\d{4} \d{2}h\d{2}$/.test(dateInput)) {
-      const [datePart, timePart] = dateInput.split(' ');
-      const [day, month, year] = datePart.split('/').map(Number);
-      const [hours, minutes] = timePart.replace('h', ':').split(':').map(Number);
-      
-      const dateObj = new Date(year, month - 1, day, hours || 0, minutes || 0);
-      
-      if (!isNaN(dateObj.getTime())) {
-        return {
-          display: `${day.toString().padStart(2, '0')}/${month.toString().padStart(2, '0')}/${year} ${hours.toString().padStart(2, '0')}h${minutes.toString().padStart(2, '0')}`,
-          iso: dateObj.toISOString(),
-          obj: dateObj
-        };
-      }
-    }
-
-    // Tenta parsear como ISO string
-    const dateObj = new Date(dateInput);
-    if (!isNaN(dateObj.getTime())) {
-      return {
-        display: dateObj.toLocaleString("pt-BR"),
-        iso: dateObj.toISOString(),
-        obj: dateObj
-      };
-    }
-
-    throw new Error(`Formato não reconhecido: ${dateInput}`);
-  } catch (e) {
-    console.warn(`⚠️ Erro ao parsear data:`, e.message);
-    return fallback;
-  }
-}
-
-// ==================== EXTRAÇÃO DE DADOS ====================
-async function fetchNoticias() {
-  try {
-    const res = await fetch(CONFIG.baseUrl, {
-      headers: { "User-Agent": "Mozilla/5.0" }
-    });
-    const html = await res.text();
-    const doc = new DOMParser().parseFromString(html, "text/html");
-
-    if (!doc) throw new Error("Falha ao parsear HTML");
-
-    const noticias = [];
-    const artigos = doc.querySelectorAll("article.tileItem");
-
-    for (const el of Array.from(artigos).slice(0, CONFIG.maxNoticias)) {
-      try {
-        const title = el.querySelector("h2.tileHeadline a")?.textContent?.trim() || "Sem título";
-        const link = el.querySelector("h2.tileHeadline a")?.getAttribute("href") || "#";
-        
-        const dateIcon = el.querySelector("span.summary-view-icon i.icon-day");
-        const timeIcon = el.querySelector("span.summary-view-icon i.icon-hour");
-        const date = dateIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
-        const time = timeIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
-        const dateTime = `${date} ${time}`.replace("ND ND", "").trim();
-
-        const description = el.querySelector("p.tileBody span.description")?.textContent?.trim() || "Sem descrição";
-        const image = el.querySelector("div.tileImage img")?.getAttribute("src") || null;
-
-        noticias.push({ 
-          title, 
-          link, 
-          date: dateTime, 
-          description, 
-          image, 
-          type: "texto" 
-        });
-      } catch (e) {
-        console.warn("Erro ao processar notícia:", e);
-      }
-    }
-
-    return noticias;
-  } catch (error) {
-    console.error("Erro ao buscar notícias:", error);
-    return [];
-  }
-}
-
-async function fetchVideos() {
-  try {
-    const res = await fetch(
-      `https://www.youtube.com/feeds/videos.xml?channel_id=${CONFIG.youtubeChannelId}`
-    );
-    const xml = await res.text();
-    const parsed = parse(xml, { ignoreAttributes: false });
-
-    const entries = Array.isArray(parsed.feed?.entry) 
-      ? parsed.feed.entry 
-      : [parsed.feed?.entry].filter(Boolean);
-
-    return entries.slice(0, CONFIG.maxVideos).map((video: any) => {
-      const date = video.published ? new Date(video.published) : new Date();
-      return {
-        title: video.title,
-        link: video.link?.["@_href"] || "#",
-        date: date, // Passamos o objeto Date diretamente
-        description: video["media:group"]?.["media:description"] || "",
-        image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
-        type: "vídeo"
-      };
-    });
-  } catch (error) {
-    console.error("Erro ao buscar vídeos:", error);
-    return [];
-  }
-}
-
-// ==================== PROCESSAMENTO PRINCIPAL ====================
-async function main() {
-  console.log("⏳ Iniciando coleta de dados...");
+  const dateObj = new Date(year, month - 1, day, hours || 0, minutes || 0);
   
-  const [noticias, videos] = await Promise.all([
-    fetchNoticias(),
-    fetchVideos()
-  ]);
+  return {
+    formatted: dateStr,
+    dateObj
+  };
+}
 
-  console.log(`✅ ${noticias.length} notícias e ${videos.length} vídeos coletados`);
+// Função para buscar vídeos do canal da ANAC no YouTube
+async function fetchYouTubeVideos(channelId: string) {
+  const youtubeFeedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
+  const res = await fetch(youtubeFeedUrl);
+  const xml = await res.text();
+  const parsed = parse(xml, { ignoreAttributes: false });
 
-  // Processa todos os itens garantindo datas válidas
-  const conteudos = [...noticias, ...videos].map(item => {
-    const dateInfo = parseCustomDate(item.date);
+  const entries = parsed.feed?.entry || [];
+  const videos = Array.isArray(entries) ? entries : [entries];
+
+  return videos.slice(0, maxVideos).map((video: any) => {
+    const date = video.published ? new Date(video.published) : new Date();
     return {
-      ...item,
-      display: dateInfo.display,
-      iso: dateInfo.iso,
-      dateObj: dateInfo.obj
+      title: video.title,
+      link: video.link?.["@_href"] || video.link?.["@_url"],
+      date: `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()} ${date.getHours().toString().padStart(2, '0')}h${date.getMinutes().toString().padStart(2, '0')}`,
+      dateObj: date,
+      description: video["media:group"]?.["media:description"] || "",
+      image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
+      type: "vídeo",
     };
   });
-
-  // Ordena por data (mais recente primeiro)
-  conteudos.sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime());
-
-  console.log("⏳ Gerando arquivos...");
-  await generateFiles(conteudos);
-  console.log("✅ Todos os arquivos foram gerados com sucesso!");
 }
 
-// ==================== GERAÇÃO DE ARQUIVOS ====================
-async function generateFiles(conteudos: any[]) {
-  await Deno.mkdir(CONFIG.outputDir, { recursive: true });
-  const generationDate = new Date();
+// Adiciona vídeos ao feed
+const youtubeChannelId = "UC5ynmbMZXolM-jo2hGR31qg";
+const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
 
-  // 1. HTML SIMPLES (diretório raiz)
-  const simpleHtml = `<!DOCTYPE html>
+// Processa as notícias para incluir o objeto Date
+const processedNoticias = noticias.map(n => {
+  const { formatted, dateObj } = parseCustomDate(n.date);
+  return { ...n, date: formatted, dateObj };
+});
+
+// Combina e ordena os conteúdos por data decrescente
+const conteudos = [...processedNoticias, ...youtubeVideos].sort((a, b) => {
+  return b.dateObj.getTime() - a.dateObj.getTime();
+});
+
+// Garante que a pasta data/ exista
+await Deno.mkdir("data", { recursive: true });
+
+// Salva JSON
+await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudos.map(c => ({
+  ...c,
+  date: c.date,
+  // Removemos dateObj do JSON para não poluir a saída
+  dateObj: undefined
+})), null, 2));
+
+// Gera HTML simples
+const htmlContent = `
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <title>Notícias ANAC</title>
 </head>
 <body>
-  ${conteudos.map(item => 
-    `<a href="${item.link}" target="_blank">${item.title}</a> (${item.display}) - ${item.type}</br>`
-  ).join('\n')}
+  ${conteudos.map(n => `<a href="${n.link}" target="_blank">${n.title}</a> (${n.date}) - ${n.type}</br>`).join("\n")}
 </body>
-</html>`;
+</html>
+`;
+await Deno.writeTextFile("index.html", htmlContent);
+await Deno.writeTextFile("data/index.html", htmlContent);
 
-  await Deno.writeTextFile("index.html", simpleHtml);
+// Gera RSS/XML com datas corretas
+const rssItems = conteudos.map(n => {
+  // Garante que a data está no formato correto para RSS (RFC 2822)
+  const pubDate = n.dateObj.toUTCString();
+  
+  return `
+  <item>
+    <title><![CDATA[${n.title}]]></title>
+    <link>${n.link}</link>
+    <description><![CDATA[${n.description}]]></description>
+    <pubDate>${pubDate}</pubDate>
+    <guid isPermaLink="true">${n.link}</guid>
+    <dc:date>${n.dateObj.toISOString()}</dc:date>
+  </item>`;
+}).join("\n");
 
-  // 2. HTML SEMÂNTICO (data/index.html)
-  const semanticHtml = `<!DOCTYPE html>
-<html lang="pt-br" vocab="https://schema.org/">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${FAIR_METADATA.title}</title>
-  <meta name="description" content="${FAIR_METADATA.description}">
-  <script type="application/ld+json">
-    ${JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": FAIR_METADATA.title,
-      "description": FAIR_METADATA.description,
-      "publisher": {
-        "@type": "Organization",
-        "name": FAIR_METADATA.publisher.name,
-        "url": FAIR_METADATA.publisher.url
-      }
-    })}
-  </script>
-</head>
-<body>
-  <header typeof="WPHeader">
-    <h1 property="name">${FAIR_METADATA.title}</h1>
-    <p property="description">${FAIR_METADATA.description}</p>
-    <p>Atualizado em: <time datetime="${generationDate.toISOString()}">${generationDate.toLocaleString("pt-BR")}</time></p>
-  </header>
-
-  <main>
-    ${conteudos.map(item => `
-    <article typeof="${item.type === 'vídeo' ? 'VideoObject' : 'NewsArticle'}">
-      <h2 property="headline"><a property="url" href="${item.link}">${item.title}</a></h2>
-      <p><time property="datePublished" datetime="${item.iso}">${item.display}</time> | 
-         <span property="genre">${item.type}</span></p>
-      ${item.image ? `<img property="image" src="${item.image}" alt="${item.title}" width="300">` : ''}
-      <p property="description">${item.description}</p>
-    </article>
-    `).join('\n    ')}
-  </main>
-
-  <footer typeof="WPFooter">
-    <p><small>${FAIR_METADATA.rights}</small></p>
-  </footer>
-</body>
-</html>`;
-
-  await Deno.writeTextFile(`${CONFIG.outputDir}/index.html`, semanticHtml);
-
-  // 3. JSON (Schema.org Dataset)
-  const jsonData = {
-    "@context": ["https://schema.org", "https://www.w3.org/ns/dcat"],
-    "@type": "Dataset",
-    "name": FAIR_METADATA.title,
-    "description": FAIR_METADATA.description,
-    "license": FAIR_METADATA.license.url,
-    "dateModified": generationDate.toISOString(),
-    "distribution": conteudos.map(item => ({
-      "@type": "DataDownload",
-      "encodingFormat": item.type === "vídeo" ? "video/mp4" : "text/html",
-      "contentUrl": item.link,
-      "datePublished": item.iso
-    }))
-  };
-
-  await Deno.writeTextFile(
-    `${CONFIG.outputDir}/feed.json`,
-    JSON.stringify(jsonData, null, 2)
-  );
-
-  // 4. RSS Feed
-  const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
+const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>${FAIR_METADATA.title}</title>
-    <link>${CONFIG.baseUrl}</link>
-    <description>${FAIR_METADATA.description}</description>
-    <lastBuildDate>${generationDate.toUTCString()}</lastBuildDate>
-    ${conteudos.map(item => `
-    <item>
-      <title>${escapeXml(item.title)}</title>
-      <link>${item.link}</link>
-      <description>${escapeXml(item.description)}</description>
-      <pubDate>${new Date(item.iso).toUTCString()}</pubDate>
-      <guid isPermaLink="true">${item.link}</guid>
-      ${item.image ? `<enclosure url="${item.image}" type="image/jpeg"/>` : ''}
-    </item>
-    `).join('\n    ')}
+    <title>Notícias ANAC</title>
+    <link>https://www.gov.br/anac/pt-br/noticias</link>
+    <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    ${rssItems}
   </channel>
 </rss>`;
+await Deno.writeTextFile("data/rss.xml", rssXml);
 
-  await Deno.writeTextFile(`${CONFIG.outputDir}/rss.xml`, rssXml);
-
-  // 5. ATOM Feed
-  const atomXml = `<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>${FAIR_METADATA.title}</title>
-  <subtitle>${FAIR_METADATA.description}</subtitle>
-  <link href="${CONFIG.baseUrl}"/>
-  <link href="./atom.xml" rel="self"/>
-  <updated>${conteudos[0]?.dateObj.toISOString() || generationDate.toISOString()}</updated>
-  <author>
-    <name>${FAIR_METADATA.creator}</name>
-  </author>
-  ${conteudos.map(item => `
+// Gera ATOM com datas corretas
+const atomItems = conteudos.map(n => {
+  // Usa a data correta no formato ISO
+  const updated = n.dateObj.toISOString();
+  
+  return `
   <entry>
-    <title>${escapeXml(item.title)}</title>
-    <link href="${item.link}"/>
-    <id>${item.link}</id>
-    <published>${item.iso}</published>
-    <updated>${item.iso}</updated>
-    <summary type="html">${escapeXml(item.description)}</summary>
-  </entry>
-  `).join('\n  ')}
+    <title type="html"><![CDATA[${n.title}]]></title>
+    <link rel="alternate" type="text/html" href="${n.link}" />
+    <id>urn:uuid:${n.link}</id>
+    <updated>${updated}</updated>
+    <published>${updated}</published>
+    <summary type="html"><![CDATA[${n.description}]]></summary>
+  </entry>`;
+}).join("\n");
+
+// Usa a data do item mais recente para o feed
+const feedUpdated = conteudos.length > 0 ? conteudos[0].dateObj.toISOString() : new Date().toISOString();
+
+const atomXml = `<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Notícias ANAC</title>
+  <link href="https://www.gov.br/anac/pt-br/noticias"/>
+  <updated>${feedUpdated}</updated>
+  <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
+  ${atomItems}
 </feed>`;
-
-  await Deno.writeTextFile(`${CONFIG.outputDir}/atom.xml`, atomXml);
-}
-
-await main();
+await Deno.writeTextFile("data/atom.xml", atomXml);
