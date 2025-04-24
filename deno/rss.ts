@@ -36,7 +36,7 @@ function escapeXml(text: string): string {
     ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[char] || char));
 }
 
-function parseCustomDate(dateStr: string): { display: string; iso: string; obj: Date } {
+function parseCustomDate(dateInput: Date | string): { display: string; iso: string; obj: Date } {
   const now = new Date();
   
   // Fallback padrão
@@ -46,12 +46,24 @@ function parseCustomDate(dateStr: string): { display: string; iso: string; obj: 
     obj: now
   };
 
-  if (!dateStr || dateStr === "ND") return fallback;
+  // Se já for um objeto Date válido
+  if (dateInput instanceof Date && !isNaN(dateInput.getTime())) {
+    return {
+      display: dateInput.toLocaleString("pt-BR"),
+      iso: dateInput.toISOString(),
+      obj: dateInput
+    };
+  }
+
+  // Se for string vazia
+  if (typeof dateInput !== 'string' || !dateInput || dateInput === "ND") {
+    return fallback;
+  }
 
   try {
     // Formato "DD/MM/YYYY HHhMM"
-    if (dateStr.includes('/') && dateStr.includes('h')) {
-      const [datePart, timePart] = dateStr.split(' ');
+    if (/^\d{2}\/\d{2}\/\d{4} \d{2}h\d{2}$/.test(dateInput)) {
+      const [datePart, timePart] = dateInput.split(' ');
       const [day, month, year] = datePart.split('/').map(Number);
       const [hours, minutes] = timePart.replace('h', ':').split(':').map(Number);
       
@@ -66,17 +78,8 @@ function parseCustomDate(dateStr: string): { display: string; iso: string; obj: 
       }
     }
 
-    // Tenta parsear como objeto Date existente
-    if (dateStr instanceof Date && !isNaN(dateStr.getTime())) {
-      return {
-        display: dateStr.toLocaleString("pt-BR"),
-        iso: dateStr.toISOString(),
-        obj: dateStr
-      };
-    }
-
     // Tenta parsear como ISO string
-    const dateObj = new Date(dateStr);
+    const dateObj = new Date(dateInput);
     if (!isNaN(dateObj.getTime())) {
       return {
         display: dateObj.toLocaleString("pt-BR"),
@@ -85,9 +88,9 @@ function parseCustomDate(dateStr: string): { display: string; iso: string; obj: 
       };
     }
 
-    throw new Error(`Formato não reconhecido: ${dateStr}`);
+    throw new Error(`Formato não reconhecido: ${dateInput}`);
   } catch (e) {
-    console.warn(`⚠️ Erro ao parsear data "${dateStr}":`, e.message);
+    console.warn(`⚠️ Erro ao parsear data:`, e.message);
     return fallback;
   }
 }
@@ -157,11 +160,10 @@ async function fetchVideos() {
       return {
         title: video.title,
         link: video.link?.["@_href"] || "#",
-        date: date.toISOString(), // Já vem como Date válido do YouTube
+        date: date, // Passamos o objeto Date diretamente
         description: video["media:group"]?.["media:description"] || "",
         image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
-        type: "vídeo",
-        dateObj: date
+        type: "vídeo"
       };
     });
   } catch (error) {
@@ -183,20 +185,12 @@ async function main() {
 
   // Processa todos os itens garantindo datas válidas
   const conteudos = [...noticias, ...videos].map(item => {
-    // Se já tiver dateObj válido (vídeos), usa esse
-    if (item.dateObj instanceof Date && !isNaN(item.dateObj.getTime())) {
-      const dateInfo = parseCustomDate(item.dateObj);
-      return {
-        ...item,
-        ...dateInfo
-      };
-    }
-    
-    // Caso contrário, faz o parse da data string
     const dateInfo = parseCustomDate(item.date);
     return {
       ...item,
-      ...dateInfo
+      display: dateInfo.display,
+      iso: dateInfo.iso,
+      dateObj: dateInfo.obj
     };
   });
 
@@ -229,36 +223,68 @@ async function generateFiles(conteudos: any[]) {
 
   await Deno.writeTextFile("index.html", simpleHtml);
 
-  // 2. JSON (Schema.org Dataset)
+  // 2. HTML SEMÂNTICO (data/index.html)
+  const semanticHtml = `<!DOCTYPE html>
+<html lang="pt-br" vocab="https://schema.org/">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${FAIR_METADATA.title}</title>
+  <meta name="description" content="${FAIR_METADATA.description}">
+  <script type="application/ld+json">
+    ${JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": FAIR_METADATA.title,
+      "description": FAIR_METADATA.description,
+      "publisher": {
+        "@type": "Organization",
+        "name": FAIR_METADATA.publisher.name,
+        "url": FAIR_METADATA.publisher.url
+      }
+    })}
+  </script>
+</head>
+<body>
+  <header typeof="WPHeader">
+    <h1 property="name">${FAIR_METADATA.title}</h1>
+    <p property="description">${FAIR_METADATA.description}</p>
+    <p>Atualizado em: <time datetime="${generationDate.toISOString()}">${generationDate.toLocaleString("pt-BR")}</time></p>
+  </header>
+
+  <main>
+    ${conteudos.map(item => `
+    <article typeof="${item.type === 'vídeo' ? 'VideoObject' : 'NewsArticle'}">
+      <h2 property="headline"><a property="url" href="${item.link}">${item.title}</a></h2>
+      <p><time property="datePublished" datetime="${item.iso}">${item.display}</time> | 
+         <span property="genre">${item.type}</span></p>
+      ${item.image ? `<img property="image" src="${item.image}" alt="${item.title}" width="300">` : ''}
+      <p property="description">${item.description}</p>
+    </article>
+    `).join('\n    ')}
+  </main>
+
+  <footer typeof="WPFooter">
+    <p><small>${FAIR_METADATA.rights}</small></p>
+  </footer>
+</body>
+</html>`;
+
+  await Deno.writeTextFile(`${CONFIG.outputDir}/index.html`, semanticHtml);
+
+  // 3. JSON (Schema.org Dataset)
   const jsonData = {
     "@context": ["https://schema.org", "https://www.w3.org/ns/dcat"],
     "@type": "Dataset",
-    name: FAIR_METADATA.title,
-    description: FAIR_METADATA.description,
-    identifier: FAIR_METADATA.identifier,
-    url: CONFIG.baseUrl,
-    license: FAIR_METADATA.license.url,
-    dateCreated: generationDate.toISOString(),
-    dateModified: generationDate.toISOString(),
-    publisher: {
-      "@type": "Organization",
-      name: FAIR_METADATA.publisher.name,
-      url: FAIR_METADATA.publisher.url
-    },
-    distribution: [
-      {
-        "@type": "DataDownload",
-        encodingFormat: "application/json",
-        contentUrl: "./feed.json"
-      }
-    ],
-    items: conteudos.map(item => ({
-      "@type": item.type === "vídeo" ? "VideoObject" : "NewsArticle",
-      name: item.title,
-      url: item.link,
-      datePublished: item.iso,
-      description: item.description,
-      ...(item.image && { image: item.image })
+    "name": FAIR_METADATA.title,
+    "description": FAIR_METADATA.description,
+    "license": FAIR_METADATA.license.url,
+    "dateModified": generationDate.toISOString(),
+    "distribution": conteudos.map(item => ({
+      "@type": "DataDownload",
+      "encodingFormat": item.type === "vídeo" ? "video/mp4" : "text/html",
+      "contentUrl": item.link,
+      "datePublished": item.iso
     }))
   };
 
@@ -267,22 +293,21 @@ async function generateFiles(conteudos: any[]) {
     JSON.stringify(jsonData, null, 2)
   );
 
-  // 3. RSS Feed
+  // 4. RSS Feed
   const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>${FAIR_METADATA.title}</title>
     <link>${CONFIG.baseUrl}</link>
     <description>${FAIR_METADATA.description}</description>
-    <language>${FAIR_METADATA.language}</language>
-    <pubDate>${generationDate.toUTCString()}</pubDate>
+    <lastBuildDate>${generationDate.toUTCString()}</lastBuildDate>
     ${conteudos.map(item => `
     <item>
       <title>${escapeXml(item.title)}</title>
       <link>${item.link}</link>
       <description>${escapeXml(item.description)}</description>
-      <pubDate>${item.dateObj.toUTCString()}</pubDate>
-      <guid>${item.link}</guid>
+      <pubDate>${new Date(item.iso).toUTCString()}</pubDate>
+      <guid isPermaLink="true">${item.link}</guid>
       ${item.image ? `<enclosure url="${item.image}" type="image/jpeg"/>` : ''}
     </item>
     `).join('\n    ')}
@@ -291,13 +316,13 @@ async function generateFiles(conteudos: any[]) {
 
   await Deno.writeTextFile(`${CONFIG.outputDir}/rss.xml`, rssXml);
 
-  // 4. ATOM Feed
+  // 5. ATOM Feed
   const atomXml = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>${FAIR_METADATA.title}</title>
+  <subtitle>${FAIR_METADATA.description}</subtitle>
   <link href="${CONFIG.baseUrl}"/>
   <link href="./atom.xml" rel="self"/>
-  <id>${FAIR_METADATA.identifier}</id>
   <updated>${conteudos[0]?.dateObj.toISOString() || generationDate.toISOString()}</updated>
   <author>
     <name>${FAIR_METADATA.creator}</name>
@@ -309,7 +334,7 @@ async function generateFiles(conteudos: any[]) {
     <id>${item.link}</id>
     <published>${item.iso}</published>
     <updated>${item.iso}</updated>
-    <summary>${escapeXml(item.description)}</summary>
+    <summary type="html">${escapeXml(item.description)}</summary>
   </entry>
   `).join('\n  ')}
 </feed>`;
