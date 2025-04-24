@@ -10,7 +10,7 @@
       <link>https://gabrielmacedoanac.github.io/anac-rss-feed/data/rss.xml</link>
       <guid>https://gabrielmacedoanac.github.io/anac-rss-feed/data/rss.xml</guid>
       <description>Redirecionamento para o feed principal</description>
-      <pubDate>${new Date().toUTCString()}</pubDate>
+      <pubDate>Thu, 24 Apr 2025 03:27:13 GMT</pubDate>
     </item>
   </channel>
 </rss>
