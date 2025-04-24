@@ -70,38 +70,38 @@ const htmlContent = `
 `;
 await Deno.writeTextFile("data/index.html", htmlContent);
 
-//// Gera RSS/XML
-//const rssItems = noticias.map(n => {
-//  let pubDate;
-//  try {
-//    pubDate = new Date(n.date).toUTCString();
-//    if (pubDate === 'Invalid Date') throw new Error();
-//  } catch {
-//    pubDate = new Date().toUTCString();
-//  }
-//
-//  return `
-//  <item>
-//    <title><![CDATA[${n.title}]]></title>
-//    <link>${n.link}</link>
-//    <description><![CDATA[${n.description}]]></description>
-//    <pubDate>${pubDate}</pubDate>
-//  </item>`;
-//}).join("\n");
-//
-//const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
-//<rss version="2.0">
-//  <channel>
-//    <title>Notícias ANAC</title>
-//    <link>https://www.gov.br/anac/pt-br/noticias</link>
-//    <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-//    ${rssItems}
-//  </channel>
-//</rss>`;
-//
-//try {
-//  await Deno.writeTextFile("data/rss.xml", rssXml);
-//  console.log("✅ RSS salvo com sucesso em data/rss.xml");
-//} catch (err) {
-//  console.error("❌ Erro ao salvar rss.xml:", err);
-//}
+// Gera RSS/XML
+const rssItems = noticias.map(n => {
+  let pubDate;
+  try {
+    pubDate = new Date(n.date).toUTCString();
+    if (pubDate === 'Invalid Date') throw new Error();
+  } catch {
+    pubDate = new Date().toUTCString();
+  }
+
+  return `
+  <item>
+    <title><![CDATA[${n.title}]]></title>
+    <link>${n.link}</link>
+    <description><![CDATA[${n.description}]]></description>
+    <pubDate>${pubDate}</pubDate>
+  </item>`;
+}).join("\n");
+
+const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Notícias ANAC</title>
+    <link>https://www.gov.br/anac/pt-br/noticias</link>
+    <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
+    ${rssItems}
+  </channel>
+</rss>`;
+
+try {
+  await Deno.writeTextFile("data/rss.xml", rssXml);
+  console.log("✅ RSS salvo com sucesso em data/rss.xml");
+} catch (err) {
+  console.error("❌ Erro ao salvar rss.xml:", err);
+}

@@ -1,0 +1,31 @@
+name: Feeds RSS
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'  # Executa a cada 1h
+  workflow_dispatch:      # Permite execução manual
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Gera feeds (RSS, JSON, HTML, Atom)
+        run: deno run --allow-net --allow-write gerar_feeds.ts
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📰 Atualiza notícias ANAC (JSON, RSS e HTML)"
+          file_pattern: data/*
+
+
+
