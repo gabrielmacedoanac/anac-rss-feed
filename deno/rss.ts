@@ -1,45 +1,36 @@
-import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
+const youtubeChannelUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=UC5ynmbMZXolM-jo2hGR31qg"; // Substitua pelo canal desejado
 
-// URL do canal do YouTube
-const youtubeChannelUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=UC5ynmbMZXolM-jo2hGR31qg"; 
-
-// Função para buscar vídeos no YouTube
+// Função para buscar vídeos do YouTube
 async function fetchYoutubeVideos() {
   const headers = { "User-Agent": "Mozilla/5.0" };
 
   const res = await fetch(youtubeChannelUrl, { headers });
   const xmlText = await res.text();
 
-  // Usando DOMParser para parsear o XML e extrair os dados
+  // Usando DOMParser para parse do XML
   const parser = new DOMParser();
   const xmlDoc = parser.parseFromString(xmlText, "application/xml");
 
-  // Verificando se houve erro ao parsear
-  if (!xmlDoc) {
-    console.error("❌ Erro ao parsear o XML");
-    Deno.exit(1);
+  if (xmlDoc.querySelector("parsererror")) {
+    throw new Error("Erro ao parsear XML");
   }
 
-  // Extraímos os vídeos
   const entries = xmlDoc.querySelectorAll("entry");
-  const videos = Array.from(entries).map(entry => {
-    const title = entry.querySelector("title")?.textContent || "Sem título";
-    const link = entry.querySelector("link")?.getAttribute("href") || "#";
-    const date = entry.querySelector("published")?.textContent || "ND";
-    const description = entry.querySelector("summary")?.textContent || "Sem descrição";
 
+  // Extraímos os vídeos
+  const videos = Array.from(entries).map((entry: any) => {
     return {
-      title,
-      link,
-      date,
-      description,
+      title: entry.querySelector("title")?.textContent,
+      link: entry.querySelector("link")?.getAttribute("href"),
+      date: entry.querySelector("published")?.textContent,
+      description: entry.querySelector("summary")?.textContent,
     };
   });
 
   return videos;
 }
 
-// Função para buscar notícias da ANAC
+// Função para buscar as notícias da ANAC
 async function fetchNews() {
   const url = "https://www.gov.br/anac/pt-br/noticias";
   const headers = { "User-Agent": "Mozilla/5.0" };
@@ -100,8 +91,7 @@ async function main() {
   await Deno.writeTextFile("data/feed.json", JSON.stringify(allData, null, 2));
 
   // Gera HTML simples
-  const htmlContent = `
-  <!DOCTYPE html>
+  const htmlContent = `<!DOCTYPE html>
   <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
