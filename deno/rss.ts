@@ -3,7 +3,7 @@ import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
 // Variáveis para definir quantos vídeos e notícias serão recuperados
 const maxNoticias = 10; // Quantidade de notícias a recuperar
-const maxVideos = 5;    // Quantidade de vídeos a recuperar
+const maxVideos = 10;    // Quantidade de vídeos a recuperar
 
 // URL de origem
 const url = "https://www.gov.br/anac/pt-br/noticias";
