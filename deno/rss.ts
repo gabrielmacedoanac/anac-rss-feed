@@ -3,27 +3,20 @@ import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
 // ==================== CONFIGURAÇÕES ====================
 const FAIR_METADATA = {
-  // Identificação
   title: "Notícias ANAC",
   description: "Feed de notícias e vídeos da Agência Nacional de Aviação Civil",
   identifier: "urn:uuid:anac-feed-" + crypto.randomUUID(),
-
-  // Proveniência
   publisher: {
     name: "Agência Nacional de Aviação Civil (ANAC)",
     url: "https://www.gov.br/anac"
   },
   creator: "Divisão de Comunicação Social - ANAC",
   source: "https://www.gov.br/anac/pt-br/noticias",
-
-  // Direitos
   license: {
     name: "Licença Creative Commons Atribuição 4.0",
     url: "https://creativecommons.org/licenses/by/4.0/"
   },
   rights: "Dados abertos para uso público",
-
-  // Classificação
   keywords: ["aviação", "ANAC", "Brasil", "notícias", "regulação aérea"],
   language: "pt-BR",
   coverage: "Brasil"
@@ -121,7 +114,8 @@ async function fetchNoticias() {
           date: dateTime, 
           description, 
           image, 
-          type: "notícia" 
+          type: "notícia",
+          dateObj: null // Será preenchido posteriormente
         });
       } catch (e) {
         console.warn("Erro ao processar notícia:", e);
@@ -165,6 +159,48 @@ async function fetchVideos() {
   }
 }
 
+// ==================== PROCESSAMENTO PRINCIPAL ====================
+async function main() {
+  console.log("⏳ Iniciando coleta de dados...");
+  
+  const [noticias, videos] = await Promise.all([
+    fetchNoticias(),
+    fetchVideos()
+  ]);
+
+  console.log(`✅ ${noticias.length} notícias e ${videos.length} vídeos coletados`);
+
+  // Processa todos os itens garantindo datas válidas
+  const conteudos = [...noticias, ...videos].map(item => {
+    // Se já tiver dateObj válido (vídeos), usa esse
+    if (item.dateObj instanceof Date && !isNaN(item.dateObj.getTime())) {
+      return {
+        ...item,
+        display: item.dateObj.toLocaleString("pt-BR"),
+        iso: item.dateObj.toISOString()
+      };
+    }
+    
+    // Caso contrário, faz o parse da data
+    const dateInfo = parseCustomDate(item.date);
+    return {
+      ...item,
+      ...dateInfo
+    };
+  });
+
+  // Ordena somente se todos os itens tiverem dateObj válido
+  if (conteudos.every(item => item.dateObj instanceof Date)) {
+    conteudos.sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime());
+  } else {
+    console.warn("⚠️ Alguns itens não têm datas válidas - ordenação não aplicada");
+  }
+
+  console.log("⏳ Gerando arquivos FAIR...");
+  await generateFiles(conteudos);
+  console.log("✅ Todos os arquivos foram gerados com sucesso!");
+}
+
 // ==================== GERAÇÃO DE ARQUIVOS ====================
 async function generateFiles(conteudos: any[]) {
   await Deno.mkdir(CONFIG.outputDir, { recursive: true });
@@ -186,32 +222,18 @@ async function generateFiles(conteudos: any[]) {
       name: FAIR_METADATA.publisher.name,
       url: FAIR_METADATA.publisher.url
     },
-    creator: {
-      "@type": "Organization",
-      name: FAIR_METADATA.creator,
-      url: FAIR_METADATA.publisher.url
-    },
     distribution: [
       {
         "@type": "DataDownload",
         encodingFormat: "application/json",
         contentUrl: "./feed.json"
-      },
-      {
-        "@type": "DataDownload",
-        encodingFormat: "application/rss+xml",
-        contentUrl: "./rss.xml"
       }
     ],
-    temporalCoverage: {
-      startDate: conteudos[conteudos.length - 1]?.dateObj.toISOString(),
-      endDate: conteudos[0]?.dateObj.toISOString()
-    },
     items: conteudos.map(item => ({
       "@type": item.type === "vídeo" ? "VideoObject" : "NewsArticle",
       name: item.title,
       url: item.link,
-      datePublished: item.dateObj.toISOString(),
+      datePublished: item.iso,
       description: item.description,
       ...(item.image && { image: item.image })
     }))
@@ -222,68 +244,24 @@ async function generateFiles(conteudos: any[]) {
     JSON.stringify(jsonData, null, 2)
   );
 
-  // 2. HTML (Semântico + Microdados)
+  // 2. HTML (Semântico)
   const htmlContent = `<!DOCTYPE html>
-<html lang="${FAIR_METADATA.language}" prefix="og: https://ogp.me/ns#">
+<html lang="${FAIR_METADATA.language}">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${FAIR_METADATA.title}</title>
   <meta name="description" content="${FAIR_METADATA.description}">
-  <meta name="generator" content="Deno Feed Generator">
-  
-  <!-- Dublin Core -->
-  <meta name="DC.title" content="${FAIR_METADATA.title}">
-  <meta name="DC.creator" content="${FAIR_METADATA.creator}">
-  <meta name="DC.publisher" content="${FAIR_METADATA.publisher.name}">
-  <meta name="DC.date" content="${generationDate.toISOString()}">
-  <meta name="DC.language" content="${FAIR_METADATA.language}">
-  <meta name="DC.rights" content="${FAIR_METADATA.rights}">
-  
-  <!-- Schema.org -->
-  <script type="application/ld+json">
-    ${JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Dataset",
-      name: FAIR_METADATA.title,
-      description: FAIR_METADATA.description,
-      url: CONFIG.baseUrl,
-      license: FAIR_METADATA.license.url,
-      datePublished: generationDate.toISOString(),
-      creator: {
-        "@type": "Organization",
-        name: FAIR_METADATA.creator
-      }
-    })}
-  </script>
 </head>
 <body>
-  <header>
-    <h1>${FAIR_METADATA.title}</h1>
-    <p>${FAIR_METADATA.description}</p>
-    <p>Fonte: <a href="${CONFIG.baseUrl}">${CONFIG.baseUrl}</a></p>
-    <p>Licença: <a href="${FAIR_METADATA.license.url}">${FAIR_METADATA.license.name}</a></p>
-    <p>Atualizado em: <time datetime="${generationDate.toISOString()}">${
-      generationDate.toLocaleString("pt-BR")
-    }</time></p>
-  </header>
-
-  <main>
-    ${conteudos.map(item => `
+  <h1>${FAIR_METADATA.title}</h1>
+  ${conteudos.map(item => `
     <article>
       <h2><a href="${item.link}">${item.title}</a></h2>
-      <p><time datetime="${item.dateObj.toISOString()}">${
-        item.dateObj.toLocaleDateString("pt-BR")
-      }</time> | ${item.type}</p>
+      <p><time datetime="${item.iso}">${item.display}</time> | ${item.type}</p>
       ${item.image ? `<img src="${item.image}" alt="${item.title}" width="300">` : ''}
       <p>${item.description}</p>
     </article>
-    `).join('\n    ')}
-  </main>
-
-  <footer>
-    <p><small>${FAIR_METADATA.rights}</small></p>
-  </footer>
+  `).join('\n')}
 </body>
 </html>`;
 
@@ -291,36 +269,19 @@ async function generateFiles(conteudos: any[]) {
 
   // 3. RSS Feed
   const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0">
   <channel>
     <title>${FAIR_METADATA.title}</title>
     <link>${CONFIG.baseUrl}</link>
     <description>${FAIR_METADATA.description}</description>
-    <language>${FAIR_METADATA.language}</language>
-    <pubDate>${generationDate.toUTCString()}</pubDate>
-    <lastBuildDate>${generationDate.toUTCString()}</lastBuildDate>
-    <generator>Deno Feed Generator</generator>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <managingEditor>${FAIR_METADATA.creator}</managingEditor>
-    <webMaster>${FAIR_METADATA.creator}</webMaster>
-    <copyright>${FAIR_METADATA.rights}</copyright>
-    
     ${conteudos.map(item => `
     <item>
       <title>${escapeXml(item.title)}</title>
       <link>${item.link}</link>
       <description>${escapeXml(item.description)}</description>
-      <pubDate>${item.dateObj.toUTCString()}</pubDate>
-      <guid isPermaLink="true">${item.link}</guid>
-      <dc:creator>${FAIR_METADATA.creator}</dc:creator>
-      <dc:date>${item.dateObj.toISOString()}</dc:date>
-      ${item.image ? `<enclosure url="${item.image}" type="image/jpeg"/>` : ''}
-      <content:encoded><![CDATA[
-        <p>${item.description}</p>
-        ${item.image ? `<img src="${item.image}" alt="${item.title}">` : ''}
-      ]]></content:encoded>
+      <pubDate>${new Date(item.iso).toUTCString()}</pubDate>
     </item>
-    `).join('\n    ')}
+    `).join('\n')}
   </channel>
 </rss>`;
 
@@ -328,74 +289,20 @@ async function generateFiles(conteudos: any[]) {
 
   // 4. ATOM Feed
   const atomXml = `<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<feed xmlns="http://www.w3.org/2005/Atom">
   <title>${FAIR_METADATA.title}</title>
-  <subtitle>${FAIR_METADATA.description}</subtitle>
-  <link href="${CONFIG.baseUrl}" rel="alternate"/>
-  <link href="./atom.xml" rel="self"/>
-  <id>${FAIR_METADATA.identifier}</id>
-  <updated>${conteudos[0]?.dateObj.toISOString() || generationDate.toISOString()}</updated>
-  <author>
-    <name>${FAIR_METADATA.creator}</name>
-    <uri>${FAIR_METADATA.publisher.url}</uri>
-  </author>
-  <rights>${FAIR_METADATA.rights}</rights>
-  
+  <link href="${CONFIG.baseUrl}"/>
   ${conteudos.map(item => `
   <entry>
     <title>${escapeXml(item.title)}</title>
-    <link href="${item.link}" rel="alternate"/>
-    <id>${item.link}</id>
-    <published>${item.dateObj.toISOString()}</published>
-    <updated>${item.dateObj.toISOString()}</updated>
-    <author>
-      <name>${FAIR_METADATA.creator}</name>
-    </author>
+    <link href="${item.link}"/>
+    <published>${item.iso}</published>
     <summary>${escapeXml(item.description)}</summary>
-    <content type="html"><![CDATA[
-      <p>${item.description}</p>
-      ${item.image ? `<img src="${item.image}" alt="${item.title}">` : ''}
-    ]]></content>
-    <dc:publisher>${FAIR_METADATA.publisher.name}</dc:publisher>
   </entry>
-  `).join('\n  ')}
+  `).join('\n')}
 </feed>`;
 
   await Deno.writeTextFile(`${CONFIG.outputDir}/atom.xml`, atomXml);
-}
-
-// ==================== EXECUÇÃO PRINCIPAL ====================
-async function main() {
-  console.log("⏳ Iniciando coleta de dados...");
-  
-  const [noticias, videos] = await Promise.all([
-    fetchNoticias(),
-    fetchVideos()
-  ]);
-
-  console.log(`✅ ${noticias.length} notícias e ${videos.length} vídeos coletados`);
-
-  // Processa todos os itens garantindo datas válidas
-  const conteudos = [...noticias, ...videos].map(item => {
-    if (item.dateObj instanceof Date && !isNaN(item.dateObj.getTime())) {
-      return {
-        ...item,
-        display: item.dateObj.toLocaleString("pt-BR"),
-        iso: item.dateObj.toISOString(),
-        dateObj: item.dateObj
-      };
-    }
-    
-    const dateInfo = parseCustomDate(item.date);
-    return {
-      ...item,
-      ...dateInfo
-    };
-  }).sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime());
-
-  console.log("⏳ Gerando arquivos FAIR...");
-  await generateFiles(conteudos);
-  console.log("✅ Todos os arquivos foram gerados com sucesso!");
 }
 
 await main();
