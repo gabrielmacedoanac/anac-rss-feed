@@ -1,0 +1,8 @@
+{
+    "imports": {
+      "yt-channel-info": "npm:yt-channel-info@latest"
+    },
+    "tasks": {
+      "start": "deno run --allow-net --allow-write rss.ts"
+    }
+  }

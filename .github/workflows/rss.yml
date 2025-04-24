@@ -22,7 +22,7 @@ jobs:
           deno-version: v1.x
 
       - name: ▶️ Executar script Deno
-        run: deno run --allow-net --allow-write deno/rss.ts    
+        run: deno run --allow-net --allow-write --allow-read deno/rss.ts    
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
