@@ -130,17 +130,3 @@ const atomXml = `<?xml version="1.0" encoding="utf-8"?>
 </feed>`;
 await Deno.writeTextFile("data/atom.xml", atomXml);
 .
-
-
-// Gera Youtube
-const { getChannelVideos } = await import("npm:yt-channel-info");
-async function fetchYoutubeVideos(channelId: string, limit = 10) {
-  const { items } = await getChannelVideos({ channelId, channelIdType: "handle", handle: "@OficialANAC", sortBy: "newest" });
-  return items.slice(0, limit).map(video => ({
-    title: video.title,
-    link: `https://www.youtube.com/watch?v=${video.videoId}`,
-    date: new Date(video.publishedText).toISOString(), // formato ISO
-    description: video.descriptionSnippet || "Vídeo no canal da ANAC",
-    image: video.thumbnail[0]?.url || null
-  }));
-}
