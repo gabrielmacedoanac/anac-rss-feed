@@ -129,4 +129,3 @@ const atomXml = `<?xml version="1.0" encoding="utf-8"?>
   ${atomItems}
 </feed>`;
 await Deno.writeTextFile("data/atom.xml", atomXml);
-.
