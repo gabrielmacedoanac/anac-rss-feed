@@ -1,6 +1,9 @@
 name: ANAC RSS
 
 on:
+  push:
+    branches:
+      - 'main'
   schedule:
     - cron: '0 */1 * * *'  # Executa a cada 1h
   workflow_dispatch:      # Permite execução manual
@@ -18,11 +21,11 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: ▶️ Executar script Deno para gerar JSON e HTML
+      - name: ▶️ Executar script Deno
         run: deno run --allow-net --allow-write deno/rss.ts    
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "📰 Atualiza notícias ANAC (JSON, RSS e HTML)"
+          commit_message: "Atualiza RSS ANAC"
           file_pattern: data/*
