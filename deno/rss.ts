@@ -2,15 +2,6 @@
 const maxNotícias = 10; // Exemplo de 10 notícias
 const maxVídeos = 5; // Exemplo de 5 vídeos
 
-// Carregar o conteúdo da página de notícias
-const urlNotícias = "https://www.gov.br/anac/pt-br/noticias"; // Substitua pela URL correta das notícias
-const resNoticias = await fetch(urlNotícias);
-const htmlNotícias = await resNoticias.text();
-
-// Parse do conteúdo HTML para manipulação com DOM
-const parser = new DOMParser();
-const doc = parser.parseFromString(htmlNotícias, "text/html");
-
 // Extrai as notícias (máximo de `maxNotícias` notícias)
 const noticias = [];
 const artigos = doc.querySelectorAll("article.tileItem");
@@ -73,28 +64,11 @@ const conteudos = [...noticias, ...youtubeVideos].sort((a, b) => {
   return d2.getTime() - d1.getTime(); // Ordena do mais recente para o mais antigo
 });
 
-// Função para converter datas para o formato DD/MM/AAAA HH:MM
-function formatDateToDDMMYYYYHHMM(date: string) {
-  const d = new Date(date);
-  const day = String(d.getDate()).padStart(2, "0");
-  const month = String(d.getMonth() + 1).padStart(2, "0");
-  const year = d.getFullYear();
-  const hours = String(d.getHours()).padStart(2, "0");
-  const minutes = String(d.getMinutes()).padStart(2, "0");
-  return `${day}/${month}/${year} ${hours}:${minutes}`;
-}
-
-// Converte as datas para o formato DD/MM/AAAA HH:MM após a ordenação
-const conteudosFormatados = conteudos.map(item => ({
-  ...item,
-  date: formatDateToDDMMYYYYHHMM(item.date),
-}));
-
 // Garante que a pasta data/ exista
 await Deno.mkdir("data", { recursive: true });
 
 // Salva JSON
-await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudosFormatados, null, 2));
+await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudos, null, 2));
 
 // Gera HTML simples
 const htmlContent = `<!DOCTYPE html>
@@ -104,14 +78,14 @@ const htmlContent = `<!DOCTYPE html>
   <title>Notícias e Vídeos ANAC</title>
 </head>
 <body>
-  ${conteudosFormatados.map(n => `<a href="${n.link}">${n.title}</a> (${n.date}) (${n.type})</br>`).join("\n")}
+  ${conteudos.map(n => `<a href="${n.link}">${n.title}</a> (${n.date}) (${n.type})</br>`).join("\n")}
 </body>
 </html>`;
 await Deno.writeTextFile("index.html", htmlContent);
 await Deno.writeTextFile("data/index.html", htmlContent);
 
 // Gera RSS/XML
-const rssItems = conteudosFormatados.map(n => {
+const rssItems = conteudos.map(n => {
   let pubDate;
   try {
     pubDate = new Date(n.date).toUTCString();
@@ -141,7 +115,7 @@ const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
 await Deno.writeTextFile("data/rss.xml", rssXml);
 
 // Gera ATOM
-const atomItems = conteudosFormatados.map(n => {
+const atomItems = conteudos.map(n => {
   const id = n.link;
   let updated;
   try {
