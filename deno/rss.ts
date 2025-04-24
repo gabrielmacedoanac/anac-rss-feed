@@ -6,7 +6,7 @@ const FAIR_METADATA = {
   // Identificação
   title: "Notícias ANAC",
   description: "Feed de notícias e vídeos da Agência Nacional de Aviação Civil",
-  identifier: "urn:uuid:anac-feed-2024",
+  identifier: "urn:uuid:anac-feed-" + crypto.randomUUID(),
 
   // Proveniência
   publisher: {
@@ -15,7 +15,6 @@ const FAIR_METADATA = {
   },
   creator: "Divisão de Comunicação Social - ANAC",
   source: "https://www.gov.br/anac/pt-br/noticias",
-  generated: new Date().toISOString(),
 
   // Direitos
   license: {
@@ -27,8 +26,7 @@ const FAIR_METADATA = {
   // Classificação
   keywords: ["aviação", "ANAC", "Brasil", "notícias", "regulação aérea"],
   language: "pt-BR",
-  coverage: "Brasil",
-  version: "2.1"
+  coverage: "Brasil"
 };
 
 const CONFIG = {
@@ -40,36 +38,53 @@ const CONFIG = {
 };
 
 // ==================== FUNÇÕES AUXILIARES ====================
-function formatarData(date: Date): string {
-  return date.toISOString();
-}
-
 function escapeXml(text: string): string {
   return text.replace(/[<>&'"]/g, char => 
     ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[char] || char));
 }
 
 function parseCustomDate(dateStr: string): { display: string; iso: string; obj: Date } {
-  if (!dateStr || dateStr === "ND") {
-    const now = new Date();
-    return {
-      display: now.toLocaleString("pt-BR"),
-      iso: now.toISOString(),
-      obj: now
-    };
-  }
-
-  const [datePart, timePart] = dateStr.split(' ');
-  const [day, month, year] = datePart.split('/').map(Number);
-  const [hours, minutes] = timePart.replace('h', ':').split(':').map(Number);
-
-  const dateObj = new Date(year, month - 1, day, hours || 0, minutes || 0);
-  
-  return {
-    display: dateStr,
-    iso: dateObj.toISOString(),
-    obj: dateObj
+  const now = new Date();
+  const fallback = {
+    display: now.toLocaleString("pt-BR"),
+    iso: now.toISOString(),
+    obj: now
   };
+
+  if (!dateStr || dateStr === "ND") return fallback;
+
+  try {
+    // Formato "DD/MM/YYYY HHhMM"
+    if (/^\d{2}\/\d{2}\/\d{4} \d{2}h\d{2}$/.test(dateStr)) {
+      const [datePart, timePart] = dateStr.split(' ');
+      const [day, month, year] = datePart.split('/').map(Number);
+      const [hours, minutes] = timePart.replace('h', ':').split(':').map(Number);
+      
+      const dateObj = new Date(year, month - 1, day, hours || 0, minutes || 0);
+      if (!isNaN(dateObj.getTime())) {
+        return {
+          display: dateStr,
+          iso: dateObj.toISOString(),
+          obj: dateObj
+        };
+      }
+    }
+
+    // Tenta parsear como ISO string ou timestamp
+    const dateObj = new Date(dateStr);
+    if (!isNaN(dateObj.getTime())) {
+      return {
+        display: dateObj.toLocaleString("pt-BR"),
+        iso: dateObj.toISOString(),
+        obj: dateObj
+      };
+    }
+
+    throw new Error(`Formato não reconhecido: ${dateStr}`);
+  } catch (e) {
+    console.warn(`⚠️ Erro ao parsear data "${dateStr}":`, e.message);
+    return fallback;
+  }
 }
 
 // ==================== EXTRAÇÃO DE DADOS ====================
@@ -153,6 +168,7 @@ async function fetchVideos() {
 // ==================== GERAÇÃO DE ARQUIVOS ====================
 async function generateFiles(conteudos: any[]) {
   await Deno.mkdir(CONFIG.outputDir, { recursive: true });
+  const generationDate = new Date();
 
   // 1. JSON (Schema.org Dataset)
   const jsonData = {
@@ -161,10 +177,10 @@ async function generateFiles(conteudos: any[]) {
     name: FAIR_METADATA.title,
     description: FAIR_METADATA.description,
     identifier: FAIR_METADATA.identifier,
-    url: `${CONFIG.baseUrl}/feed.json`,
+    url: CONFIG.baseUrl,
     license: FAIR_METADATA.license.url,
-    dateCreated: FAIR_METADATA.generated,
-    dateModified: new Date().toISOString(),
+    dateCreated: generationDate.toISOString(),
+    dateModified: generationDate.toISOString(),
     publisher: {
       "@type": "Organization",
       name: FAIR_METADATA.publisher.name,
@@ -179,17 +195,21 @@ async function generateFiles(conteudos: any[]) {
       {
         "@type": "DataDownload",
         encodingFormat: "application/json",
-        contentUrl: `${CONFIG.baseUrl}/feed.json`
+        contentUrl: "./feed.json"
       },
       {
         "@type": "DataDownload",
         encodingFormat: "application/rss+xml",
-        contentUrl: `${CONFIG.baseUrl}/rss.xml`
+        contentUrl: "./rss.xml"
       }
     ],
+    temporalCoverage: {
+      startDate: conteudos[conteudos.length - 1]?.dateObj.toISOString(),
+      endDate: conteudos[0]?.dateObj.toISOString()
+    },
     items: conteudos.map(item => ({
       "@type": item.type === "vídeo" ? "VideoObject" : "NewsArticle",
-      headline: item.title,
+      name: item.title,
       url: item.link,
       datePublished: item.dateObj.toISOString(),
       description: item.description,
@@ -207,10 +227,18 @@ async function generateFiles(conteudos: any[]) {
 <html lang="${FAIR_METADATA.language}" prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="UTF-8">
-  <title>${FAIR_METADATA.title}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${FAIR_METADATA.title}</title>
   <meta name="description" content="${FAIR_METADATA.description}">
   <meta name="generator" content="Deno Feed Generator">
+  
+  <!-- Dublin Core -->
+  <meta name="DC.title" content="${FAIR_METADATA.title}">
+  <meta name="DC.creator" content="${FAIR_METADATA.creator}">
+  <meta name="DC.publisher" content="${FAIR_METADATA.publisher.name}">
+  <meta name="DC.date" content="${generationDate.toISOString()}">
+  <meta name="DC.language" content="${FAIR_METADATA.language}">
+  <meta name="DC.rights" content="${FAIR_METADATA.rights}">
   
   <!-- Schema.org -->
   <script type="application/ld+json">
@@ -221,7 +249,7 @@ async function generateFiles(conteudos: any[]) {
       description: FAIR_METADATA.description,
       url: CONFIG.baseUrl,
       license: FAIR_METADATA.license.url,
-      datePublished: FAIR_METADATA.generated,
+      datePublished: generationDate.toISOString(),
       creator: {
         "@type": "Organization",
         name: FAIR_METADATA.creator
@@ -230,30 +258,30 @@ async function generateFiles(conteudos: any[]) {
   </script>
 </head>
 <body>
-  <header vocab="https://schema.org/" typeof="Dataset">
-    <h1 property="name">${FAIR_METADATA.title}</h1>
-    <p property="description">${FAIR_METADATA.description}</p>
-    <p>Fonte: <a property="url" href="${CONFIG.baseUrl}">${CONFIG.baseUrl}</a></p>
-    <p>Licença: <a property="license" href="${FAIR_METADATA.license.url}">${FAIR_METADATA.license.name}</a></p>
+  <header>
+    <h1>${FAIR_METADATA.title}</h1>
+    <p>${FAIR_METADATA.description}</p>
+    <p>Fonte: <a href="${CONFIG.baseUrl}">${CONFIG.baseUrl}</a></p>
+    <p>Licença: <a href="${FAIR_METADATA.license.url}">${FAIR_METADATA.license.name}</a></p>
+    <p>Atualizado em: <time datetime="${generationDate.toISOString()}">${
+      generationDate.toLocaleString("pt-BR")
+    }</time></p>
   </header>
 
   <main>
     ${conteudos.map(item => `
-    <article typeof="${item.type === 'vídeo' ? 'VideoObject' : 'NewsArticle'}">
-      <h2 property="headline"><a property="url" href="${item.link}">${item.title}</a></h2>
-      <p><time property="datePublished" datetime="${item.dateObj.toISOString()}">${
+    <article>
+      <h2><a href="${item.link}">${item.title}</a></h2>
+      <p><time datetime="${item.dateObj.toISOString()}">${
         item.dateObj.toLocaleDateString("pt-BR")
-      }</time> | <span property="genre">${item.type}</span></p>
-      ${item.image ? `<img property="image" src="${item.image}" alt="${item.title}" width="300">` : ''}
-      <div property="description">${item.description}</div>
+      }</time> | ${item.type}</p>
+      ${item.image ? `<img src="${item.image}" alt="${item.title}" width="300">` : ''}
+      <p>${item.description}</p>
     </article>
-    `).join('\n')}
+    `).join('\n    ')}
   </main>
 
   <footer>
-    <p>Última atualização: <time datetime="${new Date().toISOString()}">${
-      new Date().toLocaleString("pt-BR")
-    }</time></p>
     <p><small>${FAIR_METADATA.rights}</small></p>
   </footer>
 </body>
@@ -269,18 +297,13 @@ async function generateFiles(conteudos: any[]) {
     <link>${CONFIG.baseUrl}</link>
     <description>${FAIR_METADATA.description}</description>
     <language>${FAIR_METADATA.language}</language>
-    <pubDate>${new Date().toUTCString()}</pubDate>
-    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <pubDate>${generationDate.toUTCString()}</pubDate>
+    <lastBuildDate>${generationDate.toUTCString()}</lastBuildDate>
     <generator>Deno Feed Generator</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
-    <managingEditor>${FAIR_METADATA.creator} (${FAIR_METADATA.publisher.name})</managingEditor>
+    <managingEditor>${FAIR_METADATA.creator}</managingEditor>
     <webMaster>${FAIR_METADATA.creator}</webMaster>
     <copyright>${FAIR_METADATA.rights}</copyright>
-    <image>
-      <url>https://www.gov.br/anac/++theme++padrao_govbr/img/govbr-colorido-bg.png</url>
-      <title>${FAIR_METADATA.title}</title>
-      <link>${CONFIG.baseUrl}</link>
-    </image>
     
     ${conteudos.map(item => `
     <item>
@@ -291,7 +314,7 @@ async function generateFiles(conteudos: any[]) {
       <guid isPermaLink="true">${item.link}</guid>
       <dc:creator>${FAIR_METADATA.creator}</dc:creator>
       <dc:date>${item.dateObj.toISOString()}</dc:date>
-      ${item.image ? `<enclosure url="${item.image}" type="image/jpeg" length="0"/>` : ''}
+      ${item.image ? `<enclosure url="${item.image}" type="image/jpeg"/>` : ''}
       <content:encoded><![CDATA[
         <p>${item.description}</p>
         ${item.image ? `<img src="${item.image}" alt="${item.title}">` : ''}
@@ -309,9 +332,9 @@ async function generateFiles(conteudos: any[]) {
   <title>${FAIR_METADATA.title}</title>
   <subtitle>${FAIR_METADATA.description}</subtitle>
   <link href="${CONFIG.baseUrl}" rel="alternate"/>
-  <link href="${CONFIG.baseUrl}/atom.xml" rel="self"/>
+  <link href="./atom.xml" rel="self"/>
   <id>${FAIR_METADATA.identifier}</id>
-  <updated>${conteudos[0]?.dateObj.toISOString() || new Date().toISOString()}</updated>
+  <updated>${conteudos[0]?.dateObj.toISOString() || generationDate.toISOString()}</updated>
   <author>
     <name>${FAIR_METADATA.creator}</name>
     <uri>${FAIR_METADATA.publisher.url}</uri>
@@ -320,7 +343,7 @@ async function generateFiles(conteudos: any[]) {
   
   ${conteudos.map(item => `
   <entry>
-    <title type="html">${escapeXml(item.title)}</title>
+    <title>${escapeXml(item.title)}</title>
     <link href="${item.link}" rel="alternate"/>
     <id>${item.link}</id>
     <published>${item.dateObj.toISOString()}</published>
@@ -328,7 +351,7 @@ async function generateFiles(conteudos: any[]) {
     <author>
       <name>${FAIR_METADATA.creator}</name>
     </author>
-    <summary type="html">${escapeXml(item.description)}</summary>
+    <summary>${escapeXml(item.description)}</summary>
     <content type="html"><![CDATA[
       <p>${item.description}</p>
       ${item.image ? `<img src="${item.image}" alt="${item.title}">` : ''}
@@ -352,13 +375,23 @@ async function main() {
 
   console.log(`✅ ${noticias.length} notícias e ${videos.length} vídeos coletados`);
 
-  const conteudos = [...noticias, ...videos]
-    .map(item => ({
+  // Processa todos os itens garantindo datas válidas
+  const conteudos = [...noticias, ...videos].map(item => {
+    if (item.dateObj instanceof Date && !isNaN(item.dateObj.getTime())) {
+      return {
+        ...item,
+        display: item.dateObj.toLocaleString("pt-BR"),
+        iso: item.dateObj.toISOString(),
+        dateObj: item.dateObj
+      };
+    }
+    
+    const dateInfo = parseCustomDate(item.date);
+    return {
       ...item,
-      ...parseCustomDate(item.date),
-      dateObj: item.dateObj || new Date()
-    }))
-    .sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime());
+      ...dateInfo
+    };
+  }).sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime());
 
   console.log("⏳ Gerando arquivos FAIR...");
   await generateFiles(conteudos);
