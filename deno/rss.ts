@@ -79,16 +79,43 @@ async function fetchYouTubeVideos(channelId: string) {
   });
 }
 
+// Função para ordenar os conteúdos por data (do mais recente para o mais antigo)
+function ordenarPorData(conteudos: Array<{date: string}>): Array<{date: string}> {
+  return conteudos.sort((a, b) => {
+    // Converte as datas para objetos Date
+    const dataA = parseCustomDate(a.date);
+    const dataB = parseCustomDate(b.date);
+    
+    // Ordena do mais recente para o mais antigo
+    return dataB.getTime() - dataA.getTime();
+  });
+}
+
+// Função auxiliar para parsear diferentes formatos de data
+function parseCustomDate(dateString: string): Date {
+  if (!dateString || dateString === "ND") return new Date(0); // Data mínima se não houver data
+  
+  // Tenta parsear formato "DD/MM/YYYY HH:MM" (das notícias)
+  const brDateMatch = dateString.match(/(\d{2})\/(\d{2})\/(\d{4}) (\d{2}):(\d{2})/);
+  if (brDateMatch) {
+    const [, day, month, year, hours, minutes] = brDateMatch;
+    return new Date(`${year}-${month}-${day}T${hours}:${minutes}:00`);
+  }
+  
+  // Tenta parsear formato ISO (dos vídeos)
+  const isoDate = new Date(dateString);
+  if (!isNaN(isoDate.getTime())) return isoDate;
+  
+  // Se nenhum formato reconhecido, retorna data mínima
+  return new Date(0);
+}
+
 // Adiciona vídeos ao feed
 const youtubeChannelId = "UC5ynmbMZXolM-jo2hGR31qg";
 const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
 
 // Combina e ordena os conteúdos por data decrescente
-const conteudos = [...noticias, ...youtubeVideos].sort((a, b) => {
-  const d1 = new Date(b.date);
-  const d2 = new Date(a.date);
-  return d1.getTime() - d2.getTime();
-});
+const conteudos = ordenarPorData([...noticias, ...youtubeVideos]);
 
 // Garante que a pasta data/ exista
 await Deno.mkdir("data", { recursive: true });
