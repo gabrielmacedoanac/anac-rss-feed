@@ -66,6 +66,7 @@ const htmlContent = `
 </html>
 `;
 await Deno.writeTextFile("index.html", htmlContent);
+await Deno.writeTextFile("data/index.html", htmlContent);
 
 // Gera RSS/XML
 const rssItems = noticias.map(n => {
