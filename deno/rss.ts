@@ -1,181 +1,175 @@
-// deno run --allow-net --allow-write deno/rss.ts
-
-import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 import { parse } from "https://denopkg.com/ThauEx/deno-fast-xml-parser/mod.ts";
+import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-const NUM_NOTICIAS = 30;
-const NUM_VIDEOS = 10;
+// URL de origem
+const url = "https://www.gov.br/anac/pt-br/noticias";
+const headers = { "User-Agent": "Mozilla/5.0" };
 
-async function main() {
-  const noticias = await fetchNoticias();
-  const videos = await fetchVideos();
+// Faz a requisição
+const res = await fetch(url, { headers });
+const html = await res.text();
 
-  const todos = [...noticias, ...videos];
-
-  // Ordena pela data (mais recente primeiro)
-  todos.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
-  await Deno.mkdir("data", { recursive: true });
-  await Deno.writeTextFile("data/feed.json", JSON.stringify(todos, null, 2));
-
-  const html = geraHTML(todos);
-  await Deno.writeTextFile("index.html", html);
-  await Deno.writeTextFile("data/index.html", html);
-
-  const rss = geraRSS(todos);
-  await Deno.writeTextFile("data/rss.xml", rss);
-
-  const atom = geraATOM(todos);
-  await Deno.writeTextFile("data/atom.xml", atom);
+// Parse do HTML
+const doc = new DOMParser().parseFromString(html, "text/html");
+if (!doc) {
+  console.error("❌ Erro ao parsear HTML");
+  Deno.exit(1);
 }
 
-async function fetchNoticias() {
-  const url = "https://www.gov.br/anac/pt-br/noticias";
-  const headers = { "User-Agent": "Mozilla/5.0" };
-  const res = await fetch(url, { headers });
-  const html = await res.text();
-  const doc = new DOMParser().parseFromString(html, "text/html");
-  if (!doc) throw new Error("Erro ao parsear HTML");
+// Extrai notícias
+const noticias = [];
+const artigos = doc.querySelectorAll("article.tileItem");
 
-  const artigos = doc.querySelectorAll("article.tileItem");
-  const noticias = [];
+for (let i = 0; i < Math.min(30, artigos.length); i++) {
+  const el = artigos[i];
+  try {
+    const titleElem = el.querySelector("h2.tileHeadline a");
+    const title = titleElem?.textContent?.trim() || "Sem título";
+    const link = titleElem?.getAttribute("href") || "#";
 
-  for (let i = 0; i < Math.min(NUM_NOTICIAS, artigos.length); i++) {
-    const el = artigos[i];
-    try {
-      const titleElem = el.querySelector("h2.tileHeadline a");
-      const title = titleElem?.textContent?.trim() || "Sem título";
-      const link = titleElem?.getAttribute("href") || "#";
+    const dateIcon = el.querySelector("span.summary-view-icon i.icon-day");
+    const timeIcon = el.querySelector("span.summary-view-icon i.icon-hour");
+    const date = dateIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
+    const time = timeIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
+    const dateTime = `${date} ${time}`.replace("ND ND", "").trim();
 
-      const dateIcon = el.querySelector("span.summary-view-icon i.icon-day");
-      const timeIcon = el.querySelector("span.summary-view-icon i.icon-hour");
-      const date = dateIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
-      const time = timeIcon?.parentElement?.textContent?.trim().replace(/\s+/g, " ") || "ND";
-      const dateTime = new Date(`${date} ${time}`.replace("ND ND", "").trim()).toISOString();
+    const descElem = el.querySelector("p.tileBody span.description");
+    const description = descElem?.textContent?.trim() || "Sem descrição";
 
-      const descElem = el.querySelector("p.tileBody span.description");
-      const description = descElem?.textContent?.trim() || "Sem descrição";
+    const imgElem = el.querySelector("div.tileImage img");
+    const image = imgElem?.getAttribute("src") || null;
 
-      const imgElem = el.querySelector("div.tileImage img");
-      const image = imgElem?.getAttribute("src") || null;
-
-      noticias.push({ type: "noticia", title, link, date: dateTime, description, image });
-    } catch (e) {
-      console.warn("⚠️ Erro ao processar item de notícia:", e);
-    }
+    noticias.push({ title, link, date: dateTime, description, image });
+  } catch (e) {
+    console.warn("⚠️ Erro ao processar item:", e);
   }
-
-  return noticias;
 }
 
-async function fetchVideos() {
-  const feedUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=UC5ynmbMZXolM-jo2hGR31qg";
-  const res = await fetch(feedUrl);
+// Converte ISO 8601 para "DD/MM/YYYY HH:MM"
+function formatDate(isoDate: string): string {
+  const d = new Date(isoDate);
+  const pad = (n: number) => n.toString().padStart(2, "0");
+  return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+// Função para buscar vídeos do canal da ANAC no YouTube
+async function fetchYouTubeVideos(channelId: string) {
+  const youtubeFeedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
+  const res = await fetch(youtubeFeedUrl);
   const xml = await res.text();
   const parsed = parse(xml, { ignoreAttributes: false });
 
   const entries = parsed.feed?.entry || [];
-  const videos = [];
+  const videos = Array.isArray(entries) ? entries : [entries];
 
-  for (let i = 0; i < Math.min(NUM_VIDEOS, entries.length); i++) {
-    const v = entries[i];
-    try {
-      const title = v.title;
-      const link = Array.isArray(v.link) ? v.link[0]["@_href"] : v.link["@_href"];
-      const description = v["media:group"]?.["media:description"] || "Sem descrição";
-      const published = new Date(v.published).toISOString();
-
-      videos.push({ type: "video", title, link, date: published, description });
-    } catch (e) {
-      console.warn("⚠️ Erro ao processar vídeo:", e);
-    }
-  }
-
-  return videos;
+  return videos.map((video: any) => {
+    const date = video.published ? formatDate(video.published) : "ND";
+    return {
+      title: video.title,
+      link: video.link?.["@_href"] || video.link?.["@_url"],
+      date,
+      description: video["media:group"]?.["media:description"] || "",
+      image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
+    };
+  });
 }
 
-function geraHTML(itens) {
-  return `
+// Adiciona vídeos ao feed
+const youtubeChannelId = "UC5ynmbMZXolM-jo2hGR31qg";
+const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
+
+// Função para parsear data e tratar erros
+function parseDate(dateString: string): Date {
+  const date = new Date(dateString);
+  return isNaN(date.getTime()) ? new Date() : date;
+}
+
+// Combina e ordena os conteúdos por data decrescente
+const conteudos = [...noticias, ...youtubeVideos].sort((a, b) => {
+  const d1 = parseDate(b.date);
+  const d2 = parseDate(a.date);
+  return d1.getTime() - d2.getTime();
+});
+
+// Garante que a pasta data/ exista
+await Deno.mkdir("data", { recursive: true });
+
+// Salva JSON
+await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudos, null, 2));
+
+// Gera HTML simples
+const htmlContent = `
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Notícias e Vídeos ANAC</title>
+  <title>Notícias ANAC</title>
 </head>
 <body>
-  ${itens.map(n => `<a href="${n.link}">${n.title} (${n.type === 'video' ? 'vídeo' : 'texto'})</a> (${formatDate(n.date)})</br>`).join("\n")}
+  ${conteudos.map(n => `<a href="${n.link}">${n.title}</a> (${n.date})</br>`).join("\n")}
 </body>
-</html>`;
-}
+</html>
+`;
+await Deno.writeTextFile("index.html", htmlContent);
+await Deno.writeTextFile("data/index.html", htmlContent);
 
-function geraRSS(itens) {
-  const rssItems = itens.map(n => {
-    let pubDate;
-    try {
-      pubDate = formatDate(n.date);
-    } catch {
-      pubDate = new Date().toLocaleString();
-    }
+// Gera RSS/XML
+const rssItems = conteudos.map(n => {
+  let pubDate;
+  try {
+    pubDate = new Date(n.date).toUTCString();
+    if (pubDate === 'Invalid Date') throw new Error();
+  } catch {
+    pubDate = new Date().toUTCString();
+  }
 
-    return `
-    <item>
-      <title><![CDATA[${n.title} (${n.type === 'video' ? 'vídeo' : 'texto'})]]></title>
-      <link>${n.link}</link>
-      <description><![CDATA[${n.description}]]></description>
-      <pubDate>${pubDate}</pubDate>
-    </item>`;
-  }).join("\n");
+  return `
+  <item>
+    <title><![CDATA[${n.title}]]></title>
+    <link>${n.link}</link>
+    <description><![CDATA[${n.description}]]></description>
+    <pubDate>${pubDate}</pubDate>
+  </item>`;
+}).join("\n");
 
-  return `<?xml version="1.0" encoding="UTF-8" ?>
+const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>Notícias e Vídeos ANAC</title>
+    <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
-    <description>Últimas atualizações da Agência Nacional de Aviação Civil</description>
+    <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
     ${rssItems}
   </channel>
 </rss>`;
-}
+await Deno.writeTextFile("data/rss.xml", rssXml);
 
-function geraATOM(itens) {
-  const atomItems = itens.map(n => {
-    const id = n.link;
-    let updated;
-    try {
-      updated = formatDate(n.date);
-    } catch {
-      updated = new Date().toLocaleString();
-    }
+// Gera ATOM
+const atomItems = conteudos.map(n => {
+  const id = n.link;
+  let updated;
+  try {
+    updated = new Date(n.date).toISOString();
+    if (updated === 'Invalid Date') throw new Error();
+  } catch {
+    updated = new Date().toISOString();
+  }
 
-    return `
-    <entry>
-      <title><![CDATA[${n.title} (${n.type === 'video' ? 'vídeo' : 'texto'})]]></title>
-      <link href="${n.link}" />
-      <id>${id}</id>
-      <updated>${updated}</updated>
-      <summary><![CDATA[${n.description}]]></summary>
-    </entry>`;
-  }).join("\n");
+  return `
+  <entry>
+    <title><![CDATA[${n.title}]]></title>
+    <link href="${n.link}" />
+    <id>${id}</id>
+    <updated>${updated}</updated>
+    <summary><![CDATA[${n.description}]]></summary>
+  </entry>`;
+}).join("\n");
 
-  return `<?xml version="1.0" encoding="utf-8"?>
+const atomXml = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Notícias e Vídeos ANAC</title>
+  <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
   <updated>${new Date().toISOString()}</updated>
   <id>https://www.gov.br/anac/pt-br/noticias</id>
   ${atomItems}
 </feed>`;
-}
-
-function formatDate(dateString) {
-  const date = new Date(dateString);
-  const day = ("0" + date.getDate()).slice(-2);
-  const month = ("0" + (date.getMonth() + 1)).slice(-2);
-  const year = date.getFullYear();
-  const hours = ("0" + date.getHours()).slice(-2);
-  const minutes = ("0" + date.getMinutes()).slice(-2);
-
-  return `${day}/${month}/${year} ${hours}:${minutes}`;
-}
-
-main();
+await Deno.writeTextFile("data/atom.xml", atomXml);
