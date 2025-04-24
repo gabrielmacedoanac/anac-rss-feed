@@ -2,8 +2,8 @@ import { parse } from "https://denopkg.com/ThauEx/deno-fast-xml-parser/mod.ts";
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
 // Variáveis para definir quantos vídeos e notícias serão recuperados
-const maxNoticias = 10; // Quantidade de notícias a recuperar
-const maxVideos = 10;    // Quantidade de vídeos a recuperar
+const maxNoticias = 10;
+const maxVideos = 10;
 
 // URL de origem
 const url = "https://www.gov.br/anac/pt-br/noticias";
@@ -43,10 +43,37 @@ for (let i = 0; i < Math.min(maxNoticias, artigos.length); i++) {
     const imgElem = el.querySelector("div.tileImage img");
     const image = imgElem?.getAttribute("src") || null;
 
-    noticias.push({ title, link, date: dateTime, description, image, type: "notícia" });
+    noticias.push({ 
+      title, 
+      link, 
+      date: dateTime, 
+      description, 
+      image, 
+      type: "notícia",
+      timestamp: convertToTimestamp(dateTime) // Adiciona timestamp normalizado
+    });
   } catch (e) {
     console.warn("⚠️ Erro ao processar item:", e);
   }
+}
+
+// Função para converter data para timestamp
+function convertToTimestamp(dateStr: string): number {
+  if (!dateStr || dateStr === "ND") return 0;
+  
+  // Tenta parsear formato BR (DD/MM/YYYY HH:MM)
+  const brMatch = dateStr.match(/(\d{2})\/(\d{2})\/(\d{4}) (\d{2}):(\d{2})/);
+  if (brMatch) {
+    const [, day, month, year, hours, minutes] = brMatch;
+    const date = new Date(`${year}-${month}-${day}T${hours}:${minutes}:00`);
+    return date.getTime();
+  }
+  
+  // Tenta parsear como ISO
+  const isoDate = new Date(dateStr);
+  if (!isNaN(isoDate.getTime())) return isoDate.getTime();
+  
+  return 0;
 }
 
 // Converte ISO 8601 para "DD/MM/YYYY HH:MM"
@@ -56,7 +83,7 @@ function formatDate(isoDate: string): string {
   return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
 }
 
-// Função para buscar vídeos do canal da ANAC no YouTube
+// Função para buscar vídeos do YouTube
 async function fetchYouTubeVideos(channelId: string) {
   const youtubeFeedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
   const res = await fetch(youtubeFeedUrl);
@@ -75,47 +102,19 @@ async function fetchYouTubeVideos(channelId: string) {
       description: video["media:group"]?.["media:description"] || "",
       image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
       type: "vídeo",
+      timestamp: convertToTimestamp(video.published) // Adiciona timestamp normalizado
     };
   });
-}
-
-// Função para ordenar os conteúdos por data (do mais recente para o mais antigo)
-function ordenarPorData(conteudos: Array<{date: string}>): Array<{date: string}> {
-  return conteudos.sort((a, b) => {
-    // Converte as datas para objetos Date
-    const dataA = parseCustomDate(a.date);
-    const dataB = parseCustomDate(b.date);
-    
-    // Ordena do mais recente para o mais antigo
-    return dataB.getTime() - dataA.getTime();
-  });
-}
-
-// Função auxiliar para parsear diferentes formatos de data
-function parseCustomDate(dateString: string): Date {
-  if (!dateString || dateString === "ND") return new Date(0); // Data mínima se não houver data
-  
-  // Tenta parsear formato "DD/MM/YYYY HH:MM" (das notícias)
-  const brDateMatch = dateString.match(/(\d{2})\/(\d{2})\/(\d{4}) (\d{2}):(\d{2})/);
-  if (brDateMatch) {
-    const [, day, month, year, hours, minutes] = brDateMatch;
-    return new Date(`${year}-${month}-${day}T${hours}:${minutes}:00`);
-  }
-  
-  // Tenta parsear formato ISO (dos vídeos)
-  const isoDate = new Date(dateString);
-  if (!isNaN(isoDate.getTime())) return isoDate;
-  
-  // Se nenhum formato reconhecido, retorna data mínima
-  return new Date(0);
 }
 
 // Adiciona vídeos ao feed
 const youtubeChannelId = "UC5ynmbMZXolM-jo2hGR31qg";
 const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
 
-// Combina e ordena os conteúdos por data decrescente
-const conteudos = ordenarPorData([...noticias, ...youtubeVideos]);
+// Combina e ordena os conteúdos por timestamp
+const conteudos = [...noticias, ...youtubeVideos]
+  .sort((a, b) => b.timestamp - a.timestamp)
+  .map(({ timestamp, ...rest }) => rest); // Remove o timestamp após ordenação
 
 // Garante que a pasta data/ exista
 await Deno.mkdir("data", { recursive: true });
@@ -143,8 +142,7 @@ await Deno.writeTextFile("data/index.html", htmlContent);
 const rssItems = conteudos.map(n => {
   let pubDate;
   try {
-    pubDate = new Date(n.date).toUTCString();
-    if (pubDate === 'Invalid Date') throw new Error();
+    pubDate = convertToTimestamp(n.date) ? new Date(convertToTimestamp(n.date)).toUTCString() : new Date().toUTCString();
   } catch {
     pubDate = new Date().toUTCString();
   }
@@ -174,8 +172,7 @@ const atomItems = conteudos.map(n => {
   const id = n.link;
   let updated;
   try {
-    updated = new Date(n.date).toISOString();
-    if (updated === 'Invalid Date') throw new Error();
+    updated = convertToTimestamp(n.date) ? new Date(convertToTimestamp(n.date)).toISOString() : new Date().toISOString();
   } catch {
     updated = new Date().toISOString();
   }
