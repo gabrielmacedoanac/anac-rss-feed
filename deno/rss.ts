@@ -49,11 +49,11 @@ for (let i = 0; i < Math.min(maxNoticias, artigos.length); i++) {
   }
 }
 
-// Converte ISO 8601 para "DD/MM/YYYY HH:MM"
+// Converte ISO 8601 para "DD/MM/YYYY HHhMM"
 function formatDate(isoDate: string): string {
   const d = new Date(isoDate);
   const pad = (n: number) => n.toString().padStart(2, "0");
-  return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()} ${pad(d.getHours())}h${pad(d.getMinutes())}`;
 }
 
 // Função para buscar vídeos do canal da ANAC no YouTube
