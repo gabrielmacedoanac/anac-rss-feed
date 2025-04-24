@@ -1,7 +1,7 @@
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
-import { parseString } from "https://cdn.skypack.dev/xml2json";  // Importando xml2json para parse do XML
 
-const youtubeChannelUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=UCtQR5Vv7gyS9j2ZjPQ38tWA"; // Substitua pelo canal desejado
+// URL do canal do YouTube
+const youtubeChannelUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=UC5ynmbMZXolM-jo2hGR31qg"; 
 
 // Função para buscar vídeos no YouTube
 async function fetchYoutubeVideos() {
@@ -10,23 +10,36 @@ async function fetchYoutubeVideos() {
   const res = await fetch(youtubeChannelUrl, { headers });
   const xmlText = await res.text();
 
-  // Converte XML para JSON
-  const jsonData = JSON.parse(parseString(xmlText));
+  // Usando DOMParser para parsear o XML e extrair os dados
+  const parser = new DOMParser();
+  const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+
+  // Verificando se houve erro ao parsear
+  if (!xmlDoc) {
+    console.error("❌ Erro ao parsear o XML");
+    Deno.exit(1);
+  }
 
   // Extraímos os vídeos
-  const videos = jsonData.feed.entry.map((entry: any) => {
+  const entries = xmlDoc.querySelectorAll("entry");
+  const videos = Array.from(entries).map(entry => {
+    const title = entry.querySelector("title")?.textContent || "Sem título";
+    const link = entry.querySelector("link")?.getAttribute("href") || "#";
+    const date = entry.querySelector("published")?.textContent || "ND";
+    const description = entry.querySelector("summary")?.textContent || "Sem descrição";
+
     return {
-      title: entry.title["#text"],
-      link: entry.link["@href"],
-      date: entry.published["#text"],
-      description: entry.summary["#text"],
+      title,
+      link,
+      date,
+      description,
     };
   });
 
   return videos;
 }
 
-// Função para buscar as notícias da ANAC
+// Função para buscar notícias da ANAC
 async function fetchNews() {
   const url = "https://www.gov.br/anac/pt-br/noticias";
   const headers = { "User-Agent": "Mozilla/5.0" };
