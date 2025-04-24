@@ -206,7 +206,46 @@ async function generateFiles(conteudos: any[]) {
   await Deno.mkdir(CONFIG.outputDir, { recursive: true });
   const generationDate = new Date();
 
-  // 1. JSON (Schema.org Dataset)
+  // 1. HTML SIMPLES (diretório raiz)
+  const simpleHtml = `<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Notícias ANAC</title>
+</head>
+<body>
+  ${conteudos.map(item => 
+    `<a href="${item.link}" target="_blank">${item.title}</a> (${item.display}) - ${item.type}</br>`
+  ).join('\n')}
+</body>
+</html>`;
+
+  await Deno.writeTextFile("index.html", simpleHtml);
+
+  // 2. HTML (Semântico)
+  const htmlContent = `<!DOCTYPE html>
+<html lang="${FAIR_METADATA.language}">
+<head>
+  <meta charset="UTF-8">
+  <title>${FAIR_METADATA.title}</title>
+  <meta name="description" content="${FAIR_METADATA.description}">
+</head>
+<body>
+  <h1>${FAIR_METADATA.title}</h1>
+  ${conteudos.map(item => `
+    <article>
+      <h2><a href="${item.link}">${item.title}</a></h2>
+      <p><time datetime="${item.iso}">${item.display}</time> | ${item.type}</p>
+      ${item.image ? `<img src="${item.image}" alt="${item.title}" width="300">` : ''}
+      <p>${item.description}</p>
+    </article>
+  `).join('\n')}
+</body>
+</html>`;
+
+  await Deno.writeTextFile(`${CONFIG.outputDir}/index.html`, htmlContent);
+  
+  // 3. JSON (Schema.org Dataset)
   const jsonData = {
     "@context": ["https://schema.org", "https://www.w3.org/ns/dcat"],
     "@type": "Dataset",
@@ -244,30 +283,7 @@ async function generateFiles(conteudos: any[]) {
     JSON.stringify(jsonData, null, 2)
   );
 
-  // 2. HTML (Semântico)
-  const htmlContent = `<!DOCTYPE html>
-<html lang="${FAIR_METADATA.language}">
-<head>
-  <meta charset="UTF-8">
-  <title>${FAIR_METADATA.title}</title>
-  <meta name="description" content="${FAIR_METADATA.description}">
-</head>
-<body>
-  <h1>${FAIR_METADATA.title}</h1>
-  ${conteudos.map(item => `
-    <article>
-      <h2><a href="${item.link}">${item.title}</a></h2>
-      <p><time datetime="${item.iso}">${item.display}</time> | ${item.type}</p>
-      ${item.image ? `<img src="${item.image}" alt="${item.title}" width="300">` : ''}
-      <p>${item.description}</p>
-    </article>
-  `).join('\n')}
-</body>
-</html>`;
-
-  await Deno.writeTextFile(`${CONFIG.outputDir}/index.html`, htmlContent);
-
-  // 3. RSS Feed
+  // 4. RSS Feed
   const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
@@ -287,7 +303,7 @@ async function generateFiles(conteudos: any[]) {
 
   await Deno.writeTextFile(`${CONFIG.outputDir}/rss.xml`, rssXml);
 
-  // 4. ATOM Feed
+  // 5. ATOM Feed
   const atomXml = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>${FAIR_METADATA.title}</title>
