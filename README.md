@@ -54,7 +54,7 @@ Os feeds gerados estão disponíveis em:
 
 - [RSS](https://gabrielmacedoanac.github.io/anac-rss-feed/data/rss.xml)
 - [Atom](https://gabrielmacedoanac.github.io/anac-rss-feed/data/atom.xml)
-- [JSON Simples](https://gabrielmacedoanac.github.io/anac-rss-feed/data/feed.json)
+- [JSON](https://gabrielmacedoanac.github.io/anac-rss-feed/data/feed.json)
 - [HTML](https://gabrielmacedoanac.github.io/anac-rss-feed/data/index.html)
 
 ## Contribuindo
