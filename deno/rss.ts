@@ -47,6 +47,13 @@ for (let i = 0; i < Math.min(30, artigos.length); i++) {
   }
 }
 
+// Converte ISO 8601 para "DD/MM/YYYY HH:MM"
+function formatDate(isoDate: string): string {
+  const d = new Date(isoDate);
+  const pad = (n: number) => n.toString().padStart(2, "0");
+  return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
 // Função para buscar vídeos do canal da ANAC no YouTube
 async function fetchYouTubeVideos(channelId: string) {
   const youtubeFeedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
@@ -57,19 +64,28 @@ async function fetchYouTubeVideos(channelId: string) {
   const entries = parsed.feed?.entry || [];
   const videos = Array.isArray(entries) ? entries : [entries];
 
-  return videos.map((video: any) => ({
-    title: video.title,
-    link: video.link?.["@_href"] || video.link?.["@_url"],
-    date: video.published,
-    description: video["media:group"]?.["media:description"] || "",
-    image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
-  }));
+  return videos.map((video: any) => {
+    const date = video.published ? formatDate(video.published) : "ND";
+    return {
+      title: video.title,
+      link: video.link?.["@_href"] || video.link?.["@_url"],
+      date,
+      description: video["media:group"]?.["media:description"] || "",
+      image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
+    };
+  });
 }
 
 // Adiciona vídeos ao feed
 const youtubeChannelId = "UC5ynmbMZXolM-jo2hGR31qg";
 const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
-const conteudos = [...noticias, ...youtubeVideos];
+
+// Combina e ordena os conteúdos por data decrescente
+const conteudos = [...noticias, ...youtubeVideos].sort((a, b) => {
+  const d1 = new Date(b.date);
+  const d2 = new Date(a.date);
+  return d1.getTime() - d2.getTime();
+});
 
 // Garante que a pasta data/ exista
 await Deno.mkdir("data", { recursive: true });
