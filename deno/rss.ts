@@ -1,4 +1,4 @@
-// deno run --allow-net --allow-write deno/feed.ts
+// deno run --allow-net --allow-write deno/rss.ts
 
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
@@ -95,10 +95,36 @@ const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
     ${rssItems}
   </channel>
 </rss>`;
+await Deno.writeTextFile("data/rss.xml", rssXml);
 
-try {
-  await Deno.writeTextFile("data/rss.xml", rssXml);
-  console.log("✅ RSS salvo com sucesso em data/rss.xml");
-} catch (err) {
-  console.error("❌ Erro ao salvar rss.xml:", err);
-}
+
+// Gera ATOM
+const atomItems = noticias.map(n => {
+  const id = n.link;
+  let updated;
+  try {
+    updated = new Date(n.date).toISOString();
+    if (updated === 'Invalid Date') throw new Error();
+  } catch {
+    updated = new Date().toISOString();
+  }
+
+  return `
+  <entry>
+    <title><![CDATA[${n.title}]]></title>
+    <link href="${n.link}" />
+    <id>${id}</id>
+    <updated>${updated}</updated>
+    <summary><![CDATA[${n.description}]]></summary>
+  </entry>`;
+}).join("\n");
+
+const atomXml = `<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Notícias ANAC</title>
+  <link href="https://www.gov.br/anac/pt-br/noticias"/>
+  <updated>${new Date().toISOString()}</updated>
+  <id>https://www.gov.br/anac/pt-br/noticias</id>
+  ${atomItems}
+</feed>`;
+await Deno.writeTextFile("data/atom.xml", atomXml);
