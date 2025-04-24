@@ -195,77 +195,50 @@ async function main() {
 </rss>`;
   await Deno.writeTextFile("data/rss.xml", rssXml);
 
-  // ATOM com metadados FAIR completos
+  // ATOM simplificado porém FAIR
   const atomXml = `<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" 
-      xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:dcterms="http://purl.org/dc/terms/"
-      xmlns:media="http://search.yahoo.com/mrss/">
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
   
-  <!-- Metadados FAIR do Feed -->
-  <title type="text">${FAIR_METADATA.title}</title>
-  <subtitle type="text">${FAIR_METADATA.description}</subtitle>
-  <link href="${baseUrl}" rel="alternate" type="text/html"/>
-  <link href="https://exemplo.com/data/atom.xml" rel="self" type="application/atom+xml"/>
-  <id>urn:uuid:${crypto.randomUUID()}</id>
+  <!-- Metadados básicos do feed -->
+  <title>${FAIR_METADATA.title}</title>
+  <subtitle>${FAIR_METADATA.description}</subtitle>
+  <link href="${baseUrl}"/>
+  <link href="https://exemplo.com/data/atom.xml" rel="self"/>
+  <id>${baseUrl}</id>
   <updated>${conteudos[0]?.dateObj.toISOString() || new Date().toISOString()}</updated>
-  
-  <!-- Metadados de Direitos e Licença -->
   <rights>${FAIR_METADATA.rights}</rights>
-  <dcterms:license>${FAIR_METADATA.license}</dcterms:license>
-  
-  <!-- Metadados de Autoria -->
-  <author>
-    <name>${FAIR_METADATA.creator}</name>
-    <uri>${baseUrl}</uri>
-  </author>
-  
-  <!-- Metadados de Publicação -->
-  <dc:publisher>${FAIR_METADATA.publisher}</dc:publisher>
-  <dc:creator>${FAIR_METADATA.creator}</dc:creator>
-  <dc:date>${new Date().toISOString()}</dc:date>
-  
-  <!-- Itens do Feed -->
+
+  <!-- Itens simplificados -->
   ${conteudos.map(n => `
   <entry>
-    <title type="html"><![CDATA[${n.title}]]></title>
-    <link rel="alternate" type="text/html" href="${n.link}"/>
-    <id>urn:uuid:${n.link}</id>
-    
-    <!-- Datas corretas -->
+    <title>${escapeXml(n.title)}</title>
+    <link href="${n.link}"/>
+    <id>${n.link}</id>
     <published>${n.dateObj.toISOString()}</published>
     <updated>${n.dateObj.toISOString()}</updated>
-    
-    <!-- Metadados do Item -->
-    <author>
-      <name>${FAIR_METADATA.creator}</name>
-    </author>
-    <dc:contributor>${FAIR_METADATA.publisher}</dc:contributor>
+    <summary>${escapeXml(n.description)}</summary>
+    <dc:creator>${FAIR_METADATA.creator}</dc:creator>
     <dc:date>${n.dateObj.toISOString()}</dc:date>
-    <dcterms:created>${n.dateObj.toISOString()}</dcterms:created>
-    
-    <!-- Conteúdo -->
-    <summary type="html"><![CDATA[${n.description}]]></summary>
-    <content type="html"><![CDATA[
-      <p>${n.description}</p>
-      ${n.image ? `<img src="${n.image}" alt="${n.title}"/>` : ''}
-    ]]></content>
-    
-    <!-- Metadados de Mídia -->
-    ${n.image ? `
-    <media:thumbnail url="${n.image}" width="800" height="600"/>
-    <media:content url="${n.image}" type="image/jpeg" medium="image"/>
-    ` : ''}
-    
-    <!-- Categorias -->
-    <category term="${n.type}" label="${n.type === 'vídeo' ? 'Vídeo' : 'Notícia'}"/>
   </entry>
-  `).join('\n  ')}
+  `).join('\n')}
 </feed>`;
 
   await Deno.writeTextFile("data/atom.xml", atomXml);
-
   console.log("✅ Arquivos gerados com sucesso!");
+
+// Função auxiliar para escape de XML
+function escapeXml(unsafe: string): string {
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '\'': return '&apos;';
+      case '"': return '&quot;';
+      default: return c;
+    }
+  });
 }
 
 // 8. EXECUÇÃO
