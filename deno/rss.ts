@@ -1,37 +1,7 @@
 // deno run --allow-net --allow-write deno/rss.ts
 
+import { parse } from "https://denopkg.com/ThauEx/deno-fast-xml-parser/mod.ts";
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
-import { XMLParser } from "https://deno.land/x/xml_parser@1.0.0/mod.ts";
-
-// Canal da ANAC no YouTube
-const youtubeRssUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=UC5ynmbMZXolM-jo2hGR31qg";
-
-async function fetchYoutubeRSS(url: string) {
-  const response = await fetch(url);
-  const xmlText = await response.text();
-
-  const parser = new XMLParser();
-  const parsed = parser.parse(xmlText);
-
-  const entries = parsed.feed?.entry ?? [];
-  const videos = [];
-
-  for (const entry of entries) {
-    try {
-      const title = entry.title ?? "Sem título";
-      const link = entry.link?.["@_href"] ?? "#";
-      const date = entry.published ?? "";
-      const description = entry["media:group"]?.["media:description"] ?? "Sem descrição";
-      const image = entry["media:group"]?.["media:thumbnail"]?.["@_url"] ?? null;
-
-      videos.push({ title, link, date, description, image });
-    } catch (e) {
-      console.warn("⚠️ Erro ao processar vídeo:", e);
-    }
-  }
-
-  return videos;
-}
 
 // URL de origem
 const url = "https://www.gov.br/anac/pt-br/noticias";
@@ -77,15 +47,35 @@ for (let i = 0; i < Math.min(30, artigos.length); i++) {
   }
 }
 
-// Junta com vídeos do canal do YouTube
-const videos = await fetchYoutubeRSS(youtubeRssUrl);
-const conteudoFinal = [...noticias, ...videos];
+// Função para buscar vídeos do canal da ANAC no YouTube
+async function fetchYouTubeVideos(channelId: string) {
+  const youtubeFeedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
+  const res = await fetch(youtubeFeedUrl);
+  const xml = await res.text();
+  const parsed = parse(xml, { ignoreAttributes: false });
+
+  const entries = parsed.feed?.entry || [];
+  const videos = Array.isArray(entries) ? entries : [entries];
+
+  return videos.map((video: any) => ({
+    title: video.title,
+    link: video.link?.["@_href"] || video.link?.["@_url"],
+    date: video.published,
+    description: video["media:group"]?.["media:description"] || "",
+    image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
+  }));
+}
+
+// Adiciona vídeos ao feed
+const youtubeChannelId = "UC5ynmbMZXolM-jo2hGR31qg";
+const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
+const conteudos = [...noticias, ...youtubeVideos];
 
 // Garante que a pasta data/ exista
 await Deno.mkdir("data", { recursive: true });
 
 // Salva JSON
-await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudoFinal, null, 2));
+await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudos, null, 2));
 
 // Gera HTML simples
 const htmlContent = `
@@ -96,7 +86,7 @@ const htmlContent = `
   <title>Notícias ANAC</title>
 </head>
 <body>
-  ${conteudoFinal.map(n => `<a href="${n.link}">${n.title}</a> (${n.date})</br>`).join("\n")}
+  ${conteudos.map(n => `<a href="${n.link}">${n.title}</a> (${n.date})</br>`).join("\n")}
 </body>
 </html>
 `;
@@ -104,7 +94,7 @@ await Deno.writeTextFile("index.html", htmlContent);
 await Deno.writeTextFile("data/index.html", htmlContent);
 
 // Gera RSS/XML
-const rssItems = conteudoFinal.map(n => {
+const rssItems = conteudos.map(n => {
   let pubDate;
   try {
     pubDate = new Date(n.date).toUTCString();
@@ -133,8 +123,9 @@ const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
 </rss>`;
 await Deno.writeTextFile("data/rss.xml", rssXml);
 
+
 // Gera ATOM
-const atomItems = conteudoFinal.map(n => {
+const atomItems = conteudos.map(n => {
   const id = n.link;
   let updated;
   try {
