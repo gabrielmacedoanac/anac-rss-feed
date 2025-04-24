@@ -1,11 +1,11 @@
-name: ANAC RSS
+name: Anac Feed
 
 on:
   push:
     branches:
       - 'main'
   schedule:
-    - cron: '0 */1 * * *'  # Executa a cada 1h
+    - cron: '0 */4 * * *'  # Executa a cada 4h
   workflow_dispatch:      # Permite execução manual
 
 jobs:
@@ -27,5 +27,5 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Atualiza RSS ANAC"
+          commit_message: $(date +"%Y-%m-%d %H:%M")
           file_pattern: data/*
