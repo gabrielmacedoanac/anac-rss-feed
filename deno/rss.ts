@@ -2,6 +2,12 @@ import { parse } from "https://deno.land/x/xml/mod.ts";  // Importando o parser 
 
 const youtubeChannelUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=UCtQR5Vv7gyS9j2ZjPQ38tWA"; // Substitua pelo canal desejado
 
+// Função para limpar o XML antes do parsing
+function cleanXml(xmlText: string): string {
+  // Substitui caracteres que podem estar causando problemas, como entidades não escapadas
+  return xmlText.replace(/&([a-zA-Z0-9]+);/g, '&amp;$1;'); // Escapa entidades não escapadas
+}
+
 // Função para buscar vídeos do YouTube
 async function fetchYoutubeVideos() {
   const headers = { "User-Agent": "Mozilla/5.0" };
@@ -9,22 +15,29 @@ async function fetchYoutubeVideos() {
   const res = await fetch(youtubeChannelUrl, { headers });
   const xmlText = await res.text();
 
-  // Usando a biblioteca xml para parsear o XML
-  const parsedXml = parse(xmlText);
+  // Limpa o XML antes de parseá-lo
+  const cleanedXml = cleanXml(xmlText);
 
-  // Extraímos os vídeos
-  const entries = parsedXml.rss.channel[0].entry;
+  // Tenta fazer o parsing do XML
+  try {
+    const parsedXml = parse(cleanedXml);
+    // Extraímos os vídeos
+    const entries = parsedXml.rss.channel[0].entry;
 
-  const videos = entries.map((entry: any) => {
-    return {
-      title: entry.title[0],
-      link: entry.link[0].$["href"],
-      date: entry.published[0],
-      description: entry.summary[0],
-    };
-  });
+    const videos = entries.map((entry: any) => {
+      return {
+        title: entry.title[0],
+        link: entry.link[0].$["href"],
+        date: entry.published[0],
+        description: entry.summary[0],
+      };
+    });
 
-  return videos;
+    return videos;
+  } catch (error) {
+    console.error("Erro ao parsear XML:", error);
+    throw new Error("Erro ao parsear XML do feed do YouTube");
+  }
 }
 
 // Função para buscar as notícias da ANAC
