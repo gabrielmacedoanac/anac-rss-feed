@@ -105,7 +105,7 @@ const htmlContent = `
   <title>Notícias ANAC</title>
 </head>
 <body>
-  ${conteudos.map(n => `<a href="${n.link}">${n.title}</a> (${n.date}) - ${n.type}</br>`).join("\n")}
+  ${conteudos.map(n => `<a href="${n.link}" target="_blank">${n.title}</a> (${n.date}) - ${n.type}</br>`).join("\n")}
 </body>
 </html>
 `;
