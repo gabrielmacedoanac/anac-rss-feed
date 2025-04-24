@@ -129,3 +129,30 @@ const atomXml = `<?xml version="1.0" encoding="utf-8"?>
   ${atomItems}
 </feed>`;
 await Deno.writeTextFile("data/atom.xml", atomXml);
+
+// Gera JSON Feed v1
+const jsonFeed = {
+  version: "https://jsonfeed.org/version/1.1",
+  title: "Notícias ANAC",
+  home_page_url: "https://www.gov.br/anac/pt-br/noticias",
+  feed_url: "https://gabrielmacedoanac.github.io/anac-rss-feed/data/jsonfeed.json",
+  description: "Últimas notícias da Agência Nacional de Aviação Civil",
+  items: noticias.map(n => {
+    let datePublished;
+    try {
+      datePublished = new Date(n.date).toISOString();
+      if (datePublished === 'Invalid Date') throw new Error();
+    } catch {
+      datePublished = new Date().toISOString();
+    }
+
+    return {
+      id: n.link,
+      url: n.link,
+      title: n.title,
+      content_text: n.description,
+      date_published: datePublished,
+    };
+  }),
+};
+await Deno.writeTextFile("data/jsonfeed.json", JSON.stringify(jsonFeed, null, 2));
