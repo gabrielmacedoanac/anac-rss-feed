@@ -39,7 +39,7 @@ for (let i = 0; i < Math.min(30, artigos.length); i++) {
     const imgElem = el.querySelector("div.tileImage img");
     const image = imgElem?.getAttribute("src") || null;
 
-    noticias.push({ title, link, date: dateTime, description, image });
+    noticias.push({ title, link, date: dateTime, description, image, type: "notícia" });
   } catch (e) {
     console.warn("⚠️ Erro ao processar item:", e);
   }
@@ -70,6 +70,7 @@ async function fetchYouTubeVideos(channelId: string) {
       date,
       description: video["media:group"]?.["media:description"] || "",
       image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
+      type: "vídeo",
     };
   });
 }
@@ -78,16 +79,10 @@ async function fetchYouTubeVideos(channelId: string) {
 const youtubeChannelId = "UC5ynmbMZXolM-jo2hGR31qg";
 const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
 
-// Função para parsear data e tratar erros
-function parseDate(dateString: string): Date {
-  const date = new Date(dateString);
-  return isNaN(date.getTime()) ? new Date() : date;
-}
-
 // Combina e ordena os conteúdos por data decrescente
 const conteudos = [...noticias, ...youtubeVideos].sort((a, b) => {
-  const d1 = parseDate(b.date);
-  const d2 = parseDate(a.date);
+  const d1 = new Date(b.date);
+  const d2 = new Date(a.date);
   return d1.getTime() - d2.getTime();
 });
 
@@ -106,7 +101,7 @@ const htmlContent = `
   <title>Notícias ANAC</title>
 </head>
 <body>
-  ${conteudos.map(n => `<a href="${n.link}">${n.title}</a> (${n.date})</br>`).join("\n")}
+  ${conteudos.map(n => `<a href="${n.link}">${n.title}</a> (${n.date}) - ${n.type}</br>`).join("\n")}
 </body>
 </html>
 `;
