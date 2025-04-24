@@ -19,10 +19,10 @@ jobs:
           deno-version: v1.x
 
       - name: ▶️ Executar script Deno para gerar JSON e HTML
-        run: deno run --allow-net --allow-write deno/fetch_news.ts
+        run: deno run --allow-net --allow-write deno/feed.ts
       
-      - name: 🛠️ Gerar RSS a partir do JSON
-        run: deno run --allow-net --allow-write deno/json_to_rss.ts      
+#      - name: 🛠️ Gerar RSS a partir do JSON
+#        run: deno run --allow-net --allow-write deno/json_to_rss.ts      
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
