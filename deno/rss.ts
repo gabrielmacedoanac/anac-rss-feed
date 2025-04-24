@@ -44,6 +44,19 @@ function parseCustomDate(dateStr: string): { formatted: string; dateObj: Date } 
   };
 }
 
+function escapeXml(unsafe: string): string {
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '\'': return '&apos;';
+      case '"': return '&quot;';
+      default: return c;
+    }
+  });
+}
+
 // 4. EXTRAÇÃO DE NOTÍCIAS
 async function fetchNoticias() {
   const headers = { "User-Agent": "Mozilla/5.0" };
@@ -195,12 +208,11 @@ async function main() {
 </rss>`;
   await Deno.writeTextFile("data/rss.xml", rssXml);
 
-  // ATOM simplificado porém FAIR
+  // ATOM
   const atomXml = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
   
-  <!-- Metadados básicos do feed -->
   <title>${FAIR_METADATA.title}</title>
   <subtitle>${FAIR_METADATA.description}</subtitle>
   <link href="${baseUrl}"/>
@@ -209,7 +221,6 @@ async function main() {
   <updated>${conteudos[0]?.dateObj.toISOString() || new Date().toISOString()}</updated>
   <rights>${FAIR_METADATA.rights}</rights>
 
-  <!-- Itens simplificados -->
   ${conteudos.map(n => `
   <entry>
     <title>${escapeXml(n.title)}</title>
@@ -223,22 +234,9 @@ async function main() {
   </entry>
   `).join('\n')}
 </feed>`;
-
   await Deno.writeTextFile("data/atom.xml", atomXml);
-  console.log("✅ Arquivos gerados com sucesso!");
 
-// Função auxiliar para escape de XML
-function escapeXml(unsafe: string): string {
-  return unsafe.replace(/[<>&'"]/g, (c) => {
-    switch (c) {
-      case '<': return '&lt;';
-      case '>': return '&gt;';
-      case '&': return '&amp;';
-      case '\'': return '&apos;';
-      case '"': return '&quot;';
-      default: return c;
-    }
-  });
+  console.log("✅ Arquivos gerados com sucesso!");
 }
 
 // 8. EXECUÇÃO
