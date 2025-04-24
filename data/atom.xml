@@ -1,376 +1,1254 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Notícias ANAC</title>
-  <subtitle>Feed de notícias e vídeos da Agência Nacional de Aviação Civil do Brasil</subtitle>
-  <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <link href="https://exemplo.com/data/atom.xml" rel="self"/>
-  <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
+<feed xmlns="http://www.w3.org/2005/Atom" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlns:media="http://search.yahoo.com/mrss/">
+  
+  <!-- Metadados FAIR do Feed -->
+  <title type="text">Notícias ANAC</title>
+  <subtitle type="text">Feed de notícias e vídeos da Agência Nacional de Aviação Civil do Brasil</subtitle>
+  <link href="https://www.gov.br/anac/pt-br/noticias" rel="alternate" type="text/html"/>
+  <link href="https://exemplo.com/data/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>urn:uuid:4c429983-7ed9-4d40-8df0-16efe35d81e9</id>
   <updated>2025-04-24T11:24:00.000Z</updated>
+  
+  <!-- Metadados de Direitos e Licença -->
+  <rights>Dados abertos conforme Lei de Acesso à Informação</rights>
+  <dcterms:license>http://www.planejamento.gov.br/assuntos/acoes-e-programas/dados-abertos/licenca-dados-abertos</dcterms:license>
+  
+  <!-- Metadados de Autoria -->
   <author>
     <name>ANAC</name>
+    <uri>https://www.gov.br/anac/pt-br/noticias</uri>
   </author>
   
+  <!-- Metadados de Publicação -->
+  <dc:publisher>Agência Nacional de Aviação Civil (ANAC)</dc:publisher>
+  <dc:creator>ANAC</dc:creator>
+  <dc:date>2025-04-24T18:33:49.781Z</dc:date>
+  
+  <!-- Itens do Feed -->
+  
   <entry>
-    <title>Aberto o curso gratuito Aviation English Level 3</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3"/>
+    <title type="html"><![CDATA[Aberto o curso gratuito Aviation English Level 3]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-24T11:24:00.000Z</published>
     <updated>2025-04-24T11:24:00.000Z</updated>
-    <summary>As inscrições e teste de nivelamento podem ser feitos até o dia 23 de maio</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3/linkedin.png/@@images/ad11d3d4-e953-450f-ace1-43bf4df43e71.png" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-24T11:24:00.000Z</dc:date>
+    <dcterms:created>2025-04-24T11:24:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[As inscrições e teste de nivelamento podem ser feitos até o dia 23 de maio]]></summary>
+    <content type="html"><![CDATA[
+      <p>As inscrições e teste de nivelamento podem ser feitos até o dia 23 de maio</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3/linkedin.png/@@images/ad11d3d4-e953-450f-ace1-43bf4df43e71.png" alt="Aberto o curso gratuito Aviation English Level 3"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3/linkedin.png/@@images/ad11d3d4-e953-450f-ace1-43bf4df43e71.png" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3/linkedin.png/@@images/ad11d3d4-e953-450f-ace1-43bf4df43e71.png" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Com 10,2 milhões de passageiros, setor aéreo tem melhor mês de março desde 2000</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/com-10-2-milhoes-de-passageiros-setor-aereo-tem-melhor-mes-de-marco-desde-2000"/>
+    <title type="html"><![CDATA[Com 10,2 milhões de passageiros, setor aéreo tem melhor mês de março desde 2000]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/com-10-2-milhoes-de-passageiros-setor-aereo-tem-melhor-mes-de-marco-desde-2000"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/com-10-2-milhoes-de-passageiros-setor-aereo-tem-melhor-mes-de-marco-desde-2000</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-23T10:46:00.000Z</published>
     <updated>2025-04-23T10:46:00.000Z</updated>
-    <summary>Movimentação doméstica e internacional apresentam recorde para o período</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/com-10-2-milhoes-de-passageiros-setor-aereo-tem-melhor-mes-de-marco-desde-2000/card-6-1.png/@@images/bcd089a4-f603-4af6-972e-26262cdc3400.png" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-23T10:46:00.000Z</dc:date>
+    <dcterms:created>2025-04-23T10:46:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Movimentação doméstica e internacional apresentam recorde para o período]]></summary>
+    <content type="html"><![CDATA[
+      <p>Movimentação doméstica e internacional apresentam recorde para o período</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/com-10-2-milhoes-de-passageiros-setor-aereo-tem-melhor-mes-de-marco-desde-2000/card-6-1.png/@@images/bcd089a4-f603-4af6-972e-26262cdc3400.png" alt="Com 10,2 milhões de passageiros, setor aéreo tem melhor mês de março desde 2000"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/com-10-2-milhoes-de-passageiros-setor-aereo-tem-melhor-mes-de-marco-desde-2000/card-6-1.png/@@images/bcd089a4-f603-4af6-972e-26262cdc3400.png" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/com-10-2-milhoes-de-passageiros-setor-aereo-tem-melhor-mes-de-marco-desde-2000/card-6-1.png/@@images/bcd089a4-f603-4af6-972e-26262cdc3400.png" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>6ª Reunião Deliberativa da Diretoria Colegiada (22/04/2025)</title>
-    <link href="https://www.youtube.com/watch?v=aVJjHlgEKNs"/>
+    <title type="html"><![CDATA[6ª Reunião Deliberativa da Diretoria Colegiada (22/04/2025)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=aVJjHlgEKNs"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=aVJjHlgEKNs</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-23T06:50:52.000Z</published>
     <updated>2025-04-23T06:50:52.000Z</updated>
-    <summary>Processo 00058.085246/2023-82
-Processo 00058.098660/2024-32</summary>
-    <link rel="enclosure" href="https://i2.ytimg.com/vi/aVJjHlgEKNs/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-23T06:50:52.000Z</dc:date>
+    <dcterms:created>2025-04-23T06:50:52.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Processo 00058.085246/2023-82
+Processo 00058.098660/2024-32]]></summary>
+    <content type="html"><![CDATA[
+      <p>Processo 00058.085246/2023-82
+Processo 00058.098660/2024-32</p>
+      <img src="https://i2.ytimg.com/vi/aVJjHlgEKNs/hqdefault.jpg" alt="6ª Reunião Deliberativa da Diretoria Colegiada (22/04/2025)"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i2.ytimg.com/vi/aVJjHlgEKNs/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i2.ytimg.com/vi/aVJjHlgEKNs/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Programa Asas para Todos leva 227 jovens para conhecer aeroportos pelo Brasil</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-leva-227-jovens-para-conhecer-aeroportos-pelo-brasil"/>
+    <title type="html"><![CDATA[Programa Asas para Todos leva 227 jovens para conhecer aeroportos pelo Brasil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-leva-227-jovens-para-conhecer-aeroportos-pelo-brasil"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-leva-227-jovens-para-conhecer-aeroportos-pelo-brasil</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-15T10:26:00.000Z</published>
     <updated>2025-04-15T10:26:00.000Z</updated>
-    <summary>Ação incentiva o interesse de jovens de baixa renda para as carreiras da aviação civil por meio de visitas a aeroportos</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-leva-227-jovens-para-conhecer-aeroportos-pelo-brasil/visita-congonhas-1.jpg/@@images/249f9614-c9a6-43c7-84de-f44d15b7924b.jpeg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-15T10:26:00.000Z</dc:date>
+    <dcterms:created>2025-04-15T10:26:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Ação incentiva o interesse de jovens de baixa renda para as carreiras da aviação civil por meio de visitas a aeroportos]]></summary>
+    <content type="html"><![CDATA[
+      <p>Ação incentiva o interesse de jovens de baixa renda para as carreiras da aviação civil por meio de visitas a aeroportos</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-leva-227-jovens-para-conhecer-aeroportos-pelo-brasil/visita-congonhas-1.jpg/@@images/249f9614-c9a6-43c7-84de-f44d15b7924b.jpeg" alt="Programa Asas para Todos leva 227 jovens para conhecer aeroportos pelo Brasil"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-leva-227-jovens-para-conhecer-aeroportos-pelo-brasil/visita-congonhas-1.jpg/@@images/249f9614-c9a6-43c7-84de-f44d15b7924b.jpeg" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-leva-227-jovens-para-conhecer-aeroportos-pelo-brasil/visita-congonhas-1.jpg/@@images/249f9614-c9a6-43c7-84de-f44d15b7924b.jpeg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Cuiabá (MT) receberá a próxima etapa da Semana Safety, nos dias 13 a 15/5</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/cuiaba-mt-recebera-a-proxima-etapa-da-semana-safety-nos-dias-13-a-15-5"/>
+    <title type="html"><![CDATA[Cuiabá (MT) receberá a próxima etapa da Semana Safety, nos dias 13 a 15/5]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cuiaba-mt-recebera-a-proxima-etapa-da-semana-safety-nos-dias-13-a-15-5"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/cuiaba-mt-recebera-a-proxima-etapa-da-semana-safety-nos-dias-13-a-15-5</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-14T14:19:00.000Z</published>
     <updated>2025-04-14T14:19:00.000Z</updated>
-    <summary>Anac abre a oportunidade para regulados sugerirem temas a serem abordados durante o evento, que destacará as particularidades da segurança operacional na região centro-oeste do país</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/cuiaba-mt-recebera-a-proxima-etapa-da-semana-safety-nos-dias-13-a-15-5/copy_of_Safety___LINKEDIN___.png/@@images/33afd709-ac0a-48e0-8f26-3271bce40045.png" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-14T14:19:00.000Z</dc:date>
+    <dcterms:created>2025-04-14T14:19:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Anac abre a oportunidade para regulados sugerirem temas a serem abordados durante o evento, que destacará as particularidades da segurança operacional na região centro-oeste do país]]></summary>
+    <content type="html"><![CDATA[
+      <p>Anac abre a oportunidade para regulados sugerirem temas a serem abordados durante o evento, que destacará as particularidades da segurança operacional na região centro-oeste do país</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/cuiaba-mt-recebera-a-proxima-etapa-da-semana-safety-nos-dias-13-a-15-5/copy_of_Safety___LINKEDIN___.png/@@images/33afd709-ac0a-48e0-8f26-3271bce40045.png" alt="Cuiabá (MT) receberá a próxima etapa da Semana Safety, nos dias 13 a 15/5"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/cuiaba-mt-recebera-a-proxima-etapa-da-semana-safety-nos-dias-13-a-15-5/copy_of_Safety___LINKEDIN___.png/@@images/33afd709-ac0a-48e0-8f26-3271bce40045.png" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/cuiaba-mt-recebera-a-proxima-etapa-da-semana-safety-nos-dias-13-a-15-5/copy_of_Safety___LINKEDIN___.png/@@images/33afd709-ac0a-48e0-8f26-3271bce40045.png" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Anac firma termos de admissão para desenvolver projetos e regulação para vertiportos</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-termos-de-admissao-para-desenvolver-projetos-e-regulacao-para-vertiportos"/>
+    <title type="html"><![CDATA[Anac firma termos de admissão para desenvolver projetos e regulação para vertiportos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-termos-de-admissao-para-desenvolver-projetos-e-regulacao-para-vertiportos"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-termos-de-admissao-para-desenvolver-projetos-e-regulacao-para-vertiportos</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-11T17:29:00.000Z</published>
     <updated>2025-04-11T17:29:00.000Z</updated>
-    <summary>Empresas irão desenvolver e testar estruturas, ajudando a Agência a definir regras para o segmento de eVTOL</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-termos-de-admissao-para-desenvolver-projetos-e-regulacao-para-vertiportos/20250411_112108-1.jpg/@@images/567587a4-bad8-4831-bfc3-b25ef4a72602.jpeg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-11T17:29:00.000Z</dc:date>
+    <dcterms:created>2025-04-11T17:29:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Empresas irão desenvolver e testar estruturas, ajudando a Agência a definir regras para o segmento de eVTOL]]></summary>
+    <content type="html"><![CDATA[
+      <p>Empresas irão desenvolver e testar estruturas, ajudando a Agência a definir regras para o segmento de eVTOL</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-termos-de-admissao-para-desenvolver-projetos-e-regulacao-para-vertiportos/20250411_112108-1.jpg/@@images/567587a4-bad8-4831-bfc3-b25ef4a72602.jpeg" alt="Anac firma termos de admissão para desenvolver projetos e regulação para vertiportos"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-termos-de-admissao-para-desenvolver-projetos-e-regulacao-para-vertiportos/20250411_112108-1.jpg/@@images/567587a4-bad8-4831-bfc3-b25ef4a72602.jpeg" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-termos-de-admissao-para-desenvolver-projetos-e-regulacao-para-vertiportos/20250411_112108-1.jpg/@@images/567587a4-bad8-4831-bfc3-b25ef4a72602.jpeg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Anac emite alerta operacional  sobre equipamentos portáteis com conexão via satélite</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/anac-emite-alerta-operacional-sobre-equipamentos-portateis-com-conexao-via-satelite"/>
+    <title type="html"><![CDATA[Anac emite alerta operacional  sobre equipamentos portáteis com conexão via satélite]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-emite-alerta-operacional-sobre-equipamentos-portateis-com-conexao-via-satelite"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-emite-alerta-operacional-sobre-equipamentos-portateis-com-conexao-via-satelite</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-11T13:53:00.000Z</published>
     <updated>2025-04-11T13:53:00.000Z</updated>
-    <summary>Aviso traz orientações sobre os equipamentos de navegação e seu uso em aeronaves</summary>
     
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-11T13:53:00.000Z</dc:date>
+    <dcterms:created>2025-04-11T13:53:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Aviso traz orientações sobre os equipamentos de navegação e seu uso em aeronaves]]></summary>
+    <content type="html"><![CDATA[
+      <p>Aviso traz orientações sobre os equipamentos de navegação e seu uso em aeronaves</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Prêmio Acessibilidade e Inovação 2025 terá sete concorrentes</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/premio-acessibilidade-e-inovacao-2025-tera-sete-concorrentes"/>
+    <title type="html"><![CDATA[Prêmio Acessibilidade e Inovação 2025 terá sete concorrentes]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/premio-acessibilidade-e-inovacao-2025-tera-sete-concorrentes"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/premio-acessibilidade-e-inovacao-2025-tera-sete-concorrentes</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-10T17:05:00.000Z</published>
     <updated>2025-04-10T17:05:00.000Z</updated>
-    <summary>Despacho homologou a participação de operadores aéreo e de aeroportos nacionais</summary>
     
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-10T17:05:00.000Z</dc:date>
+    <dcterms:created>2025-04-10T17:05:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Despacho homologou a participação de operadores aéreo e de aeroportos nacionais]]></summary>
+    <content type="html"><![CDATA[
+      <p>Despacho homologou a participação de operadores aéreo e de aeroportos nacionais</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Fórum de Regulação da Procuradoria-Geral Federal</title>
-    <link href="https://www.youtube.com/watch?v=1BfUIpKD1F8"/>
+    <title type="html"><![CDATA[Fórum de Regulação da Procuradoria-Geral Federal]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=1BfUIpKD1F8"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=1BfUIpKD1F8</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-10T15:50:30.000Z</published>
     <updated>2025-04-10T15:50:30.000Z</updated>
-    <summary></summary>
-    <link rel="enclosure" href="https://i2.ytimg.com/vi/1BfUIpKD1F8/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-10T15:50:30.000Z</dc:date>
+    <dcterms:created>2025-04-10T15:50:30.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[]]></summary>
+    <content type="html"><![CDATA[
+      <p></p>
+      <img src="https://i2.ytimg.com/vi/1BfUIpKD1F8/hqdefault.jpg" alt="Fórum de Regulação da Procuradoria-Geral Federal"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i2.ytimg.com/vi/1BfUIpKD1F8/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i2.ytimg.com/vi/1BfUIpKD1F8/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Reunião entre Anac e TSA avalia níveis de segurança da aviação civil em aeroportos brasileiros</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros"/>
+    <title type="html"><![CDATA[Reunião entre Anac e TSA avalia níveis de segurança da aviação civil em aeroportos brasileiros]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-09T16:59:00.000Z</published>
     <updated>2025-04-09T16:59:00.000Z</updated>
-    <summary>Encontro também tratou da proteção contra ataques cibernéticos e de resultados de visitas anteriores a terminais brasileiros</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros/img_4576.jpg/@@images/11b09080-25eb-46e6-95ed-83129c989000.jpeg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-09T16:59:00.000Z</dc:date>
+    <dcterms:created>2025-04-09T16:59:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Encontro também tratou da proteção contra ataques cibernéticos e de resultados de visitas anteriores a terminais brasileiros]]></summary>
+    <content type="html"><![CDATA[
+      <p>Encontro também tratou da proteção contra ataques cibernéticos e de resultados de visitas anteriores a terminais brasileiros</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros/img_4576.jpg/@@images/11b09080-25eb-46e6-95ed-83129c989000.jpeg" alt="Reunião entre Anac e TSA avalia níveis de segurança da aviação civil em aeroportos brasileiros"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros/img_4576.jpg/@@images/11b09080-25eb-46e6-95ed-83129c989000.jpeg" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros/img_4576.jpg/@@images/11b09080-25eb-46e6-95ed-83129c989000.jpeg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Alterado prazo para entrada em vigor da norma que extingue as categorias de registro de aeronaves</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/alterado-prazo-para-entrada-em-vigor-da-norma-que-extingue-o-registro-de-categorias-de-aeronaves-no-rab-digital"/>
+    <title type="html"><![CDATA[Alterado prazo para entrada em vigor da norma que extingue as categorias de registro de aeronaves]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/alterado-prazo-para-entrada-em-vigor-da-norma-que-extingue-o-registro-de-categorias-de-aeronaves-no-rab-digital"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/alterado-prazo-para-entrada-em-vigor-da-norma-que-extingue-o-registro-de-categorias-de-aeronaves-no-rab-digital</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-09T10:42:00.000Z</published>
     <updated>2025-04-09T10:42:00.000Z</updated>
-    <summary>Prevista inicialmente para vigorar em abril de 2025, a resolução que extingue o conceito de categorias de registro de aeronaves no Brasil passará a valer a partir de 1º de janeiro de 2026</summary>
     
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-09T10:42:00.000Z</dc:date>
+    <dcterms:created>2025-04-09T10:42:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Prevista inicialmente para vigorar em abril de 2025, a resolução que extingue o conceito de categorias de registro de aeronaves no Brasil passará a valer a partir de 1º de janeiro de 2026]]></summary>
+    <content type="html"><![CDATA[
+      <p>Prevista inicialmente para vigorar em abril de 2025, a resolução que extingue o conceito de categorias de registro de aeronaves no Brasil passará a valer a partir de 1º de janeiro de 2026</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Mensagem dos ministros – Embarque Numa Boa</title>
-    <link href="https://www.youtube.com/watch?v=b7dlo9wb2N0"/>
+    <title type="html"><![CDATA[Mensagem dos ministros – Embarque Numa Boa]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=b7dlo9wb2N0"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=b7dlo9wb2N0</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-04T18:43:47.000Z</published>
     <updated>2025-04-04T18:43:47.000Z</updated>
-    <summary>A campanha, promovida pela Anac em parceria com os Ministério da Igualdade Racial, Ministério das Mulheres, Ministério dos Direitos Humanos e da Cidadania, do Ministério do Turismo e Ministério de Portos e Aeroportos, reforça que os procedimentos de inspeção nos aeroportos devem ser justos, transparentes e livres de discriminação. 
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-04T18:43:47.000Z</dc:date>
+    <dcterms:created>2025-04-04T18:43:47.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[A campanha, promovida pela Anac em parceria com os Ministério da Igualdade Racial, Ministério das Mulheres, Ministério dos Direitos Humanos e da Cidadania, do Ministério do Turismo e Ministério de Portos e Aeroportos, reforça que os procedimentos de inspeção nos aeroportos devem ser justos, transparentes e livres de discriminação. 
 Nas últimas semanas publicamos um vasto material para que você conheça os seus direitos e compreenda e importância dos procedimentos de inspeção para a segurança de todos o setor aéreo.
-Com informação e compromisso, garantimos um embarque mais seguro e respeitoso para todos! Conheça os procedimentos e a campanha! https://lnkd.in/g2aM2tna</summary>
-    <link rel="enclosure" href="https://i3.ytimg.com/vi/b7dlo9wb2N0/hqdefault.jpg" type="image/jpeg"/>
+Com informação e compromisso, garantimos um embarque mais seguro e respeitoso para todos! Conheça os procedimentos e a campanha! https://lnkd.in/g2aM2tna]]></summary>
+    <content type="html"><![CDATA[
+      <p>A campanha, promovida pela Anac em parceria com os Ministério da Igualdade Racial, Ministério das Mulheres, Ministério dos Direitos Humanos e da Cidadania, do Ministério do Turismo e Ministério de Portos e Aeroportos, reforça que os procedimentos de inspeção nos aeroportos devem ser justos, transparentes e livres de discriminação. 
+Nas últimas semanas publicamos um vasto material para que você conheça os seus direitos e compreenda e importância dos procedimentos de inspeção para a segurança de todos o setor aéreo.
+Com informação e compromisso, garantimos um embarque mais seguro e respeitoso para todos! Conheça os procedimentos e a campanha! https://lnkd.in/g2aM2tna</p>
+      <img src="https://i3.ytimg.com/vi/b7dlo9wb2N0/hqdefault.jpg" alt="Mensagem dos ministros – Embarque Numa Boa"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i3.ytimg.com/vi/b7dlo9wb2N0/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i3.ytimg.com/vi/b7dlo9wb2N0/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Anac e UnB reforçam a importância da inclusão feminina no setor aéreo durante Seminário ‘’Mulheres na Aviação’’</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-unb-reforcam-a-importancia-da-inclusao-feminina-no-setor-aereo-durante-seminario-mulheres-na-aviacao"/>
+    <title type="html"><![CDATA[Anac e UnB reforçam a importância da inclusão feminina no setor aéreo durante Seminário ‘’Mulheres na Aviação’’]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-unb-reforcam-a-importancia-da-inclusao-feminina-no-setor-aereo-durante-seminario-mulheres-na-aviacao"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-unb-reforcam-a-importancia-da-inclusao-feminina-no-setor-aereo-durante-seminario-mulheres-na-aviacao</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-04T18:26:00.000Z</published>
     <updated>2025-04-04T18:26:00.000Z</updated>
-    <summary>Evento apresentou resultados de pesquisa sobre barreiras à participação feminina no setor aéreo e reforçou ações do programa Asas Para Todos</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-unb-reforcam-a-importancia-da-inclusao-feminina-no-setor-aereo-durante-seminario-mulheres-na-aviacao/seminariomulheresaviacao2025-0-3.png/@@images/a152c040-b8ad-408a-aa73-ce388ef891bc.png" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-04T18:26:00.000Z</dc:date>
+    <dcterms:created>2025-04-04T18:26:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Evento apresentou resultados de pesquisa sobre barreiras à participação feminina no setor aéreo e reforçou ações do programa Asas Para Todos]]></summary>
+    <content type="html"><![CDATA[
+      <p>Evento apresentou resultados de pesquisa sobre barreiras à participação feminina no setor aéreo e reforçou ações do programa Asas Para Todos</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-unb-reforcam-a-importancia-da-inclusao-feminina-no-setor-aereo-durante-seminario-mulheres-na-aviacao/seminariomulheresaviacao2025-0-3.png/@@images/a152c040-b8ad-408a-aa73-ce388ef891bc.png" alt="Anac e UnB reforçam a importância da inclusão feminina no setor aéreo durante Seminário ‘’Mulheres na Aviação’’"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-unb-reforcam-a-importancia-da-inclusao-feminina-no-setor-aereo-durante-seminario-mulheres-na-aviacao/seminariomulheresaviacao2025-0-3.png/@@images/a152c040-b8ad-408a-aa73-ce388ef891bc.png" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-unb-reforcam-a-importancia-da-inclusao-feminina-no-setor-aereo-durante-seminario-mulheres-na-aviacao/seminariomulheresaviacao2025-0-3.png/@@images/a152c040-b8ad-408a-aa73-ce388ef891bc.png" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Semana Safety, em Recife, trata da implementação da cultura de Segurança Operacional na aviação e apresenta casos reais de acidentes na região</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-em-recife-trata-da-implementacao-da-cultura-de-seguranca-operacional-na-aviacao-e-apresenta-casos-reais-de-acidentes-na-regiao"/>
+    <title type="html"><![CDATA[Semana Safety, em Recife, trata da implementação da cultura de Segurança Operacional na aviação e apresenta casos reais de acidentes na região]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-em-recife-trata-da-implementacao-da-cultura-de-seguranca-operacional-na-aviacao-e-apresenta-casos-reais-de-acidentes-na-regiao"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-em-recife-trata-da-implementacao-da-cultura-de-seguranca-operacional-na-aviacao-e-apresenta-casos-reais-de-acidentes-na-regiao</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-04T16:01:00.000Z</published>
     <updated>2025-04-04T16:01:00.000Z</updated>
-    <summary>O objetivo do evento foi ouvir a comunidade local e propor formas adequadas de implementar a cultura de segurança operacional na aviação civil aplicada às peculiaridades da região Nordeste</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-em-recife-trata-da-implementacao-da-cultura-de-seguranca-operacional-na-aviacao-e-apresenta-casos-reais-de-acidentes-na-regiao/whatsapp-image-2025-04-04-at-12-41-35.jpeg/@@images/5207f3e4-d5f6-447b-8ad3-c2c09f65d7f9.jpeg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-04T16:01:00.000Z</dc:date>
+    <dcterms:created>2025-04-04T16:01:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[O objetivo do evento foi ouvir a comunidade local e propor formas adequadas de implementar a cultura de segurança operacional na aviação civil aplicada às peculiaridades da região Nordeste]]></summary>
+    <content type="html"><![CDATA[
+      <p>O objetivo do evento foi ouvir a comunidade local e propor formas adequadas de implementar a cultura de segurança operacional na aviação civil aplicada às peculiaridades da região Nordeste</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-em-recife-trata-da-implementacao-da-cultura-de-seguranca-operacional-na-aviacao-e-apresenta-casos-reais-de-acidentes-na-regiao/whatsapp-image-2025-04-04-at-12-41-35.jpeg/@@images/5207f3e4-d5f6-447b-8ad3-c2c09f65d7f9.jpeg" alt="Semana Safety, em Recife, trata da implementação da cultura de Segurança Operacional na aviação e apresenta casos reais de acidentes na região"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-em-recife-trata-da-implementacao-da-cultura-de-seguranca-operacional-na-aviacao-e-apresenta-casos-reais-de-acidentes-na-regiao/whatsapp-image-2025-04-04-at-12-41-35.jpeg/@@images/5207f3e4-d5f6-447b-8ad3-c2c09f65d7f9.jpeg" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-em-recife-trata-da-implementacao-da-cultura-de-seguranca-operacional-na-aviacao-e-apresenta-casos-reais-de-acidentes-na-regiao/whatsapp-image-2025-04-04-at-12-41-35.jpeg/@@images/5207f3e4-d5f6-447b-8ad3-c2c09f65d7f9.jpeg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>BASeT convida interessados para compor subgrupos temáticos para o ciclo 2025/2026</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/baset-convida-interessados-para-compor-subgrupos-tematicos-para-o-ciclo-2025-2026"/>
+    <title type="html"><![CDATA[BASeT convida interessados para compor subgrupos temáticos para o ciclo 2025/2026]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/baset-convida-interessados-para-compor-subgrupos-tematicos-para-o-ciclo-2025-2026"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/baset-convida-interessados-para-compor-subgrupos-tematicos-para-o-ciclo-2025-2026</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-04T13:37:00.000Z</published>
     <updated>2025-04-04T13:37:00.000Z</updated>
-    <summary>Quatro subgrupos debaterão estratégias e ações sobre segurança contra atos ilícitos</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/baset-convida-interessados-para-compor-subgrupos-tematicos-para-o-ciclo-2025-2026/e-mail_mkt_baset_topo.png/@@images/0c37a45d-6368-4dd8-bca5-dc8998604941.png" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-04T13:37:00.000Z</dc:date>
+    <dcterms:created>2025-04-04T13:37:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Quatro subgrupos debaterão estratégias e ações sobre segurança contra atos ilícitos]]></summary>
+    <content type="html"><![CDATA[
+      <p>Quatro subgrupos debaterão estratégias e ações sobre segurança contra atos ilícitos</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/baset-convida-interessados-para-compor-subgrupos-tematicos-para-o-ciclo-2025-2026/e-mail_mkt_baset_topo.png/@@images/0c37a45d-6368-4dd8-bca5-dc8998604941.png" alt="BASeT convida interessados para compor subgrupos temáticos para o ciclo 2025/2026"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/baset-convida-interessados-para-compor-subgrupos-tematicos-para-o-ciclo-2025-2026/e-mail_mkt_baset_topo.png/@@images/0c37a45d-6368-4dd8-bca5-dc8998604941.png" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/baset-convida-interessados-para-compor-subgrupos-tematicos-para-o-ciclo-2025-2026/e-mail_mkt_baset_topo.png/@@images/0c37a45d-6368-4dd8-bca5-dc8998604941.png" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Seminário Mulheres na Aviação - Ações para Regulação Inclusiva</title>
-    <link href="https://www.youtube.com/watch?v=Z7CZHKzENOk"/>
+    <title type="html"><![CDATA[Seminário Mulheres na Aviação - Ações para Regulação Inclusiva]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Z7CZHKzENOk"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=Z7CZHKzENOk</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-04T08:58:27.000Z</published>
     <updated>2025-04-04T08:58:27.000Z</updated>
-    <summary>Neste seminário, serão apresentados os resultados da produção científica realizada pela UnB, intitulada “Projeto de Pesquisa Mulheres na Aviação Civil: estudos para uma regulação inclusiva no setor” que estudou as barreiras que impedem ou dificultem a participação de mulheres no mercado da aviação civil brasileira. O evento é fruto do Acordo de Cooperação Técnica, celebrado entre a Anac e os Ministérios de Portos e Aeroportos - MPor, dos Direitos Humanos e da Cidadania - MDHC, da Igualdade Racial - MIR, das Mulheres - MMulheres e do Turismo - MTur, no âmbito do programa Asas Para Todos. 
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-04T08:58:27.000Z</dc:date>
+    <dcterms:created>2025-04-04T08:58:27.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Neste seminário, serão apresentados os resultados da produção científica realizada pela UnB, intitulada “Projeto de Pesquisa Mulheres na Aviação Civil: estudos para uma regulação inclusiva no setor” que estudou as barreiras que impedem ou dificultem a participação de mulheres no mercado da aviação civil brasileira. O evento é fruto do Acordo de Cooperação Técnica, celebrado entre a Anac e os Ministérios de Portos e Aeroportos - MPor, dos Direitos Humanos e da Cidadania - MDHC, da Igualdade Racial - MIR, das Mulheres - MMulheres e do Turismo - MTur, no âmbito do programa Asas Para Todos. 
 
-Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQJQeFdyTFAonh</summary>
-    <link rel="enclosure" href="https://i3.ytimg.com/vi/Z7CZHKzENOk/hqdefault.jpg" type="image/jpeg"/>
+Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQJQeFdyTFAonh]]></summary>
+    <content type="html"><![CDATA[
+      <p>Neste seminário, serão apresentados os resultados da produção científica realizada pela UnB, intitulada “Projeto de Pesquisa Mulheres na Aviação Civil: estudos para uma regulação inclusiva no setor” que estudou as barreiras que impedem ou dificultem a participação de mulheres no mercado da aviação civil brasileira. O evento é fruto do Acordo de Cooperação Técnica, celebrado entre a Anac e os Ministérios de Portos e Aeroportos - MPor, dos Direitos Humanos e da Cidadania - MDHC, da Igualdade Racial - MIR, das Mulheres - MMulheres e do Turismo - MTur, no âmbito do programa Asas Para Todos. 
+
+Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQJQeFdyTFAonh</p>
+      <img src="https://i3.ytimg.com/vi/Z7CZHKzENOk/hqdefault.jpg" alt="Seminário Mulheres na Aviação - Ações para Regulação Inclusiva"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i3.ytimg.com/vi/Z7CZHKzENOk/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i3.ytimg.com/vi/Z7CZHKzENOk/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Governo Federal lança ações de acolhimento na aviação para pessoas com Transtorno do Espectro Autista</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/governo-federal-lanca-acoes-de-acolhimento-na-aviacao-para-pessoas-com-transtorno-do-espectro-autista"/>
+    <title type="html"><![CDATA[Governo Federal lança ações de acolhimento na aviação para pessoas com Transtorno do Espectro Autista]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/governo-federal-lanca-acoes-de-acolhimento-na-aviacao-para-pessoas-com-transtorno-do-espectro-autista"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/governo-federal-lanca-acoes-de-acolhimento-na-aviacao-para-pessoas-com-transtorno-do-espectro-autista</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-03T16:32:00.000Z</published>
     <updated>2025-04-03T16:32:00.000Z</updated>
-    <summary>Entre as medidas, estão o lançamento de cartilha sobre inclusão de passageiros neurodivergentes e a inauguração de salas multissensoriais em aeroportos</summary>
     
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-03T16:32:00.000Z</dc:date>
+    <dcterms:created>2025-04-03T16:32:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Entre as medidas, estão o lançamento de cartilha sobre inclusão de passageiros neurodivergentes e a inauguração de salas multissensoriais em aeroportos]]></summary>
+    <content type="html"><![CDATA[
+      <p>Entre as medidas, estão o lançamento de cartilha sobre inclusão de passageiros neurodivergentes e a inauguração de salas multissensoriais em aeroportos</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Prazo para contribuições na revisão do RBAC nº 67 é prorrogado para 11/4</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/prazo-para-contribuicoes-na-revisao-do-rbac-no-67-e-prorrogado-para-11-4"/>
+    <title type="html"><![CDATA[Prazo para contribuições na revisão do RBAC nº 67 é prorrogado para 11/4]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/prazo-para-contribuicoes-na-revisao-do-rbac-no-67-e-prorrogado-para-11-4"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/prazo-para-contribuicoes-na-revisao-do-rbac-no-67-e-prorrogado-para-11-4</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-03T12:08:00.000Z</published>
     <updated>2025-04-03T12:08:00.000Z</updated>
-    <summary>Revisão altera requisitos médicos para pilotos, comissários e mecânicos de voo</summary>
-    <link rel="enclosure" href="https://www.gov.br/anac/pt-br/noticias/2025/prazo-para-contribuicoes-na-revisao-do-rbac-no-67-e-prorrogado-para-11-4/linkedin.png/@@images/c6abb10d-fb66-4fc5-bc9a-ac91b6e94b57.png" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-03T12:08:00.000Z</dc:date>
+    <dcterms:created>2025-04-03T12:08:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Revisão altera requisitos médicos para pilotos, comissários e mecânicos de voo]]></summary>
+    <content type="html"><![CDATA[
+      <p>Revisão altera requisitos médicos para pilotos, comissários e mecânicos de voo</p>
+      <img src="https://www.gov.br/anac/pt-br/noticias/2025/prazo-para-contribuicoes-na-revisao-do-rbac-no-67-e-prorrogado-para-11-4/linkedin.png/@@images/c6abb10d-fb66-4fc5-bc9a-ac91b6e94b57.png" alt="Prazo para contribuições na revisão do RBAC nº 67 é prorrogado para 11/4"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://www.gov.br/anac/pt-br/noticias/2025/prazo-para-contribuicoes-na-revisao-do-rbac-no-67-e-prorrogado-para-11-4/linkedin.png/@@images/c6abb10d-fb66-4fc5-bc9a-ac91b6e94b57.png" width="800" height="600"/>
+    <media:content url="https://www.gov.br/anac/pt-br/noticias/2025/prazo-para-contribuicoes-na-revisao-do-rbac-no-67-e-prorrogado-para-11-4/linkedin.png/@@images/c6abb10d-fb66-4fc5-bc9a-ac91b6e94b57.png" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Consulta pública para atualização do RBAC 153 foi prorrogada até 25/4</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/consulta-publica-para-atualizacao-do-rbac-153-foi-prorrogada-ate-25-4"/>
+    <title type="html"><![CDATA[Consulta pública para atualização do RBAC 153 foi prorrogada até 25/4]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/consulta-publica-para-atualizacao-do-rbac-153-foi-prorrogada-ate-25-4"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/consulta-publica-para-atualizacao-do-rbac-153-foi-prorrogada-ate-25-4</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-03T11:31:00.000Z</published>
     <updated>2025-04-03T11:31:00.000Z</updated>
-    <summary>Proposta atualiza regras relacionadas à remoção de aeronaves inoperantes e desinterdição de pistas</summary>
     
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-03T11:31:00.000Z</dc:date>
+    <dcterms:created>2025-04-03T11:31:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Proposta atualiza regras relacionadas à remoção de aeronaves inoperantes e desinterdição de pistas]]></summary>
+    <content type="html"><![CDATA[
+      <p>Proposta atualiza regras relacionadas à remoção de aeronaves inoperantes e desinterdição de pistas</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Novo plano de ação ambiental da Anac detalha iniciativas para reduzir impactos ambientais da aviação</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/novo-plano-de-acao-ambiental-da-anac-detalha-iniciativas-para-reduzir-impactos-ambientais-da-aviacao"/>
+    <title type="html"><![CDATA[Novo plano de ação ambiental da Anac detalha iniciativas para reduzir impactos ambientais da aviação]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/novo-plano-de-acao-ambiental-da-anac-detalha-iniciativas-para-reduzir-impactos-ambientais-da-aviacao"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/novo-plano-de-acao-ambiental-da-anac-detalha-iniciativas-para-reduzir-impactos-ambientais-da-aviacao</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-02T15:56:00.000Z</published>
     <updated>2025-04-02T15:56:00.000Z</updated>
-    <summary>Novos instrumentos de ação ambiental visam mitigar poluentes, promover a transição energética e fortalecer a sustentabilidade do setor.</summary>
     
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-02T15:56:00.000Z</dc:date>
+    <dcterms:created>2025-04-02T15:56:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Novos instrumentos de ação ambiental visam mitigar poluentes, promover a transição energética e fortalecer a sustentabilidade do setor.]]></summary>
+    <content type="html"><![CDATA[
+      <p>Novos instrumentos de ação ambiental visam mitigar poluentes, promover a transição energética e fortalecer a sustentabilidade do setor.</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Startup Anac Segura é o mais novo projeto de transformação digital da Agência</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/startup-anac-segura-e-o-mais-novo-projeto-de-transformacao-digital-da-agencia"/>
+    <title type="html"><![CDATA[Startup Anac Segura é o mais novo projeto de transformação digital da Agência]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/startup-anac-segura-e-o-mais-novo-projeto-de-transformacao-digital-da-agencia"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/startup-anac-segura-e-o-mais-novo-projeto-de-transformacao-digital-da-agencia</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-04-01T09:04:00.000Z</published>
     <updated>2025-04-01T09:04:00.000Z</updated>
-    <summary>A parceria firmada com o MGI acelera a implantação do Programa de Privacidade e Segurança da Informação (PPSI) e ajudará a Anac no combate a ataques cibernéticos</summary>
     
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-04-01T09:04:00.000Z</dc:date>
+    <dcterms:created>2025-04-01T09:04:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[A parceria firmada com o MGI acelera a implantação do Programa de Privacidade e Segurança da Informação (PPSI) e ajudará a Anac no combate a ataques cibernéticos]]></summary>
+    <content type="html"><![CDATA[
+      <p>A parceria firmada com o MGI acelera a implantação do Programa de Privacidade e Segurança da Informação (PPSI) e ajudará a Anac no combate a ataques cibernéticos</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Semana +OM: Apresentação do Portal 145</title>
-    <link href="https://www.youtube.com/watch?v=plwxV4XNIjg"/>
+    <title type="html"><![CDATA[Semana +OM: Apresentação do Portal 145]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=plwxV4XNIjg"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=plwxV4XNIjg</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-29T07:58:47.000Z</published>
     <updated>2025-03-29T07:58:47.000Z</updated>
-    <summary>Perguntas pelo sli.do - https://app.sli.do/event/w2Gp48zT79mygXn2xV9CDJ</summary>
-    <link rel="enclosure" href="https://i1.ytimg.com/vi/plwxV4XNIjg/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-29T07:58:47.000Z</dc:date>
+    <dcterms:created>2025-03-29T07:58:47.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Perguntas pelo sli.do - https://app.sli.do/event/w2Gp48zT79mygXn2xV9CDJ]]></summary>
+    <content type="html"><![CDATA[
+      <p>Perguntas pelo sli.do - https://app.sli.do/event/w2Gp48zT79mygXn2xV9CDJ</p>
+      <img src="https://i1.ytimg.com/vi/plwxV4XNIjg/hqdefault.jpg" alt="Semana +OM: Apresentação do Portal 145"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i1.ytimg.com/vi/plwxV4XNIjg/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i1.ytimg.com/vi/plwxV4XNIjg/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Anac e Receita Federal firmam parceria para aprimorar processos de exportação de carga aérea</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-receita-federal-firmam-parceria-para-aprimorar-processos-de-exportacao-de-carga-aerea"/>
+    <title type="html"><![CDATA[Anac e Receita Federal firmam parceria para aprimorar processos de exportação de carga aérea]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-receita-federal-firmam-parceria-para-aprimorar-processos-de-exportacao-de-carga-aerea"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-receita-federal-firmam-parceria-para-aprimorar-processos-de-exportacao-de-carga-aerea</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-28T18:22:00.000Z</published>
     <updated>2025-03-28T18:22:00.000Z</updated>
-    <summary>Medida pretende aperfeiçoar a segurança das operações, facilitar o transporte aéreo e aumentar a eficiência no fluxo de mercadorias para o exterior</summary>
     
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-28T18:22:00.000Z</dc:date>
+    <dcterms:created>2025-03-28T18:22:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Medida pretende aperfeiçoar a segurança das operações, facilitar o transporte aéreo e aumentar a eficiência no fluxo de mercadorias para o exterior]]></summary>
+    <content type="html"><![CDATA[
+      <p>Medida pretende aperfeiçoar a segurança das operações, facilitar o transporte aéreo e aumentar a eficiência no fluxo de mercadorias para o exterior</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Profissionais do Aeroporto de Guarulhos fazem treinamento sobre atendimento a migrantes</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/profissionais-do-aeroporto-de-guarulhos-fazem-treinamento-sobre-atendimento-a-migrantes"/>
+    <title type="html"><![CDATA[Profissionais do Aeroporto de Guarulhos fazem treinamento sobre atendimento a migrantes]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/profissionais-do-aeroporto-de-guarulhos-fazem-treinamento-sobre-atendimento-a-migrantes"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/profissionais-do-aeroporto-de-guarulhos-fazem-treinamento-sobre-atendimento-a-migrantes</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-28T16:49:00.000Z</published>
     <updated>2025-03-28T16:49:00.000Z</updated>
-    <summary>Liderada pelo MDHC e pela Anvisa, capacitação orientou sobre o atendimento a passageiros migrantes, solicitantes de refúgio ou de asilo</summary>
     
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-28T16:49:00.000Z</dc:date>
+    <dcterms:created>2025-03-28T16:49:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Liderada pelo MDHC e pela Anvisa, capacitação orientou sobre o atendimento a passageiros migrantes, solicitantes de refúgio ou de asilo]]></summary>
+    <content type="html"><![CDATA[
+      <p>Liderada pelo MDHC e pela Anvisa, capacitação orientou sobre o atendimento a passageiros migrantes, solicitantes de refúgio ou de asilo</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Abertas inscrições para treinamento inicial para Profissionais Credenciados de Projeto (PCP) e Fabricação (PCF)</title>
-    <link href="https://www.gov.br/anac/pt-br/noticias/2025/abertas-inscricoes-para-treinamento-inicial-para-profissionais-credenciados-de-projeto-pcp-e-fabricacao-pcf"/>
+    <title type="html"><![CDATA[Abertas inscrições para treinamento inicial para Profissionais Credenciados de Projeto (PCP) e Fabricação (PCF)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/abertas-inscricoes-para-treinamento-inicial-para-profissionais-credenciados-de-projeto-pcp-e-fabricacao-pcf"/>
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/abertas-inscricoes-para-treinamento-inicial-para-profissionais-credenciados-de-projeto-pcp-e-fabricacao-pcf</id>
-    <updated>2025-03-28T14:26:00.000Z</updated>
-    <summary>As capacitações serão online, prazo termina em 2/5</summary>
     
+    <!-- Datas corretas -->
+    <published>2025-03-28T14:26:00.000Z</published>
+    <updated>2025-03-28T14:26:00.000Z</updated>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-28T14:26:00.000Z</dc:date>
+    <dcterms:created>2025-03-28T14:26:00.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[As capacitações serão online, prazo termina em 2/5]]></summary>
+    <content type="html"><![CDATA[
+      <p>As capacitações serão online, prazo termina em 2/5</p>
+      
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    
+    <!-- Categorias -->
+    <category term="texto" label="Notícia"/>
   </entry>
   
   
   <entry>
-    <title>Semana +OM: Jornada eAEV</title>
-    <link href="https://www.youtube.com/watch?v=vLU6daq1zzY"/>
+    <title type="html"><![CDATA[Semana +OM: Jornada eAEV]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=vLU6daq1zzY"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=vLU6daq1zzY</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-28T08:09:05.000Z</published>
     <updated>2025-03-28T08:09:05.000Z</updated>
-    <summary>Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-4.pptx</summary>
-    <link rel="enclosure" href="https://i3.ytimg.com/vi/vLU6daq1zzY/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-28T08:09:05.000Z</dc:date>
+    <dcterms:created>2025-03-28T08:09:05.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-4.pptx]]></summary>
+    <content type="html"><![CDATA[
+      <p>Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-4.pptx</p>
+      <img src="https://i3.ytimg.com/vi/vLU6daq1zzY/hqdefault.jpg" alt="Semana +OM: Jornada eAEV"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i3.ytimg.com/vi/vLU6daq1zzY/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i3.ytimg.com/vi/vLU6daq1zzY/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Semana +OM: Fatores humanos na manutenção e bate-papo sobre Certificação e Fiscalização</title>
-    <link href="https://www.youtube.com/watch?v=ZvZ8Fj_kX8E"/>
+    <title type="html"><![CDATA[Semana +OM: Fatores humanos na manutenção e bate-papo sobre Certificação e Fiscalização]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ZvZ8Fj_kX8E"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=ZvZ8Fj_kX8E</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-26T20:23:36.000Z</published>
     <updated>2025-03-26T20:23:36.000Z</updated>
-    <summary>Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-3.pptx</summary>
-    <link rel="enclosure" href="https://i3.ytimg.com/vi/ZvZ8Fj_kX8E/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-26T20:23:36.000Z</dc:date>
+    <dcterms:created>2025-03-26T20:23:36.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-3.pptx]]></summary>
+    <content type="html"><![CDATA[
+      <p>Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-3.pptx</p>
+      <img src="https://i3.ytimg.com/vi/ZvZ8Fj_kX8E/hqdefault.jpg" alt="Semana +OM: Fatores humanos na manutenção e bate-papo sobre Certificação e Fiscalização"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i3.ytimg.com/vi/ZvZ8Fj_kX8E/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i3.ytimg.com/vi/ZvZ8Fj_kX8E/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>5ª Reunião Deliberativa da Diretoria Colegiada (25/03/2025)</title>
-    <link href="https://www.youtube.com/watch?v=CL9vBVWl9vQ"/>
+    <title type="html"><![CDATA[5ª Reunião Deliberativa da Diretoria Colegiada (25/03/2025)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CL9vBVWl9vQ"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=CL9vBVWl9vQ</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-26T06:13:43.000Z</published>
     <updated>2025-03-26T06:13:43.000Z</updated>
-    <summary>Início - 16:41
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-26T06:13:43.000Z</dc:date>
+    <dcterms:created>2025-03-26T06:13:43.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Início - 16:41
 Processo 00058.090127/2024-22 - 17:30
-Processo 00058.021107/2025-92 (extrapauta) - 25:32</summary>
-    <link rel="enclosure" href="https://i4.ytimg.com/vi/CL9vBVWl9vQ/hqdefault.jpg" type="image/jpeg"/>
+Processo 00058.021107/2025-92 (extrapauta) - 25:32]]></summary>
+    <content type="html"><![CDATA[
+      <p>Início - 16:41
+Processo 00058.090127/2024-22 - 17:30
+Processo 00058.021107/2025-92 (extrapauta) - 25:32</p>
+      <img src="https://i4.ytimg.com/vi/CL9vBVWl9vQ/hqdefault.jpg" alt="5ª Reunião Deliberativa da Diretoria Colegiada (25/03/2025)"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i4.ytimg.com/vi/CL9vBVWl9vQ/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i4.ytimg.com/vi/CL9vBVWl9vQ/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Semana +OM: Modelos de MOM, MCQ, PTM e SGSO nas Oficinas</title>
-    <link href="https://www.youtube.com/watch?v=67QilHvBlK4"/>
+    <title type="html"><![CDATA[Semana +OM: Modelos de MOM, MCQ, PTM e SGSO nas Oficinas]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=67QilHvBlK4"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=67QilHvBlK4</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-25T15:14:57.000Z</published>
     <updated>2025-03-25T15:14:57.000Z</updated>
-    <summary>Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-2.pptx</summary>
-    <link rel="enclosure" href="https://i3.ytimg.com/vi/67QilHvBlK4/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-25T15:14:57.000Z</dc:date>
+    <dcterms:created>2025-03-25T15:14:57.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-2.pptx]]></summary>
+    <content type="html"><![CDATA[
+      <p>Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-2.pptx</p>
+      <img src="https://i3.ytimg.com/vi/67QilHvBlK4/hqdefault.jpg" alt="Semana +OM: Modelos de MOM, MCQ, PTM e SGSO nas Oficinas"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i3.ytimg.com/vi/67QilHvBlK4/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i3.ytimg.com/vi/67QilHvBlK4/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Semana +OM: Revisões de IS relacionadas a oficinas - RBAC 145</title>
-    <link href="https://www.youtube.com/watch?v=3YK90DVy_S0"/>
+    <title type="html"><![CDATA[Semana +OM: Revisões de IS relacionadas a oficinas - RBAC 145]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=3YK90DVy_S0"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=3YK90DVy_S0</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-25T08:14:36.000Z</published>
     <updated>2025-03-25T08:14:36.000Z</updated>
-    <summary>Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-1.pptx</summary>
-    <link rel="enclosure" href="https://i4.ytimg.com/vi/3YK90DVy_S0/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-25T08:14:36.000Z</dc:date>
+    <dcterms:created>2025-03-25T08:14:36.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-1.pptx]]></summary>
+    <content type="html"><![CDATA[
+      <p>Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-1.pptx</p>
+      <img src="https://i4.ytimg.com/vi/3YK90DVy_S0/hqdefault.jpg" alt="Semana +OM: Revisões de IS relacionadas a oficinas - RBAC 145"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i4.ytimg.com/vi/3YK90DVy_S0/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i4.ytimg.com/vi/3YK90DVy_S0/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>4ª Reunião Deliberativa da Diretoria Colegiada (18/03/2025)</title>
-    <link href="https://www.youtube.com/watch?v=frUO2_Duta4"/>
+    <title type="html"><![CDATA[4ª Reunião Deliberativa da Diretoria Colegiada (18/03/2025)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=frUO2_Duta4"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=frUO2_Duta4</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-19T06:39:19.000Z</published>
     <updated>2025-03-19T06:39:19.000Z</updated>
-    <summary>Processo 00058.032050/2020-42 
-Processo 00058.033268/2023-67</summary>
-    <link rel="enclosure" href="https://i3.ytimg.com/vi/frUO2_Duta4/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-19T06:39:19.000Z</dc:date>
+    <dcterms:created>2025-03-19T06:39:19.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Processo 00058.032050/2020-42 
+Processo 00058.033268/2023-67]]></summary>
+    <content type="html"><![CDATA[
+      <p>Processo 00058.032050/2020-42 
+Processo 00058.033268/2023-67</p>
+      <img src="https://i3.ytimg.com/vi/frUO2_Duta4/hqdefault.jpg" alt="4ª Reunião Deliberativa da Diretoria Colegiada (18/03/2025)"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i3.ytimg.com/vi/frUO2_Duta4/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i3.ytimg.com/vi/frUO2_Duta4/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Audiência Pública n° 02/2025 - Revisão normativa sobre acessibilidade no transporte aéreo</title>
-    <link href="https://www.youtube.com/watch?v=AocGNbmvotc"/>
+    <title type="html"><![CDATA[Audiência Pública n° 02/2025 - Revisão normativa sobre acessibilidade no transporte aéreo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=AocGNbmvotc"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=AocGNbmvotc</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-13T22:34:41.000Z</published>
     <updated>2025-03-13T22:34:41.000Z</updated>
-    <summary>A Consulta Pública nº 02/2025, propõe a revisão da Resolução nº 280 de 11 de julho de 2013, garantindo mais inclusão, autonomia e segurança para Passageiros com Necessidades de Assistência Especial (Pnae).  Acesse informações da proposta em:  https://www.gov.br/anac/pt-br/noticias/2025/anac-da-inicio-a-consulta-publica-sobre-novas-regras-de-acessibilidade-no-transporte-aereo</summary>
-    <link rel="enclosure" href="https://i2.ytimg.com/vi/AocGNbmvotc/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-13T22:34:41.000Z</dc:date>
+    <dcterms:created>2025-03-13T22:34:41.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[A Consulta Pública nº 02/2025, propõe a revisão da Resolução nº 280 de 11 de julho de 2013, garantindo mais inclusão, autonomia e segurança para Passageiros com Necessidades de Assistência Especial (Pnae).  Acesse informações da proposta em:  https://www.gov.br/anac/pt-br/noticias/2025/anac-da-inicio-a-consulta-publica-sobre-novas-regras-de-acessibilidade-no-transporte-aereo]]></summary>
+    <content type="html"><![CDATA[
+      <p>A Consulta Pública nº 02/2025, propõe a revisão da Resolução nº 280 de 11 de julho de 2013, garantindo mais inclusão, autonomia e segurança para Passageiros com Necessidades de Assistência Especial (Pnae).  Acesse informações da proposta em:  https://www.gov.br/anac/pt-br/noticias/2025/anac-da-inicio-a-consulta-publica-sobre-novas-regras-de-acessibilidade-no-transporte-aereo</p>
+      <img src="https://i2.ytimg.com/vi/AocGNbmvotc/hqdefault.jpg" alt="Audiência Pública n° 02/2025 - Revisão normativa sobre acessibilidade no transporte aéreo"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i2.ytimg.com/vi/AocGNbmvotc/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i2.ytimg.com/vi/AocGNbmvotc/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>3ª Reunião Deliberativa da Diretoria Colegiada (11/03/2025)</title>
-    <link href="https://www.youtube.com/watch?v=FzjCNk9IluY"/>
+    <title type="html"><![CDATA[3ª Reunião Deliberativa da Diretoria Colegiada (11/03/2025)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=FzjCNk9IluY"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=FzjCNk9IluY</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-03-12T06:55:48.000Z</published>
     <updated>2025-03-12T06:55:48.000Z</updated>
-    <summary>Início - 1:31
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-03-12T06:55:48.000Z</dc:date>
+    <dcterms:created>2025-03-12T06:55:48.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Início - 1:31
 Processo 00058.085397/2024-11 - 2:19
 Processo 00058.066364/2023-91 - 8:53
-Processo 00058.052059/2024-01 - 17:48</summary>
-    <link rel="enclosure" href="https://i3.ytimg.com/vi/FzjCNk9IluY/hqdefault.jpg" type="image/jpeg"/>
+Processo 00058.052059/2024-01 - 17:48]]></summary>
+    <content type="html"><![CDATA[
+      <p>Início - 1:31
+Processo 00058.085397/2024-11 - 2:19
+Processo 00058.066364/2023-91 - 8:53
+Processo 00058.052059/2024-01 - 17:48</p>
+      <img src="https://i3.ytimg.com/vi/FzjCNk9IluY/hqdefault.jpg" alt="3ª Reunião Deliberativa da Diretoria Colegiada (11/03/2025)"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i3.ytimg.com/vi/FzjCNk9IluY/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i3.ytimg.com/vi/FzjCNk9IluY/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Webinário: Novas regras para exames MMA</title>
-    <link href="https://www.youtube.com/watch?v=VNrryz_m_rg"/>
+    <title type="html"><![CDATA[Webinário: Novas regras para exames MMA]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=VNrryz_m_rg"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=VNrryz_m_rg</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-02-14T09:44:01.000Z</published>
     <updated>2025-02-14T09:44:01.000Z</updated>
-    <summary>Faça seus questionamentos pelo sli.do - https://app.sli.do/event/qhdYwS6SMCQV3yrhc99EPi</summary>
-    <link rel="enclosure" href="https://i3.ytimg.com/vi/VNrryz_m_rg/hqdefault.jpg" type="image/jpeg"/>
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-02-14T09:44:01.000Z</dc:date>
+    <dcterms:created>2025-02-14T09:44:01.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Faça seus questionamentos pelo sli.do - https://app.sli.do/event/qhdYwS6SMCQV3yrhc99EPi]]></summary>
+    <content type="html"><![CDATA[
+      <p>Faça seus questionamentos pelo sli.do - https://app.sli.do/event/qhdYwS6SMCQV3yrhc99EPi</p>
+      <img src="https://i3.ytimg.com/vi/VNrryz_m_rg/hqdefault.jpg" alt="Webinário: Novas regras para exames MMA"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i3.ytimg.com/vi/VNrryz_m_rg/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i3.ytimg.com/vi/VNrryz_m_rg/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
   
   <entry>
-    <title>Webinário: Novas regras para exames PLA</title>
-    <link href="https://www.youtube.com/watch?v=wLK3hEhqhLc"/>
+    <title type="html"><![CDATA[Webinário: Novas regras para exames PLA]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=wLK3hEhqhLc"/>
     <id>urn:uuid:https://www.youtube.com/watch?v=wLK3hEhqhLc</id>
+    
+    <!-- Datas corretas -->
+    <published>2025-02-12T05:47:25.000Z</published>
     <updated>2025-02-12T05:47:25.000Z</updated>
-    <summary>Faça seus questionamentos pelo sli.do - https://app.sli.do/event/4CnejndvfG81gu7btSZwUp
+    
+    <!-- Metadados do Item -->
+    <author>
+      <name>ANAC</name>
+    </author>
+    <dc:contributor>Agência Nacional de Aviação Civil (ANAC)</dc:contributor>
+    <dc:date>2025-02-12T05:47:25.000Z</dc:date>
+    <dcterms:created>2025-02-12T05:47:25.000Z</dcterms:created>
+    
+    <!-- Conteúdo -->
+    <summary type="html"><![CDATA[Faça seus questionamentos pelo sli.do - https://app.sli.do/event/4CnejndvfG81gu7btSZwUp
 
 Hotsite Asas para Todos - https://hotsites.anac.gov.br/asasparatodos/
-Restituição de TFAC - https://www.gov.br/pt-br/servicos/obter-restituicao-de-taxa-de-fiscalizacao-da-aviacao-civil</summary>
-    <link rel="enclosure" href="https://i4.ytimg.com/vi/wLK3hEhqhLc/hqdefault.jpg" type="image/jpeg"/>
+Restituição de TFAC - https://www.gov.br/pt-br/servicos/obter-restituicao-de-taxa-de-fiscalizacao-da-aviacao-civil]]></summary>
+    <content type="html"><![CDATA[
+      <p>Faça seus questionamentos pelo sli.do - https://app.sli.do/event/4CnejndvfG81gu7btSZwUp
+
+Hotsite Asas para Todos - https://hotsites.anac.gov.br/asasparatodos/
+Restituição de TFAC - https://www.gov.br/pt-br/servicos/obter-restituicao-de-taxa-de-fiscalizacao-da-aviacao-civil</p>
+      <img src="https://i4.ytimg.com/vi/wLK3hEhqhLc/hqdefault.jpg" alt="Webinário: Novas regras para exames PLA"/>
+    ]]></content>
+    
+    <!-- Metadados de Mídia -->
+    
+    <media:thumbnail url="https://i4.ytimg.com/vi/wLK3hEhqhLc/hqdefault.jpg" width="800" height="600"/>
+    <media:content url="https://i4.ytimg.com/vi/wLK3hEhqhLc/hqdefault.jpg" type="image/jpeg" medium="image"/>
+    
+    
+    <!-- Categorias -->
+    <category term="vídeo" label="Vídeo"/>
   </entry>
   
 </feed>
