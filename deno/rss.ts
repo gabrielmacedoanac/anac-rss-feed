@@ -49,11 +49,26 @@ for (let i = 0; i < Math.min(maxNoticias, artigos.length); i++) {
   }
 }
 
-// Converte ISO 8601 para "DD/MM/YYYY HHhMM"
-function formatDate(isoDate: string): string {
-  const d = new Date(isoDate);
-  const pad = (n: number) => n.toString().padStart(2, "0");
-  return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()} ${pad(d.getHours())}h${pad(d.getMinutes())}`;
+// Converte "DD/MM/YYYY HHhMM" para Date e para string formatada
+function parseCustomDate(dateStr: string): { formatted: string; dateObj: Date } {
+  if (!dateStr || dateStr === "ND") {
+    const now = new Date();
+    return {
+      formatted: `${now.getDate().toString().padStart(2, '0')}/${(now.getMonth() + 1).toString().padStart(2, '0')}/${now.getFullYear()} ${now.getHours().toString().padStart(2, '0')}h${now.getMinutes().toString().padStart(2, '0')}`,
+      dateObj: now
+    };
+  }
+
+  const [datePart, timePart] = dateStr.split(' ');
+  const [day, month, year] = datePart.split('/').map(Number);
+  const [hours, minutes] = timePart.replace('h', ':').split(':').map(Number);
+
+  const dateObj = new Date(year, month - 1, day, hours || 0, minutes || 0);
+  
+  return {
+    formatted: dateStr,
+    dateObj
+  };
 }
 
 // Função para buscar vídeos do canal da ANAC no YouTube
@@ -67,11 +82,12 @@ async function fetchYouTubeVideos(channelId: string) {
   const videos = Array.isArray(entries) ? entries : [entries];
 
   return videos.slice(0, maxVideos).map((video: any) => {
-    const date = video.published ? formatDate(video.published) : "ND";
+    const date = video.published ? new Date(video.published) : new Date();
     return {
       title: video.title,
       link: video.link?.["@_href"] || video.link?.["@_url"],
-      date,
+      date: `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()} ${date.getHours().toString().padStart(2, '0')}h${date.getMinutes().toString().padStart(2, '0')}`,
+      dateObj: date,
       description: video["media:group"]?.["media:description"] || "",
       image: video["media:group"]?.["media:thumbnail"]?.["@_url"] || null,
       type: "vídeo",
@@ -83,18 +99,27 @@ async function fetchYouTubeVideos(channelId: string) {
 const youtubeChannelId = "UC5ynmbMZXolM-jo2hGR31qg";
 const youtubeVideos = await fetchYouTubeVideos(youtubeChannelId);
 
+// Processa as notícias para incluir o objeto Date
+const processedNoticias = noticias.map(n => {
+  const { formatted, dateObj } = parseCustomDate(n.date);
+  return { ...n, date: formatted, dateObj };
+});
+
 // Combina e ordena os conteúdos por data decrescente
-const conteudos = [...noticias, ...youtubeVideos].sort((a, b) => {
-  const d1 = new Date(b.date);
-  const d2 = new Date(a.date);
-  return d1.getTime() - d2.getTime();
+const conteudos = [...processedNoticias, ...youtubeVideos].sort((a, b) => {
+  return b.dateObj.getTime() - a.dateObj.getTime();
 });
 
 // Garante que a pasta data/ exista
 await Deno.mkdir("data", { recursive: true });
 
 // Salva JSON
-await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudos, null, 2));
+await Deno.writeTextFile("data/feed.json", JSON.stringify(conteudos.map(c => ({
+  ...c,
+  date: c.date,
+  // Removemos dateObj do JSON para não poluir a saída
+  dateObj: undefined
+})), null, 2));
 
 // Gera HTML simples
 const htmlContent = `
@@ -112,63 +137,59 @@ const htmlContent = `
 await Deno.writeTextFile("index.html", htmlContent);
 await Deno.writeTextFile("data/index.html", htmlContent);
 
-// Gera RSS/XML
+// Gera RSS/XML com datas corretas
 const rssItems = conteudos.map(n => {
-  let pubDate;
-  try {
-    pubDate = new Date(n.date).toUTCString();
-    if (pubDate === 'Invalid Date') throw new Error();
-  } catch {
-    pubDate = new Date().toUTCString();
-  }
-
+  // Garante que a data está no formato correto para RSS (RFC 2822)
+  const pubDate = n.dateObj.toUTCString();
+  
   return `
   <item>
     <title><![CDATA[${n.title}]]></title>
     <link>${n.link}</link>
     <description><![CDATA[${n.description}]]></description>
     <pubDate>${pubDate}</pubDate>
+    <guid isPermaLink="true">${n.link}</guid>
+    <dc:date>${n.dateObj.toISOString()}</dc:date>
   </item>`;
 }).join("\n");
 
 const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     ${rssItems}
   </channel>
 </rss>`;
 await Deno.writeTextFile("data/rss.xml", rssXml);
 
-// Gera ATOM
+// Gera ATOM com datas corretas
 const atomItems = conteudos.map(n => {
-  const id = n.link;
-  let updated;
-  try {
-    updated = new Date(n.date).toISOString();
-    if (updated === 'Invalid Date') throw new Error();
-  } catch {
-    updated = new Date().toISOString();
-  }
-
+  // Usa a data correta no formato ISO
+  const updated = n.dateObj.toISOString();
+  
   return `
   <entry>
-    <title><![CDATA[${n.title}]]></title>
-    <link href="${n.link}" />
-    <id>${id}</id>
+    <title type="html"><![CDATA[${n.title}]]></title>
+    <link rel="alternate" type="text/html" href="${n.link}" />
+    <id>urn:uuid:${n.link}</id>
     <updated>${updated}</updated>
-    <summary><![CDATA[${n.description}]]></summary>
+    <published>${updated}</published>
+    <summary type="html"><![CDATA[${n.description}]]></summary>
   </entry>`;
 }).join("\n");
+
+// Usa a data do item mais recente para o feed
+const feedUpdated = conteudos.length > 0 ? conteudos[0].dateObj.toISOString() : new Date().toISOString();
 
 const atomXml = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>${new Date().toISOString()}</updated>
-  <id>https://www.gov.br/anac/pt-br/noticias</id>
+  <updated>${feedUpdated}</updated>
+  <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   ${atomItems}
 </feed>`;
 await Deno.writeTextFile("data/atom.xml", atomXml);
