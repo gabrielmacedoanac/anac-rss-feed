@@ -2,6 +2,15 @@
 const maxNotícias = 10; // Exemplo de 10 notícias
 const maxVídeos = 5; // Exemplo de 5 vídeos
 
+// Carregar o conteúdo da página de notícias
+const urlNotícias = "https://www.gov.br/anac/pt-br/noticias"; // Substitua pela URL correta das notícias
+const resNoticias = await fetch(urlNotícias);
+const htmlNotícias = await resNoticias.text();
+
+// Parse do conteúdo HTML para manipulação com DOM
+const parser = new DOMParser();
+const doc = parser.parseFromString(htmlNotícias, "text/html");
+
 // Extrai as notícias (máximo de `maxNotícias` notícias)
 const noticias = [];
 const artigos = doc.querySelectorAll("article.tileItem");
