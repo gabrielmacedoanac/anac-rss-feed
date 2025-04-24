@@ -43,7 +43,7 @@ for (let i = 0; i < Math.min(maxNoticias, artigos.length); i++) {
     const imgElem = el.querySelector("div.tileImage img");
     const image = imgElem?.getAttribute("src") || null;
 
-    noticias.push({ title, link, date: dateTime, description, image, type: "notícia" });
+    noticias.push({ title, link, date: dateTime, description, image, type: "texto" });
   } catch (e) {
     console.warn("⚠️ Erro ao processar item:", e);
   }
