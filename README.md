@@ -4,9 +4,9 @@ Este repositório coleta as últimas notícias da ANAC e gera feeds em formatos 
 
 ## Funcionalidades
 
-- **RSS 2.0**: `data/rss.xml`
+- **RSS**: `data/rss.xml`
 - **Atom**: `data/atom.xml`
-- **JSON Simples**: `data/feed.json`
+- **JSON**: `data/feed.json`
 - **HTML**: `data/index.html`
 
 ## Como usar
