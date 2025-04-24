@@ -1,6 +1,10 @@
 import { parse } from "https://denopkg.com/ThauEx/deno-fast-xml-parser/mod.ts";
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
+// Variáveis para definir quantos vídeos e notícias serão recuperados
+const maxNoticias = 10; // Quantidade de notícias a recuperar
+const maxVideos = 5;    // Quantidade de vídeos a recuperar
+
 // URL de origem
 const url = "https://www.gov.br/anac/pt-br/noticias";
 const headers = { "User-Agent": "Mozilla/5.0" };
@@ -20,7 +24,7 @@ if (!doc) {
 const noticias = [];
 const artigos = doc.querySelectorAll("article.tileItem");
 
-for (let i = 0; i < Math.min(30, artigos.length); i++) {
+for (let i = 0; i < Math.min(maxNoticias, artigos.length); i++) {
   const el = artigos[i];
   try {
     const titleElem = el.querySelector("h2.tileHeadline a");
@@ -62,7 +66,7 @@ async function fetchYouTubeVideos(channelId: string) {
   const entries = parsed.feed?.entry || [];
   const videos = Array.isArray(entries) ? entries : [entries];
 
-  return videos.map((video: any) => {
+  return videos.slice(0, maxVideos).map((video: any) => {
     const date = video.published ? formatDate(video.published) : "ND";
     return {
       title: video.title,
