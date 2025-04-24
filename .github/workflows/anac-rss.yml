@@ -1,128 +1,31 @@
-name: ANAC RSS Feed Generator
+name: Fetch ANAC RSS
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Executa a cada 6 horas
-  workflow_dispatch:
+    - cron: '0 */4 * * *'  # Executa a cada 4h
+  workflow_dispatch:      # Permite execução manual
 
 jobs:
-  generate-feeds:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Deno
         uses: denoland/setup-deno@v1
         with:
-          deno-version: '1.40.x'
+          deno-version: v1.x
 
-      - name: Generate feeds
-        run: |
-          cat << 'EOF' > script.ts
-          import { Feed } from "https://esm.sh/feed@4.2.2";
-          import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.45/deno-dom-wasm.ts";
+      - name: ▶️ Executar script Deno para gerar JSON e HTML
+        run: deno run --allow-net --allow-write deno/fetch_news.ts
+      
+      - name: 🛠️ Gerar RSS a partir do JSON
+        run: deno run --allow-net --allow-write deno/json_to_rss.ts      
 
-          const ANAC_URL = "https://www.gov.br/anac/pt-br/noticias";
-
-          async function generateFeeds() {
-            try {
-              // 1. Fetch HTML
-              console.log("⏳ Buscando HTML...");
-              const response = await fetch(ANAC_URL);
-              const html = await response.text();
-              
-              // 2. Parse HTML usando deno-dom
-              console.log("🔍 Analisando HTML...");
-              const doc = new DOMParser().parseFromString(html, "text/html");
-              if (!doc) throw new Error("Falha ao parsear HTML");
-
-              // 3. Extract news items
-              console.log("📦 Extraindo notícias...");
-              const newsItems = Array.from(doc.querySelectorAll("article.tileItem"))
-                .slice(0, 20)
-                .map((article) => {
-                  const titleElem = article.querySelector("h2.tileHeadline a");
-                  const relativeLink = titleElem?.getAttribute("href") || "";
-                  const link = relativeLink.startsWith("http") 
-                    ? relativeLink 
-                    : `${ANAC_URL}${relativeLink}`;
-                  
-                  return {
-                    title: titleElem?.textContent?.trim() || "Sem título",
-                    link: link,
-                    description: article.querySelector("p.tileBody span.description")?.textContent?.trim() || "",
-                    date: new Date().toISOString()
-                  };
-                });
-
-              // 4. Generate JSON
-              console.log("📝 Gerando JSON...");
-              await Deno.writeTextFile(
-                "anac-news.json",
-                JSON.stringify({
-                  generatedAt: new Date().toISOString(),
-                  source: ANAC_URL,
-                  count: newsItems.length,
-                  items: newsItems
-                }, null, 2)
-              );
-
-              // 5. Generate RSS
-              console.log("📡 Gerando RSS...");
-              const feed = new Feed({
-                title: "ANAC Notícias",
-                description: "Feed RSS das notícias da Agência Nacional de Aviação Civil",
-                id: ANAC_URL,
-                link: ANAC_URL,
-                updated: new Date(),
-                generator: "Deno Feed Generator"
-              });
-
-              newsItems.forEach(item => {
-                feed.addItem({
-                  title: item.title,
-                  id: item.link,
-                  link: item.link,
-                  description: item.description,
-                  date: new Date(item.date)
-                });
-              });
-
-              await Deno.writeTextFile("anac-news.rss.xml", feed.rss2());
-              console.log("✅ Feeds gerados com sucesso!");
-
-            } catch (error) {
-              console.error("❌ Erro ao gerar feeds:", error);
-              Deno.exit(1);
-            }
-          }
-
-          // Inicializa deno-dom e executa
-          console.log("🔄 Inicializando parser HTML...");
-          const { document, Node, HTMLElement } = await import("https://deno.land/x/deno_dom@v0.1.45/src/dom.ts");
-          await generateFeeds();
-          EOF
-
-          deno run --allow-net --allow-read --allow-write --unstable script.ts
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          name: anac-feeds
-          path: |
-            anac-news.json
-            anac-news.rss.xml
-
-      - name: Commit to repository
-        run: |
-          mkdir -p feeds
-          mv anac-news.json feeds/
-          mv anac-news.rss.xml feeds/
-          
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add feeds/
-          git commit -m "📌 Atualização automática dos feeds [$(date +'%d/%m/%Y %H:%M')]" || echo "Nenhuma alteração para commitar"
-          git push
-        
+          commit_message: "📰 Atualiza notícias ANAC (JSON, RSS e HTML)"
+          file_pattern: 'data/noticias.*'

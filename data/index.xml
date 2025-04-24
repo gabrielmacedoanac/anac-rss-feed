@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href=""?>
+<rss version="2.0">
+  <channel>
+    <title>Notícias ANAC (redirect)</title>
+    <link>https://www.gov.br/anac/pt-br/noticias</link>
+    <description>Feed de redirecionamento para o RSS principal</description>
+    <item>
+      <title>Feed disponível</title>
+      <link>https://gabrielmacedoanac.github.io/anac-rss-feed/data/rss.xml</link>
+      <guid>https://gabrielmacedoanac.github.io/anac-rss-feed/data/rss.xml</guid>
+      <description>Redirecionamento para o feed principal</description>
+      <pubDate>${new Date().toUTCString()}</pubDate>
+    </item>
+  </channel>
+</rss>
