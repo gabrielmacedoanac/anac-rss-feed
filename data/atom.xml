@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-04-24T11:24:00.000Z</updated>
+  <updated>2025-04-25T16:01:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Empresa de transporte de cargas recebe certificação da Anac para ingressar no modal aéreo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/empresa-de-transporte-de-cargas-recebe-certificacao-da-anac-para-ingressar-no-modal-aereo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/empresa-de-transporte-de-cargas-recebe-certificacao-da-anac-para-ingressar-no-modal-aereo</id>
+    <updated>2025-04-25T16:01:00.000Z</updated>
+    <published>2025-04-25T16:01:00.000Z</published>
+    <summary type="html"><![CDATA[Braspress Air Cargo poderá transportar mercadorias com dois Boeings 737-400F]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Aberto o curso gratuito Aviation English Level 3]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3" />
@@ -224,15 +233,6 @@ Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQ
     <updated>2025-03-28T16:49:00.000Z</updated>
     <published>2025-03-28T16:49:00.000Z</published>
     <summary type="html"><![CDATA[Liderada pelo MDHC e pela Anvisa, capacitação orientou sobre o atendimento a passageiros migrantes, solicitantes de refúgio ou de asilo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Abertas inscrições para treinamento inicial para Profissionais Credenciados de Projeto (PCP) e Fabricação (PCF)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/abertas-inscricoes-para-treinamento-inicial-para-profissionais-credenciados-de-projeto-pcp-e-fabricacao-pcf" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/abertas-inscricoes-para-treinamento-inicial-para-profissionais-credenciados-de-projeto-pcp-e-fabricacao-pcf</id>
-    <updated>2025-03-28T14:26:00.000Z</updated>
-    <published>2025-03-28T14:26:00.000Z</published>
-    <summary type="html"><![CDATA[As capacitações serão online, prazo termina em 2/5]]></summary>
   </entry>
 
   <entry>
