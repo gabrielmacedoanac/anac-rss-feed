@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-04-25T16:01:00.000Z</updated>
+  <updated>2025-04-25T18:20:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Aeródromo de Parintins (AM) poderá retomar operações com aviões a jato]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aerodromo-de-parintins-am-podera-retomar-operacoes-com-avioes-a-jato" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aerodromo-de-parintins-am-podera-retomar-operacoes-com-avioes-a-jato</id>
+    <updated>2025-04-25T18:20:00.000Z</updated>
+    <published>2025-04-25T18:20:00.000Z</published>
+    <summary type="html"><![CDATA[Anac suspende restrições mediante cumprimento de condicionantes que garantam a segurança das operações aéreas]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Empresa de transporte de cargas recebe certificação da Anac para ingressar no modal aéreo]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/empresa-de-transporte-de-cargas-recebe-certificacao-da-anac-para-ingressar-no-modal-aereo" />
@@ -224,15 +233,6 @@ Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQ
     <updated>2025-03-28T18:22:00.000Z</updated>
     <published>2025-03-28T18:22:00.000Z</published>
     <summary type="html"><![CDATA[Medida pretende aperfeiçoar a segurança das operações, facilitar o transporte aéreo e aumentar a eficiência no fluxo de mercadorias para o exterior]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Profissionais do Aeroporto de Guarulhos fazem treinamento sobre atendimento a migrantes]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/profissionais-do-aeroporto-de-guarulhos-fazem-treinamento-sobre-atendimento-a-migrantes" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/profissionais-do-aeroporto-de-guarulhos-fazem-treinamento-sobre-atendimento-a-migrantes</id>
-    <updated>2025-03-28T16:49:00.000Z</updated>
-    <published>2025-03-28T16:49:00.000Z</published>
-    <summary type="html"><![CDATA[Liderada pelo MDHC e pela Anvisa, capacitação orientou sobre o atendimento a passageiros migrantes, solicitantes de refúgio ou de asilo]]></summary>
   </entry>
 
   <entry>
