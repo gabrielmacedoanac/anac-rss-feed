@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-04-25T18:20:00.000Z</updated>
+  <updated>2025-04-28T08:02:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Cadastro de drones fica mais rápido e intuitivo com novas melhorias no Sisant]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cadastro-de-drones-fica-mais-rapido-e-intuitivo-com-novas-melhorias-no-sisant" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/cadastro-de-drones-fica-mais-rapido-e-intuitivo-com-novas-melhorias-no-sisant</id>
+    <updated>2025-04-28T08:02:00.000Z</updated>
+    <published>2025-04-28T08:02:00.000Z</published>
+    <summary type="html"><![CDATA[Reformulação do sistema traz interface amigável, cadastro em lote e mais flexibilidade para empresas]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Aeródromo de Parintins (AM) poderá retomar operações com aviões a jato]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aerodromo-de-parintins-am-podera-retomar-operacoes-com-avioes-a-jato" />
@@ -224,15 +233,6 @@ Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQ
     <updated>2025-03-29T07:58:47.000Z</updated>
     <published>2025-03-29T07:58:47.000Z</published>
     <summary type="html"><![CDATA[Perguntas pelo sli.do - https://app.sli.do/event/w2Gp48zT79mygXn2xV9CDJ]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac e Receita Federal firmam parceria para aprimorar processos de exportação de carga aérea]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-receita-federal-firmam-parceria-para-aprimorar-processos-de-exportacao-de-carga-aerea" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-receita-federal-firmam-parceria-para-aprimorar-processos-de-exportacao-de-carga-aerea</id>
-    <updated>2025-03-28T18:22:00.000Z</updated>
-    <published>2025-03-28T18:22:00.000Z</published>
-    <summary type="html"><![CDATA[Medida pretende aperfeiçoar a segurança das operações, facilitar o transporte aéreo e aumentar a eficiência no fluxo de mercadorias para o exterior]]></summary>
   </entry>
 
   <entry>
