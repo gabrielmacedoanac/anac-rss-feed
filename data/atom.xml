@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-04-28T08:02:00.000Z</updated>
+  <updated>2025-04-30T16:29:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac promove Avsec & Cyber Week em junho com foco em segurança aérea e cibersegurança]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-avsec-cyber-week-em-junho-com-foco-em-seguranca-aerea-e-ciberseguranca" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-avsec-cyber-week-em-junho-com-foco-em-seguranca-aerea-e-ciberseguranca</id>
+    <updated>2025-04-30T16:29:00.000Z</updated>
+    <published>2025-04-30T16:29:00.000Z</published>
+    <summary type="html"><![CDATA[Evento reunirá especialistas para debater inovações tecnológicas, boas práticas e cooperação internacional na aviação civil]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Cadastro de drones fica mais rápido e intuitivo com novas melhorias no Sisant]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cadastro-de-drones-fica-mais-rapido-e-intuitivo-com-novas-melhorias-no-sisant" />
@@ -215,15 +224,6 @@ Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQ
     <updated>2025-04-02T15:56:00.000Z</updated>
     <published>2025-04-02T15:56:00.000Z</published>
     <summary type="html"><![CDATA[Novos instrumentos de ação ambiental visam mitigar poluentes, promover a transição energética e fortalecer a sustentabilidade do setor.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Startup Anac Segura é o mais novo projeto de transformação digital da Agência]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/startup-anac-segura-e-o-mais-novo-projeto-de-transformacao-digital-da-agencia" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/startup-anac-segura-e-o-mais-novo-projeto-de-transformacao-digital-da-agencia</id>
-    <updated>2025-04-01T09:04:00.000Z</updated>
-    <published>2025-04-01T09:04:00.000Z</published>
-    <summary type="html"><![CDATA[A parceria firmada com o MGI acelera a implantação do Programa de Privacidade e Segurança da Informação (PPSI) e ajudará a Anac no combate a ataques cibernéticos]]></summary>
   </entry>
 
   <entry>
