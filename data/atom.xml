@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-04-30T16:29:00.000Z</updated>
+  <updated>2025-04-30T18:05:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac lança o 1º Plano de Comunicação de Segurança Operacional]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-o-1o-plano-de-comunicacao-de-seguranca-operacional" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-o-1o-plano-de-comunicacao-de-seguranca-operacional</id>
+    <updated>2025-04-30T18:05:00.000Z</updated>
+    <published>2025-04-30T18:05:00.000Z</published>
+    <summary type="html"><![CDATA[Documento elenca principais atividades de comunicação relacionadas ao tema safety em realização pela Agência em 2025 e planeja ações para 2026]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac promove Avsec & Cyber Week em junho com foco em segurança aérea e cibersegurança]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-avsec-cyber-week-em-junho-com-foco-em-seguranca-aerea-e-ciberseguranca" />
@@ -215,15 +224,6 @@ Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQ
     <updated>2025-04-03T11:31:00.000Z</updated>
     <published>2025-04-03T11:31:00.000Z</published>
     <summary type="html"><![CDATA[Proposta atualiza regras relacionadas à remoção de aeronaves inoperantes e desinterdição de pistas]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Novo plano de ação ambiental da Anac detalha iniciativas para reduzir impactos ambientais da aviação]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/novo-plano-de-acao-ambiental-da-anac-detalha-iniciativas-para-reduzir-impactos-ambientais-da-aviacao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/novo-plano-de-acao-ambiental-da-anac-detalha-iniciativas-para-reduzir-impactos-ambientais-da-aviacao</id>
-    <updated>2025-04-02T15:56:00.000Z</updated>
-    <published>2025-04-02T15:56:00.000Z</published>
-    <summary type="html"><![CDATA[Novos instrumentos de ação ambiental visam mitigar poluentes, promover a transição energética e fortalecer a sustentabilidade do setor.]]></summary>
   </entry>
 
   <entry>
