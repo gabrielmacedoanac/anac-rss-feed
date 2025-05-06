@@ -136,14 +136,6 @@
     "type": "texto"
   },
   {
-    "title": "Fórum de Regulação da Procuradoria-Geral Federal",
-    "link": "https://www.youtube.com/watch?v=1BfUIpKD1F8",
-    "date": "10/04/2025 15h50",
-    "description": "",
-    "image": "https://i2.ytimg.com/vi/1BfUIpKD1F8/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
     "title": "Reunião entre Anac e TSA avalia níveis de segurança da aviação civil em aeroportos brasileiros",
     "link": "https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros",
     "date": "09/04/2025 16h59",
@@ -277,6 +269,14 @@
     "date": "14/02/2025 09h44",
     "description": "Faça seus questionamentos pelo sli.do - https://app.sli.do/event/qhdYwS6SMCQV3yrhc99EPi",
     "image": "https://i3.ytimg.com/vi/VNrryz_m_rg/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "7ª Reunião Deliberativa da Diretoria Colegiada (06/05/2025)",
+    "link": "https://www.youtube.com/watch?v=DX2A7mifn9M",
+    "date": "18/12/2024 12h42",
+    "description": "Processo 00058.085388/2023-40\nProcesso00058.041142/2024-47",
+    "image": "https://i1.ytimg.com/vi/DX2A7mifn9M/hqdefault.jpg",
     "type": "vídeo"
   }
 ]

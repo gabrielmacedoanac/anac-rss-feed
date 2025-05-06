@@ -4,7 +4,7 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Tue, 06 May 2025 16:30:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 20:26:51 GMT</lastBuildDate>
     
   <item>
     <title><![CDATA[Webinário BHEST: gestão do risco meteorológico em helicópteros]]></title>
@@ -159,15 +159,6 @@ Processo 00058.098660/2024-32 - 22:04]]></description>
     <pubDate>Thu, 10 Apr 2025 17:05:00 GMT</pubDate>
     <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2025/premio-acessibilidade-e-inovacao-2025-tera-sete-concorrentes</guid>
     <dc:date>2025-04-10T17:05:00.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Fórum de Regulação da Procuradoria-Geral Federal]]></title>
-    <link>https://www.youtube.com/watch?v=1BfUIpKD1F8</link>
-    <description><![CDATA[]]></description>
-    <pubDate>Thu, 10 Apr 2025 15:50:30 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=1BfUIpKD1F8</guid>
-    <dc:date>2025-04-10T15:50:30.000Z</dc:date>
   </item>
 
   <item>
@@ -331,6 +322,16 @@ Processo 00058.052059/2024-01 - 17:48]]></description>
     <pubDate>Fri, 14 Feb 2025 09:44:01 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=VNrryz_m_rg</guid>
     <dc:date>2025-02-14T09:44:01.000Z</dc:date>
+  </item>
+
+  <item>
+    <title><![CDATA[7ª Reunião Deliberativa da Diretoria Colegiada (06/05/2025)]]></title>
+    <link>https://www.youtube.com/watch?v=DX2A7mifn9M</link>
+    <description><![CDATA[Processo 00058.085388/2023-40
+Processo00058.041142/2024-47]]></description>
+    <pubDate>Wed, 18 Dec 2024 12:42:59 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=DX2A7mifn9M</guid>
+    <dc:date>2024-12-18T12:42:59.000Z</dc:date>
   </item>
   </channel>
 </rss>
