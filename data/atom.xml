@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-05T16:58:00.000Z</updated>
+  <updated>2025-05-05T17:52:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac lança pesquisa sobre o perfil do profissional da aviação para futura oferta de bolsas de estudo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-pesquisa-sobre-o-perfil-do-profissional-da-aviacao-para-futura-oferta-de-bolsas-de-estudo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-pesquisa-sobre-o-perfil-do-profissional-da-aviacao-para-futura-oferta-de-bolsas-de-estudo</id>
+    <updated>2025-05-05T17:52:00.000Z</updated>
+    <published>2025-05-05T17:52:00.000Z</published>
+    <summary type="html"><![CDATA[Dados ajudarão a Agência a fomentar o crescimento do setor, aproveitando o potencial da população brasileira]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Relatório de Atividades: confira os resultados de atuação da Anac em 2024]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/relatorio-de-atividades-confira-os-resultados-de-atuacao-da-anac-em-2024" />
@@ -215,15 +224,6 @@ Com informação e compromisso, garantimos um embarque mais seguro e respeitoso 
     <summary type="html"><![CDATA[Neste seminário, serão apresentados os resultados da produção científica realizada pela UnB, intitulada “Projeto de Pesquisa Mulheres na Aviação Civil: estudos para uma regulação inclusiva no setor” que estudou as barreiras que impedem ou dificultem a participação de mulheres no mercado da aviação civil brasileira. O evento é fruto do Acordo de Cooperação Técnica, celebrado entre a Anac e os Ministérios de Portos e Aeroportos - MPor, dos Direitos Humanos e da Cidadania - MDHC, da Igualdade Racial - MIR, das Mulheres - MMulheres e do Turismo - MTur, no âmbito do programa Asas Para Todos. 
 
 Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQJQeFdyTFAonh]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Governo Federal lança ações de acolhimento na aviação para pessoas com Transtorno do Espectro Autista]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/governo-federal-lanca-acoes-de-acolhimento-na-aviacao-para-pessoas-com-transtorno-do-espectro-autista" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/governo-federal-lanca-acoes-de-acolhimento-na-aviacao-para-pessoas-com-transtorno-do-espectro-autista</id>
-    <updated>2025-04-03T16:32:00.000Z</updated>
-    <published>2025-04-03T16:32:00.000Z</published>
-    <summary type="html"><![CDATA[Entre as medidas, estão o lançamento de cartilha sobre inclusão de passageiros neurodivergentes e a inauguração de salas multissensoriais em aeroportos]]></summary>
   </entry>
 
   <entry>
