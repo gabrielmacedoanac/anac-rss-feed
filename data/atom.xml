@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-07T07:06:03.000Z</updated>
+  <updated>2025-05-07T16:16:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Centro de Treinamento da Anac, em Brasília, recebe avião Aero Boero para exposição permanente]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/centro-de-treinamento-da-anac-em-brasilia-recebe-aviao-aero-boero-para-exposicao-permanente" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/centro-de-treinamento-da-anac-em-brasilia-recebe-aviao-aero-boero-para-exposicao-permanente</id>
+    <updated>2025-05-07T16:16:00.000Z</updated>
+    <published>2025-05-07T16:16:00.000Z</published>
+    <summary type="html"><![CDATA[Modelo utilizado largamente na formação de pilotos ficará exposto em frente ao prédio junto ao Phenon 100]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[7ª Reunião Deliberativa da Diretoria Colegiada (06/05/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=DX2A7mifn9M" />
@@ -215,15 +224,6 @@ Com informação e compromisso, garantimos um embarque mais seguro e respeitoso 
     <updated>2025-04-04T16:01:00.000Z</updated>
     <published>2025-04-04T16:01:00.000Z</published>
     <summary type="html"><![CDATA[O objetivo do evento foi ouvir a comunidade local e propor formas adequadas de implementar a cultura de segurança operacional na aviação civil aplicada às peculiaridades da região Nordeste]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[BASeT convida interessados para compor subgrupos temáticos para o ciclo 2025/2026]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/baset-convida-interessados-para-compor-subgrupos-tematicos-para-o-ciclo-2025-2026" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/baset-convida-interessados-para-compor-subgrupos-tematicos-para-o-ciclo-2025-2026</id>
-    <updated>2025-04-04T13:37:00.000Z</updated>
-    <published>2025-04-04T13:37:00.000Z</published>
-    <summary type="html"><![CDATA[Quatro subgrupos debaterão estratégias e ações sobre segurança contra atos ilícitos]]></summary>
   </entry>
 
   <entry>
