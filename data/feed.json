@@ -1,5 +1,61 @@
 [
   {
+    "title": "Webinário - Consulta setorial sobre novo modelo de certificação de laboratórios de",
+    "link": "https://www.youtube.com/watch?v=IKV_zGVVsNU",
+    "date": "07/05/2025 21h57",
+    "description": "Link do Slido: https://app.sli.do/event/qYvvRftqtcek3vqVUUf9BU",
+    "image": "https://i2.ytimg.com/vi/IKV_zGVVsNU/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Semana MMA - Formação e Futuro do MMA",
+    "link": "https://www.youtube.com/watch?v=GRshpkISEuM",
+    "date": "07/05/2025 21h54",
+    "description": "Link Slido: https://app.sli.do/event/cVsSg9Tt9R9kyjSPk3kQQg",
+    "image": "https://i4.ytimg.com/vi/GRshpkISEuM/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Semana MMA - Cultura de Segurança na Manutenção Aeronáutica",
+    "link": "https://www.youtube.com/watch?v=cqjm3nFOH_c",
+    "date": "07/05/2025 21h53",
+    "description": "Link Slido: https://app.sli.do/event/raSzAeVeuHrwoPMx69j3pZ",
+    "image": "https://i4.ytimg.com/vi/cqjm3nFOH_c/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Semana MMA - Carreira para MMA em organizações de manutenção e MMA autônomo",
+    "link": "https://www.youtube.com/watch?v=3NmzEj-43cI",
+    "date": "07/05/2025 21h51",
+    "description": "Link Slido: https://app.sli.do/event/dneW9QXJrag1nEA7B3cfPV",
+    "image": "https://i4.ytimg.com/vi/3NmzEj-43cI/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Semana MMA - Carreira para MMA de aeronaves de asa rotativa",
+    "link": "https://www.youtube.com/watch?v=_9gw_ysGyHg",
+    "date": "07/05/2025 21h50",
+    "description": "Link Slido: https://app.sli.do/event/aZTqZYB1RDiH2SFYW7DQQk",
+    "image": "https://i4.ytimg.com/vi/_9gw_ysGyHg/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Semana MMA - Carreira para MMA de aeronaves de asa fixa",
+    "link": "https://www.youtube.com/watch?v=9NlpEhaSVv4",
+    "date": "07/05/2025 21h49",
+    "description": "Link Slido: https://app.sli.do/event/kZjLp9rhRMvkX2DLiqX1gd",
+    "image": "https://i2.ytimg.com/vi/9NlpEhaSVv4/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Sorteio – Dia da Aviação Inclusiva",
+    "link": "https://www.youtube.com/watch?v=CztDhJl9EGQ",
+    "date": "07/05/2025 21h43",
+    "description": "",
+    "image": "https://i4.ytimg.com/vi/CztDhJl9EGQ/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
     "title": "Centro de Treinamento da Anac, em Brasília, recebe avião Aero Boero para exposição permanente",
     "link": "https://www.gov.br/anac/pt-br/noticias/2025/centro-de-treinamento-da-anac-em-brasilia-recebe-aviao-aero-boero-para-exposicao-permanente",
     "date": "07/05/2025 16h16",
@@ -221,62 +277,6 @@
     "date": "26/03/2025 20h23",
     "description": "Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-3.pptx",
     "image": "https://i3.ytimg.com/vi/ZvZ8Fj_kX8E/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "5ª Reunião Deliberativa da Diretoria Colegiada (25/03/2025)",
-    "link": "https://www.youtube.com/watch?v=CL9vBVWl9vQ",
-    "date": "26/03/2025 06h13",
-    "description": "Início - 16:41\nProcesso 00058.090127/2024-22 - 17:30\nProcesso 00058.021107/2025-92 (extrapauta) - 25:32",
-    "image": "https://i4.ytimg.com/vi/CL9vBVWl9vQ/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "Semana +OM: Modelos de MOM, MCQ, PTM e SGSO nas Oficinas",
-    "link": "https://www.youtube.com/watch?v=67QilHvBlK4",
-    "date": "25/03/2025 15h14",
-    "description": "Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-2.pptx",
-    "image": "https://i3.ytimg.com/vi/67QilHvBlK4/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "Semana +OM: Revisões de IS relacionadas a oficinas - RBAC 145",
-    "link": "https://www.youtube.com/watch?v=3YK90DVy_S0",
-    "date": "25/03/2025 08h14",
-    "description": "Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-1.pptx",
-    "image": "https://i4.ytimg.com/vi/3YK90DVy_S0/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "4ª Reunião Deliberativa da Diretoria Colegiada (18/03/2025)",
-    "link": "https://www.youtube.com/watch?v=frUO2_Duta4",
-    "date": "19/03/2025 06h39",
-    "description": "Processo 00058.032050/2020-42 \nProcesso 00058.033268/2023-67",
-    "image": "https://i3.ytimg.com/vi/frUO2_Duta4/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "Audiência Pública n° 02/2025 - Revisão normativa sobre acessibilidade no transporte aéreo",
-    "link": "https://www.youtube.com/watch?v=AocGNbmvotc",
-    "date": "13/03/2025 22h34",
-    "description": "A Consulta Pública nº 02/2025, propõe a revisão da Resolução nº 280 de 11 de julho de 2013, garantindo mais inclusão, autonomia e segurança para Passageiros com Necessidades de Assistência Especial (Pnae).  Acesse informações da proposta em:  https://www.gov.br/anac/pt-br/noticias/2025/anac-da-inicio-a-consulta-publica-sobre-novas-regras-de-acessibilidade-no-transporte-aereo",
-    "image": "https://i2.ytimg.com/vi/AocGNbmvotc/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "3ª Reunião Deliberativa da Diretoria Colegiada (11/03/2025)",
-    "link": "https://www.youtube.com/watch?v=FzjCNk9IluY",
-    "date": "12/03/2025 06h55",
-    "description": "Início - 1:31\nProcesso 00058.085397/2024-11 - 2:19\nProcesso 00058.066364/2023-91 - 8:53\nProcesso 00058.052059/2024-01 - 17:48",
-    "image": "https://i3.ytimg.com/vi/FzjCNk9IluY/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "Webinário: Novas regras para exames MMA",
-    "link": "https://www.youtube.com/watch?v=VNrryz_m_rg",
-    "date": "14/02/2025 09h44",
-    "description": "Faça seus questionamentos pelo sli.do - https://app.sli.do/event/qhdYwS6SMCQV3yrhc99EPi",
-    "image": "https://i3.ytimg.com/vi/VNrryz_m_rg/hqdefault.jpg",
     "type": "vídeo"
   }
 ]

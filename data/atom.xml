@@ -2,9 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-07T16:16:00.000Z</updated>
+  <updated>2025-05-07T21:57:18.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Webinário - Consulta setorial sobre novo modelo de certificação de laboratórios de]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=IKV_zGVVsNU" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=IKV_zGVVsNU</id>
+    <updated>2025-05-07T21:57:18.000Z</updated>
+    <published>2025-05-07T21:57:18.000Z</published>
+    <summary type="html"><![CDATA[Link do Slido: https://app.sli.do/event/qYvvRftqtcek3vqVUUf9BU]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Semana MMA - Formação e Futuro do MMA]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=GRshpkISEuM" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=GRshpkISEuM</id>
+    <updated>2025-05-07T21:54:47.000Z</updated>
+    <published>2025-05-07T21:54:47.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/cVsSg9Tt9R9kyjSPk3kQQg]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Semana MMA - Cultura de Segurança na Manutenção Aeronáutica]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=cqjm3nFOH_c" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=cqjm3nFOH_c</id>
+    <updated>2025-05-07T21:53:22.000Z</updated>
+    <published>2025-05-07T21:53:22.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/raSzAeVeuHrwoPMx69j3pZ]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Semana MMA - Carreira para MMA em organizações de manutenção e MMA autônomo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=3NmzEj-43cI" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=3NmzEj-43cI</id>
+    <updated>2025-05-07T21:51:49.000Z</updated>
+    <published>2025-05-07T21:51:49.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/dneW9QXJrag1nEA7B3cfPV]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Semana MMA - Carreira para MMA de aeronaves de asa rotativa]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=_9gw_ysGyHg" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=_9gw_ysGyHg</id>
+    <updated>2025-05-07T21:50:53.000Z</updated>
+    <published>2025-05-07T21:50:53.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/aZTqZYB1RDiH2SFYW7DQQk]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Semana MMA - Carreira para MMA de aeronaves de asa fixa]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=9NlpEhaSVv4" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=9NlpEhaSVv4</id>
+    <updated>2025-05-07T21:49:53.000Z</updated>
+    <published>2025-05-07T21:49:53.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/kZjLp9rhRMvkX2DLiqX1gd]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Sorteio – Dia da Aviação Inclusiva]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CztDhJl9EGQ" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=CztDhJl9EGQ</id>
+    <updated>2025-05-07T21:43:20.000Z</updated>
+    <published>2025-05-07T21:43:20.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Centro de Treinamento da Anac, em Brasília, recebe avião Aero Boero para exposição permanente]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/centro-de-treinamento-da-anac-em-brasilia-recebe-aviao-aero-boero-para-exposicao-permanente" />
@@ -262,74 +325,5 @@ Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQ
     <updated>2025-03-26T20:23:36.000Z</updated>
     <published>2025-03-26T20:23:36.000Z</published>
     <summary type="html"><![CDATA[Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-3.pptx]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[5ª Reunião Deliberativa da Diretoria Colegiada (25/03/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CL9vBVWl9vQ" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=CL9vBVWl9vQ</id>
-    <updated>2025-03-26T06:13:43.000Z</updated>
-    <published>2025-03-26T06:13:43.000Z</published>
-    <summary type="html"><![CDATA[Início - 16:41
-Processo 00058.090127/2024-22 - 17:30
-Processo 00058.021107/2025-92 (extrapauta) - 25:32]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana +OM: Modelos de MOM, MCQ, PTM e SGSO nas Oficinas]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=67QilHvBlK4" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=67QilHvBlK4</id>
-    <updated>2025-03-25T15:14:57.000Z</updated>
-    <published>2025-03-25T15:14:57.000Z</published>
-    <summary type="html"><![CDATA[Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-2.pptx]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana +OM: Revisões de IS relacionadas a oficinas - RBAC 145]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=3YK90DVy_S0" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=3YK90DVy_S0</id>
-    <updated>2025-03-25T08:14:36.000Z</updated>
-    <published>2025-03-25T08:14:36.000Z</published>
-    <summary type="html"><![CDATA[Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-1.pptx]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[4ª Reunião Deliberativa da Diretoria Colegiada (18/03/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=frUO2_Duta4" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=frUO2_Duta4</id>
-    <updated>2025-03-19T06:39:19.000Z</updated>
-    <published>2025-03-19T06:39:19.000Z</published>
-    <summary type="html"><![CDATA[Processo 00058.032050/2020-42 
-Processo 00058.033268/2023-67]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Audiência Pública n° 02/2025 - Revisão normativa sobre acessibilidade no transporte aéreo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=AocGNbmvotc" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=AocGNbmvotc</id>
-    <updated>2025-03-13T22:34:41.000Z</updated>
-    <published>2025-03-13T22:34:41.000Z</published>
-    <summary type="html"><![CDATA[A Consulta Pública nº 02/2025, propõe a revisão da Resolução nº 280 de 11 de julho de 2013, garantindo mais inclusão, autonomia e segurança para Passageiros com Necessidades de Assistência Especial (Pnae).  Acesse informações da proposta em:  https://www.gov.br/anac/pt-br/noticias/2025/anac-da-inicio-a-consulta-publica-sobre-novas-regras-de-acessibilidade-no-transporte-aereo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[3ª Reunião Deliberativa da Diretoria Colegiada (11/03/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=FzjCNk9IluY" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=FzjCNk9IluY</id>
-    <updated>2025-03-12T06:55:48.000Z</updated>
-    <published>2025-03-12T06:55:48.000Z</published>
-    <summary type="html"><![CDATA[Início - 1:31
-Processo 00058.085397/2024-11 - 2:19
-Processo 00058.066364/2023-91 - 8:53
-Processo 00058.052059/2024-01 - 17:48]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário: Novas regras para exames MMA]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=VNrryz_m_rg" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=VNrryz_m_rg</id>
-    <updated>2025-02-14T09:44:01.000Z</updated>
-    <published>2025-02-14T09:44:01.000Z</published>
-    <summary type="html"><![CDATA[Faça seus questionamentos pelo sli.do - https://app.sli.do/event/qhdYwS6SMCQV3yrhc99EPi]]></summary>
   </entry>
 </feed>
