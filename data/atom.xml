@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-07T21:57:18.000Z</updated>
+  <updated>2025-05-09T17:08:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Dado primeiro passo para a implantação do Diário de Bordo Eletrônico em operações de carga regulares]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/dado-primeiro-passo-para-a-implantacao-do-diario-de-bordo-eletronico-em-operacoes-de-carga-regulares" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/dado-primeiro-passo-para-a-implantacao-do-diario-de-bordo-eletronico-em-operacoes-de-carga-regulares</id>
+    <updated>2025-05-09T17:08:00.000Z</updated>
+    <published>2025-05-09T17:08:00.000Z</published>
+    <summary type="html"><![CDATA[Contrato assinado na quarta-feira marcará o início da adoção do eDB por empresa certificada pelo RBAC nº 121 para operações regulares de transporte cargueiro]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Dia da Aviação Inclusiva: inscrições abertas até 19/5 para concorrer ao sorteio de voos e palestras]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/dia-da-aviacao-inclusiva-inscricoes-abertas-ate-19-5-para-concorrer-ao-sorteio-de-voos-e-palestras" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/dia-da-aviacao-inclusiva-inscricoes-abertas-ate-19-5-para-concorrer-ao-sorteio-de-voos-e-palestras</id>
+    <updated>2025-05-09T15:33:00.000Z</updated>
+    <published>2025-05-09T15:33:00.000Z</published>
+    <summary type="html"><![CDATA[Pessoas com deficiência poderão ser sorteadas para realizar um voo durante evento que ocorre no dia 11 de junho, em Campinas (SP)]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Consulta setorial sobre certificação de laboratórios de inflamabilidade]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=IKV_zGVVsNU" />
@@ -269,24 +287,6 @@ Processo 00058.098660/2024-32 - 22:04]]></summary>
     <summary type="html"><![CDATA[A campanha, promovida pela Anac em parceria com os Ministério da Igualdade Racial, Ministério das Mulheres, Ministério dos Direitos Humanos e da Cidadania, do Ministério do Turismo e Ministério de Portos e Aeroportos, reforça que os procedimentos de inspeção nos aeroportos devem ser justos, transparentes e livres de discriminação. 
 Nas últimas semanas publicamos um vasto material para que você conheça os seus direitos e compreenda e importância dos procedimentos de inspeção para a segurança de todos o setor aéreo.
 Com informação e compromisso, garantimos um embarque mais seguro e respeitoso para todos! Conheça os procedimentos e a campanha! https://lnkd.in/g2aM2tna]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac e UnB reforçam a importância da inclusão feminina no setor aéreo durante Seminário ‘’Mulheres na Aviação’’]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-unb-reforcam-a-importancia-da-inclusao-feminina-no-setor-aereo-durante-seminario-mulheres-na-aviacao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-unb-reforcam-a-importancia-da-inclusao-feminina-no-setor-aereo-durante-seminario-mulheres-na-aviacao</id>
-    <updated>2025-04-04T18:26:00.000Z</updated>
-    <published>2025-04-04T18:26:00.000Z</published>
-    <summary type="html"><![CDATA[Evento apresentou resultados de pesquisa sobre barreiras à participação feminina no setor aéreo e reforçou ações do programa Asas Para Todos]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana Safety, em Recife, trata da implementação da cultura de Segurança Operacional na aviação e apresenta casos reais de acidentes na região]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-em-recife-trata-da-implementacao-da-cultura-de-seguranca-operacional-na-aviacao-e-apresenta-casos-reais-de-acidentes-na-regiao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-em-recife-trata-da-implementacao-da-cultura-de-seguranca-operacional-na-aviacao-e-apresenta-casos-reais-de-acidentes-na-regiao</id>
-    <updated>2025-04-04T16:01:00.000Z</updated>
-    <published>2025-04-04T16:01:00.000Z</published>
-    <summary type="html"><![CDATA[O objetivo do evento foi ouvir a comunidade local e propor formas adequadas de implementar a cultura de segurança operacional na aviação civil aplicada às peculiaridades da região Nordeste]]></summary>
   </entry>
 
   <entry>
