@@ -2,16 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-09T17:08:00.000Z</updated>
+  <updated>2025-05-09T22:07:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
   <entry>
-    <title type="html"><![CDATA[Dado primeiro passo para a implantação do Diário de Bordo Eletrônico em operações de carga regulares]]></title>
+    <title type="html"><![CDATA[Aéreas poderão utilizar temporariamente slots da Voepass em Congonhas e Guarulhos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aereas-poderao-utilizar-temporariamente-slots-da-voepass-em-congonhas-e-guarulhos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aereas-poderao-utilizar-temporariamente-slots-da-voepass-em-congonhas-e-guarulhos</id>
+    <updated>2025-05-09T22:07:00.000Z</updated>
+    <published>2025-05-09T22:07:00.000Z</published>
+    <summary type="html"><![CDATA[Companhia não cumpriu meta de regularidade de voos e posições da temporada atual poderão ser disponibilizadas a outras empresas]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Diário de Bordo Eletrônico será implementado em operações de carga regulares]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/dado-primeiro-passo-para-a-implantacao-do-diario-de-bordo-eletronico-em-operacoes-de-carga-regulares" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/dado-primeiro-passo-para-a-implantacao-do-diario-de-bordo-eletronico-em-operacoes-de-carga-regulares</id>
     <updated>2025-05-09T17:08:00.000Z</updated>
     <published>2025-05-09T17:08:00.000Z</published>
-    <summary type="html"><![CDATA[Contrato assinado na quarta-feira marcará o início da adoção do eDB por empresa certificada pelo RBAC nº 121 para operações regulares de transporte cargueiro]]></summary>
+    <summary type="html"><![CDATA[Contrato assinado no dia 7/5 marca o início da adoção do eDB por empresa certificada pelo RBAC nº 121 para operações regulares de transporte cargueiro]]></summary>
   </entry>
 
   <entry>
@@ -267,15 +276,6 @@ Processo 00058.098660/2024-32 - 22:04]]></summary>
     <updated>2025-04-09T16:59:00.000Z</updated>
     <published>2025-04-09T16:59:00.000Z</published>
     <summary type="html"><![CDATA[Encontro também tratou da proteção contra ataques cibernéticos e de resultados de visitas anteriores a terminais brasileiros]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Alterado prazo para entrada em vigor da norma que extingue as categorias de registro de aeronaves]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/alterado-prazo-para-entrada-em-vigor-da-norma-que-extingue-o-registro-de-categorias-de-aeronaves-no-rab-digital" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/alterado-prazo-para-entrada-em-vigor-da-norma-que-extingue-o-registro-de-categorias-de-aeronaves-no-rab-digital</id>
-    <updated>2025-04-09T10:42:00.000Z</updated>
-    <published>2025-04-09T10:42:00.000Z</published>
-    <summary type="html"><![CDATA[Prevista inicialmente para vigorar em abril de 2025, a resolução que extingue o conceito de categorias de registro de aeronaves no Brasil passará a valer a partir de 1º de janeiro de 2026]]></summary>
   </entry>
 
   <entry>
