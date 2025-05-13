@@ -2,9 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-09T22:07:00.000Z</updated>
+  <updated>2025-05-12T20:50:55.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Digital Week  - Dia 30/05 - EVENTO EXTERNO]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Mrc-DnVMbeY" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=Mrc-DnVMbeY</id>
+    <updated>2025-05-12T20:50:55.000Z</updated>
+    <published>2025-05-12T20:50:55.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Digital Week  - Dia 29/05 - EVENTO EXTERNO]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=aQXaMrKaNyg" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=aQXaMrKaNyg</id>
+    <updated>2025-05-12T20:49:21.000Z</updated>
+    <published>2025-05-12T20:49:21.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Digital Week  - Dia 28/05 - EVENTO EXTERNO]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=crgpnzzFz9s" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=crgpnzzFz9s</id>
+    <updated>2025-05-12T20:47:30.000Z</updated>
+    <published>2025-05-12T20:47:30.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Digital Week  - Dia 27/05 - EVENTO EXTERNO]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=_IhhgDfFcN0" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=_IhhgDfFcN0</id>
+    <updated>2025-05-12T20:45:40.000Z</updated>
+    <published>2025-05-12T20:45:40.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Digital Week  - Dia 26/05 - EVENTO EXTERNO]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Q4YcEPd0ZLM" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=Q4YcEPd0ZLM</id>
+    <updated>2025-05-12T20:42:38.000Z</updated>
+    <published>2025-05-12T20:42:38.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Aéreas poderão utilizar temporariamente slots da Voepass em Congonhas e Guarulhos]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aereas-poderao-utilizar-temporariamente-slots-da-voepass-em-congonhas-e-guarulhos" />
@@ -276,54 +321,5 @@ Processo 00058.098660/2024-32 - 22:04]]></summary>
     <updated>2025-04-09T16:59:00.000Z</updated>
     <published>2025-04-09T16:59:00.000Z</published>
     <summary type="html"><![CDATA[Encontro também tratou da proteção contra ataques cibernéticos e de resultados de visitas anteriores a terminais brasileiros]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Mensagem dos ministros – Embarque Numa Boa]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=b7dlo9wb2N0" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=b7dlo9wb2N0</id>
-    <updated>2025-04-04T18:43:47.000Z</updated>
-    <published>2025-04-04T18:43:47.000Z</published>
-    <summary type="html"><![CDATA[A campanha, promovida pela Anac em parceria com os Ministério da Igualdade Racial, Ministério das Mulheres, Ministério dos Direitos Humanos e da Cidadania, do Ministério do Turismo e Ministério de Portos e Aeroportos, reforça que os procedimentos de inspeção nos aeroportos devem ser justos, transparentes e livres de discriminação. 
-Nas últimas semanas publicamos um vasto material para que você conheça os seus direitos e compreenda e importância dos procedimentos de inspeção para a segurança de todos o setor aéreo.
-Com informação e compromisso, garantimos um embarque mais seguro e respeitoso para todos! Conheça os procedimentos e a campanha! https://lnkd.in/g2aM2tna]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Seminário Mulheres na Aviação - Ações para Regulação Inclusiva]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Z7CZHKzENOk" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=Z7CZHKzENOk</id>
-    <updated>2025-04-04T08:58:27.000Z</updated>
-    <published>2025-04-04T08:58:27.000Z</published>
-    <summary type="html"><![CDATA[Neste seminário, serão apresentados os resultados da produção científica realizada pela UnB, intitulada “Projeto de Pesquisa Mulheres na Aviação Civil: estudos para uma regulação inclusiva no setor” que estudou as barreiras que impedem ou dificultem a participação de mulheres no mercado da aviação civil brasileira. O evento é fruto do Acordo de Cooperação Técnica, celebrado entre a Anac e os Ministérios de Portos e Aeroportos - MPor, dos Direitos Humanos e da Cidadania - MDHC, da Igualdade Racial - MIR, das Mulheres - MMulheres e do Turismo - MTur, no âmbito do programa Asas Para Todos. 
-
-Link no slido para perguntas e comentários: https://app.sli.do/event/5JcxrCQkYQJQeFdyTFAonh]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana +OM: Apresentação do Portal 145]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=plwxV4XNIjg" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=plwxV4XNIjg</id>
-    <updated>2025-03-29T07:58:47.000Z</updated>
-    <published>2025-03-29T07:58:47.000Z</published>
-    <summary type="html"><![CDATA[Perguntas pelo sli.do - https://app.sli.do/event/w2Gp48zT79mygXn2xV9CDJ]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana +OM: Jornada eAEV]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=vLU6daq1zzY" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=vLU6daq1zzY</id>
-    <updated>2025-03-28T08:09:05.000Z</updated>
-    <published>2025-03-28T08:09:05.000Z</published>
-    <summary type="html"><![CDATA[Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-4.pptx]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana +OM: Fatores humanos na manutenção e bate-papo sobre Certificação e Fiscalização]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ZvZ8Fj_kX8E" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=ZvZ8Fj_kX8E</id>
-    <updated>2025-03-26T20:23:36.000Z</updated>
-    <published>2025-03-26T20:23:36.000Z</published>
-    <summary type="html"><![CDATA[Download da apresentação - https://www.gov.br/anac/pt-br/assuntos/regulados/manutencao-aeronautica/arquivos/semana-om/webinarios-semana-om-dia-3.pptx]]></summary>
   </entry>
 </feed>
