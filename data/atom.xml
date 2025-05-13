@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-12T20:50:55.000Z</updated>
+  <updated>2025-05-13T08:10:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac promove encontro com ASTM International sobre normas técnicas da aviação civil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-encontro-com-astm-international-sobre-normas-tecnicas-da-aviacao-civil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-encontro-com-astm-international-sobre-normas-tecnicas-da-aviacao-civil</id>
+    <updated>2025-05-13T08:10:00.000Z</updated>
+    <published>2025-05-13T08:10:00.000Z</published>
+    <summary type="html"><![CDATA[Agência quer ampliar a participação do Brasil no desenvolvimento de normas internacionais]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Digital Week  - Dia 30/05 - EVENTO EXTERNO]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Mrc-DnVMbeY" />
@@ -312,14 +321,5 @@ Processo 00058.098660/2024-32 - 22:04]]></summary>
     <updated>2025-04-10T17:05:00.000Z</updated>
     <published>2025-04-10T17:05:00.000Z</published>
     <summary type="html"><![CDATA[Despacho homologou a participação de operadores aéreo e de aeroportos nacionais]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Reunião entre Anac e TSA avalia níveis de segurança da aviação civil em aeroportos brasileiros]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/reuniao-entre-anac-etsaavalia-niveis-de-seguranca-da-aviacao-civil-em-aeroportos-brasileiros</id>
-    <updated>2025-04-09T16:59:00.000Z</updated>
-    <published>2025-04-09T16:59:00.000Z</published>
-    <summary type="html"><![CDATA[Encontro também tratou da proteção contra ataques cibernéticos e de resultados de visitas anteriores a terminais brasileiros]]></summary>
   </entry>
 </feed>
