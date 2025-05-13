@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-13T08:10:00.000Z</updated>
+  <updated>2025-05-13T16:44:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Tetos das tarifas aeroportuárias do Galeão e de Confins são reajustados]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-do-galeao-e-de-confins-sao-reajustados" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-do-galeao-e-de-confins-sao-reajustados</id>
+    <updated>2025-05-13T16:44:00.000Z</updated>
+    <published>2025-05-13T16:44:00.000Z</published>
+    <summary type="html"><![CDATA[Novas tarifas poderão ser praticadas 30 dias após divulgação pelas concessionárias]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac promove encontro com ASTM International sobre normas técnicas da aviação civil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-encontro-com-astm-international-sobre-normas-tecnicas-da-aviacao-civil" />
@@ -312,14 +321,5 @@ Processo 00058.098660/2024-32 - 22:04]]></summary>
     <updated>2025-04-11T13:53:00.000Z</updated>
     <published>2025-04-11T13:53:00.000Z</published>
     <summary type="html"><![CDATA[Aviso traz orientações sobre os equipamentos de navegação e seu uso em aeronaves]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Prêmio Acessibilidade e Inovação 2025 terá sete concorrentes]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/premio-acessibilidade-e-inovacao-2025-tera-sete-concorrentes" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/premio-acessibilidade-e-inovacao-2025-tera-sete-concorrentes</id>
-    <updated>2025-04-10T17:05:00.000Z</updated>
-    <published>2025-04-10T17:05:00.000Z</published>
-    <summary type="html"><![CDATA[Despacho homologou a participação de operadores aéreo e de aeroportos nacionais]]></summary>
   </entry>
 </feed>
