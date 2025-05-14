@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-13T20:16:24.000Z</updated>
+  <updated>2025-05-14T12:15:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Participe do Webinário BHEST sobre gestão do risco meteorológico em helicópteros, no dia 29/5, às 16h]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/participe-do-webinario-bhest-sobre-gestao-do-risco-meteorologico-em-helicopteros-no-dia-29-5-as-16h" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/participe-do-webinario-bhest-sobre-gestao-do-risco-meteorologico-em-helicopteros-no-dia-29-5-as-16h</id>
+    <updated>2025-05-14T12:15:00.000Z</updated>
+    <published>2025-05-14T12:15:00.000Z</published>
+    <summary type="html"><![CDATA[Evento online reunirá especialistas para discutir prevenção de riscos em operações com helicópteros e será transmitido ao vivo no YouTube]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Digital Week 2025 – 27/05, das 14h às 18h]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=N757SyNl7sY" />
@@ -310,14 +319,5 @@ Processo00058.041142/2024-47]]></summary>
     <updated>2025-04-11T17:29:00.000Z</updated>
     <published>2025-04-11T17:29:00.000Z</published>
     <summary type="html"><![CDATA[Empresas irão desenvolver e testar estruturas, ajudando a Agência a definir regras para o segmento de eVTOL]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac emite alerta operacional  sobre equipamentos portáteis com conexão via satélite]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-emite-alerta-operacional-sobre-equipamentos-portateis-com-conexao-via-satelite" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-emite-alerta-operacional-sobre-equipamentos-portateis-com-conexao-via-satelite</id>
-    <updated>2025-04-11T13:53:00.000Z</updated>
-    <published>2025-04-11T13:53:00.000Z</published>
-    <summary type="html"><![CDATA[Aviso traz orientações sobre os equipamentos de navegação e seu uso em aeronaves]]></summary>
   </entry>
 </feed>
