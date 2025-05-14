@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-14T12:15:00.000Z</updated>
+  <updated>2025-05-14T16:48:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac realiza webinário sobre novas regras sobre a atuação de laboratórios de ensaios de inflamabilidade no setor aéreo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-webinario-sobre-novas-regras-sobre-a-atuacao-de-laboratorios-de-ensaios-de-inflamabilidade-no-setor-aereo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-webinario-sobre-novas-regras-sobre-a-atuacao-de-laboratorios-de-ensaios-de-inflamabilidade-no-setor-aereo</id>
+    <updated>2025-05-14T16:48:00.000Z</updated>
+    <published>2025-05-14T16:48:00.000Z</published>
+    <summary type="html"><![CDATA[Evento ocorre no dia 30/5, entre as 14h e 16h, e poderá ser acessado diretamente pelo canal de Youtube da Agência]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Participe da semana de encontros para profissionais da manutenção aeronáutica]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/participe-da-semana-de-encontros-para-profissionais-da-manutencao-aeronautica" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/participe-da-semana-de-encontros-para-profissionais-da-manutencao-aeronautica</id>
+    <updated>2025-05-14T16:03:00.000Z</updated>
+    <published>2025-05-14T16:03:00.000Z</published>
+    <summary type="html"><![CDATA[Semana do MMA acontecerá entre 19 e 23/5, online, com transmissão ao vivo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Participe do Webinário BHEST sobre gestão do risco meteorológico em helicópteros, no dia 29/5, às 16h]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/participe-do-webinario-bhest-sobre-gestao-do-risco-meteorologico-em-helicopteros-no-dia-29-5-as-16h" />
@@ -301,23 +319,5 @@ Processo00058.041142/2024-47]]></summary>
     <updated>2025-04-15T10:26:00.000Z</updated>
     <published>2025-04-15T10:26:00.000Z</published>
     <summary type="html"><![CDATA[Ação incentiva o interesse de jovens de baixa renda para as carreiras da aviação civil por meio de visitas a aeroportos]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Cuiabá (MT) receberá a próxima etapa da Semana Safety, nos dias 13 a 15/5]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cuiaba-mt-recebera-a-proxima-etapa-da-semana-safety-nos-dias-13-a-15-5" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/cuiaba-mt-recebera-a-proxima-etapa-da-semana-safety-nos-dias-13-a-15-5</id>
-    <updated>2025-04-14T14:19:00.000Z</updated>
-    <published>2025-04-14T14:19:00.000Z</published>
-    <summary type="html"><![CDATA[Anac abre a oportunidade para regulados sugerirem temas a serem abordados durante o evento, que destacará as particularidades da segurança operacional na região centro-oeste do país]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac firma termos de admissão para desenvolver projetos e regulação para vertiportos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-termos-de-admissao-para-desenvolver-projetos-e-regulacao-para-vertiportos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-termos-de-admissao-para-desenvolver-projetos-e-regulacao-para-vertiportos</id>
-    <updated>2025-04-11T17:29:00.000Z</updated>
-    <published>2025-04-11T17:29:00.000Z</published>
-    <summary type="html"><![CDATA[Empresas irão desenvolver e testar estruturas, ajudando a Agência a definir regras para o segmento de eVTOL]]></summary>
   </entry>
 </feed>
