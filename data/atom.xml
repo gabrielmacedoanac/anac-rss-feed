@@ -2,9 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-15T14:26:00.000Z</updated>
+  <updated>2025-05-16T19:30:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Pousos e decolagens da aviação geral em Congonhas terão novas regras]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pousos-e-decolagens-da-aviacao-geral-em-congonhas-terao-novas-regras" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/pousos-e-decolagens-da-aviacao-geral-em-congonhas-terao-novas-regras</id>
+    <updated>2025-05-16T19:30:00.000Z</updated>
+    <published>2025-05-16T19:30:00.000Z</published>
+    <summary type="html"><![CDATA[Mudanças serão implementadas após estruturação realizada por Anac, Decea e concessionária. Objetivo é aprimorar a utilização da infraestrutura do aeroporto.]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Semana Safety etapa Cuiabá: diálogo, cooperação e fortalecimento da segurança operacional na aviação da cidade e do campo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-etapa-cuiaba-dialogo-cooperacao-e-fortalecimento-da-seguranca-operacional-na-aviacao-da-cidade-e-do-campo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-etapa-cuiaba-dialogo-cooperacao-e-fortalecimento-da-seguranca-operacional-na-aviacao-da-cidade-e-do-campo</id>
+    <updated>2025-05-16T17:56:00.000Z</updated>
+    <published>2025-05-16T17:56:00.000Z</published>
+    <summary type="html"><![CDATA[Evento reuniu especialistas, operadores e representantes da aviação civil para debater desafios e promover ações integradas em prol da segurança na Região Centro-Oeste incluindo as operações aeroagrícolas]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Alitalia: passageiros ainda podem solicitar reembolso de bilhetes e vouchers não utilizados]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/alitalia-passageiros-ainda-podem-solicitar-reembolso-de-bilhetes-e-vouchers-nao-utilizados" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/alitalia-passageiros-ainda-podem-solicitar-reembolso-de-bilhetes-e-vouchers-nao-utilizados</id>
+    <updated>2025-05-16T17:30:00.000Z</updated>
+    <published>2025-05-16T17:30:00.000Z</published>
+    <summary type="html"><![CDATA[Empresa encerrou atividades outubro de 2021 e criou canal para orientar passageiros afetados]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Digital Week: inscrições abertas para o evento de transformação digital da Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac</id>
+    <updated>2025-05-16T17:15:00.000Z</updated>
+    <published>2025-05-16T17:15:00.000Z</published>
+    <summary type="html"><![CDATA[Agência reúne especialistas para abordar como a inteligência artificial impacta em inovação e eficiência na aviação civil]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac participa de atividades educacionais para jovens em São José dos Campos (SP)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-de-atividades-educacionais-para-jovens-em-sao-jose-dos-campos-sp" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-de-atividades-educacionais-para-jovens-em-sao-jose-dos-campos-sp</id>
+    <updated>2025-05-16T17:01:00.000Z</updated>
+    <published>2025-05-16T17:01:00.000Z</published>
+    <summary type="html"><![CDATA[Apoiado pela Agência, projeto Newton In A Box chega ao Brasil com oficinas de Ciências, Tecnologia, Engenharia e Matemática para estudantes de ensino médio]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac é reconhecida com Selo Ouro da Fiesp por excelência regulatória]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-reconhecida-com-selo-ouro-da-fiesp-por-excelencia-regulatoria" />
@@ -274,50 +319,5 @@ Processo00058.041142/2024-47]]></summary>
     <updated>2025-04-30T16:29:00.000Z</updated>
     <published>2025-04-30T16:29:00.000Z</published>
     <summary type="html"><![CDATA[Evento reunirá especialistas para debater inovações tecnológicas, boas práticas e cooperação internacional na aviação civil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Cadastro de drones fica mais rápido e intuitivo com novas melhorias no Sisant]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cadastro-de-drones-fica-mais-rapido-e-intuitivo-com-novas-melhorias-no-sisant" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/cadastro-de-drones-fica-mais-rapido-e-intuitivo-com-novas-melhorias-no-sisant</id>
-    <updated>2025-04-28T08:02:00.000Z</updated>
-    <published>2025-04-28T08:02:00.000Z</published>
-    <summary type="html"><![CDATA[Reformulação do sistema traz interface amigável, cadastro em lote e mais flexibilidade para empresas]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aeródromo de Parintins (AM) poderá retomar operações com aviões a jato]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aerodromo-de-parintins-am-podera-retomar-operacoes-com-avioes-a-jato" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aerodromo-de-parintins-am-podera-retomar-operacoes-com-avioes-a-jato</id>
-    <updated>2025-04-25T18:20:00.000Z</updated>
-    <published>2025-04-25T18:20:00.000Z</published>
-    <summary type="html"><![CDATA[Anac suspende restrições mediante cumprimento de condicionantes que garantam a segurança das operações aéreas]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Empresa de transporte de cargas recebe certificação da Anac para ingressar no modal aéreo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/empresa-de-transporte-de-cargas-recebe-certificacao-da-anac-para-ingressar-no-modal-aereo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/empresa-de-transporte-de-cargas-recebe-certificacao-da-anac-para-ingressar-no-modal-aereo</id>
-    <updated>2025-04-25T16:01:00.000Z</updated>
-    <published>2025-04-25T16:01:00.000Z</published>
-    <summary type="html"><![CDATA[Braspress Air Cargo poderá transportar mercadorias com dois Boeings 737-400F]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aberto o curso gratuito Aviation English Level 3]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberto-o-o-curso-gratuito-aviation-english-level-3</id>
-    <updated>2025-04-24T11:24:00.000Z</updated>
-    <published>2025-04-24T11:24:00.000Z</published>
-    <summary type="html"><![CDATA[As inscrições e teste de nivelamento podem ser feitos até o dia 23 de maio]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Com 10,2 milhões de passageiros, setor aéreo tem melhor mês de março desde 2000]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/com-10-2-milhoes-de-passageiros-setor-aereo-tem-melhor-mes-de-marco-desde-2000" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/com-10-2-milhoes-de-passageiros-setor-aereo-tem-melhor-mes-de-marco-desde-2000</id>
-    <updated>2025-04-23T10:46:00.000Z</updated>
-    <published>2025-04-23T10:46:00.000Z</published>
-    <summary type="html"><![CDATA[Movimentação doméstica e internacional apresentam recorde para o período]]></summary>
   </entry>
 </feed>
