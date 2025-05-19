@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-16T19:30:00.000Z</updated>
+  <updated>2025-05-19T20:09:55.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Semana MMA - Carreira para MMA de aeronaves de asa fixa]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=9NlpEhaSVv4" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=9NlpEhaSVv4</id>
+    <updated>2025-05-19T20:09:55.000Z</updated>
+    <published>2025-05-19T20:09:55.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/kZjLp9rhRMvkX2DLiqX1gd]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Pousos e decolagens da aviação geral em Congonhas terão novas regras]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pousos-e-decolagens-da-aviacao-geral-em-congonhas-terao-novas-regras" />
@@ -228,15 +237,6 @@
     <updated>2025-05-07T21:50:53.000Z</updated>
     <published>2025-05-07T21:50:53.000Z</published>
     <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/aZTqZYB1RDiH2SFYW7DQQk]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana MMA - Carreira para MMA de aeronaves de asa fixa]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=9NlpEhaSVv4" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=9NlpEhaSVv4</id>
-    <updated>2025-05-07T21:49:53.000Z</updated>
-    <published>2025-05-07T21:49:53.000Z</published>
-    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/kZjLp9rhRMvkX2DLiqX1gd]]></summary>
   </entry>
 
   <entry>
