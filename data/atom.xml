@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-19T20:09:55.000Z</updated>
+  <updated>2025-05-20T20:12:50.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Semana MMA - Carreira para MMA de helicópteros]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=_9gw_ysGyHg" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=_9gw_ysGyHg</id>
+    <updated>2025-05-20T20:12:50.000Z</updated>
+    <published>2025-05-20T20:12:50.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/aZTqZYB1RDiH2SFYW7DQQk]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Movimentação de passageiros em abril bate novo recorde]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/movimentacao-de-passageiros-em-abril-bate-novo-recorde" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/movimentacao-de-passageiros-em-abril-bate-novo-recorde</id>
+    <updated>2025-05-20T16:52:00.000Z</updated>
+    <published>2025-05-20T16:52:00.000Z</published>
+    <summary type="html"><![CDATA[Fluxo doméstico alcançou 7,9 milhões de passageiros, enquanto o setor internacional pela primeira vez ultrapassa 2 milhões de passageiros movimentados em abril]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Semana MMA - Carreira para MMA de aeronaves de asa fixa]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=9NlpEhaSVv4" />
@@ -258,15 +276,6 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Semana MMA - Carreira para MMA de aeronaves de asa rotativa]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=_9gw_ysGyHg" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=_9gw_ysGyHg</id>
-    <updated>2025-05-07T21:50:53.000Z</updated>
-    <published>2025-05-07T21:50:53.000Z</published>
-    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/aZTqZYB1RDiH2SFYW7DQQk]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Sorteio – Dia da Aviação Inclusiva]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CztDhJl9EGQ" />
     <id>urn:uuid:https://www.youtube.com/watch?v=CztDhJl9EGQ</id>
@@ -310,14 +319,5 @@ Processo00058.041142/2024-47]]></summary>
     <updated>2025-05-05T17:52:00.000Z</updated>
     <published>2025-05-05T17:52:00.000Z</published>
     <summary type="html"><![CDATA[Dados ajudarão a Agência a fomentar o crescimento do setor, aproveitando o potencial da população brasileira]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Relatório de Atividades: confira os resultados de atuação da Anac em 2024]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/relatorio-de-atividades-confira-os-resultados-de-atuacao-da-anac-em-2024" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/relatorio-de-atividades-confira-os-resultados-de-atuacao-da-anac-em-2024</id>
-    <updated>2025-05-05T16:58:00.000Z</updated>
-    <published>2025-05-05T16:58:00.000Z</published>
-    <summary type="html"><![CDATA[Documento revela números do setor e informações sobre a gestão estratégica da Agência no ano]]></summary>
   </entry>
 </feed>
