@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-20T20:12:50.000Z</updated>
+  <updated>2025-05-21T20:14:34.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Semana MMA - Carreira para MMA em organizações de manutenção e MMA autônomo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=3NmzEj-43cI" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=3NmzEj-43cI</id>
+    <updated>2025-05-21T20:14:34.000Z</updated>
+    <published>2025-05-21T20:14:34.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/dneW9QXJrag1nEA7B3cfPV]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Semana MMA - Carreira para MMA de helicópteros]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=_9gw_ysGyHg" />
@@ -264,15 +273,6 @@
     <updated>2025-05-07T21:53:22.000Z</updated>
     <published>2025-05-07T21:53:22.000Z</published>
     <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/raSzAeVeuHrwoPMx69j3pZ]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana MMA - Carreira para MMA em organizações de manutenção e MMA autônomo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=3NmzEj-43cI" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=3NmzEj-43cI</id>
-    <updated>2025-05-07T21:51:49.000Z</updated>
-    <published>2025-05-07T21:51:49.000Z</published>
-    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/dneW9QXJrag1nEA7B3cfPV]]></summary>
   </entry>
 
   <entry>
