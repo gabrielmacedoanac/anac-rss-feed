@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-22T02:31:16.000Z</updated>
+  <updated>2025-05-22T10:48:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA["Assédio Não Decola": Anac e Mpor lançam guia para combater assédio e importunação sexual na aviação civil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/assedio-nao-decola-anac-e-mpor-lancam-guia-para-combater-assedio-e-importunacao-sexual-na-aviacao-civil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/assedio-nao-decola-anac-e-mpor-lancam-guia-para-combater-assedio-e-importunacao-sexual-na-aviacao-civil</id>
+    <updated>2025-05-22T10:48:00.000Z</updated>
+    <published>2025-05-22T10:48:00.000Z</published>
+    <summary type="html"><![CDATA[Iniciativa tem o objetivo de orientar e combater ações de assédio nos aeroportos e aeronaves]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Com apoio da Anac, Newton in a Box chega para estimular jovens a conhecer o mundo da aviação]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/com-apoio-da-anac-newton-in-a-box-chega-ao-brasil-para-estimular-jovens-a-conhecer-o-mundo-da-aviacao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/com-apoio-da-anac-newton-in-a-box-chega-ao-brasil-para-estimular-jovens-a-conhecer-o-mundo-da-aviacao</id>
+    <updated>2025-05-22T10:02:00.000Z</updated>
+    <published>2025-05-22T10:02:00.000Z</published>
+    <summary type="html"><![CDATA[Brasil foi o primeiro país do Hemisfério Sul a receber o projeto com oficinas em Ciências, Tecnologia, Engenharia e Matemática]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Sorteio – Dia da Aviação Inclusiva]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CztDhJl9EGQ" />
@@ -38,7 +56,7 @@
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/movimentacao-de-passageiros-em-abril-bate-novo-recorde</id>
     <updated>2025-05-20T16:52:00.000Z</updated>
     <published>2025-05-20T16:52:00.000Z</published>
-    <summary type="html"><![CDATA[Fluxo doméstico alcançou 7,9 milhões de passageiros, enquanto o setor internacional pela primeira vez ultrapassa 2 milhões de passageiros movimentados em abril]]></summary>
+    <summary type="html"><![CDATA[Fluxo doméstico alcançou 7,9 milhões de passageiros; setor internacional pela primeira vez supera a marca de 2 milhões de passageiros em abril]]></summary>
   </entry>
 
   <entry>
@@ -285,15 +303,6 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Centro de Treinamento da Anac, em Brasília, recebe avião Aero Boero para exposição permanente]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/centro-de-treinamento-da-anac-em-brasilia-recebe-aviao-aero-boero-para-exposicao-permanente" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/centro-de-treinamento-da-anac-em-brasilia-recebe-aviao-aero-boero-para-exposicao-permanente</id>
-    <updated>2025-05-07T16:16:00.000Z</updated>
-    <published>2025-05-07T16:16:00.000Z</published>
-    <summary type="html"><![CDATA[Modelo utilizado largamente na formação de pilotos ficará exposto em frente ao prédio junto ao Phenon 100]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[7ª Reunião Deliberativa da Diretoria Colegiada (06/05/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=DX2A7mifn9M" />
     <id>urn:uuid:https://www.youtube.com/watch?v=DX2A7mifn9M</id>
@@ -310,14 +319,5 @@ Processo00058.041142/2024-47]]></summary>
     <updated>2025-05-06T14:20:16.000Z</updated>
     <published>2025-05-06T14:20:16.000Z</published>
     <summary type="html"><![CDATA[Link para perguntas no slido: https://app.sli.do/event/vDonSfQeHnp1Xtii3qKuAU]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac lança pesquisa sobre o perfil do profissional da aviação para futura oferta de bolsas de estudo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-pesquisa-sobre-o-perfil-do-profissional-da-aviacao-para-futura-oferta-de-bolsas-de-estudo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-pesquisa-sobre-o-perfil-do-profissional-da-aviacao-para-futura-oferta-de-bolsas-de-estudo</id>
-    <updated>2025-05-05T17:52:00.000Z</updated>
-    <published>2025-05-05T17:52:00.000Z</published>
-    <summary type="html"><![CDATA[Dados ajudarão a Agência a fomentar o crescimento do setor, aproveitando o potencial da população brasileira]]></summary>
   </entry>
 </feed>
