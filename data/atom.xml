@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-23T03:05:28.000Z</updated>
+  <updated>2025-05-23T06:39:33.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=TFiMAkohtiw" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=TFiMAkohtiw</id>
+    <updated>2025-05-23T06:39:33.000Z</updated>
+    <published>2025-05-23T06:39:33.000Z</published>
+    <summary type="html"><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)
+
+Pauta:
+Processo 00058.040824/2019-75: Proposta de instauração de consulta pública sobre proposta de edição do RBAC nº 100 - tema 9 da Agenda Regulatória 2025-2026]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Semana MMA - Cultura de Segurança na Manutenção Aeronáutica]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=cqjm3nFOH_c" />
@@ -310,17 +322,5 @@
     <published>2025-05-07T07:06:03.000Z</published>
     <summary type="html"><![CDATA[Processo 00058.085388/2023-40
 Processo00058.041142/2024-47]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=TFiMAkohtiw" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=TFiMAkohtiw</id>
-    <updated>2024-12-18T12:43:49.000Z</updated>
-    <published>2024-12-18T12:43:49.000Z</published>
-    <summary type="html"><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)
-
-Pauta:
-Processo 00058.040824/2019-75: Proposta de instauração de consulta pública sobre proposta de edição do RBAC nº 100 - tema 9 da Agenda Regulatória 2025-2026]]></summary>
   </entry>
 </feed>

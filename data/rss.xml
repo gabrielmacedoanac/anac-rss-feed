@@ -4,8 +4,20 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Fri, 23 May 2025 04:29:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 08:33:03 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)]]></title>
+    <link>https://www.youtube.com/watch?v=TFiMAkohtiw</link>
+    <description><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)
+
+Pauta:
+Processo 00058.040824/2019-75: Proposta de instauração de consulta pública sobre proposta de edição do RBAC nº 100 - tema 9 da Agenda Regulatória 2025-2026]]></description>
+    <pubDate>Fri, 23 May 2025 06:39:33 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=TFiMAkohtiw</guid>
+    <dc:date>2025-05-23T06:39:33.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[Semana MMA - Cultura de Segurança na Manutenção Aeronáutica]]></title>
     <link>https://www.youtube.com/watch?v=cqjm3nFOH_c</link>
@@ -311,18 +323,6 @@ Processo00058.041142/2024-47]]></description>
     <pubDate>Wed, 07 May 2025 07:06:03 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=DX2A7mifn9M</guid>
     <dc:date>2025-05-07T07:06:03.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)]]></title>
-    <link>https://www.youtube.com/watch?v=TFiMAkohtiw</link>
-    <description><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)
-
-Pauta:
-Processo 00058.040824/2019-75: Proposta de instauração de consulta pública sobre proposta de edição do RBAC nº 100 - tema 9 da Agenda Regulatória 2025-2026]]></description>
-    <pubDate>Wed, 18 Dec 2024 12:43:49 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=TFiMAkohtiw</guid>
-    <dc:date>2024-12-18T12:43:49.000Z</dc:date>
   </item>
   </channel>
 </rss>
