@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-22T10:48:00.000Z</updated>
+  <updated>2025-05-23T03:05:28.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Semana MMA - Cultura de Segurança na Manutenção Aeronáutica]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=cqjm3nFOH_c" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=cqjm3nFOH_c</id>
+    <updated>2025-05-23T03:05:28.000Z</updated>
+    <published>2025-05-23T03:05:28.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/raSzAeVeuHrwoPMx69j3pZ]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA["Assédio Não Decola": Anac e Mpor lançam guia para combater assédio e importunação sexual na aviação civil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/assedio-nao-decola-anac-e-mpor-lancam-guia-para-combater-assedio-e-importunacao-sexual-na-aviacao-civil" />
@@ -291,15 +300,6 @@
     <updated>2025-05-07T21:54:47.000Z</updated>
     <published>2025-05-07T21:54:47.000Z</published>
     <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/cVsSg9Tt9R9kyjSPk3kQQg]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana MMA - Cultura de Segurança na Manutenção Aeronáutica]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=cqjm3nFOH_c" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=cqjm3nFOH_c</id>
-    <updated>2025-05-07T21:53:22.000Z</updated>
-    <published>2025-05-07T21:53:22.000Z</published>
-    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/raSzAeVeuHrwoPMx69j3pZ]]></summary>
   </entry>
 
   <entry>
