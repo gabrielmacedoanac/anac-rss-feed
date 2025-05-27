@@ -1,5 +1,21 @@
 [
   {
+    "title": "Consulta setorial sobre peças de aeronaves está aberta até o dia 7/7",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2025/consulta-setorial-sobre-pecas-de-aeronaves-esta-aberta-ate-o-dia-7-7",
+    "date": "27/05/2025 17h05",
+    "description": "Proposta da Anac pretende estabelecer Diretriz de Aeronavegabilidade para checagem e eventual substituição de componentes fabricados pela empresa H8 ALS",
+    "image": null,
+    "type": "texto"
+  },
+  {
+    "title": "Com abertura de consulta setorial, Anac altera data de webinário sobre atuação de laboratórios de requisitos de inflamabilidade",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2025/com-abertura-de-consulta-setorial-anac-altera-data-de-webinario-sobre-atuacao-de-laboratorios-de-requisitos-de-inflamabilidade",
+    "date": "27/05/2025 15h23",
+    "description": "Alterações normativas serão apresentadas em evento online no dia 6 de junho",
+    "image": "https://www.gov.br/anac/pt-br/noticias/2025/com-abertura-de-consulta-setorial-anac-altera-data-de-webinario-sobre-atuacao-de-laboratorios-de-requisitos-de-inflamabilidade/portal-2.png/@@images/0fdce1c8-e698-409a-ac39-61b5a61274c1.png",
+    "type": "texto"
+  },
+  {
     "title": "Digital Week  - Dia 26/05 - EVENTO EXTERNO",
     "link": "https://www.youtube.com/watch?v=Q4YcEPd0ZLM",
     "date": "27/05/2025 03h28",
@@ -192,10 +208,10 @@
     "type": "texto"
   },
   {
-    "title": "A evolução digital do Registro Aeronáutico Brasileiro",
+    "title": "27/05 - Digital Week 2025, das 16h30 às 18h",
     "link": "https://www.youtube.com/watch?v=N757SyNl7sY",
     "date": "13/05/2025 20h16",
-    "description": "Seja bem-vindo!\nPalestra: A evolução digital do Registro Aeronáutico Brasileiro \nFormato: Digital, com transmissão pelo Canal Oficial do Youtube \nLink do Slido (perguntas): https://app.sli.do/event/bzUVnmBbnv4jqNsYwFNFBZ\nModeração: Luciana Vieira Ferreira, gerente técnica do RAB da Anac\nPainelista 1: Roberta Leal Andreoli, da Leal Andreoli Advogados\nPainelista 2: Isabella Vilhena, gerente jurídica da LATAM Brasil\nPainelista 3: Tatiane Viana, gerente de Assuntos Regulatórios da LATAM Brasil\nMais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac\nParticipe!",
+    "description": "Seja bem-vindo!\nPalestra: Safety Intelligence com IA \nFormato: Digital, com transmissão pelo Canal Oficial do Youtube \nLink do Slido (perguntas): https://app.sli.do/event/pNkWrGgzvoU3antajNrPMn\nModerador: Ronaldo Gammernan, coordenador de Análise e Monitoramento Contínuo da Anac\nPainelista 1: Bernardo Tomaz de Castro, Chefe da Assessoria de Segurança Operacional da Anac\nMais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac\nParticipe!",
     "image": "https://i3.ytimg.com/vi/N757SyNl7sY/hqdefault.jpg",
     "type": "vídeo"
   },
@@ -240,28 +256,12 @@
     "type": "vídeo"
   },
   {
-    "title": "IA e Acessibilidade Digital",
+    "title": "27/05 - Digital Week, das 10h às 12h",
     "link": "https://www.youtube.com/watch?v=_IhhgDfFcN0",
     "date": "12/05/2025 20h45",
     "description": "Moderação: Felipe Cruz, da Anac\nPainelista 1: Maíra Rocha Santos, professora da UnB e Pesquisadora do ITRAC\nPainelista 2: Thierry Cintra Marcondes, conselheiro e palestrante da Wylinka\nPainelista 3: Patrícia Samensato, gerente  técnica de Educação para o Consumo e Qualidade dos Serviços de Transporte Aéreo de Passageiros da Anac\nPerguntas: https://app.sli.do/event/bzUVnmBbnv4jqNsYwFNFBZ",
     "image": "https://i4.ytimg.com/vi/_IhhgDfFcN0/hqdefault.jpg",
     "type": "vídeo"
-  },
-  {
-    "title": "Aéreas poderão utilizar temporariamente slots da Voepass em Congonhas e Guarulhos",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2025/aereas-poderao-utilizar-temporariamente-slots-da-voepass-em-congonhas-e-guarulhos",
-    "date": "09/05/2025 22h07",
-    "description": "Companhia não cumpriu meta de regularidade de voos e posições da temporada atual poderão ser disponibilizadas a outras empresas",
-    "image": "https://www.gov.br/anac/pt-br/noticias/2025/aereas-poderao-utilizar-temporariamente-slots-da-voepass-em-congonhas-e-guarulhos/aena-cgh-00261.jpg/@@images/3d629ae1-1bda-4102-baf6-430688daddf7.jpeg",
-    "type": "texto"
-  },
-  {
-    "title": "Diário de Bordo Eletrônico será implementado em operações de carga regulares",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2025/dado-primeiro-passo-para-a-implantacao-do-diario-de-bordo-eletronico-em-operacoes-de-carga-regulares",
-    "date": "09/05/2025 17h08",
-    "description": "Contrato assinado no dia 7/5 marca o início da adoção do eDB por empresa certificada pelo RBAC nº 121 para operações regulares de transporte cargueiro",
-    "image": "https://www.gov.br/anac/pt-br/noticias/2025/dado-primeiro-passo-para-a-implantacao-do-diario-de-bordo-eletronico-em-operacoes-de-carga-regulares/whatsapp-image-2025-05-09-at-10-09-45-1.jpeg/@@images/119f4ec3-b22e-43a9-8301-38c67867e9dd.jpeg",
-    "type": "texto"
   },
   {
     "title": "Consulta setorial sobre certificação de laboratórios de inflamabilidade",

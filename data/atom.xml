@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-27T03:28:38.000Z</updated>
+  <updated>2025-05-27T17:05:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Consulta setorial sobre peças de aeronaves está aberta até o dia 7/7]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/consulta-setorial-sobre-pecas-de-aeronaves-esta-aberta-ate-o-dia-7-7" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/consulta-setorial-sobre-pecas-de-aeronaves-esta-aberta-ate-o-dia-7-7</id>
+    <updated>2025-05-27T17:05:00.000Z</updated>
+    <published>2025-05-27T17:05:00.000Z</published>
+    <summary type="html"><![CDATA[Proposta da Anac pretende estabelecer Diretriz de Aeronavegabilidade para checagem e eventual substituição de componentes fabricados pela empresa H8 ALS]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Com abertura de consulta setorial, Anac altera data de webinário sobre atuação de laboratórios de requisitos de inflamabilidade]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/com-abertura-de-consulta-setorial-anac-altera-data-de-webinario-sobre-atuacao-de-laboratorios-de-requisitos-de-inflamabilidade" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/com-abertura-de-consulta-setorial-anac-altera-data-de-webinario-sobre-atuacao-de-laboratorios-de-requisitos-de-inflamabilidade</id>
+    <updated>2025-05-27T15:23:00.000Z</updated>
+    <published>2025-05-27T15:23:00.000Z</published>
+    <summary type="html"><![CDATA[Alterações normativas serão apresentadas em evento online no dia 6 de junho]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Digital Week  - Dia 26/05 - EVENTO EXTERNO]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Q4YcEPd0ZLM" />
@@ -225,19 +243,17 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[A evolução digital do Registro Aeronáutico Brasileiro]]></title>
+    <title type="html"><![CDATA[27/05 - Digital Week 2025, das 16h30 às 18h]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=N757SyNl7sY" />
     <id>urn:uuid:https://www.youtube.com/watch?v=N757SyNl7sY</id>
     <updated>2025-05-13T20:16:24.000Z</updated>
     <published>2025-05-13T20:16:24.000Z</published>
     <summary type="html"><![CDATA[Seja bem-vindo!
-Palestra: A evolução digital do Registro Aeronáutico Brasileiro 
+Palestra: Safety Intelligence com IA 
 Formato: Digital, com transmissão pelo Canal Oficial do Youtube 
-Link do Slido (perguntas): https://app.sli.do/event/bzUVnmBbnv4jqNsYwFNFBZ
-Moderação: Luciana Vieira Ferreira, gerente técnica do RAB da Anac
-Painelista 1: Roberta Leal Andreoli, da Leal Andreoli Advogados
-Painelista 2: Isabella Vilhena, gerente jurídica da LATAM Brasil
-Painelista 3: Tatiane Viana, gerente de Assuntos Regulatórios da LATAM Brasil
+Link do Slido (perguntas): https://app.sli.do/event/pNkWrGgzvoU3antajNrPMn
+Moderador: Ronaldo Gammernan, coordenador de Análise e Monitoramento Contínuo da Anac
+Painelista 1: Bernardo Tomaz de Castro, Chefe da Assessoria de Segurança Operacional da Anac
 Mais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac
 Participe!]]></summary>
   </entry>
@@ -288,7 +304,7 @@ Participe!]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[IA e Acessibilidade Digital]]></title>
+    <title type="html"><![CDATA[27/05 - Digital Week, das 10h às 12h]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=_IhhgDfFcN0" />
     <id>urn:uuid:https://www.youtube.com/watch?v=_IhhgDfFcN0</id>
     <updated>2025-05-12T20:45:40.000Z</updated>
@@ -298,24 +314,6 @@ Painelista 1: Maíra Rocha Santos, professora da UnB e Pesquisadora do ITRAC
 Painelista 2: Thierry Cintra Marcondes, conselheiro e palestrante da Wylinka
 Painelista 3: Patrícia Samensato, gerente  técnica de Educação para o Consumo e Qualidade dos Serviços de Transporte Aéreo de Passageiros da Anac
 Perguntas: https://app.sli.do/event/bzUVnmBbnv4jqNsYwFNFBZ]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aéreas poderão utilizar temporariamente slots da Voepass em Congonhas e Guarulhos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aereas-poderao-utilizar-temporariamente-slots-da-voepass-em-congonhas-e-guarulhos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aereas-poderao-utilizar-temporariamente-slots-da-voepass-em-congonhas-e-guarulhos</id>
-    <updated>2025-05-09T22:07:00.000Z</updated>
-    <published>2025-05-09T22:07:00.000Z</published>
-    <summary type="html"><![CDATA[Companhia não cumpriu meta de regularidade de voos e posições da temporada atual poderão ser disponibilizadas a outras empresas]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Diário de Bordo Eletrônico será implementado em operações de carga regulares]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/dado-primeiro-passo-para-a-implantacao-do-diario-de-bordo-eletronico-em-operacoes-de-carga-regulares" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/dado-primeiro-passo-para-a-implantacao-do-diario-de-bordo-eletronico-em-operacoes-de-carga-regulares</id>
-    <updated>2025-05-09T17:08:00.000Z</updated>
-    <published>2025-05-09T17:08:00.000Z</published>
-    <summary type="html"><![CDATA[Contrato assinado no dia 7/5 marca o início da adoção do eDB por empresa certificada pelo RBAC nº 121 para operações regulares de transporte cargueiro]]></summary>
   </entry>
 
   <entry>
