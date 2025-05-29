@@ -4,8 +4,17 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Thu, 29 May 2025 12:51:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2025 16:31:13 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[BASeT disponibiliza manuais sobre vistorias de perímetro operacional aeroportuário e captura de drones em ambientes aeroportuários]]></title>
+    <link>https://www.gov.br/anac/pt-br/noticias/2025/baset-disponibiliza-manuais-sobre-vistorias-de-perimetro-operacional-aeroportuario-e-captura-de-drones-em-ambientes-aeroportuarios</link>
+    <description><![CDATA[Documentos representam os Produtos Finais dos Subgrupos Temáticos nº 1 e 4 do Ciclo 2024/2025]]></description>
+    <pubDate>Thu, 29 May 2025 12:58:00 GMT</pubDate>
+    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2025/baset-disponibiliza-manuais-sobre-vistorias-de-perimetro-operacional-aeroportuario-e-captura-de-drones-em-ambientes-aeroportuarios</guid>
+    <dc:date>2025-05-29T12:58:00.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[28/05 - Digital Week 2025, das 16h30 às 18h]]></title>
     <link>https://www.youtube.com/watch?v=crgpnzzFz9s</link>
@@ -109,9 +118,9 @@ Participe!]]></description>
   </item>
 
   <item>
-    <title><![CDATA[Digital Week  - Dia 26/05 - EVENTO EXTERNO]]></title>
+    <title><![CDATA[26/05 - Digital Week, das 10h às 12h]]></title>
     <link>https://www.youtube.com/watch?v=Q4YcEPd0ZLM</link>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[Link do Slido (perguntas): https://app.sli.do/event/6Ejb5AXeCjpBcxD2EG9dFw]]></description>
     <pubDate>Tue, 27 May 2025 03:28:38 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=Q4YcEPd0ZLM</guid>
     <dc:date>2025-05-27T03:28:38.000Z</dc:date>
@@ -319,15 +328,6 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
   </item>
 
   <item>
-    <title><![CDATA[Participe do Webinário BHEST sobre gestão do risco meteorológico em helicópteros, no dia 29/5, às 16h]]></title>
-    <link>https://www.gov.br/anac/pt-br/noticias/2025/participe-do-webinario-bhest-sobre-gestao-do-risco-meteorologico-em-helicopteros-no-dia-29-5-as-16h</link>
-    <description><![CDATA[Evento online reunirá especialistas para discutir prevenção de riscos em operações com helicópteros e será transmitido ao vivo no YouTube]]></description>
-    <pubDate>Wed, 14 May 2025 12:15:00 GMT</pubDate>
-    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2025/participe-do-webinario-bhest-sobre-gestao-do-risco-meteorologico-em-helicopteros-no-dia-29-5-as-16h</guid>
-    <dc:date>2025-05-14T12:15:00.000Z</dc:date>
-  </item>
-
-  <item>
     <title><![CDATA[Tetos das tarifas aeroportuárias do Galeão e de Confins são reajustados]]></title>
     <link>https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-do-galeao-e-de-confins-sao-reajustados</link>
     <description><![CDATA[Novas tarifas poderão ser praticadas 30 dias após divulgação pelas concessionárias]]></description>
@@ -357,12 +357,16 @@ Participe!]]></description>
     <title><![CDATA[29/05 - Digital Week 2025, das 14h às 16h]]></title>
     <link>https://www.youtube.com/watch?v=aQXaMrKaNyg</link>
     <description><![CDATA[Seja bem-vindo!
+
 Palestra: Aplicando SRE a serviço digitais (site Reliability Engineering)
 Formato: Presencial no Auditório da Sede da ANAC, com transmissão pelo Canal Oficial do YouTube.
 Link do Slido (perguntas): https://app.sli.do/event/gbetPBeFzBEF5upm1M9SPe
+
 Moderador: Felipe Sarmanho, da Anac
+
 Painelista 1: José Eduardo Nogueira, observability specialist, da Ipnet by VIVO
 Mais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac
+
 Participe!]]></description>
     <pubDate>Mon, 12 May 2025 20:49:21 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=aQXaMrKaNyg</guid>
