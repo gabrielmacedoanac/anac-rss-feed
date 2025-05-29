@@ -4,7 +4,7 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Thu, 29 May 2025 16:31:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2025 20:27:33 GMT</lastBuildDate>
     
   <item>
     <title><![CDATA[BASeT disponibiliza manuais sobre vistorias de perímetro operacional aeroportuário e captura de drones em ambientes aeroportuários]]></title>
@@ -374,12 +374,22 @@ Participe!]]></description>
   </item>
 
   <item>
-    <title><![CDATA[Consulta setorial sobre certificação de laboratórios de inflamabilidade]]></title>
-    <link>https://www.youtube.com/watch?v=IKV_zGVVsNU</link>
-    <description><![CDATA[Link do Slido: https://app.sli.do/event/qYvvRftqtcek3vqVUUf9BU]]></description>
-    <pubDate>Wed, 07 May 2025 21:57:18 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=IKV_zGVVsNU</guid>
-    <dc:date>2025-05-07T21:57:18.000Z</dc:date>
+    <title><![CDATA[Webinário BHEST: gestão do risco meteorológico em helicópteros]]></title>
+    <link>https://www.youtube.com/watch?v=eP_kUuagOIg</link>
+    <description><![CDATA[Seja bem-vindo!
+ 
+Webinário BHEST: gestão do risco meteorológico em helicópteros, dia 29 de maio, das 16h às 18h.
+ 
+O objetivo do evento é concentrar os esforços na disseminação da cultura, dos conceitos e das melhores práticas relacionadas à Segurança Operacional junto aos provedores de serviço da aviação civil, abrangendo temas relacionados aos trabalhos desenvolvidos pelo Grupo de Segurança Operacional de Helicópteros (BHEST).  
+ 
+Para perguntas durante a transmissão: QR Code na tela ou pelo link https://app.sli.do/event/vDonSfQeHnp1Xtii3qKuAU
+ 
+Mais informações:  https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-bhest-gestao-do-risco-meteorologico-em-helicopteros
+ 
+Participe!]]></description>
+    <pubDate>Tue, 06 May 2025 14:20:16 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=eP_kUuagOIg</guid>
+    <dc:date>2025-05-06T14:20:16.000Z</dc:date>
   </item>
   </channel>
 </rss>
