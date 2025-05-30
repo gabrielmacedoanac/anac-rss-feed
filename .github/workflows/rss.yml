@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - 'main'
-#  schedule:
-#    - cron: '0 */4 * * *'  # Executa a cada 4h
+  schedule:
+    - cron: '1 */12 * * *'  # Executa a cada 4h
   workflow_dispatch:      # Permite execução manual
 
 jobs:
