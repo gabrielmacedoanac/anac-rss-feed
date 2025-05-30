@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-05-30T07:15:34.000Z</updated>
+  <updated>2025-05-30T10:50:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac facilita regras para credenciamento de profissionais da área de aeronavegabilidade]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-facilita-regras-para-credenciamento-de-profissionais-da-area-de-aeronavegabilidade" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-facilita-regras-para-credenciamento-de-profissionais-da-area-de-aeronavegabilidade</id>
+    <updated>2025-05-30T10:50:00.000Z</updated>
+    <published>2025-05-30T10:50:00.000Z</published>
+    <summary type="html"><![CDATA[Mudanças aumentam validade do credenciamento, reduzem custos e tornam processos mais ágeis e simples]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[29/05 - Digital Week 2025, das 14h às 16h]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=aQXaMrKaNyg" />
@@ -363,15 +372,6 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
     <updated>2025-05-14T16:03:00.000Z</updated>
     <published>2025-05-14T16:03:00.000Z</published>
     <summary type="html"><![CDATA[Semana do MMA acontecerá entre 19 e 23/5, online, com transmissão ao vivo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Tetos das tarifas aeroportuárias do Galeão e de Confins são reajustados]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-do-galeao-e-de-confins-sao-reajustados" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-do-galeao-e-de-confins-sao-reajustados</id>
-    <updated>2025-05-13T16:44:00.000Z</updated>
-    <published>2025-05-13T16:44:00.000Z</published>
-    <summary type="html"><![CDATA[Novas tarifas poderão ser praticadas 30 dias após divulgação pelas concessionárias]]></summary>
   </entry>
 
   <entry>
