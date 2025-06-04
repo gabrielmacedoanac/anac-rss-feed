@@ -2,9 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-06-03T16:36:00.000Z</updated>
+  <updated>2025-06-04T09:50:28.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Workshop sobre o controle do limite de vida em serviço das longarinas dos Air Tractor]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=mtlWqyDEfxc" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=mtlWqyDEfxc</id>
+    <updated>2025-06-04T09:50:28.000Z</updated>
+    <published>2025-06-04T09:50:28.000Z</published>
+    <summary type="html"><![CDATA[O evento tem como objetivo esclarecer sobre as condicionantes técnicas e regulatórias para que o cumprimento das tarefas previstas nas FAA AD seja considerado regular, evitando, assim, suspensão de CA por serviços cumpridos, registrados e controlados de modo não aceitável.
+
+Durante o Webnário, receberemos o representante da Air Tractor e serão abordados os seguintes temas:
+- Introdução ao problema técnico do TIS das longarinas e tarefas previstas nas FAA AD n
+- Vigilância sobre o cumprimento das FAA AD pelos operadores 137
+- Condicionantes aplicáveis às OM que podem cumprir com as tarefas previstas nas FAA AD
+- Suporte técnico aos operadores e OM
+- Esclarecimento de dúvidas
+
+Perguntas: use o QR code na tela de transmissão ou pelo link https://app.sli.do/event/eHmoDPRWtPz4nSCrwoLJZm
+
+Contamos com sua participação para promover o alinhamento técnico e regulatório, evitando suspensão de CA das aeronaves e contribuindo para a segurança e a regularidade das operações.]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Dia da Aviação Inclusiva reunirá até 60 participantes em evento sobre acessibilidade e formação de pilotos com deficiência]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/dia-da-aviacao-inclusiva-reunira-ate-60-participantes-em-evento-sobre-acessibilidade-e-formacao-de-pilotos-com-deficiencia" />
@@ -332,15 +352,6 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
     <updated>2025-05-20T16:52:00.000Z</updated>
     <published>2025-05-20T16:52:00.000Z</published>
     <summary type="html"><![CDATA[Fluxo doméstico alcançou 7,9 milhões de passageiros; setor internacional pela primeira vez supera a marca de 2 milhões de passageiros em abril]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana MMA - Carreira para MMA de aeronaves de asa fixa]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=9NlpEhaSVv4" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=9NlpEhaSVv4</id>
-    <updated>2025-05-19T20:09:55.000Z</updated>
-    <published>2025-05-19T20:09:55.000Z</published>
-    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/kZjLp9rhRMvkX2DLiqX1gd]]></summary>
   </entry>
 
   <entry>
