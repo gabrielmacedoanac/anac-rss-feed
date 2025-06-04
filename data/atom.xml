@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-06-02T17:02:00.000Z</updated>
+  <updated>2025-06-03T16:36:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Dia da Aviação Inclusiva reunirá até 60 participantes em evento sobre acessibilidade e formação de pilotos com deficiência]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/dia-da-aviacao-inclusiva-reunira-ate-60-participantes-em-evento-sobre-acessibilidade-e-formacao-de-pilotos-com-deficiencia" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/dia-da-aviacao-inclusiva-reunira-ate-60-participantes-em-evento-sobre-acessibilidade-e-formacao-de-pilotos-com-deficiencia</id>
+    <updated>2025-06-03T16:36:00.000Z</updated>
+    <published>2025-06-03T16:36:00.000Z</published>
+    <summary type="html"><![CDATA[Cinco pessoas com deficiência foram sorteadas e farão um voo de incentivo em uma aeronave adaptada para pilotos com deficiência nos membros inferiores]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Webinário sobre certificação de laboratórios será reagendado]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/webinario-sobre-certificacao-de-laboratorios-sera-reagendado" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/webinario-sobre-certificacao-de-laboratorios-sera-reagendado</id>
+    <updated>2025-06-03T15:20:00.000Z</updated>
+    <published>2025-06-03T15:20:00.000Z</published>
+    <summary type="html"><![CDATA[Nova data do evento será divulgada futuramente no portal da Agência]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac abre consulta pública para atualizar regras de operação de drones]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-publica-para-atualizar-regras-de-operacao-de-drones" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-publica-para-atualizar-regras-de-operacao-de-drones</id>
+    <updated>2025-06-03T13:10:00.000Z</updated>
+    <published>2025-06-03T13:10:00.000Z</published>
+    <summary type="html"><![CDATA[Proposta busca modernizar o regulamento de 2017, ampliar a segurança das operações e fortalecer o desenvolvimento do setor]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Tomada de subsídios recebe contribuições sobre licença e habilitação de Mecânico de Manutenção Aeronáutica até 14/7]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tomada-de-subsidios-recebe-contribuicoes-sobre-licenca-e-habilitacao-de-mecanico-de-manutencaoaeronautica-ate-17-7" />
@@ -368,32 +395,5 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
     <updated>2025-05-16T17:30:00.000Z</updated>
     <published>2025-05-16T17:30:00.000Z</published>
     <summary type="html"><![CDATA[Empresa encerrou atividades outubro de 2021 e criou canal para orientar passageiros afetados]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Digital Week: inscrições abertas para o evento de transformação digital da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac</id>
-    <updated>2025-05-16T17:15:00.000Z</updated>
-    <published>2025-05-16T17:15:00.000Z</published>
-    <summary type="html"><![CDATA[Agência reúne especialistas para abordar como a inteligência artificial impacta em inovação e eficiência na aviação civil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac participa de atividades educacionais para jovens em São José dos Campos (SP)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-de-atividades-educacionais-para-jovens-em-sao-jose-dos-campos-sp" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-de-atividades-educacionais-para-jovens-em-sao-jose-dos-campos-sp</id>
-    <updated>2025-05-16T17:01:00.000Z</updated>
-    <published>2025-05-16T17:01:00.000Z</published>
-    <summary type="html"><![CDATA[Apoiado pela Agência, projeto Newton In A Box chega ao Brasil com oficinas de Ciências, Tecnologia, Engenharia e Matemática para estudantes de ensino médio]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac é reconhecida com Selo Ouro da Fiesp por excelência regulatória]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-reconhecida-com-selo-ouro-da-fiesp-por-excelencia-regulatoria" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-reconhecida-com-selo-ouro-da-fiesp-por-excelencia-regulatoria</id>
-    <updated>2025-05-15T14:26:00.000Z</updated>
-    <published>2025-05-15T14:26:00.000Z</published>
-    <summary type="html"><![CDATA[Avaliação destacou agenda regulatória, impacto das normas e participação social]]></summary>
   </entry>
 </feed>
