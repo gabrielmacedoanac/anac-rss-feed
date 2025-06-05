@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-06-04T09:50:28.000Z</updated>
+  <updated>2025-06-04T12:50:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac revoga suspensão de transporte aéreo de mala postal após acordo operacional entre Correios e empresas aéreas]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-revoga-suspensao-de-transporte-aereo-de-mala-postal-apos-apresentacao-de-acordo-operacional-entre-correios-e-empresas-aereas" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-revoga-suspensao-de-transporte-aereo-de-mala-postal-apos-apresentacao-de-acordo-operacional-entre-correios-e-empresas-aereas</id>
+    <updated>2025-06-04T12:50:00.000Z</updated>
+    <published>2025-06-04T12:50:00.000Z</published>
+    <summary type="html"><![CDATA[Prevista para vigorar a partir desta quarta-feira, 4/6, medida foi adotada para garantir cumprimento de requisitos de segurança operacional]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Workshop sobre o controle do limite de vida em serviço das longarinas dos Air Tractor]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=mtlWqyDEfxc" />
@@ -388,15 +397,6 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
     <updated>2025-05-16T19:30:00.000Z</updated>
     <published>2025-05-16T19:30:00.000Z</published>
     <summary type="html"><![CDATA[Mudanças serão implementadas após estruturação realizada por Anac, Decea e concessionária. Objetivo é aprimorar a utilização da infraestrutura do aeroporto.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana Safety etapa Cuiabá: diálogo, cooperação e fortalecimento da segurança operacional na aviação da cidade e do campo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-etapa-cuiaba-dialogo-cooperacao-e-fortalecimento-da-seguranca-operacional-na-aviacao-da-cidade-e-do-campo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-etapa-cuiaba-dialogo-cooperacao-e-fortalecimento-da-seguranca-operacional-na-aviacao-da-cidade-e-do-campo</id>
-    <updated>2025-05-16T17:56:00.000Z</updated>
-    <published>2025-05-16T17:56:00.000Z</published>
-    <summary type="html"><![CDATA[Evento reuniu especialistas, operadores e representantes da aviação civil para debater desafios e promover ações integradas em prol da segurança na Região Centro-Oeste incluindo as operações aeroagrícolas]]></summary>
   </entry>
 
   <entry>
