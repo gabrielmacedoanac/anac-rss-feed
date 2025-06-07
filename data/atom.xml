@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-06-05T17:51:00.000Z</updated>
+  <updated>2025-06-06T11:56:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Provas teóricas da Anac aplicadas pela FGV estão suspensas temporariamente]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-aplicadas-pela-fgv-estao-suspensas-temporariamente" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-aplicadas-pela-fgv-estao-suspensas-temporariamente</id>
+    <updated>2025-06-06T11:56:00.000Z</updated>
+    <published>2025-06-06T11:56:00.000Z</published>
+    <summary type="html"><![CDATA[Exames para obtenção de licenças e habilitações de profissionais da aviação não poderão ser agendados a partir de 6/6]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac promove webinário sobre SGSO para fabricantes aeronáuticos no dia 12/6]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-webinario-sobre-sgso-para-fabricantes-aeronauticos-no-dia-12-6" />
@@ -397,14 +406,5 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
     <updated>2025-05-19T17:58:00.000Z</updated>
     <published>2025-05-19T17:58:00.000Z</published>
     <summary type="html"><![CDATA[Lista com as inscrições homologadas para participar do sorteio será divulgada no dia 20/5 no portal da Anac]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Pousos e decolagens da aviação geral em Congonhas terão novas regras]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pousos-e-decolagens-da-aviacao-geral-em-congonhas-terao-novas-regras" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/pousos-e-decolagens-da-aviacao-geral-em-congonhas-terao-novas-regras</id>
-    <updated>2025-05-16T19:30:00.000Z</updated>
-    <published>2025-05-16T19:30:00.000Z</published>
-    <summary type="html"><![CDATA[Mudanças serão implementadas após estruturação realizada por Anac, Decea e concessionária. Objetivo é aprimorar a utilização da infraestrutura do aeroporto.]]></summary>
   </entry>
 </feed>

@@ -4,8 +4,17 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Fri, 06 Jun 2025 12:33:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jun 2025 01:19:10 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[Provas teóricas da Anac aplicadas pela FGV estão suspensas temporariamente]]></title>
+    <link>https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-aplicadas-pela-fgv-estao-suspensas-temporariamente</link>
+    <description><![CDATA[Exames para obtenção de licenças e habilitações de profissionais da aviação não poderão ser agendados a partir de 6/6]]></description>
+    <pubDate>Fri, 06 Jun 2025 11:56:00 GMT</pubDate>
+    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-aplicadas-pela-fgv-estao-suspensas-temporariamente</guid>
+    <dc:date>2025-06-06T11:56:00.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[Anac promove webinário sobre SGSO para fabricantes aeronáuticos no dia 12/6]]></title>
     <link>https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-webinario-sobre-sgso-para-fabricantes-aeronauticos-no-dia-12-6</link>
@@ -398,15 +407,6 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
     <pubDate>Mon, 19 May 2025 17:58:00 GMT</pubDate>
     <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2025/dia-da-aviacao-inclusiva-sorteio-para-participar-dos-voos-de-incentivo-sera-realizado-no-dia-21-5-as-10h</guid>
     <dc:date>2025-05-19T17:58:00.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Pousos e decolagens da aviação geral em Congonhas terão novas regras]]></title>
-    <link>https://www.gov.br/anac/pt-br/noticias/2025/pousos-e-decolagens-da-aviacao-geral-em-congonhas-terao-novas-regras</link>
-    <description><![CDATA[Mudanças serão implementadas após estruturação realizada por Anac, Decea e concessionária. Objetivo é aprimorar a utilização da infraestrutura do aeroporto.]]></description>
-    <pubDate>Fri, 16 May 2025 19:30:00 GMT</pubDate>
-    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2025/pousos-e-decolagens-da-aviacao-geral-em-congonhas-terao-novas-regras</guid>
-    <dc:date>2025-05-16T19:30:00.000Z</dc:date>
   </item>
   </channel>
 </rss>
