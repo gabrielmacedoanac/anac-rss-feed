@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-06-09T15:31:00.000Z</updated>
+  <updated>2025-06-10T11:47:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac realizará webinário para explicar proposta de alteração das regras de operação de drones no dia 13/6]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-webinario-para-explicar-proposta-de-alteracao-das-regras-de-operacao-de-drones-no-dia-13-6" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-webinario-para-explicar-proposta-de-alteracao-das-regras-de-operacao-de-drones-no-dia-13-6</id>
+    <updated>2025-06-10T11:47:00.000Z</updated>
+    <published>2025-06-10T11:47:00.000Z</published>
+    <summary type="html"><![CDATA[Evento gratuito e aberto ao público terá transmissão ao vivo e espaço para envio de perguntas]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac abre consulta setorial sobre aprovação de sistemas de contenção para crianças]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-setorial-sobre-aprovacao-de-sistemas-de-contencao-para-criancas" />
@@ -408,14 +417,5 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
     <updated>2025-05-19T18:30:00.000Z</updated>
     <published>2025-05-19T18:30:00.000Z</published>
     <summary type="html"><![CDATA[Proposta é aprofundar cooperação com centros judiciais que têm mediadores e conciliadores capacitados para atendimento ao público]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Super App da Anac reúne em um só lugar todas as etapas para começar a carreira de piloto privado]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/super-app-da-anac-reune-em-um-so-lugar-todas-as-etapas-para-comecar-a-carreira-de-piloto-privado" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/super-app-da-anac-reune-em-um-so-lugar-todas-as-etapas-para-comecar-a-carreira-de-piloto-privado</id>
-    <updated>2025-05-19T18:17:00.000Z</updated>
-    <published>2025-05-19T18:17:00.000Z</published>
-    <summary type="html"><![CDATA[Versão 2.3 do app torna a jornada do aspirante à piloto mais simples e ainda inclui a emissão do CHT no próprio aplicativo]]></summary>
   </entry>
 </feed>
