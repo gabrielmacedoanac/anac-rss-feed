@@ -2,33 +2,223 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-06-10T11:47:00.000Z</updated>
+  <updated>2025-07-01T17:32:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
   <entry>
-    <title type="html"><![CDATA[Anac realizará webinário para explicar proposta de alteração das regras de operação de drones no dia 13/6]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-webinario-para-explicar-proposta-de-alteracao-das-regras-de-operacao-de-drones-no-dia-13-6" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-webinario-para-explicar-proposta-de-alteracao-das-regras-de-operacao-de-drones-no-dia-13-6</id>
-    <updated>2025-06-10T11:47:00.000Z</updated>
-    <published>2025-06-10T11:47:00.000Z</published>
-    <summary type="html"><![CDATA[Evento gratuito e aberto ao público terá transmissão ao vivo e espaço para envio de perguntas]]></summary>
+    <title type="html"><![CDATA[Anac oferece 70 vagas na 2ª edição do Concurso Público Nacional Unificado]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-oferece-70-vagas-na-2a-edicao-do-concurso-publico-nacional-unificado" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-oferece-70-vagas-na-2a-edicao-do-concurso-publico-nacional-unificado</id>
+    <updated>2025-07-01T17:32:00.000Z</updated>
+    <published>2025-07-01T17:32:00.000Z</published>
+    <summary type="html"><![CDATA[As vagas são para o cargo de Técnico em Regulação de Aviação Civil, de nível intermediário, com salário inicial de R$ 8 mil]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Anac abre consulta setorial sobre aprovação de sistemas de contenção para crianças]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-setorial-sobre-aprovacao-de-sistemas-de-contencao-para-criancas" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-setorial-sobre-aprovacao-de-sistemas-de-contencao-para-criancas</id>
-    <updated>2025-06-09T15:31:00.000Z</updated>
-    <published>2025-06-09T15:31:00.000Z</published>
-    <summary type="html"><![CDATA[Contribuições para a proposta poderão ser enviadas até 24/7 pelo portal Participa+Brasil]]></summary>
+    <title type="html"><![CDATA[Prorrogada suspensão do processo seletivo para o curso Pilotos do Semiárido]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/prorrogada-suspensao-do-processo-seletivo-para-o-curso-pilotos-do-semiarido" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/prorrogada-suspensao-do-processo-seletivo-para-o-curso-pilotos-do-semiarido</id>
+    <updated>2025-07-01T14:12:00.000Z</updated>
+    <published>2025-07-01T14:12:00.000Z</published>
+    <summary type="html"><![CDATA[Anac e Ufersa paralisaram o processo seletivo para checar informações dos candidatos e garantir a integridade dos procedimentos]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac convoca servidor Adriano Miranda para diretor-presidente interino]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-convoca-servidor-adriano-miranda-para-diretor-presidente-interino" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-convoca-servidor-adriano-miranda-para-diretor-presidente-interino</id>
+    <updated>2025-06-30T12:28:00.000Z</updated>
+    <published>2025-06-30T12:28:00.000Z</published>
+    <summary type="html"><![CDATA[Integrante da lista tríplice da Agência, substituto ocupará cargo temporariamente]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Cortes orçamentários nos serviços prestados pela Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cortes-orcamentarios-nos-servicos-prestados-pela-anac" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/cortes-orcamentarios-nos-servicos-prestados-pela-anac</id>
+    <updated>2025-06-27T22:19:00.000Z</updated>
+    <published>2025-06-27T22:19:00.000Z</published>
+    <summary type="html"><![CDATA[Contingenciamento causa paralisação de emissões de licenças de profissionais, certificações de novas empresas e afeta atividades de fiscalização. Agência participa de tratativas com vistas a um repasse emergencial para reduzir impactos dos cortes orçamentários.]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac credencia cinco novos examinadores de proficiência linguística]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-credencia-cinco-novos-examinadores-de-proficiencia-linguistica" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-credencia-cinco-novos-examinadores-de-proficiencia-linguistica</id>
+    <updated>2025-06-27T08:40:00.000Z</updated>
+    <published>2025-06-27T08:40:00.000Z</published>
+    <summary type="html"><![CDATA[Formação dos novos avaliadores amplia a oferta de exames de proficiência em inglês]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Projeto inclusivo leva o mundo da aviação a crianças do Rio de Janeiro (RJ)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/projeto-inclusivo-leva-o-mundo-da-aviacao-a-criancas-do-rio-de-janeiro-rj" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/projeto-inclusivo-leva-o-mundo-da-aviacao-a-criancas-do-rio-de-janeiro-rj</id>
+    <updated>2025-06-26T16:50:00.000Z</updated>
+    <published>2025-06-26T16:50:00.000Z</published>
+    <summary type="html"><![CDATA[Alunos de escola da rede pública aprenderam sobre aviação de forma lúdica e inclusiva]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac aplica medidas restritivas contra a companhia Aerolíneas Argentinas]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-aplica-medidas-restritivas-contra-a-companhia-aerolineas-argentinas" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-aplica-medidas-restritivas-contra-a-companhia-aerolineas-argentinas</id>
+    <updated>2025-06-26T16:01:00.000Z</updated>
+    <published>2025-06-26T16:01:00.000Z</published>
+    <summary type="html"><![CDATA[Restrições proíbem a empresa de implantar novas bases de operação e aumentar frequências de voos em cinco aeroportos brasileiros]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[6ª edição do Aviação Sustentável]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qrKLkBkd__M" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=qrKLkBkd__M</id>
+    <updated>2025-06-26T10:46:25.000Z</updated>
+    <published>2025-06-26T10:46:25.000Z</published>
+    <summary type="html"><![CDATA[O evento Aviação Sustentável já consta como um evento consolidado e perene no cronograma anual da ANAC. Trata-se de uma oportunidade para divulgação de informações relevantes relacionadas à sustentabilidade do setor, além de ser necessário para premiação dos aeroportos melhores classificados no programa Aeroportos Sustentáveis.
+
+Assim, o objetivo é reconhecer os melhores colocados no Aeroportos Sustentáveis.
+
+Participe!]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Premiação da Anac destacará os aeroportos com melhores práticas ambientais]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/premiacao-da-anac-destacara-os-aeroportos-com-melhores-praticas-ambientais" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/premiacao-da-anac-destacara-os-aeroportos-com-melhores-praticas-ambientais</id>
+    <updated>2025-06-25T11:41:00.000Z</updated>
+    <published>2025-06-25T11:41:00.000Z</published>
+    <summary type="html"><![CDATA[Agência recebeu a inscrição de 37 iniciativas para a 6ª edição do Prêmio Aeroportos Sustentáveis. Vencedores serão conhecidos no dia 8/7]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac promove webinário sobre manutenção de aeronaves   Air Tractor]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-webinario-sobre-manutencao-de-aeronaves-air-tractor-1" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-webinario-sobre-manutencao-de-aeronaves-air-tractor-1</id>
+    <updated>2025-06-25T10:58:00.000Z</updated>
+    <published>2025-06-25T10:58:00.000Z</published>
+    <summary type="html"><![CDATA[Evento busca esclarecer o controle do limite de vida em serviço das longarinas aos operadores e às oficinas de manutenção]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac amplia atuação de examinadores credenciados para exames de mecânicos de manutenção aeronáutica]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-amplia-atuacao-de-examinadores-credenciados-para-exames-de-mecanicos-de-manutencao-aeronautica" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-amplia-atuacao-de-examinadores-credenciados-para-exames-de-mecanicos-de-manutencao-aeronautica</id>
+    <updated>2025-06-25T10:27:00.000Z</updated>
+    <published>2025-06-25T10:27:00.000Z</published>
+    <summary type="html"><![CDATA[Mudanças permitem que os examinadores credenciados possam realizar exames de candidatos que não sejam da própria Organização de Manutenção]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[9ª Reunião Deliberativa da Diretoria Colegiada (24/06/2025)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=w5UcldjPOtw" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=w5UcldjPOtw</id>
+    <updated>2025-06-25T09:00:39.000Z</updated>
+    <published>2025-06-25T09:00:39.000Z</published>
+    <summary type="html"><![CDATA[Pauta:
+
+Processo 00058.032050/2020-42 
+Processo 00058.016682/2025-73 
+Processo 00058.034495/2025-71 
+Processo 00058.021107/2025-92 
+Processo 00058.016310/2020-32]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac cassa certificado de operador aéreo da Passaredo, principal empresa do grupo Voepass]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-cassa-certificado-de-operador-aereo-da-passaredo-principal-empresa-do-grupo-voepass" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-cassa-certificado-de-operador-aereo-da-passaredo-principal-empresa-do-grupo-voepass</id>
+    <updated>2025-06-24T17:43:00.000Z</updated>
+    <published>2025-06-24T17:43:00.000Z</published>
+    <summary type="html"><![CDATA[Agência interrompeu definitivamente operações após identificar falhas graves e persistentes em sistemas da empresa]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Pelo terceiro mês consecutivo, movimentação de passageiros em aeroportos brasileiros supera os 10 milhões]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pelo-terceiro-mes-consecutivo-movimentacao-de-passageiros-em-aeroportos-brasileiros-supera-os-10-milhoes" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/pelo-terceiro-mes-consecutivo-movimentacao-de-passageiros-em-aeroportos-brasileiros-supera-os-10-milhoes</id>
+    <updated>2025-06-24T17:13:00.000Z</updated>
+    <published>2025-06-24T17:13:00.000Z</published>
+    <summary type="html"><![CDATA[Com 10,4 milhões de viajantes, o mês de maio registra seus melhores resultados para o mês desde o início da série histórica]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac abre consulta setorial sobre objetivos de segurança para aeronaves eVTOL]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-setorial-sobre-objetivos-de-seguranca-para-aeronaves-evtol" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-setorial-sobre-objetivos-de-seguranca-para-aeronaves-evtol</id>
+    <updated>2025-06-23T08:41:00.000Z</updated>
+    <published>2025-06-23T08:41:00.000Z</published>
+    <summary type="html"><![CDATA[Aeronaves elétricas de decolagem e pouso vertical avançam em processo de regulamentação no Brasil]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac lamenta acidente ocorrido com balão em Santa Catarina]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lamenta-acidente-ocorrido-com-balao-em-santa-catarina" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lamenta-acidente-ocorrido-com-balao-em-santa-catarina</id>
+    <updated>2025-06-21T12:27:00.000Z</updated>
+    <published>2025-06-21T12:27:00.000Z</published>
+    <summary type="html"><![CDATA[A Agência está adotando as providências necessárias para averiguação da situação da aeronave e da tripulação]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac acompanha obras nos aeroportos do Mato Grosso do Sul e Macaé (RJ)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-acompanha-o-inicio-das-obras-nos-aeroportos-do-mato-grosso-do-sul-e-macae-rj" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-acompanha-o-inicio-das-obras-nos-aeroportos-do-mato-grosso-do-sul-e-macae-rj</id>
+    <updated>2025-06-18T19:46:00.000Z</updated>
+    <published>2025-06-18T19:46:00.000Z</published>
+    <summary type="html"><![CDATA[Foram apresentados os investimentos que serão feitos em Campo Grande, Corumbá, Ponta Porã e Dourados. Visita também marcou a entrega da nova pista de Macaé.]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac ajusta procedimentos para realização de exames de proficiência]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-ajusta-procedimentos-para-realizacao-de-exames-de-proficiencia" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-ajusta-procedimentos-para-realizacao-de-exames-de-proficiencia</id>
+    <updated>2025-06-18T18:01:00.000Z</updated>
+    <published>2025-06-18T18:01:00.000Z</published>
+    <summary type="html"><![CDATA[Mudanças se aplicam a candidatos a licenças e habilitações de pilotos, comissários de voo e mecânicos de manutenção aeronáutica]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Novas regras de fiscalização e autuação passarão a valer em 2026]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/novas-regras-de-fiscalizacao-e-autuacao-passarao-a-valer-em-2026" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/novas-regras-de-fiscalizacao-e-autuacao-passarao-a-valer-em-2026</id>
+    <updated>2025-06-18T14:06:00.000Z</updated>
+    <published>2025-06-18T14:06:00.000Z</published>
+    <summary type="html"><![CDATA[Anac vai manter processos com as normas atuais até o final do ano, quando as áreas técnicas deverão ajustar atividades aos novos critérios da regulação responsiva]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac inicia projeto de Dimensionamento da Força de Trabalho em parceria com o MGI]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-inicia-projeto-de-dimensionamento-da-forca-de-trabalho-em-parceria-com-o-mgi" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-inicia-projeto-de-dimensionamento-da-forca-de-trabalho-em-parceria-com-o-mgi</id>
+    <updated>2025-06-17T10:18:00.000Z</updated>
+    <published>2025-06-17T10:18:00.000Z</published>
+    <summary type="html"><![CDATA[Iniciativa busca aprimorar a gestão da força de trabalho com base em metodologia desenvolvida pelo ministério e pela UnB para diagnosticar a necessidade de novos servidores]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac AVSEC & Cyber Week: eventos reforçam compromisso da Agência com a segurança da aviação]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-avsec-cyber-week-eventos-reforcam-compromisso-da-agencia-com-a-seguranca-da-aviacao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-avsec-cyber-week-eventos-reforcam-compromisso-da-agencia-com-a-seguranca-da-aviacao</id>
+    <updated>2025-06-16T18:25:00.000Z</updated>
+    <published>2025-06-16T18:25:00.000Z</published>
+    <summary type="html"><![CDATA[XIII Jornada AVSEC e Cybersecurity Expo reuniram especialistas e promoveram debates estratégicos sobre proteção do setor aéreo]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Brasil tem atuação de destaque em ações de combate ao tráfico de pessoas na aviação civil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-tem-atuacao-de-destaque-em-acoes-de-combate-ao-trafico-de-pessoas-na-aviacao-civil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-tem-atuacao-de-destaque-em-acoes-de-combate-ao-trafico-de-pessoas-na-aviacao-civil</id>
+    <updated>2025-06-16T17:44:00.000Z</updated>
+    <published>2025-06-16T17:44:00.000Z</published>
+    <summary type="html"><![CDATA[Delegação brasileira coordenou elaboração de manual e workshop sobre combate e prevenção ao tráfico de pessoas na aviação civil, além de indicar vice-presidente para grupo regional da Oaci]]></summary>
   </entry>
 
   <entry>
     <title type="html"><![CDATA[Webinário - Consulta Pública Tema 9 Agenda Regulatória - Revisão das regras de Drones]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=I1BtI840LHs" />
     <id>urn:uuid:https://www.youtube.com/watch?v=I1BtI840LHs</id>
-    <updated>2025-06-09T14:00:47.000Z</updated>
-    <published>2025-06-09T14:00:47.000Z</published>
+    <updated>2025-06-13T20:30:10.000Z</updated>
+    <published>2025-06-13T20:30:10.000Z</published>
     <summary type="html"><![CDATA[O evento visa esclarecer dúvidas e fomentar a participação da sociedade na Consulta Pública do Tema 9 da Agenda Regulatória que trata das propostas de alterações regulatórias para as operações de drones no Brasil.
 
 Programação: 
@@ -44,30 +234,16 @@ Dúvidas e perguntas: https://app.sli.do/event/qpPsKRbT5PvKa51bhTULqb]]></summar
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Provas teóricas da Anac aplicadas pela FGV estão suspensas temporariamente]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-aplicadas-pela-fgv-estao-suspensas-temporariamente" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-aplicadas-pela-fgv-estao-suspensas-temporariamente</id>
-    <updated>2025-06-06T11:56:00.000Z</updated>
-    <published>2025-06-06T11:56:00.000Z</published>
-    <summary type="html"><![CDATA[Exames para obtenção de licenças e habilitações de profissionais da aviação não poderão ser agendados a partir de 6/6]]></summary>
-  </entry>
+    <title type="html"><![CDATA[Webinário - Consulta Pública - SGSO em fabricantes aeronáuticos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=974dC6O1zPk" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=974dC6O1zPk</id>
+    <updated>2025-06-13T06:39:47.000Z</updated>
+    <published>2025-06-13T06:39:47.000Z</published>
+    <summary type="html"><![CDATA[O webinário visa esclarecer dúvidas e fomentar a participação da sociedade na Consulta Pública do Tema 11 da Agenda Regulatória que trata das propostas de requisitos de SGSO em fabricantes aeronáuticos.
 
-  <entry>
-    <title type="html"><![CDATA[Anac promove webinário sobre SGSO para fabricantes aeronáuticos no dia 12/6]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-webinario-sobre-sgso-para-fabricantes-aeronauticos-no-dia-12-6" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-webinario-sobre-sgso-para-fabricantes-aeronauticos-no-dia-12-6</id>
-    <updated>2025-06-05T17:51:00.000Z</updated>
-    <published>2025-06-05T17:51:00.000Z</published>
-    <summary type="html"><![CDATA[Evento visa esclarecer proposta que está em consulta pública e ampliar a participação do setor]]></summary>
-  </entry>
+Para dúvidas e perguntas durante a transmissão: QR Code na tela ou pelo link https://app.sli.do/event/9uyCe3cVTd9H
 
-  <entry>
-    <title type="html"><![CDATA[Anac revoga suspensão de transporte aéreo de mala postal após acordo operacional entre Correios e empresas aéreas]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-revoga-suspensao-de-transporte-aereo-de-mala-postal-apos-apresentacao-de-acordo-operacional-entre-correios-e-empresas-aereas" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-revoga-suspensao-de-transporte-aereo-de-mala-postal-apos-apresentacao-de-acordo-operacional-entre-correios-e-empresas-aereas</id>
-    <updated>2025-06-04T12:50:00.000Z</updated>
-    <published>2025-06-04T12:50:00.000Z</published>
-    <summary type="html"><![CDATA[Prevista para vigorar a partir desta quarta-feira, 4/6, medida foi adotada para garantir cumprimento de requisitos de segurança operacional]]></summary>
+Para participar da consulta pública e enviar suas contribuições, acesse a página oficial disponível no site da Anac.]]></summary>
   </entry>
 
   <entry>
@@ -91,51 +267,6 @@ Contamos com sua participação para promover o alinhamento técnico e regulató
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Dia da Aviação Inclusiva reunirá até 60 participantes em evento sobre acessibilidade e formação de pilotos com deficiência]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/dia-da-aviacao-inclusiva-reunira-ate-60-participantes-em-evento-sobre-acessibilidade-e-formacao-de-pilotos-com-deficiencia" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/dia-da-aviacao-inclusiva-reunira-ate-60-participantes-em-evento-sobre-acessibilidade-e-formacao-de-pilotos-com-deficiencia</id>
-    <updated>2025-06-03T16:36:00.000Z</updated>
-    <published>2025-06-03T16:36:00.000Z</published>
-    <summary type="html"><![CDATA[Cinco pessoas com deficiência foram sorteadas e farão um voo de incentivo em uma aeronave adaptada para pilotos com deficiência nos membros inferiores]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário sobre certificação de laboratórios será reagendado]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/webinario-sobre-certificacao-de-laboratorios-sera-reagendado" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/webinario-sobre-certificacao-de-laboratorios-sera-reagendado</id>
-    <updated>2025-06-03T15:20:00.000Z</updated>
-    <published>2025-06-03T15:20:00.000Z</published>
-    <summary type="html"><![CDATA[Nova data do evento será divulgada futuramente no portal da Agência]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac abre consulta pública para atualizar regras de operação de drones]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-publica-para-atualizar-regras-de-operacao-de-drones" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-publica-para-atualizar-regras-de-operacao-de-drones</id>
-    <updated>2025-06-03T13:10:00.000Z</updated>
-    <published>2025-06-03T13:10:00.000Z</published>
-    <summary type="html"><![CDATA[Proposta busca modernizar o regulamento de 2017, ampliar a segurança das operações e fortalecer o desenvolvimento do setor]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Tomada de subsídios recebe contribuições sobre licença e habilitação de Mecânico de Manutenção Aeronáutica até 14/7]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tomada-de-subsidios-recebe-contribuicoes-sobre-licenca-e-habilitacao-de-mecanico-de-manutencaoaeronautica-ate-17-7" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/tomada-de-subsidios-recebe-contribuicoes-sobre-licenca-e-habilitacao-de-mecanico-de-manutencaoaeronautica-ate-17-7</id>
-    <updated>2025-06-02T17:02:00.000Z</updated>
-    <published>2025-06-02T17:02:00.000Z</published>
-    <summary type="html"><![CDATA[Procedimento pretende receber contribuições para definir temas prioritários da revisão das regras de habilitação e atuação desses profissionais]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac apresenta proposta para modernizar regras na operação de drones no dia 3/6]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-apresenta-proposta-para-modernizar-regras-na-operacao-de-drones-no-dia-3-6" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-apresenta-proposta-para-modernizar-regras-na-operacao-de-drones-no-dia-3-6</id>
-    <updated>2025-06-02T12:27:00.000Z</updated>
-    <published>2025-06-02T12:27:00.000Z</published>
-    <summary type="html"><![CDATA[Consulta pública sobre o novo regulamento será lançada no evento DroneShow Robotics, em SP]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[30/05 - Digital Week 2025, das 10h às 12h]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Mrc-DnVMbeY" />
     <id>urn:uuid:https://www.youtube.com/watch?v=Mrc-DnVMbeY</id>
@@ -156,15 +287,6 @@ Painelista 2: Cristiana Camarate Quinália, conselheira e diretora substituta da
 Mais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac
 
 Participe!]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac facilita regras para credenciamento de profissionais da área de aeronavegabilidade]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-facilita-regras-para-credenciamento-de-profissionais-da-area-de-aeronavegabilidade" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-facilita-regras-para-credenciamento-de-profissionais-da-area-de-aeronavegabilidade</id>
-    <updated>2025-05-30T10:50:00.000Z</updated>
-    <published>2025-05-30T10:50:00.000Z</published>
-    <summary type="html"><![CDATA[Mudanças aumentam validade do credenciamento, reduzem custos e tornam processos mais ágeis e simples]]></summary>
   </entry>
 
   <entry>
@@ -207,15 +329,6 @@ Participe!]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[BASeT disponibiliza manuais sobre vistorias de perímetro operacional aeroportuário e captura de drones em ambientes aeroportuários]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/baset-disponibiliza-manuais-sobre-vistorias-de-perimetro-operacional-aeroportuario-e-captura-de-drones-em-ambientes-aeroportuarios" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/baset-disponibiliza-manuais-sobre-vistorias-de-perimetro-operacional-aeroportuario-e-captura-de-drones-em-ambientes-aeroportuarios</id>
-    <updated>2025-05-29T12:58:00.000Z</updated>
-    <published>2025-05-29T12:58:00.000Z</published>
-    <summary type="html"><![CDATA[Documentos representam os Produtos Finais dos Subgrupos Temáticos nº 1 e 4 do Ciclo 2024/2025]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[28/05 - Digital Week 2025, das 16h30 às 18h]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=crgpnzzFz9s" />
     <id>urn:uuid:https://www.youtube.com/watch?v=crgpnzzFz9s</id>
@@ -237,15 +350,6 @@ Painelista 4: Rafael Cunha, secretário de Transformação Digital e Ciência e 
 Mais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac
 
 Participe!]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Gol e Aena conquistam o Prêmio Acessibilidade e Inovação 2025]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/gol-e-aena-conquistam-o-premio-acessibilidade-e-inovacao-2025" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/gol-e-aena-conquistam-o-premio-acessibilidade-e-inovacao-2025</id>
-    <updated>2025-05-28T18:29:00.000Z</updated>
-    <published>2025-05-28T18:29:00.000Z</published>
-    <summary type="html"><![CDATA[Vencedores nas categorias empresa aérea e operador aeroportuário reforçam compromisso do setor aéreo com práticas inovadoras de acessibilidade]]></summary>
   </entry>
 
   <entry>
@@ -286,38 +390,6 @@ Perguntas: https://app.sli.do/event/bzUVnmBbnv4jqNsYwFNFBZ]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Webinário - Consulta Pública - SGSO em fabricantes aeronáuticos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=974dC6O1zPk" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=974dC6O1zPk</id>
-    <updated>2025-05-27T21:46:38.000Z</updated>
-    <published>2025-05-27T21:46:38.000Z</published>
-    <summary type="html"><![CDATA[Seja bem-vindo!
-Webinário - Consulta Pública Tema 11 Agenda Regulatória - SGSO em fabricantes aeronáuticos, dia 12 de junho, das 14h às 16h.
-O evento visa esclarecer dúvidas e fomentar a participação da sociedade na Consulta Pública do Tema 11 da Agenda Regulatória que trata das propostas de requisitos de SGSO em fabricantes aeronáuticos.
-Para perguntas durante a transmissão: QR Code na tela ou pelo link https://app.sli.do/event/9uyCe3cVTd9HWuWuoncugZ
-Mais informações: https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-consulta-publica-tema-11-agenda-regulatoria-sgso-em-fabricantes-aeronauticos
-Participe!]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Consulta setorial sobre peças de aeronaves está aberta até o dia 7/7]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/consulta-setorial-sobre-pecas-de-aeronaves-esta-aberta-ate-o-dia-7-7" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/consulta-setorial-sobre-pecas-de-aeronaves-esta-aberta-ate-o-dia-7-7</id>
-    <updated>2025-05-27T17:05:00.000Z</updated>
-    <published>2025-05-27T17:05:00.000Z</published>
-    <summary type="html"><![CDATA[Proposta da Anac pretende estabelecer Diretriz de Aeronavegabilidade para checagem e eventual substituição de componentes fabricados pela empresa H8 ALS]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac altera data de webinário sobre atuação de laboratórios de requisitos de inflamabilidade]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/com-abertura-de-consulta-setorial-anac-altera-data-de-webinario-sobre-atuacao-de-laboratorios-de-requisitos-de-inflamabilidade" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/com-abertura-de-consulta-setorial-anac-altera-data-de-webinario-sobre-atuacao-de-laboratorios-de-requisitos-de-inflamabilidade</id>
-    <updated>2025-05-27T15:23:00.000Z</updated>
-    <published>2025-05-27T15:23:00.000Z</published>
-    <summary type="html"><![CDATA[Alterações normativas serão apresentadas em evento online no dia 6 de junho]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[26/05 - Digital Week, das 10h às 12h]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Q4YcEPd0ZLM" />
     <id>urn:uuid:https://www.youtube.com/watch?v=Q4YcEPd0ZLM</id>
@@ -333,15 +405,6 @@ Participe!]]></summary>
     <updated>2025-05-24T07:46:09.000Z</updated>
     <published>2025-05-24T07:46:09.000Z</published>
     <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/cVsSg9Tt9R9kyjSPk3kQQg]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac certifica novo modelo Gulfstream G700]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-certifica-novo-modelo-gulfstream-g700" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-certifica-novo-modelo-gulfstream-g700</id>
-    <updated>2025-05-23T09:12:00.000Z</updated>
-    <published>2025-05-23T09:12:00.000Z</published>
-    <summary type="html"><![CDATA[Brasil é o primeiro país da América Latina a autorizar a operação da aeronave]]></summary>
   </entry>
 
   <entry>
@@ -363,59 +426,5 @@ Processo 00058.040824/2019-75: Proposta de instauração de consulta pública so
     <updated>2025-05-23T03:05:28.000Z</updated>
     <published>2025-05-23T03:05:28.000Z</published>
     <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/raSzAeVeuHrwoPMx69j3pZ]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA["Assédio Não Decola": Anac e Mpor lançam guia para combater assédio e importunação sexual na aviação civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/assedio-nao-decola-anac-e-mpor-lancam-guia-para-combater-assedio-e-importunacao-sexual-na-aviacao-civil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/assedio-nao-decola-anac-e-mpor-lancam-guia-para-combater-assedio-e-importunacao-sexual-na-aviacao-civil</id>
-    <updated>2025-05-22T10:48:00.000Z</updated>
-    <published>2025-05-22T10:48:00.000Z</published>
-    <summary type="html"><![CDATA[Iniciativa tem o objetivo de orientar e combater ações de assédio nos aeroportos e aeronaves]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Com apoio da Anac, Newton in a Box chega para estimular jovens a conhecer o mundo da aviação]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/com-apoio-da-anac-newton-in-a-box-chega-ao-brasil-para-estimular-jovens-a-conhecer-o-mundo-da-aviacao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/com-apoio-da-anac-newton-in-a-box-chega-ao-brasil-para-estimular-jovens-a-conhecer-o-mundo-da-aviacao</id>
-    <updated>2025-05-22T10:02:00.000Z</updated>
-    <published>2025-05-22T10:02:00.000Z</published>
-    <summary type="html"><![CDATA[Brasil foi o primeiro país do Hemisfério Sul a receber o projeto com oficinas em Ciências, Tecnologia, Engenharia e Matemática]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Sorteio – Dia da Aviação Inclusiva]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CztDhJl9EGQ" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=CztDhJl9EGQ</id>
-    <updated>2025-05-22T02:31:16.000Z</updated>
-    <published>2025-05-22T02:31:16.000Z</published>
-    <summary type="html"><![CDATA[Perguntas e duvidas envie pelo Slido: https://app.sli.do/event/hfjNjVbeyATiVSSVHeo5mk]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana MMA - Carreira para MMA em organizações de manutenção e MMA autônomo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=3NmzEj-43cI" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=3NmzEj-43cI</id>
-    <updated>2025-05-21T20:14:34.000Z</updated>
-    <published>2025-05-21T20:14:34.000Z</published>
-    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/dneW9QXJrag1nEA7B3cfPV]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Movimentação de passageiros em abril bate novo recorde]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/movimentacao-de-passageiros-em-abril-bate-novo-recorde" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/movimentacao-de-passageiros-em-abril-bate-novo-recorde</id>
-    <updated>2025-05-20T16:52:00.000Z</updated>
-    <published>2025-05-20T16:52:00.000Z</published>
-    <summary type="html"><![CDATA[Fluxo doméstico alcançou 7,9 milhões de passageiros; setor internacional pela primeira vez supera a marca de 2 milhões de passageiros em abril]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac e STJ discutem iniciativas para fomentar conciliação em conflitos de consumo no transporte aéreo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-stj-discutem-iniciativas-para-fomentar-conciliacao-em-conflitos-de-consumo-no-transporte-aereo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-stj-discutem-iniciativas-para-fomentar-conciliacao-em-conflitos-de-consumo-no-transporte-aereo</id>
-    <updated>2025-05-19T18:30:00.000Z</updated>
-    <published>2025-05-19T18:30:00.000Z</published>
-    <summary type="html"><![CDATA[Proposta é aprofundar cooperação com centros judiciais que têm mediadores e conciliadores capacitados para atendimento ao público]]></summary>
   </entry>
 </feed>
