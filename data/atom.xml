@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-01T17:32:00.000Z</updated>
+  <updated>2025-07-02T17:05:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac realizará o V Encontro Nacional de Facilitadores de CRM nos dias 26 e 27/8]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-o-v-encontro-nacional-de-facilitadores-de-crm-nos-dias-26-e-27-8" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-o-v-encontro-nacional-de-facilitadores-de-crm-nos-dias-26-e-27-8</id>
+    <updated>2025-07-02T17:05:00.000Z</updated>
+    <published>2025-07-02T17:05:00.000Z</published>
+    <summary type="html"><![CDATA[Evento presencial reunirá profissionais da aviação com objetivo de discutir e disseminar boas práticas relacionadas ao CRM e promover a segurança operacional na aviação.]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac realizará manutenção programada em sistemas corporativos no dia 3/7]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-manutencao-programada-em-sistemas-corporativos-no-dia-3-7" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-manutencao-programada-em-sistemas-corporativos-no-dia-3-7</id>
+    <updated>2025-07-02T13:41:00.000Z</updated>
+    <published>2025-07-02T13:41:00.000Z</published>
+    <summary type="html"><![CDATA[Previsão é que sistemas corporativos fiquem inacessíveis durante atualização]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac encerra sua participação como coordenadora do Comitê de Segurança Operacional da Aviação Civil Brasileira]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-encerra-sua-participacao-como-coordenadora-do-comite-de-seguranca-operacional-da-aviacao-civil-brasileira" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-encerra-sua-participacao-como-coordenadora-do-comite-de-seguranca-operacional-da-aviacao-civil-brasileira</id>
+    <updated>2025-07-02T09:33:00.000Z</updated>
+    <published>2025-07-02T09:33:00.000Z</published>
+    <summary type="html"><![CDATA[Agência encerra dois anos na liderança do comitê, que passará a ser coordenado pelo Decea]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac oferece 70 vagas na 2ª edição do Concurso Público Nacional Unificado]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-oferece-70-vagas-na-2a-edicao-do-concurso-publico-nacional-unificado" />
@@ -184,33 +211,6 @@ Processo 00058.016310/2020-32]]></summary>
     <updated>2025-06-18T14:06:00.000Z</updated>
     <published>2025-06-18T14:06:00.000Z</published>
     <summary type="html"><![CDATA[Anac vai manter processos com as normas atuais até o final do ano, quando as áreas técnicas deverão ajustar atividades aos novos critérios da regulação responsiva]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac inicia projeto de Dimensionamento da Força de Trabalho em parceria com o MGI]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-inicia-projeto-de-dimensionamento-da-forca-de-trabalho-em-parceria-com-o-mgi" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-inicia-projeto-de-dimensionamento-da-forca-de-trabalho-em-parceria-com-o-mgi</id>
-    <updated>2025-06-17T10:18:00.000Z</updated>
-    <published>2025-06-17T10:18:00.000Z</published>
-    <summary type="html"><![CDATA[Iniciativa busca aprimorar a gestão da força de trabalho com base em metodologia desenvolvida pelo ministério e pela UnB para diagnosticar a necessidade de novos servidores]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac AVSEC & Cyber Week: eventos reforçam compromisso da Agência com a segurança da aviação]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-avsec-cyber-week-eventos-reforcam-compromisso-da-agencia-com-a-seguranca-da-aviacao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-avsec-cyber-week-eventos-reforcam-compromisso-da-agencia-com-a-seguranca-da-aviacao</id>
-    <updated>2025-06-16T18:25:00.000Z</updated>
-    <published>2025-06-16T18:25:00.000Z</published>
-    <summary type="html"><![CDATA[XIII Jornada AVSEC e Cybersecurity Expo reuniram especialistas e promoveram debates estratégicos sobre proteção do setor aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Brasil tem atuação de destaque em ações de combate ao tráfico de pessoas na aviação civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-tem-atuacao-de-destaque-em-acoes-de-combate-ao-trafico-de-pessoas-na-aviacao-civil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-tem-atuacao-de-destaque-em-acoes-de-combate-ao-trafico-de-pessoas-na-aviacao-civil</id>
-    <updated>2025-06-16T17:44:00.000Z</updated>
-    <published>2025-06-16T17:44:00.000Z</published>
-    <summary type="html"><![CDATA[Delegação brasileira coordenou elaboração de manual e workshop sobre combate e prevenção ao tráfico de pessoas na aviação civil, além de indicar vice-presidente para grupo regional da Oaci]]></summary>
   </entry>
 
   <entry>
