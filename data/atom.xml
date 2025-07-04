@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-02T17:05:00.000Z</updated>
+  <updated>2025-07-03T19:45:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Provas teóricas da Anac são retomadas]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-sao-retomadas" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-sao-retomadas</id>
+    <updated>2025-07-03T19:45:00.000Z</updated>
+    <published>2025-07-03T19:45:00.000Z</published>
+    <summary type="html"><![CDATA[Agendamentos da FGV foram reabertos nesta quinta-feira (3/7), após remanejamento de recursos do Ministério de Portos e Aeroportos]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Corte orçamentário é revisto e Anac tem recomposição de 50%]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/corte-orcamentario-e-revisto-e-anac-tem-recomposicao-de-50" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/corte-orcamentario-e-revisto-e-anac-tem-recomposicao-de-50</id>
+    <updated>2025-07-03T16:57:00.000Z</updated>
+    <published>2025-07-03T16:57:00.000Z</published>
+    <summary type="html"><![CDATA[Aporte de R$ 15 milhões, decorrente de decisão do MPor, será utilizado para retorno de aplicação de provas aos profissionais de aviação civil, atividades de certificação e fiscalização]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac realizará o V Encontro Nacional de Facilitadores de CRM nos dias 26 e 27/8]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-o-v-encontro-nacional-de-facilitadores-de-crm-nos-dias-26-e-27-8" />
@@ -193,24 +211,6 @@ Processo 00058.016310/2020-32]]></summary>
     <updated>2025-06-18T19:46:00.000Z</updated>
     <published>2025-06-18T19:46:00.000Z</published>
     <summary type="html"><![CDATA[Foram apresentados os investimentos que serão feitos em Campo Grande, Corumbá, Ponta Porã e Dourados. Visita também marcou a entrega da nova pista de Macaé.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac ajusta procedimentos para realização de exames de proficiência]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-ajusta-procedimentos-para-realizacao-de-exames-de-proficiencia" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-ajusta-procedimentos-para-realizacao-de-exames-de-proficiencia</id>
-    <updated>2025-06-18T18:01:00.000Z</updated>
-    <published>2025-06-18T18:01:00.000Z</published>
-    <summary type="html"><![CDATA[Mudanças se aplicam a candidatos a licenças e habilitações de pilotos, comissários de voo e mecânicos de manutenção aeronáutica]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Novas regras de fiscalização e autuação passarão a valer em 2026]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/novas-regras-de-fiscalizacao-e-autuacao-passarao-a-valer-em-2026" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/novas-regras-de-fiscalizacao-e-autuacao-passarao-a-valer-em-2026</id>
-    <updated>2025-06-18T14:06:00.000Z</updated>
-    <published>2025-06-18T14:06:00.000Z</published>
-    <summary type="html"><![CDATA[Anac vai manter processos com as normas atuais até o final do ano, quando as áreas técnicas deverão ajustar atividades aos novos critérios da regulação responsiva]]></summary>
   </entry>
 
   <entry>
