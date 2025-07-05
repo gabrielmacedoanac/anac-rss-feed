@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-03T19:45:00.000Z</updated>
+  <updated>2025-07-04T15:55:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Oaci reconhece a sustentabilidade do etanol de milho brasileiro para produção de SAF]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/oaci-reconhece-a-sustentabilidade-do-etanol-de-milho-brasileiro-para-producao-de-saf" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/oaci-reconhece-a-sustentabilidade-do-etanol-de-milho-brasileiro-para-producao-de-saf</id>
+    <updated>2025-07-04T15:55:00.000Z</updated>
+    <published>2025-07-04T15:55:00.000Z</published>
+    <summary type="html"><![CDATA[Atuação técnica brasileira, coordenada pela Anac, conquistou o reconhecimento internacional da produção de milho de segunda safra no Brasil para produção de combustível sustentável de aviação]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac aplica nova cautelar ao Aeroporto Fernando de Noronha para preservar a segurança]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-aplica-nova-cautelar-ao-aeroporto-fernando-de-noronha-para-preservar-a-seguranca" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-aplica-nova-cautelar-ao-aeroporto-fernando-de-noronha-para-preservar-a-seguranca</id>
+    <updated>2025-07-04T15:14:00.000Z</updated>
+    <published>2025-07-04T15:14:00.000Z</published>
+    <summary type="html"><![CDATA[Entre as medidas aplicadas, está a proibição de aumento da frequência de voos e a realização de operações simultâneas de transporte aéreo público]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac promove Infoshare 2025, fórum sobre segurança operacional na aviação brasileira]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-infoshare-2025-forum-sobre-seguranca-operacional-na-aviacao-brasileira" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-infoshare-2025-forum-sobre-seguranca-operacional-na-aviacao-brasileira</id>
+    <updated>2025-07-04T14:26:00.000Z</updated>
+    <published>2025-07-04T14:26:00.000Z</published>
+    <summary type="html"><![CDATA[Encontro fomentou a troca de experiências entre a Agência e membros do setor aéreo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Provas teóricas da Anac são retomadas]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-sao-retomadas" />
@@ -184,33 +211,6 @@ Processo 00058.016310/2020-32]]></summary>
     <updated>2025-06-24T17:13:00.000Z</updated>
     <published>2025-06-24T17:13:00.000Z</published>
     <summary type="html"><![CDATA[Com 10,4 milhões de viajantes, o mês de maio registra seus melhores resultados para o mês desde o início da série histórica]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac abre consulta setorial sobre objetivos de segurança para aeronaves eVTOL]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-setorial-sobre-objetivos-de-seguranca-para-aeronaves-evtol" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-setorial-sobre-objetivos-de-seguranca-para-aeronaves-evtol</id>
-    <updated>2025-06-23T08:41:00.000Z</updated>
-    <published>2025-06-23T08:41:00.000Z</published>
-    <summary type="html"><![CDATA[Aeronaves elétricas de decolagem e pouso vertical avançam em processo de regulamentação no Brasil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac lamenta acidente ocorrido com balão em Santa Catarina]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lamenta-acidente-ocorrido-com-balao-em-santa-catarina" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lamenta-acidente-ocorrido-com-balao-em-santa-catarina</id>
-    <updated>2025-06-21T12:27:00.000Z</updated>
-    <published>2025-06-21T12:27:00.000Z</published>
-    <summary type="html"><![CDATA[A Agência está adotando as providências necessárias para averiguação da situação da aeronave e da tripulação]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac acompanha obras nos aeroportos do Mato Grosso do Sul e Macaé (RJ)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-acompanha-o-inicio-das-obras-nos-aeroportos-do-mato-grosso-do-sul-e-macae-rj" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-acompanha-o-inicio-das-obras-nos-aeroportos-do-mato-grosso-do-sul-e-macae-rj</id>
-    <updated>2025-06-18T19:46:00.000Z</updated>
-    <published>2025-06-18T19:46:00.000Z</published>
-    <summary type="html"><![CDATA[Foram apresentados os investimentos que serão feitos em Campo Grande, Corumbá, Ponta Porã e Dourados. Visita também marcou a entrega da nova pista de Macaé.]]></summary>
   </entry>
 
   <entry>
