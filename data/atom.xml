@@ -2,9 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-08T14:00:00.000Z</updated>
+  <updated>2025-07-09T06:57:28.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[6ª edição do Aviação Sustentável]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qrKLkBkd__M" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=qrKLkBkd__M</id>
+    <updated>2025-07-09T06:57:28.000Z</updated>
+    <published>2025-07-09T06:57:28.000Z</published>
+    <summary type="html"><![CDATA[O evento Aviação Sustentável já consta como um evento consolidado e perene no cronograma anual da ANAC. Trata-se de uma oportunidade para divulgação de informações relevantes relacionadas à sustentabilidade do setor, além de ser necessário para premiação dos aeroportos melhores classificados no programa Aeroportos Sustentáveis.
+
+Assim, o objetivo é reconhecer os melhores colocados no Aeroportos Sustentáveis.
+
+Participe!]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Pilotos privados terão licenças expedidas exclusivamente pelo Super App da Anac a partir de 1º/8]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pilotos-privados-terao-licencas-expedidas-exclusivamente-pelo-super-app-da-anac-a-partir-de-1o-8" />
@@ -159,19 +172,6 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[6ª edição do Aviação Sustentável]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qrKLkBkd__M" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=qrKLkBkd__M</id>
-    <updated>2025-06-26T10:46:25.000Z</updated>
-    <published>2025-06-26T10:46:25.000Z</published>
-    <summary type="html"><![CDATA[O evento Aviação Sustentável já consta como um evento consolidado e perene no cronograma anual da ANAC. Trata-se de uma oportunidade para divulgação de informações relevantes relacionadas à sustentabilidade do setor, além de ser necessário para premiação dos aeroportos melhores classificados no programa Aeroportos Sustentáveis.
-
-Assim, o objetivo é reconhecer os melhores colocados no Aeroportos Sustentáveis.
-
-Participe!]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Premiação da Anac destacará os aeroportos com melhores práticas ambientais]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/premiacao-da-anac-destacara-os-aeroportos-com-melhores-praticas-ambientais" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/premiacao-da-anac-destacara-os-aeroportos-com-melhores-praticas-ambientais</id>
@@ -204,13 +204,12 @@ Participe!]]></summary>
     <id>urn:uuid:https://www.youtube.com/watch?v=w5UcldjPOtw</id>
     <updated>2025-06-25T09:00:39.000Z</updated>
     <published>2025-06-25T09:00:39.000Z</published>
-    <summary type="html"><![CDATA[Pauta:
-
-Processo 00058.032050/2020-42 
-Processo 00058.016682/2025-73 
-Processo 00058.034495/2025-71 
-Processo 00058.021107/2025-92 
-Processo 00058.016310/2020-32]]></summary>
+    <summary type="html"><![CDATA[Início - 1:58
+Processo 00058.032050/2020-42 - 2:30
+Processo 00058.016682/2025-73 - 18:47
+Processo 00058.034495/2025-71 - 52:43
+Processo 00058.021107/2025-92 - 1:43:44
+Processo 00058.016310/2020-32 - 2:13:53]]></summary>
   </entry>
 
   <entry>
