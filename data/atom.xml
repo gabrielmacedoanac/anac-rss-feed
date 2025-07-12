@@ -2,9 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-11T14:08:00.000Z</updated>
+  <updated>2025-07-12T03:29:33.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Workshop sobre o controle do limite de vida em serviço das longarinas dos Air Tractor]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=mtlWqyDEfxc" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=mtlWqyDEfxc</id>
+    <updated>2025-07-12T03:29:33.000Z</updated>
+    <published>2025-07-12T03:29:33.000Z</published>
+    <summary type="html"><![CDATA[O evento tem como objetivo esclarecer sobre as condicionantes técnicas e regulatórias para que o cumprimento das tarefas previstas nas FAA AD seja considerado regular, evitando, assim, suspensão de CA por serviços cumpridos, registrados e controlados de modo não aceitável.
+
+Durante o Webnário, receberemos o representante da Air Tractor e serão abordados os seguintes temas:
+- Introdução ao problema técnico do TIS das longarinas e tarefas previstas nas FAA AD n
+- Vigilância sobre o cumprimento das FAA AD pelos operadores 137
+- Condicionantes aplicáveis às OM que podem cumprir com as tarefas previstas nas FAA AD
+- Suporte técnico aos operadores e OM
+- Esclarecimento de dúvidas
+
+Perguntas: use o QR code na tela de transmissão ou pelo link https://app.sli.do/event/eHmoDPRWtPz4nSCrwoLJZm
+
+Contamos com sua participação para promover o alinhamento técnico e regulatório, evitando suspensão de CA das aeronaves e contribuindo para a segurança e a regularidade das operações.]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Tetos das tarifas aeroportuárias de Guarulhos e Viracopos são reajustados]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-de-guarulhos-e-viracopos-sao-reajustados" />
@@ -243,26 +263,6 @@ Dúvidas e perguntas: https://app.sli.do/event/qpPsKRbT5PvKa51bhTULqb]]></summar
 Para dúvidas e perguntas durante a transmissão: QR Code na tela ou pelo link https://app.sli.do/event/9uyCe3cVTd9H
 
 Para participar da consulta pública e enviar suas contribuições, acesse a página oficial disponível no site da Anac.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Workshop sobre o controle do limite de vida em serviço das longarinas dos Air Tractor]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=mtlWqyDEfxc" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=mtlWqyDEfxc</id>
-    <updated>2025-06-04T09:50:28.000Z</updated>
-    <published>2025-06-04T09:50:28.000Z</published>
-    <summary type="html"><![CDATA[O evento tem como objetivo esclarecer sobre as condicionantes técnicas e regulatórias para que o cumprimento das tarefas previstas nas FAA AD seja considerado regular, evitando, assim, suspensão de CA por serviços cumpridos, registrados e controlados de modo não aceitável.
-
-Durante o Webnário, receberemos o representante da Air Tractor e serão abordados os seguintes temas:
-- Introdução ao problema técnico do TIS das longarinas e tarefas previstas nas FAA AD n
-- Vigilância sobre o cumprimento das FAA AD pelos operadores 137
-- Condicionantes aplicáveis às OM que podem cumprir com as tarefas previstas nas FAA AD
-- Suporte técnico aos operadores e OM
-- Esclarecimento de dúvidas
-
-Perguntas: use o QR code na tela de transmissão ou pelo link https://app.sli.do/event/eHmoDPRWtPz4nSCrwoLJZm
-
-Contamos com sua participação para promover o alinhamento técnico e regulatório, evitando suspensão de CA das aeronaves e contribuindo para a segurança e a regularidade das operações.]]></summary>
   </entry>
 
   <entry>
