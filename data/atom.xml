@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-09T18:06:00.000Z</updated>
+  <updated>2025-07-11T14:08:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Tetos das tarifas aeroportuárias de Guarulhos e Viracopos são reajustados]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-de-guarulhos-e-viracopos-sao-reajustados" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-de-guarulhos-e-viracopos-sao-reajustados</id>
+    <updated>2025-07-11T14:08:00.000Z</updated>
+    <published>2025-07-11T14:08:00.000Z</published>
+    <summary type="html"><![CDATA[Novas tarifas poderão ser praticadas 30 dias após divulgação pelas concessionárias]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Aeroportos Sustentáveis: Anac premia as melhores iniciativas do Brasil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aeroportos-sustentaveis-anac-premia-as-melhores-iniciativas-do-brasil" />
@@ -178,15 +187,6 @@ Participe!]]></summary>
     <updated>2025-06-27T08:40:00.000Z</updated>
     <published>2025-06-27T08:40:00.000Z</published>
     <summary type="html"><![CDATA[Formação dos novos avaliadores amplia a oferta de exames de proficiência em inglês]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Projeto inclusivo leva o mundo da aviação a crianças do Rio de Janeiro (RJ)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/projeto-inclusivo-leva-o-mundo-da-aviacao-a-criancas-do-rio-de-janeiro-rj" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/projeto-inclusivo-leva-o-mundo-da-aviacao-a-criancas-do-rio-de-janeiro-rj</id>
-    <updated>2025-06-26T16:50:00.000Z</updated>
-    <published>2025-06-26T16:50:00.000Z</published>
-    <summary type="html"><![CDATA[Alunos de escola da rede pública aprenderam sobre aviação de forma lúdica e inclusiva]]></summary>
   </entry>
 
   <entry>
