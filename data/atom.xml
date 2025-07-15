@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-12T03:29:33.000Z</updated>
+  <updated>2025-07-14T11:57:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Últimos dias para participar da consulta setorial sobre aprovação de sistemas de contenção para crianças]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/ultimos-dias-para-participar-da-consulta-setorial-sobre-aprovacao-de-sistemas-de-contencao-para-criancas" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/ultimos-dias-para-participar-da-consulta-setorial-sobre-aprovacao-de-sistemas-de-contencao-para-criancas</id>
+    <updated>2025-07-14T11:57:00.000Z</updated>
+    <published>2025-07-14T11:57:00.000Z</published>
+    <summary type="html"><![CDATA[Contribuições para a proposta poderão ser enviadas até 24/7 pelo portal Participa+Brasil]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Workshop sobre o controle do limite de vida em serviço das longarinas dos Air Tractor]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=mtlWqyDEfxc" />
@@ -209,15 +218,6 @@ Participe!]]></summary>
     <updated>2025-06-27T08:40:00.000Z</updated>
     <published>2025-06-27T08:40:00.000Z</published>
     <summary type="html"><![CDATA[Formação dos novos avaliadores amplia a oferta de exames de proficiência em inglês]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac aplica medidas restritivas contra a companhia Aerolíneas Argentinas]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-aplica-medidas-restritivas-contra-a-companhia-aerolineas-argentinas" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-aplica-medidas-restritivas-contra-a-companhia-aerolineas-argentinas</id>
-    <updated>2025-06-26T16:01:00.000Z</updated>
-    <published>2025-06-26T16:01:00.000Z</published>
-    <summary type="html"><![CDATA[Restrições proíbem a empresa de implantar novas bases de operação e aumentar frequências de voos em cinco aeroportos brasileiros]]></summary>
   </entry>
 
   <entry>
