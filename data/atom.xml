@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-14T11:57:00.000Z</updated>
+  <updated>2025-07-15T19:37:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Aberta seleção para novos examinadores autônomos de pilotos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-selecao-para-novos-examinadores-autonomos-de-pilotos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberta-selecao-para-novos-examinadores-autonomos-de-pilotos</id>
+    <updated>2025-07-15T19:37:00.000Z</updated>
+    <published>2025-07-15T19:37:00.000Z</published>
+    <summary type="html"><![CDATA[São oferecidas 42 vagas para instrutores de aviões e helicópteros. Inscrições vão até 25/7]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Super App da Anac traz novidades que agilizam a jornada de pilotos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/super-app-da-anac-traz-novidades-que-agilizam-a-jornada-de-pilotos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/super-app-da-anac-traz-novidades-que-agilizam-a-jornada-de-pilotos</id>
+    <updated>2025-07-15T16:12:00.000Z</updated>
+    <published>2025-07-15T16:12:00.000Z</published>
+    <summary type="html"><![CDATA[Versão 2.4 do aplicativo permite registrar horas de voo individual na CIV digital, emitir o AFFIDAVIT, entre outras funcionalidades]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Últimos dias para participar da consulta setorial sobre aprovação de sistemas de contenção para crianças]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/ultimos-dias-para-participar-da-consulta-setorial-sobre-aprovacao-de-sistemas-de-contencao-para-criancas" />
@@ -200,24 +218,6 @@ Participe!]]></summary>
     <updated>2025-06-30T12:28:00.000Z</updated>
     <published>2025-06-30T12:28:00.000Z</published>
     <summary type="html"><![CDATA[Integrante da lista tríplice da Agência, substituto ocupará cargo temporariamente]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Cortes orçamentários nos serviços prestados pela Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cortes-orcamentarios-nos-servicos-prestados-pela-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/cortes-orcamentarios-nos-servicos-prestados-pela-anac</id>
-    <updated>2025-06-27T22:19:00.000Z</updated>
-    <published>2025-06-27T22:19:00.000Z</published>
-    <summary type="html"><![CDATA[Contingenciamento causa paralisação de emissões de licenças de profissionais, certificações de novas empresas e afeta atividades de fiscalização. Agência participa de tratativas com vistas a um repasse emergencial para reduzir impactos dos cortes orçamentários.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac credencia cinco novos examinadores de proficiência linguística]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-credencia-cinco-novos-examinadores-de-proficiencia-linguistica" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-credencia-cinco-novos-examinadores-de-proficiencia-linguistica</id>
-    <updated>2025-06-27T08:40:00.000Z</updated>
-    <published>2025-06-27T08:40:00.000Z</published>
-    <summary type="html"><![CDATA[Formação dos novos avaliadores amplia a oferta de exames de proficiência em inglês]]></summary>
   </entry>
 
   <entry>
