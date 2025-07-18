@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-15T19:37:00.000Z</updated>
+  <updated>2025-07-17T14:02:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Pesquisa da Anac revela pontos fortes e desafios na cultura de segurança da aviação brasileira]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pesquisa-da-anac-revela-pontos-fortes-e-desafios-na-cultura-de-seguranca-da-aviacao-brasileira" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/pesquisa-da-anac-revela-pontos-fortes-e-desafios-na-cultura-de-seguranca-da-aviacao-brasileira</id>
+    <updated>2025-07-17T14:02:00.000Z</updated>
+    <published>2025-07-17T14:02:00.000Z</published>
+    <summary type="html"><![CDATA[Painel interativo com os resultados permite análise por região, perfil e segmento; dados servirão de base para novas ações de promoção da segurança]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Aberta seleção para novos examinadores autônomos de pilotos]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-selecao-para-novos-examinadores-autonomos-de-pilotos" />
@@ -209,15 +218,6 @@ Participe!]]></summary>
     <updated>2025-07-01T14:12:00.000Z</updated>
     <published>2025-07-01T14:12:00.000Z</published>
     <summary type="html"><![CDATA[Anac e Ufersa paralisaram o processo seletivo para checar informações dos candidatos e garantir a integridade dos procedimentos]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac convoca servidor Adriano Miranda para diretor-presidente interino]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-convoca-servidor-adriano-miranda-para-diretor-presidente-interino" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-convoca-servidor-adriano-miranda-para-diretor-presidente-interino</id>
-    <updated>2025-06-30T12:28:00.000Z</updated>
-    <published>2025-06-30T12:28:00.000Z</published>
-    <summary type="html"><![CDATA[Integrante da lista tríplice da Agência, substituto ocupará cargo temporariamente]]></summary>
   </entry>
 
   <entry>
