@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-17T14:02:00.000Z</updated>
+  <updated>2025-07-18T16:02:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Sistemas corporativos da Anac ficarão indisponíveis no dia 21/7]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/sistemas-corporativos-da-anac-ficarao-indisponiveis-no-dia-21-7" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/sistemas-corporativos-da-anac-ficarao-indisponiveis-no-dia-21-7</id>
+    <updated>2025-07-18T16:02:00.000Z</updated>
+    <published>2025-07-18T16:02:00.000Z</published>
+    <summary type="html"><![CDATA[Algumas soluções digitais da Agência ficarão temporariamente fora do ar para manutenção programada e atualização das 20h às 23h de segunda-feira]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Movimentação de passageiros cresce mais de 10% em junho pelo terceiro mês seguido]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/movimentacao-de-passageiros-cresce-mais-de-10-em-junho-pelo-terceiro-mes-seguido" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/movimentacao-de-passageiros-cresce-mais-de-10-em-junho-pelo-terceiro-mes-seguido</id>
+    <updated>2025-07-18T15:17:00.000Z</updated>
+    <published>2025-07-18T15:17:00.000Z</published>
+    <summary type="html"><![CDATA[Mercados doméstico e internacional registram seus melhores resultados para o mês de junho desde 2000]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Pesquisa da Anac revela pontos fortes e desafios na cultura de segurança da aviação brasileira]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pesquisa-da-anac-revela-pontos-fortes-e-desafios-na-cultura-de-seguranca-da-aviacao-brasileira" />
@@ -200,24 +218,6 @@ Participe!]]></summary>
     <updated>2025-07-02T09:33:00.000Z</updated>
     <published>2025-07-02T09:33:00.000Z</published>
     <summary type="html"><![CDATA[Agência encerra dois anos na liderança do comitê, que passará a ser coordenado pelo Decea]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac oferece 70 vagas na 2ª edição do Concurso Público Nacional Unificado]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-oferece-70-vagas-na-2a-edicao-do-concurso-publico-nacional-unificado" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-oferece-70-vagas-na-2a-edicao-do-concurso-publico-nacional-unificado</id>
-    <updated>2025-07-01T17:32:00.000Z</updated>
-    <published>2025-07-01T17:32:00.000Z</published>
-    <summary type="html"><![CDATA[As vagas são para o cargo de Técnico em Regulação de Aviação Civil, de nível intermediário, com salário inicial de R$ 8 mil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Prorrogada suspensão do processo seletivo para o curso Pilotos do Semiárido]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/prorrogada-suspensao-do-processo-seletivo-para-o-curso-pilotos-do-semiarido" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/prorrogada-suspensao-do-processo-seletivo-para-o-curso-pilotos-do-semiarido</id>
-    <updated>2025-07-01T14:12:00.000Z</updated>
-    <published>2025-07-01T14:12:00.000Z</published>
-    <summary type="html"><![CDATA[Anac e Ufersa paralisaram o processo seletivo para checar informações dos candidatos e garantir a integridade dos procedimentos]]></summary>
   </entry>
 
   <entry>
