@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-18T16:02:00.000Z</updated>
+  <updated>2025-07-22T14:56:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac publica formulário de referência para inspeção em Autorização Especial de Voo (AEV)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-publica-formulario-de-referencia-para-inspecao-em-autorizacao-especial-de-voo-aev" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-publica-formulario-de-referencia-para-inspecao-em-autorizacao-especial-de-voo-aev</id>
+    <updated>2025-07-22T14:56:00.000Z</updated>
+    <published>2025-07-22T14:56:00.000Z</published>
+    <summary type="html"><![CDATA[Formulário orienta operadores aéreos na avaliação da segurança de voos]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac e Abag realizam o 1º Encontro Nacional de Segurança de Voo da Aviação Geral]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-abag-realizam-o-1o-encontro-nacional-de-seguranca-de-voo-da-aviacao-geral" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-abag-realizam-o-1o-encontro-nacional-de-seguranca-de-voo-da-aviacao-geral</id>
+    <updated>2025-07-22T14:56:00.000Z</updated>
+    <published>2025-07-22T14:56:00.000Z</published>
+    <summary type="html"><![CDATA[Evento antecede a Labace 2025]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Sistemas corporativos da Anac ficarão indisponíveis no dia 21/7]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/sistemas-corporativos-da-anac-ficarao-indisponiveis-no-dia-21-7" />
@@ -200,24 +218,6 @@ Participe!]]></summary>
     <updated>2025-07-02T17:05:00.000Z</updated>
     <published>2025-07-02T17:05:00.000Z</published>
     <summary type="html"><![CDATA[Evento presencial reunirá profissionais da aviação com objetivo de discutir e disseminar boas práticas relacionadas ao CRM e promover a segurança operacional na aviação.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac realizará manutenção programada em sistemas corporativos no dia 3/7]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-manutencao-programada-em-sistemas-corporativos-no-dia-3-7" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-manutencao-programada-em-sistemas-corporativos-no-dia-3-7</id>
-    <updated>2025-07-02T13:41:00.000Z</updated>
-    <published>2025-07-02T13:41:00.000Z</published>
-    <summary type="html"><![CDATA[Previsão é que sistemas corporativos fiquem inacessíveis durante atualização]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac encerra sua participação como coordenadora do Comitê de Segurança Operacional da Aviação Civil Brasileira]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-encerra-sua-participacao-como-coordenadora-do-comite-de-seguranca-operacional-da-aviacao-civil-brasileira" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-encerra-sua-participacao-como-coordenadora-do-comite-de-seguranca-operacional-da-aviacao-civil-brasileira</id>
-    <updated>2025-07-02T09:33:00.000Z</updated>
-    <published>2025-07-02T09:33:00.000Z</published>
-    <summary type="html"><![CDATA[Agência encerra dois anos na liderança do comitê, que passará a ser coordenado pelo Decea]]></summary>
   </entry>
 
   <entry>
