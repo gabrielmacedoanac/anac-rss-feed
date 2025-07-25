@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-22T14:56:00.000Z</updated>
+  <updated>2025-07-24T14:11:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Tetos das tarifas aeroportuárias do Aeroporto de Brasília são reajustados]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-do-aeroporto-de-brasilia-sao-reajustados" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/tetos-das-tarifas-aeroportuarias-do-aeroporto-de-brasilia-sao-reajustados</id>
+    <updated>2025-07-24T14:11:00.000Z</updated>
+    <published>2025-07-24T14:11:00.000Z</published>
+    <summary type="html"><![CDATA[Novas tarifas poderão ser praticadas 30 dias após divulgação pela concessionária]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac publica formulário de referência para inspeção em Autorização Especial de Voo (AEV)]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-publica-formulario-de-referencia-para-inspecao-em-autorizacao-especial-de-voo-aev" />
@@ -209,15 +218,6 @@ Participe!]]></summary>
     <updated>2025-07-03T16:57:00.000Z</updated>
     <published>2025-07-03T16:57:00.000Z</published>
     <summary type="html"><![CDATA[Aporte de R$ 15 milhões, decorrente de decisão do MPor, será utilizado para retorno de aplicação de provas aos profissionais de aviação civil, atividades de certificação e fiscalização]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac realizará o V Encontro Nacional de Facilitadores de CRM nos dias 26 e 27/8]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-o-v-encontro-nacional-de-facilitadores-de-crm-nos-dias-26-e-27-8" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realizara-o-v-encontro-nacional-de-facilitadores-de-crm-nos-dias-26-e-27-8</id>
-    <updated>2025-07-02T17:05:00.000Z</updated>
-    <published>2025-07-02T17:05:00.000Z</published>
-    <summary type="html"><![CDATA[Evento presencial reunirá profissionais da aviação com objetivo de discutir e disseminar boas práticas relacionadas ao CRM e promover a segurança operacional na aviação.]]></summary>
   </entry>
 
   <entry>
