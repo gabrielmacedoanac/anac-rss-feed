@@ -2,9 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-29T16:46:00.000Z</updated>
+  <updated>2025-07-30T11:02:50.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qwyqefU-Za8" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=qwyqefU-Za8</id>
+    <updated>2025-07-30T11:02:50.000Z</updated>
+    <published>2025-07-30T11:02:50.000Z</published>
+    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
+
+A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
+
+Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
+
+Dúvidas e perguntas (Slido) - https://app.sli.do/event/gALPhZRPaRjKAD2H9cmW3Y]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ijUF7KGaE1Q" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=ijUF7KGaE1Q</id>
+    <updated>2025-07-30T11:01:38.000Z</updated>
+    <published>2025-07-30T11:01:38.000Z</published>
+    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
+
+A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
+
+Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
+
+Dúvidas e perguntas (Slido) - https://app.sli.do/event/aQHew5VUdemc28vnaP2W7H]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zoj9US-rtXA" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=zoj9US-rtXA</id>
+    <updated>2025-07-30T11:00:24.000Z</updated>
+    <published>2025-07-30T11:00:24.000Z</published>
+    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
+
+A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
+
+Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
+
+Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Webinário BHEST - PROCESSO DECISÓRIO NA AVIAÇÃO DE ASAS ROTATIVAS]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=dTihSc1E3_M" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=dTihSc1E3_M</id>
+    <updated>2025-07-30T10:58:47.000Z</updated>
+    <published>2025-07-30T10:58:47.000Z</published>
+    <summary type="html"><![CDATA[Perguntas via slido - https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Nova turma do curso Relações de Consumo no Setor Aéreo começa em 2/9]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/nova-turma-do-curso-relacoes-de-consumo-no-setor-aereo-comeca-em-2-9" />
@@ -388,44 +442,5 @@ Painelista 3: Patrícia Samensato, gerente  técnica de Educação para o Consum
 Serviços de Transporte Aéreo de Passageiros da Anac
 
 Perguntas: https://app.sli.do/event/bzUVnmBbnv4jqNsYwFNFBZ]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[26/05 - Digital Week, das 10h às 12h]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Q4YcEPd0ZLM" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=Q4YcEPd0ZLM</id>
-    <updated>2025-05-27T03:28:38.000Z</updated>
-    <published>2025-05-27T03:28:38.000Z</published>
-    <summary type="html"><![CDATA[Link do Slido (perguntas): https://app.sli.do/event/6Ejb5AXeCjpBcxD2EG9dFw]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana MMA - Formação e Futuro do MMA]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=GRshpkISEuM" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=GRshpkISEuM</id>
-    <updated>2025-05-24T07:46:09.000Z</updated>
-    <published>2025-05-24T07:46:09.000Z</published>
-    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/cVsSg9Tt9R9kyjSPk3kQQg]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=TFiMAkohtiw" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=TFiMAkohtiw</id>
-    <updated>2025-05-23T06:39:33.000Z</updated>
-    <published>2025-05-23T06:39:33.000Z</published>
-    <summary type="html"><![CDATA[8ª Reunião Deliberativa da Diretoria Colegiada (22/05/2025)
-
-Pauta:
-Processo 00058.040824/2019-75: Proposta de instauração de consulta pública sobre proposta de edição do RBAC nº 100 - tema 9 da Agenda Regulatória 2025-2026]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana MMA - Cultura de Segurança na Manutenção Aeronáutica]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=cqjm3nFOH_c" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=cqjm3nFOH_c</id>
-    <updated>2025-05-23T03:05:28.000Z</updated>
-    <published>2025-05-23T03:05:28.000Z</published>
-    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/raSzAeVeuHrwoPMx69j3pZ]]></summary>
   </entry>
 </feed>
