@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-30T11:02:50.000Z</updated>
+  <updated>2025-07-30T16:22:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Aena abre consulta pública sobre gestão de slots da aviação geral em Congonhas]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aena-abre-consulta-publica-sobre-gestao-de-slots-da-aviacao-geral-em-congonhas" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aena-abre-consulta-publica-sobre-gestao-de-slots-da-aviacao-geral-em-congonhas</id>
+    <updated>2025-07-30T16:22:00.000Z</updated>
+    <published>2025-07-30T16:22:00.000Z</published>
+    <summary type="html"><![CDATA[Processo de coleta de sugestões atende a decisão aprovada pela Anac em maio de 2025]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac lança manual inédito sobre prevenção e combate ao tráfico de pessoas na aviação]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-manual-inedito-sobre-prevencao-e-combate-ao-trafico-de-pessoas-na-aviacao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-manual-inedito-sobre-prevencao-e-combate-ao-trafico-de-pessoas-na-aviacao</id>
+    <updated>2025-07-30T16:08:00.000Z</updated>
+    <published>2025-07-30T16:08:00.000Z</published>
+    <summary type="html"><![CDATA[Publicação marca o Dia Mundial de Enfrentamento ao Tráfico de Pessoas e se integra à nova campanha do projeto Liberdade no Ar, coordenado pela Asbrad e MPT]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qwyqefU-Za8" />
@@ -254,24 +272,6 @@ Participe!]]></summary>
     <updated>2025-07-04T15:14:00.000Z</updated>
     <published>2025-07-04T15:14:00.000Z</published>
     <summary type="html"><![CDATA[Entre as medidas aplicadas, está a proibição de aumento da frequência de voos e a realização de operações simultâneas de transporte aéreo público]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac promove Infoshare 2025, fórum sobre segurança operacional na aviação brasileira]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-infoshare-2025-forum-sobre-seguranca-operacional-na-aviacao-brasileira" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-infoshare-2025-forum-sobre-seguranca-operacional-na-aviacao-brasileira</id>
-    <updated>2025-07-04T14:26:00.000Z</updated>
-    <published>2025-07-04T14:26:00.000Z</published>
-    <summary type="html"><![CDATA[Encontro fomentou a troca de experiências entre a Agência e membros do setor aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Provas teóricas da Anac são retomadas]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-sao-retomadas" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/provas-teoricas-da-anac-sao-retomadas</id>
-    <updated>2025-07-03T19:45:00.000Z</updated>
-    <published>2025-07-03T19:45:00.000Z</published>
-    <summary type="html"><![CDATA[Agendamentos da FGV foram reabertos nesta quinta-feira (3/7), após remanejamento de recursos do Ministério de Portos e Aeroportos]]></summary>
   </entry>
 
   <entry>
