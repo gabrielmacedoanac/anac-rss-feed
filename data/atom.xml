@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-07-30T16:22:00.000Z</updated>
+  <updated>2025-07-31T16:02:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Divulgado resultado parcial do processo seletivo para Examinadores Credenciados de Pilotos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/divulgado-resultado-parcial-do-processo-seletivo-para-examinadores-credenciados-de-pilotos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/divulgado-resultado-parcial-do-processo-seletivo-para-examinadores-credenciados-de-pilotos</id>
+    <updated>2025-07-31T16:02:00.000Z</updated>
+    <published>2025-07-31T16:02:00.000Z</published>
+    <summary type="html"><![CDATA[Interessados têm até 4 de agosto para apresentar recursos]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Aena abre consulta pública sobre gestão de slots da aviação geral em Congonhas]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aena-abre-consulta-publica-sobre-gestao-de-slots-da-aviacao-geral-em-congonhas" />
@@ -263,15 +272,6 @@ Participe!]]></summary>
     <updated>2025-07-04T15:55:00.000Z</updated>
     <published>2025-07-04T15:55:00.000Z</published>
     <summary type="html"><![CDATA[Atuação técnica brasileira, coordenada pela Anac, conquistou o reconhecimento internacional da produção de milho de segunda safra no Brasil para produção de combustível sustentável de aviação]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac aplica nova cautelar ao Aeroporto Fernando de Noronha para preservar a segurança]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-aplica-nova-cautelar-ao-aeroporto-fernando-de-noronha-para-preservar-a-seguranca" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-aplica-nova-cautelar-ao-aeroporto-fernando-de-noronha-para-preservar-a-seguranca</id>
-    <updated>2025-07-04T15:14:00.000Z</updated>
-    <published>2025-07-04T15:14:00.000Z</published>
-    <summary type="html"><![CDATA[Entre as medidas aplicadas, está a proibição de aumento da frequência de voos e a realização de operações simultâneas de transporte aéreo público]]></summary>
   </entry>
 
   <entry>
