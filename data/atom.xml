@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-04T18:20:00.000Z</updated>
+  <updated>2025-08-05T07:25:14.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[10ª Reunião Deliberativa da Diretoria Colegiada (04/08/2025)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=I-sJmTR8bIE" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=I-sJmTR8bIE</id>
+    <updated>2025-08-05T07:25:14.000Z</updated>
+    <published>2025-08-05T07:25:14.000Z</published>
+    <summary type="html"><![CDATA[10ª Reunião Deliberativa da Diretoria Colegiada
+ 
+1) Processo 00058.070782/2023-83  
+2) Processo 00058.041531/2021-20]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac terá time de especialistas na 20ª edição da Labace]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-tera-time-de-especialistas-na-20a-edicao-da-labace" />
@@ -425,17 +437,5 @@ Painelista 1: Bernardo Tomaz de Castro, Chefe da Assessoria de Segurança Operac
 Mais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac
 
 Participe!]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[10ª Reunião Deliberativa da Diretoria Colegiada (04/08/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=I-sJmTR8bIE" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=I-sJmTR8bIE</id>
-    <updated>2024-12-18T12:53:43.000Z</updated>
-    <published>2024-12-18T12:53:43.000Z</published>
-    <summary type="html"><![CDATA[10ª Reunião Deliberativa da Diretoria Colegiada
- 
-1) Processo 00058.070782/2023-83  
-2) Processo 00058.041531/2021-20]]></summary>
   </entry>
 </feed>
