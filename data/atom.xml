@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-05T07:25:14.000Z</updated>
+  <updated>2025-08-05T14:26:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac determina a investigação de peças de freio e roda da empresa H8 ALS]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-determina-a-investigacao-de-pecas-de-freio-e-roda-da-empresa-h8-als" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-determina-a-investigacao-de-pecas-de-freio-e-roda-da-empresa-h8-als</id>
+    <updated>2025-08-05T14:26:00.000Z</updated>
+    <published>2025-08-05T14:26:00.000Z</published>
+    <summary type="html"><![CDATA[Medida foi tomada após a identificação de comercialização de partes aeronáuticas não aprovadas]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[10ª Reunião Deliberativa da Diretoria Colegiada (04/08/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=I-sJmTR8bIE" />
@@ -275,15 +284,6 @@ Participe!]]></summary>
     <updated>2025-07-08T14:00:00.000Z</updated>
     <published>2025-07-08T14:00:00.000Z</published>
     <summary type="html"><![CDATA[Sistema Sintac, utilizado anteriormente, será descontinuado para esse serviço]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Balonismo terá novas regras para exploração da atividade no país]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/balonismo-tera-novas-regras-para-exploracao-da-atividade-no-pais" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/balonismo-tera-novas-regras-para-exploracao-da-atividade-no-pais</id>
-    <updated>2025-07-08T12:52:00.000Z</updated>
-    <published>2025-07-08T12:52:00.000Z</published>
-    <summary type="html"><![CDATA[Anac pretende estabelecer regras de transição com restrições ao aerodesporto e critérios mínimos de segurança para operações comerciais]]></summary>
   </entry>
 
   <entry>
