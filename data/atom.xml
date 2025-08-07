@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-05T14:26:00.000Z</updated>
+  <updated>2025-08-06T14:59:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac lança quatro novos manuais aeronáuticos gratuitos do programa Asas para Todos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-quatro-novos-manuais-aeronauticos-gratuitos-do-programa-asas-para-todos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-quatro-novos-manuais-aeronauticos-gratuitos-do-programa-asas-para-todos</id>
+    <updated>2025-08-06T14:59:00.000Z</updated>
+    <published>2025-08-06T14:59:00.000Z</published>
+    <summary type="html"><![CDATA[Apostilas abordam princípios de voo, aerodinâmica, controles de voo e sistemas de aeronaves]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac aprova regras de criação de ambiente regulatório experimental para novas tecnologias na aviação]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-aprova-regras-de-criacao-de-ambiente-regulatorio-experimental-para-novas-tecnologias-na-aviacao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-aprova-regras-de-criacao-de-ambiente-regulatorio-experimental-para-novas-tecnologias-na-aviacao</id>
+    <updated>2025-08-06T13:24:00.000Z</updated>
+    <published>2025-08-06T13:24:00.000Z</published>
+    <summary type="html"><![CDATA[Com modelo de sandbox regulatório, empresas poderão testar inovações no setor de forma controlada e segura]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac determina a investigação de peças de freio e roda da empresa H8 ALS]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-determina-a-investigacao-de-pecas-de-freio-e-roda-da-empresa-h8-als" />
@@ -247,15 +265,6 @@ Arquivo utilizado no vídeo disponível aqui: https://www.gov.br/anac/pt-br/arqu
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Anac emite a primeira certificação de balão brasileiro]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-emite-a-primeira-certificacao-de-balao-brasileiro" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-emite-a-primeira-certificacao-de-balao-brasileiro</id>
-    <updated>2025-07-09T17:06:00.000Z</updated>
-    <published>2025-07-09T17:06:00.000Z</published>
-    <summary type="html"><![CDATA[Processo aprovou os projetos de cinco modelos da Rubic Balões conforme padrões internacionais de segurança]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Tomada de subsídios para revisão de requisitos de MMA segue até 14/7]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tomada-de-subsidios-para-revisao-de-requisitos-de-mma-segue-ate-14-7" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/tomada-de-subsidios-para-revisao-de-requisitos-de-mma-segue-ate-14-7</id>
@@ -275,15 +284,6 @@ Arquivo utilizado no vídeo disponível aqui: https://www.gov.br/anac/pt-br/arqu
 Assim, o objetivo é reconhecer os melhores colocados no Aeroportos Sustentáveis.
 
 Participe!]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Pilotos privados terão licenças expedidas exclusivamente pelo Super App da Anac a partir de 1º/8]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pilotos-privados-terao-licencas-expedidas-exclusivamente-pelo-super-app-da-anac-a-partir-de-1o-8" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/pilotos-privados-terao-licencas-expedidas-exclusivamente-pelo-super-app-da-anac-a-partir-de-1o-8</id>
-    <updated>2025-07-08T14:00:00.000Z</updated>
-    <published>2025-07-08T14:00:00.000Z</published>
-    <summary type="html"><![CDATA[Sistema Sintac, utilizado anteriormente, será descontinuado para esse serviço]]></summary>
   </entry>
 
   <entry>
