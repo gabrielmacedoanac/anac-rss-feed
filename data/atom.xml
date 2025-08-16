@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-13T14:24:00.000Z</updated>
+  <updated>2025-08-15T16:40:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025 será realizado nos dias 27 e 29/8]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/webinario-engenharia-de-aeroportos-2025-sera-realizado-nos-dias-27-e-29-8" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/webinario-engenharia-de-aeroportos-2025-sera-realizado-nos-dias-27-e-29-8</id>
+    <updated>2025-08-15T16:40:00.000Z</updated>
+    <published>2025-08-15T16:40:00.000Z</published>
+    <summary type="html"><![CDATA[O objetivo é fortalecer a cultura de segurança operacional e atualizar regulados sobre alterações normativas]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[BHEST publica boletim de ocorrências operacionais e estudo preliminar de segurança operacional para eVTOLs]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/bhest-publica-boletim-de-ocorrencias-operacionais-e-estudo-preliminar-de-seguranca-operacional-para-evtols" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/bhest-publica-boletim-de-ocorrencias-operacionais-e-estudo-preliminar-de-seguranca-operacional-para-evtols</id>
+    <updated>2025-08-15T15:25:00.000Z</updated>
+    <published>2025-08-15T15:25:00.000Z</published>
+    <summary type="html"><![CDATA[Publicações trazem dados de 2024 e apontam desafios para a entrada em serviço de aeronaves elétricas de pouso e decolagem vertical]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac certifica nova empresa para a operação de voos comerciais]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-certifica-nova-empresa-para-a-operacao-de-voos-comerciais" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-certifica-nova-empresa-para-a-operacao-de-voos-comerciais</id>
+    <updated>2025-08-15T15:00:00.000Z</updated>
+    <published>2025-08-15T15:00:00.000Z</published>
+    <summary type="html"><![CDATA[A companhia Placar Linhas Aéreas poderá operar rotas comerciais não regulares no Brasil e América do Sul]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac avança na qualidade de serviços digitais prestados ao setor aéreo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-avanca-na-qualidade-de-servicos-digitais-prestados-ao-setor-aereo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-avanca-na-qualidade-de-servicos-digitais-prestados-ao-setor-aereo</id>
+    <updated>2025-08-15T12:03:00.000Z</updated>
+    <published>2025-08-15T12:03:00.000Z</published>
+    <summary type="html"><![CDATA[Agência alcança a 9ª posição no ranking do Governo Federal que avalia a satisfação do usuário com serviços digitais]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Assédio não decola: ação nos aeroportos brasileiros quer combater o assédio]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/assedio-nao-decola-acao-nos-aeroportos-teve-inicio-no-aeroporto-de-brasilia" />
@@ -213,42 +249,6 @@ Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]
     <updated>2025-07-22T14:56:00.000Z</updated>
     <published>2025-07-22T14:56:00.000Z</published>
     <summary type="html"><![CDATA[Formulário orienta operadores aéreos na avaliação da segurança de voos]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac e Abag realizam o 1º Encontro Nacional de Segurança de Voo da Aviação Geral]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-abag-realizam-o-1o-encontro-nacional-de-seguranca-de-voo-da-aviacao-geral" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-abag-realizam-o-1o-encontro-nacional-de-seguranca-de-voo-da-aviacao-geral</id>
-    <updated>2025-07-22T14:56:00.000Z</updated>
-    <published>2025-07-22T14:56:00.000Z</published>
-    <summary type="html"><![CDATA[Evento antecede a Labace 2025]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Sistemas corporativos da Anac ficarão indisponíveis no dia 21/7]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/sistemas-corporativos-da-anac-ficarao-indisponiveis-no-dia-21-7" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/sistemas-corporativos-da-anac-ficarao-indisponiveis-no-dia-21-7</id>
-    <updated>2025-07-18T16:02:00.000Z</updated>
-    <published>2025-07-18T16:02:00.000Z</published>
-    <summary type="html"><![CDATA[Algumas soluções digitais da Agência ficarão temporariamente fora do ar para manutenção programada e atualização das 20h às 23h de segunda-feira]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Movimentação de passageiros cresce mais de 10% em junho pelo terceiro mês seguido]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/movimentacao-de-passageiros-cresce-mais-de-10-em-junho-pelo-terceiro-mes-seguido" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/movimentacao-de-passageiros-cresce-mais-de-10-em-junho-pelo-terceiro-mes-seguido</id>
-    <updated>2025-07-18T15:17:00.000Z</updated>
-    <published>2025-07-18T15:17:00.000Z</published>
-    <summary type="html"><![CDATA[Mercados doméstico e internacional registram seus melhores resultados para o mês de junho desde 2000]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Pesquisa da Anac revela pontos fortes e desafios na cultura de segurança da aviação brasileira]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pesquisa-da-anac-revela-pontos-fortes-e-desafios-na-cultura-de-seguranca-da-aviacao-brasileira" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/pesquisa-da-anac-revela-pontos-fortes-e-desafios-na-cultura-de-seguranca-da-aviacao-brasileira</id>
-    <updated>2025-07-17T14:02:00.000Z</updated>
-    <published>2025-07-17T14:02:00.000Z</published>
-    <summary type="html"><![CDATA[Painel interativo com os resultados permite análise por região, perfil e segmento; dados servirão de base para novas ações de promoção da segurança]]></summary>
   </entry>
 
   <entry>
