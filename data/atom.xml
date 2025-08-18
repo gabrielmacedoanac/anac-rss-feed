@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-15T16:40:00.000Z</updated>
+  <updated>2025-08-18T07:28:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac participa do Congresso da Aviação Agrícola do Brasil em Mato Grosso]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-do-congresso-da-aviacao-agricola-do-brasil-em-mato-grosso" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-do-congresso-da-aviacao-agricola-do-brasil-em-mato-grosso</id>
+    <updated>2025-08-18T07:28:00.000Z</updated>
+    <published>2025-08-18T07:28:00.000Z</published>
+    <summary type="html"><![CDATA[Evento, um dos maiores da América Latina no setor, será realizado de 19 a 21/8, em Santo Antônio de Leverger]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025 será realizado nos dias 27 e 29/8]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/webinario-engenharia-de-aeroportos-2025-sera-realizado-nos-dias-27-e-29-8" />
@@ -240,15 +249,6 @@ Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]
     <updated>2025-07-24T14:11:00.000Z</updated>
     <published>2025-07-24T14:11:00.000Z</published>
     <summary type="html"><![CDATA[Novas tarifas poderão ser praticadas 30 dias após divulgação pela concessionária]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac publica formulário de referência para inspeção em Autorização Especial de Voo (AEV)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-publica-formulario-de-referencia-para-inspecao-em-autorizacao-especial-de-voo-aev" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-publica-formulario-de-referencia-para-inspecao-em-autorizacao-especial-de-voo-aev</id>
-    <updated>2025-07-22T14:56:00.000Z</updated>
-    <published>2025-07-22T14:56:00.000Z</published>
-    <summary type="html"><![CDATA[Formulário orienta operadores aéreos na avaliação da segurança de voos]]></summary>
   </entry>
 
   <entry>
