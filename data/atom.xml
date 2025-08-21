@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-18T17:54:00.000Z</updated>
+  <updated>2025-08-20T10:45:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Recorde histórico: setor aéreo alcança 11,6 milhões de passageiros transportados em julho]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/recorde-historico-setor-aereo-alcanca-11-6-milhoes-de-passageiros-transportados-em-julho" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/recorde-historico-setor-aereo-alcanca-11-6-milhoes-de-passageiros-transportados-em-julho</id>
+    <updated>2025-08-20T10:45:00.000Z</updated>
+    <published>2025-08-20T10:45:00.000Z</published>
+    <summary type="html"><![CDATA[Esse é o maior número de passageiros movimentados em um único mês]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Funcionamento de motores e procedimentos de segurança são abordados em nova Instrução Suplementar da Anac]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/funcionamento-de-motores-e-procedimentos-de-seguranca-sao-abordados-em-nova-instrucao-suplementar-da-anac" />
@@ -240,15 +249,6 @@ Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]
     <updated>2025-07-30T10:58:47.000Z</updated>
     <published>2025-07-30T10:58:47.000Z</published>
     <summary type="html"><![CDATA[Perguntas via slido - https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Nova turma do curso Relações de Consumo no Setor Aéreo começa em 2/9]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/nova-turma-do-curso-relacoes-de-consumo-no-setor-aereo-comeca-em-2-9" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/nova-turma-do-curso-relacoes-de-consumo-no-setor-aereo-comeca-em-2-9</id>
-    <updated>2025-07-29T16:46:00.000Z</updated>
-    <published>2025-07-29T16:46:00.000Z</published>
-    <summary type="html"><![CDATA[Inscrições para o curso online, realizado em parceria com a Senacon, estarão abertas de 29/7 a 25/8]]></summary>
   </entry>
 
   <entry>
