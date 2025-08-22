@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-20T10:45:00.000Z</updated>
+  <updated>2025-08-21T16:27:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Tesouro Nacional reconhece Anac como a melhor agência na qualidade da informação de custos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tesouro-nacional-reconhece-anac-como-a-melhor-agencia-na-qualidade-da-informacao-de-custos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/tesouro-nacional-reconhece-anac-como-a-melhor-agencia-na-qualidade-da-informacao-de-custos</id>
+    <updated>2025-08-21T16:27:00.000Z</updated>
+    <published>2025-08-21T16:27:00.000Z</published>
+    <summary type="html"><![CDATA[Com as melhores notas entre as agências por três anos seguidos, a Anac também se destacou no desempenho consolidado entre os órgãos avaliados na Administração Pública]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Inscrições abertas para o curso gratuito Aviation English Level 3 até o dia 30/8]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/inscricoes-abertas-para-o-curso-gratuito-aviation-english-level-3-ate-o-dia-30-8" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/inscricoes-abertas-para-o-curso-gratuito-aviation-english-level-3-ate-o-dia-30-8</id>
+    <updated>2025-08-21T13:21:00.000Z</updated>
+    <published>2025-08-21T13:21:00.000Z</published>
+    <summary type="html"><![CDATA[A capacitação, reconhecida pela Oaci, é voltado a profissionais da aviação civil que desejam desenvolver competências em inglês técnico]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Recorde histórico: setor aéreo alcança 11,6 milhões de passageiros transportados em julho]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/recorde-historico-setor-aereo-alcanca-11-6-milhoes-de-passageiros-transportados-em-julho" />
@@ -180,24 +198,6 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Aena abre consulta pública sobre gestão de slots da aviação geral em Congonhas]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aena-abre-consulta-publica-sobre-gestao-de-slots-da-aviacao-geral-em-congonhas" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aena-abre-consulta-publica-sobre-gestao-de-slots-da-aviacao-geral-em-congonhas</id>
-    <updated>2025-07-30T16:22:00.000Z</updated>
-    <published>2025-07-30T16:22:00.000Z</published>
-    <summary type="html"><![CDATA[Processo de coleta de sugestões atende a decisão aprovada pela Anac em maio de 2025]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac lança manual inédito sobre prevenção e combate ao tráfico de pessoas na aviação]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-manual-inedito-sobre-prevencao-e-combate-ao-trafico-de-pessoas-na-aviacao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-manual-inedito-sobre-prevencao-e-combate-ao-trafico-de-pessoas-na-aviacao</id>
-    <updated>2025-07-30T16:08:00.000Z</updated>
-    <published>2025-07-30T16:08:00.000Z</published>
-    <summary type="html"><![CDATA[Publicação marca o Dia Mundial de Enfrentamento ao Tráfico de Pessoas e se integra à nova campanha do projeto Liberdade no Ar, coordenado pela Asbrad e MPT]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qwyqefU-Za8" />
     <id>urn:uuid:https://www.youtube.com/watch?v=qwyqefU-Za8</id>
@@ -248,7 +248,13 @@ Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]
     <id>urn:uuid:https://www.youtube.com/watch?v=dTihSc1E3_M</id>
     <updated>2025-07-30T10:58:47.000Z</updated>
     <published>2025-07-30T10:58:47.000Z</published>
-    <summary type="html"><![CDATA[Perguntas via slido - https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
+    <summary type="html"><![CDATA[Este evento faz parte da Ação Nacional de Aviação Civil, iniciativa instituída em 2011 pela ANAC com o objetivo de disseminar informações e conhecimentos sobre o transporte aéreo e de aumentar a proximidade da Agência com seus principais públicos, entre eles pilotos, profissionais, empresários, estudantes, pesquisadores ligados à aviação civil e demais interessados.
+
+O evento pretende atingir a maior quantidade de regulados possível e apresentar diversos assuntos, conforme indicado na Programação, para fomentar a discussão, tratar e receber as críticas e sugestões e promover a melhoria da segurança operacional no Brasil.
+
+A iniciativa também é aderente ao Programa de Implementação do PSOE-ANAC, otimizando recursos e aperfeiçoando as ferramentas de disseminação da cultura de segurança operacional.
+
+Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
   </entry>
 
   <entry>
