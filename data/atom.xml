@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-22T09:15:57.000Z</updated>
+  <updated>2025-08-22T15:59:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Inovação e crescimento da aviação agrícola brasileira foram destaques no Congresso AvAg 202]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/inovacao-e-crescimento-da-aviacao-agricola-brasileira-foram-destaques-no-congresso-avag-202" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/inovacao-e-crescimento-da-aviacao-agricola-brasileira-foram-destaques-no-congresso-avag-202</id>
+    <updated>2025-08-22T15:59:00.000Z</updated>
+    <published>2025-08-22T15:59:00.000Z</published>
+    <summary type="html"><![CDATA[Edição realizada em Mato Grosso teve leilão inédito, foco em sustentabilidade e avanços tecnológicos como IA, drones e nanotecnologia]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Programa Asas para Todos é apresentado na 1ª edição da Cumbre de Mujeres da Clac na Guatemala]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-e-apresentado-na-1a-edicao-da-cumbre-de-mujeres-da-clac-na-guatemala" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-e-apresentado-na-1a-edicao-da-cumbre-de-mujeres-da-clac-na-guatemala</id>
+    <updated>2025-08-22T12:13:00.000Z</updated>
+    <published>2025-08-22T12:13:00.000Z</published>
+    <summary type="html"><![CDATA[A participação da Anac no evento é um reconhecimento pela cooperação no Prêmio de Excelência em Equidade de Gênero no setor de Aviação Civil na América Latina e Caribe]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Webinário BHEST - PROCESSO DECISÓRIO NA AVIAÇÃO DE ASAS ROTATIVAS]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=dTihSc1E3_M" />
@@ -192,24 +210,6 @@ Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
  
 1) Processo 00058.070782/2023-83  
 2) Processo 00058.041531/2021-20]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac terá time de especialistas na 20ª edição da Labace]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-tera-time-de-especialistas-na-20a-edicao-da-labace" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-tera-time-de-especialistas-na-20a-edicao-da-labace</id>
-    <updated>2025-08-04T18:20:00.000Z</updated>
-    <published>2025-08-04T18:20:00.000Z</published>
-    <summary type="html"><![CDATA[Estande da Agência vai receber o público e servidores participarão de painéis e palestras na principal feira de aviação geral da América Latina]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Divulgado resultado parcial do processo seletivo para Examinadores Credenciados de Pilotos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/divulgado-resultado-parcial-do-processo-seletivo-para-examinadores-credenciados-de-pilotos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/divulgado-resultado-parcial-do-processo-seletivo-para-examinadores-credenciados-de-pilotos</id>
-    <updated>2025-07-31T16:02:00.000Z</updated>
-    <published>2025-07-31T16:02:00.000Z</published>
-    <summary type="html"><![CDATA[Interessados têm até 4 de agosto para apresentar recursos]]></summary>
   </entry>
 
   <entry>
