@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-22T15:59:00.000Z</updated>
+  <updated>2025-08-25T11:48:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[BAIST publica três novos guias para aprimorar a segurança operacional em aeródromos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/baist-publica-tres-novos-guias-para-aprimorar-a-seguranca-operacional-em-aerodromos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/baist-publica-tres-novos-guias-para-aprimorar-a-seguranca-operacional-em-aerodromos</id>
+    <updated>2025-08-25T11:48:00.000Z</updated>
+    <published>2025-08-25T11:48:00.000Z</published>
+    <summary type="html"><![CDATA[Materiais estão disponíveis para consulta no portal da Anac]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Confira as orientações da Anac sobre o transporte de líquidos em voos internacionais]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/confira-as-orientacoes-da-anac-sobre-o-transporte-de-liquidos-em-voos-internacionais" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/confira-as-orientacoes-da-anac-sobre-o-transporte-de-liquidos-em-voos-internacionais</id>
+    <updated>2025-08-25T11:17:00.000Z</updated>
+    <published>2025-08-25T11:17:00.000Z</published>
+    <summary type="html"><![CDATA[Exigência de embalagem específica para acondicionar itens na bagagem de mão vale desde 2019, com o objetivo de garantir a segurança de passageiros]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Inovação e crescimento da aviação agrícola brasileira foram destaques no Congresso AvAg 202]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/inovacao-e-crescimento-da-aviacao-agricola-brasileira-foram-destaques-no-congresso-avag-202" />
@@ -180,24 +198,6 @@ Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
     <updated>2025-08-06T14:59:00.000Z</updated>
     <published>2025-08-06T14:59:00.000Z</published>
     <summary type="html"><![CDATA[Apostilas abordam princípios de voo, aerodinâmica, controles de voo e sistemas de aeronaves]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac aprova regras de criação de ambiente regulatório experimental para novas tecnologias na aviação]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-aprova-regras-de-criacao-de-ambiente-regulatorio-experimental-para-novas-tecnologias-na-aviacao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-aprova-regras-de-criacao-de-ambiente-regulatorio-experimental-para-novas-tecnologias-na-aviacao</id>
-    <updated>2025-08-06T13:24:00.000Z</updated>
-    <published>2025-08-06T13:24:00.000Z</published>
-    <summary type="html"><![CDATA[Com modelo de sandbox regulatório, empresas poderão testar inovações no setor de forma controlada e segura]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac determina a investigação de peças de freio e roda da empresa H8 ALS]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-determina-a-investigacao-de-pecas-de-freio-e-roda-da-empresa-h8-als" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-determina-a-investigacao-de-pecas-de-freio-e-roda-da-empresa-h8-als</id>
-    <updated>2025-08-05T14:26:00.000Z</updated>
-    <published>2025-08-05T14:26:00.000Z</published>
-    <summary type="html"><![CDATA[Medida foi tomada após a identificação de comercialização de partes aeronáuticas não aprovadas]]></summary>
   </entry>
 
   <entry>
