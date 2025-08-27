@@ -4,8 +4,26 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Tue, 26 Aug 2025 12:36:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 Aug 2025 01:15:26 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[11ª Reunião Deliberativa da Diretoria Colegiada (26/08/2025)]]></title>
+    <link>https://www.youtube.com/watch?v=gx-VCn_gx98</link>
+    <description><![CDATA[Processo 00058.030675/2025-84]]></description>
+    <pubDate>Tue, 26 Aug 2025 18:29:10 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=gx-VCn_gx98</guid>
+    <dc:date>2025-08-26T18:29:10.000Z</dc:date>
+  </item>
+
+  <item>
+    <title><![CDATA[Kalitta Air LLC recebe autorização para operar voos internacionais regulares no Brasil]]></title>
+    <link>https://www.gov.br/anac/pt-br/noticias/2025/kalitta-air-llc-recebe-autorizacao-para-operar-voos-internacionais-regulares-no-brasil</link>
+    <description><![CDATA[Companhia americana poderá definir com os aeroportos as rotas e frequências dos voos]]></description>
+    <pubDate>Tue, 26 Aug 2025 16:51:00 GMT</pubDate>
+    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2025/kalitta-air-llc-recebe-autorizacao-para-operar-voos-internacionais-regulares-no-brasil</guid>
+    <dc:date>2025-08-26T16:51:00.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[BAIST publica três novos guias para aprimorar a segurança operacional em aeródromos]]></title>
     <link>https://www.gov.br/anac/pt-br/noticias/2025/baist-publica-tres-novos-guias-para-aprimorar-a-seguranca-operacional-em-aerodromos</link>
@@ -190,15 +208,6 @@ Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></description>
     <pubDate>Thu, 07 Aug 2025 15:12:00 GMT</pubDate>
     <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2025/anac-publica-alerta-sobre-interferencias-e-falsificacoes-em-gnss</guid>
     <dc:date>2025-08-07T15:12:00.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Anac lança quatro novos manuais aeronáuticos gratuitos do programa Asas para Todos]]></title>
-    <link>https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-quatro-novos-manuais-aeronauticos-gratuitos-do-programa-asas-para-todos</link>
-    <description><![CDATA[Apostilas abordam princípios de voo, aerodinâmica, controles de voo e sistemas de aeronaves]]></description>
-    <pubDate>Wed, 06 Aug 2025 14:59:00 GMT</pubDate>
-    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-quatro-novos-manuais-aeronauticos-gratuitos-do-programa-asas-para-todos</guid>
-    <dc:date>2025-08-06T14:59:00.000Z</dc:date>
   </item>
 
   <item>
@@ -424,26 +433,6 @@ Participe!]]></description>
     <pubDate>Wed, 28 May 2025 21:41:32 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=crgpnzzFz9s</guid>
     <dc:date>2025-05-28T21:41:32.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[27/05 - Digital Week 2025, das 16h30 às 18h]]></title>
-    <link>https://www.youtube.com/watch?v=N757SyNl7sY</link>
-    <description><![CDATA[Seja bem-vindo!
-
-Palestra: Safety Intelligence com IA 
-Formato: Digital, com transmissão pelo Canal Oficial do Youtube 
-Link do Slido (perguntas): https://app.sli.do/event/pNkWrGgzvoU3antajNrPMn
-
-Moderador: Ronaldo Gammernan, coordenador de Análise e Monitoramento Contínuo da Anac
-Painelista 1: Bernardo Tomaz de Castro, Chefe da Assessoria de Segurança Operacional da Anac
-
-Mais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac
-
-Participe!]]></description>
-    <pubDate>Wed, 28 May 2025 08:52:19 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=N757SyNl7sY</guid>
-    <dc:date>2025-05-28T08:52:19.000Z</dc:date>
   </item>
   </channel>
 </rss>
