@@ -2,9 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-26T18:29:10.000Z</updated>
+  <updated>2025-08-27T19:49:54.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zoj9US-rtXA" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=zoj9US-rtXA</id>
+    <updated>2025-08-27T19:49:54.000Z</updated>
+    <published>2025-08-27T19:49:54.000Z</published>
+    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
+
+A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
+
+Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
+
+Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac cria plataforma digital para pagamento e consulta de informações financeiras]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-cria-plataforma-digital-para-pagamento-e-consulta-de-informacoes-financeiras" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-cria-plataforma-digital-para-pagamento-e-consulta-de-informacoes-financeiras</id>
+    <updated>2025-08-27T18:38:00.000Z</updated>
+    <published>2025-08-27T18:38:00.000Z</published>
+    <summary type="html"><![CDATA[Integrado a sistemas bancários e de registro, Anac Pay oferece atendimento seguro, fácil e rápido a serviços financeiros e emissões de documentos da Agência]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Novos equipamentos de inspeção elevam segurança no aeroporto de Guarulhos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/novos-equipamentos-de-inspecao-elevam-seguranca-no-aeroporto-de-guarulhos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/novos-equipamentos-de-inspecao-elevam-seguranca-no-aeroporto-de-guarulhos</id>
+    <updated>2025-08-27T14:15:00.000Z</updated>
+    <published>2025-08-27T14:15:00.000Z</published>
+    <summary type="html"><![CDATA[Aparelhos doados pelos Estados Unidos visam aumentar a segurança e a experiência de viajantes internacionais]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[11ª Reunião Deliberativa da Diretoria Colegiada (26/08/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=gx-VCn_gx98" />
@@ -192,24 +225,6 @@ Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Confira o resultado da pesquisa sobre o perfil profissional na aviação civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/confira-o-resultado-da-pesquisa-sobre-o-perfil-profissional-na-aviacao-civil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/confira-o-resultado-da-pesquisa-sobre-o-perfil-profissional-na-aviacao-civil</id>
-    <updated>2025-08-11T14:39:00.000Z</updated>
-    <published>2025-08-11T14:39:00.000Z</published>
-    <summary type="html"><![CDATA[Levantamento teve participação de 2.185 pessoas de todos os estados brasileiros]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac publica alerta sobre interferências e falsificações em GNSS]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-publica-alerta-sobre-interferencias-e-falsificacoes-em-gnss" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-publica-alerta-sobre-interferencias-e-falsificacoes-em-gnss</id>
-    <updated>2025-08-07T15:12:00.000Z</updated>
-    <published>2025-08-07T15:12:00.000Z</published>
-    <summary type="html"><![CDATA[Publicação traz orientações para procedimentos em caso de ocorrências no sistema de navegação por satélite]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[10ª Reunião Deliberativa da Diretoria Colegiada (04/08/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=I-sJmTR8bIE" />
     <id>urn:uuid:https://www.youtube.com/watch?v=I-sJmTR8bIE</id>
@@ -249,21 +264,6 @@ A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
 Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
 
 Dúvidas e perguntas (Slido) - https://app.sli.do/event/aQHew5VUdemc28vnaP2W7H]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zoj9US-rtXA" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=zoj9US-rtXA</id>
-    <updated>2025-07-30T11:00:24.000Z</updated>
-    <published>2025-07-30T11:00:24.000Z</published>
-    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
-
-A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
-
-Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
-
-Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]></summary>
   </entry>
 
   <entry>
