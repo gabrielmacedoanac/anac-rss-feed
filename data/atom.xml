@@ -2,9 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-08-29T13:14:00.000Z</updated>
+  <updated>2025-08-30T07:56:49.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qwyqefU-Za8" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=qwyqefU-Za8</id>
+    <updated>2025-08-30T07:56:49.000Z</updated>
+    <published>2025-08-30T07:56:49.000Z</published>
+    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
+
+A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
+
+Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
+
+Dúvidas e perguntas (Slido) - https://app.sli.do/event/gALPhZRPaRjKAD2H9cmW3Y
+
+APRESENTAÇÕES: Todas as apresentações: https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/arquivos/engenheira-de-aeroportos-apr-1.zip]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[País passa a contar com primeira empresa certificada para operar voos com balões]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pais-passa-a-contar-com-primeira-empresa-certificada-para-operar-voos-com-baloes" />
@@ -249,23 +266,6 @@ Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
  
 1) Processo 00058.070782/2023-83  
 2) Processo 00058.041531/2021-20]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qwyqefU-Za8" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=qwyqefU-Za8</id>
-    <updated>2025-07-30T11:02:50.000Z</updated>
-    <published>2025-07-30T11:02:50.000Z</published>
-    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
-
-A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
-
-Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
-
-Dúvidas e perguntas (Slido) - https://app.sli.do/event/gALPhZRPaRjKAD2H9cmW3Y
-
-APRESENTAÇÕES: Todas as apresentações: https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/arquivos/engenheira-de-aeroportos-apr-1.zip]]></summary>
   </entry>
 
   <entry>
