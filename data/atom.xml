@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-03T16:45:00.000Z</updated>
+  <updated>2025-09-09T17:09:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Pilotos do Semiárido: publicados a lista final e o cronograma atualizado do processo seletivo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pilotos-do-semiarido-publicados-a-lista-final-e-o-cronograma-atualizado-do-processo-seletivo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/pilotos-do-semiarido-publicados-a-lista-final-e-o-cronograma-atualizado-do-processo-seletivo</id>
+    <updated>2025-09-09T17:09:00.000Z</updated>
+    <published>2025-09-09T17:09:00.000Z</published>
+    <summary type="html"><![CDATA[Projeto da Anac incentiva a formação de novos profissionais e contribui para o fortalecimento da aviação regional no Brasil]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac lança manual para avaliar áreas não pavimentadas em aeródromos]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-manual-para-avaliar-areas-nao-pavimentadas-em-aerodromos-1" />
@@ -245,15 +254,6 @@ Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
     <updated>2025-08-20T10:45:00.000Z</updated>
     <published>2025-08-20T10:45:00.000Z</published>
     <summary type="html"><![CDATA[Esse é o maior número de passageiros movimentados em um único mês]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Funcionamento de motores e procedimentos de segurança são abordados em nova Instrução Suplementar da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/funcionamento-de-motores-e-procedimentos-de-seguranca-sao-abordados-em-nova-instrucao-suplementar-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/funcionamento-de-motores-e-procedimentos-de-seguranca-sao-abordados-em-nova-instrucao-suplementar-da-anac</id>
-    <updated>2025-08-18T17:54:00.000Z</updated>
-    <published>2025-08-18T17:54:00.000Z</published>
-    <summary type="html"><![CDATA[Elaborado com a comunidade aeronáutica, o documento orienta sobre prevenção de ocorrências e estabelece procedimentos para fortalecer a segurança operacional.]]></summary>
   </entry>
 
   <entry>
