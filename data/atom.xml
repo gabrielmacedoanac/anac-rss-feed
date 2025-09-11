@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-09T17:09:00.000Z</updated>
+  <updated>2025-09-10T15:17:51.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Cerimônia de posse da nova diretoria da Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=jTD_JdU6otI" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=jTD_JdU6otI</id>
+    <updated>2025-09-10T15:17:51.000Z</updated>
+    <published>2025-09-10T15:17:51.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Pilotos do Semiárido: publicados a lista final e o cronograma atualizado do processo seletivo]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pilotos-do-semiarido-publicados-a-lista-final-e-o-cronograma-atualizado-do-processo-seletivo" />
@@ -409,30 +418,6 @@ Para perguntas durante a transmissão: QR Code na tela ou pelo link https://app.
  
 Mais informações:  https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-bhest-gestao-do-risco-meteorologico-em-helicopteros
  
-Participe!]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[28/05 - Digital Week 2025, das 16h30 às 18h]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=crgpnzzFz9s" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=crgpnzzFz9s</id>
-    <updated>2025-05-28T21:41:32.000Z</updated>
-    <published>2025-05-28T21:41:32.000Z</published>
-    <summary type="html"><![CDATA[Seja bem-vindo!
-
-Painel: SuperApp e Citizen Experience - Avançado para o Governo Proativo 
-Formato: Digital, com transmissão pelo Canal Oficial do Youtube 
-Link do Slido (perguntas): https://app.sli.do/event/aDKcWpJ2s5KDin8c7MyTXV
-
-Moderador: Felipe Cruz, gerente de Soluções Digitais da Anac
-
-Painelista 1: Fernando Mitkiewicz, superintendente de Tecnologia e Transformação Digital da Anac
-Painelista 2: Marcos Moreira, coordenador-geral de Interação e Inteligência do Ministério da Gestão e da Inovação do Serviço Público
-Painelista 3: Sheila Valeriano Lopes Antonioli, head of Customer Happiness do SERPRO
-Painelista 4: Rafael Cunha, secretário de Transformação Digital e Ciência e Tecnologia da Prefeitura da cidade de Recife
-
-Mais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac
-
 Participe!]]></summary>
   </entry>
 </feed>
