@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-10T15:17:51.000Z</updated>
+  <updated>2025-09-11T16:09:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Demonstrações contábeis das empresas aéreas são   disponibilizadas em painel interativo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/demonstracoes-contabeis-das-empresas-aereas-sao-disponibilizadas-em-painel-interativo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/demonstracoes-contabeis-das-empresas-aereas-sao-disponibilizadas-em-painel-interativo</id>
+    <updated>2025-09-11T16:09:00.000Z</updated>
+    <published>2025-09-11T16:09:00.000Z</published>
+    <summary type="html"><![CDATA[Nova ferramenta possibilita consultas e comparações sobre a saúde financeira das companhias brasileiras]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Vivenciando a aviação: projeto Criando Asas leva 40 crianças de escola pública do DF para visita ao Aeroporto de Brasília]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/vivenciando-a-aviacao-projeto-criando-asas-leva-40-criancas-de-escola-publica-do-df-para-visita-ao-aeroporto-de-brasilia" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/vivenciando-a-aviacao-projeto-criando-asas-leva-40-criancas-de-escola-publica-do-df-para-visita-ao-aeroporto-de-brasilia</id>
+    <updated>2025-09-11T14:12:00.000Z</updated>
+    <published>2025-09-11T14:12:00.000Z</published>
+    <summary type="html"><![CDATA[Iniciativa desperta o interesse dos estudantes para as carreiras da aviação e amplia as oportunidades de grupos minoritários]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Cerimônia de posse da nova diretoria da Anac]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=jTD_JdU6otI" />
@@ -245,24 +263,6 @@ Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
     <updated>2025-08-21T16:27:00.000Z</updated>
     <published>2025-08-21T16:27:00.000Z</published>
     <summary type="html"><![CDATA[Com as melhores notas entre as agências por três anos seguidos, a Anac também se destacou no desempenho consolidado entre os órgãos avaliados na Administração Pública]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Inscrições abertas para o curso gratuito Aviation English Level 3 até o dia 30/8]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/inscricoes-abertas-para-o-curso-gratuito-aviation-english-level-3-ate-o-dia-30-8" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/inscricoes-abertas-para-o-curso-gratuito-aviation-english-level-3-ate-o-dia-30-8</id>
-    <updated>2025-08-21T13:21:00.000Z</updated>
-    <published>2025-08-21T13:21:00.000Z</published>
-    <summary type="html"><![CDATA[A capacitação, reconhecida pela Oaci, é voltado a profissionais da aviação civil que desejam desenvolver competências em inglês técnico]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Recorde histórico: setor aéreo alcança 11,6 milhões de passageiros transportados em julho]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/recorde-historico-setor-aereo-alcanca-11-6-milhoes-de-passageiros-transportados-em-julho" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/recorde-historico-setor-aereo-alcanca-11-6-milhoes-de-passageiros-transportados-em-julho</id>
-    <updated>2025-08-20T10:45:00.000Z</updated>
-    <published>2025-08-20T10:45:00.000Z</published>
-    <summary type="html"><![CDATA[Esse é o maior número de passageiros movimentados em um único mês]]></summary>
   </entry>
 
   <entry>
