@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-11T16:09:00.000Z</updated>
+  <updated>2025-09-12T15:51:17.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Semana de Cibersegurança da ANAC 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=59Nj2ERVgWE" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=59Nj2ERVgWE</id>
+    <updated>2025-09-12T15:51:17.000Z</updated>
+    <published>2025-09-12T15:51:17.000Z</published>
+    <summary type="html"><![CDATA[Dúvidas e perguntas: https://app.sli.do/event/6fTo3z3SUUhpjU3jS71RX2]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Demonstrações contábeis das empresas aéreas são   disponibilizadas em painel interativo]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/demonstracoes-contabeis-das-empresas-aereas-sao-disponibilizadas-em-painel-interativo" />
@@ -399,25 +408,6 @@ Moderador: Felipe Sarmanho, da Anac
 Painelista 1: José Eduardo Nogueira, observability specialist, da Ipnet by VIVO
 Mais informações: https://www.gov.br/anac/pt-br/noticias/2025/digital-week-inscricoes-abertas-para-o-evento-de-transformacao-digital-da-anac
 
-Participe!]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário BHEST: gestão do risco meteorológico em helicópteros]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=eP_kUuagOIg" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=eP_kUuagOIg</id>
-    <updated>2025-05-29T21:23:16.000Z</updated>
-    <published>2025-05-29T21:23:16.000Z</published>
-    <summary type="html"><![CDATA[Seja bem-vindo!
- 
-Webinário BHEST: gestão do risco meteorológico em helicópteros, dia 29 de maio, das 16h às 18h.
- 
-O objetivo do evento é concentrar os esforços na disseminação da cultura, dos conceitos e das melhores práticas relacionadas à Segurança Operacional junto aos provedores de serviço da aviação civil, abrangendo temas relacionados aos trabalhos desenvolvidos pelo Grupo de Segurança Operacional de Helicópteros (BHEST).  
- 
-Para perguntas durante a transmissão: QR Code na tela ou pelo link https://app.sli.do/event/vDonSfQeHnp1Xtii3qKuAU
- 
-Mais informações:  https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-bhest-gestao-do-risco-meteorologico-em-helicopteros
- 
 Participe!]]></summary>
   </entry>
 </feed>
