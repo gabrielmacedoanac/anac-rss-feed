@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-15T16:21:00.000Z</updated>
+  <updated>2025-09-16T08:36:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac realiza cerimônia de posse de novos diretores no dia 17/9, às 10h]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-cerimonia-de-posse-de-novos-diretores-no-dia-17-9-as-10h" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-cerimonia-de-posse-de-novos-diretores-no-dia-17-9-as-10h</id>
+    <updated>2025-09-16T08:36:00.000Z</updated>
+    <published>2025-09-16T08:36:00.000Z</published>
+    <summary type="html"><![CDATA[Evento, que será transmitido ao vivo pelo Youtube, terá a presença do ministro de Portos e Aeroportos]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac firma compromisso para ampliar práticas sustentáveis na Agência]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-compromisso-para-ampliar-praticas-sustentaveis-na-agencia" />
@@ -263,15 +272,6 @@ O evento pretende atingir a maior quantidade de regulados possível e apresentar
 A iniciativa também é aderente ao Programa de Implementação do PSOE-ANAC, otimizando recursos e aperfeiçoando as ferramentas de disseminação da cultura de segurança operacional.
 
 Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Tesouro Nacional reconhece Anac como a melhor agência na qualidade da informação de custos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tesouro-nacional-reconhece-anac-como-a-melhor-agencia-na-qualidade-da-informacao-de-custos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/tesouro-nacional-reconhece-anac-como-a-melhor-agencia-na-qualidade-da-informacao-de-custos</id>
-    <updated>2025-08-21T16:27:00.000Z</updated>
-    <published>2025-08-21T16:27:00.000Z</published>
-    <summary type="html"><![CDATA[Com as melhores notas entre as agências por três anos seguidos, a Anac também se destacou no desempenho consolidado entre os órgãos avaliados na Administração Pública]]></summary>
   </entry>
 
   <entry>
