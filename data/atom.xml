@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-12T15:51:17.000Z</updated>
+  <updated>2025-09-15T16:21:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac firma compromisso para ampliar práticas sustentáveis na Agência]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-compromisso-para-ampliar-praticas-sustentaveis-na-agencia" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-compromisso-para-ampliar-praticas-sustentaveis-na-agencia</id>
+    <updated>2025-09-15T16:21:00.000Z</updated>
+    <published>2025-09-15T16:21:00.000Z</published>
+    <summary type="html"><![CDATA[Adesão à Agenda Ambiental na Administração Pública (A3P), do Ministério do Meio Ambiente, incentiva práticas de sustentabilidade e qualidade de vida no ambiente de trabalho.]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Semana de Cibersegurança da ANAC 2025]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=59Nj2ERVgWE" />
@@ -239,15 +248,6 @@ Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]
     <updated>2025-08-22T15:59:00.000Z</updated>
     <published>2025-08-22T15:59:00.000Z</published>
     <summary type="html"><![CDATA[Edição realizada em Mato Grosso teve leilão inédito, foco em sustentabilidade e avanços tecnológicos como IA, drones e nanotecnologia]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Programa Asas para Todos é apresentado na 1ª edição da Cumbre de Mujeres da Clac na Guatemala]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-e-apresentado-na-1a-edicao-da-cumbre-de-mujeres-da-clac-na-guatemala" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/programa-asas-para-todos-e-apresentado-na-1a-edicao-da-cumbre-de-mujeres-da-clac-na-guatemala</id>
-    <updated>2025-08-22T12:13:00.000Z</updated>
-    <published>2025-08-22T12:13:00.000Z</published>
-    <summary type="html"><![CDATA[A participação da Anac no evento é um reconhecimento pela cooperação no Prêmio de Excelência em Equidade de Gênero no setor de Aviação Civil na América Latina e Caribe]]></summary>
   </entry>
 
   <entry>
