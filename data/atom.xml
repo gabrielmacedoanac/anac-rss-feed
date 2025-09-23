@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-19T15:07:00.000Z</updated>
+  <updated>2025-09-22T09:44:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac chefiará delegação brasileira na 42ª Assembleia da Oaci, no Canadá]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-chefiara-delegacao-brasileira-na-42a-assembleia-da-oaci-no-canada" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-chefiara-delegacao-brasileira-na-42a-assembleia-da-oaci-no-canada</id>
+    <updated>2025-09-22T09:44:00.000Z</updated>
+    <published>2025-09-22T09:44:00.000Z</published>
+    <summary type="html"><![CDATA[Evento promoverá debates sobre temas estratégicos para o setor aéreo, como SAF, EVTOLS e inovação regulatória]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac abre consulta pública sobre edital de venda assistida para a concessão do Aeroporto do Galeão]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-publica-sobre-edital-de-venda-assistida-para-a-concessao-do-aeroporto-do-galeao" />
@@ -246,15 +255,6 @@ A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
 Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
 
 Dúvidas e perguntas (Slido) - https://app.sli.do/event/aQHew5VUdemc28vnaP2W7H]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Super App da Anac conquista 1º lugar na Premiação Agilidade Brasil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/super-app-da-anac-conquista-1o-lugar-na-premiacao-agilidade-brasil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/super-app-da-anac-conquista-1o-lugar-na-premiacao-agilidade-brasil</id>
-    <updated>2025-08-28T15:24:00.000Z</updated>
-    <published>2025-08-28T15:24:00.000Z</published>
-    <summary type="html"><![CDATA[Aplicativo da Agência voltado a aspirantes a pilotos civis recebeu o reconhecimento nacional na categoria Órgãos Federais durante o Agile Trends Gov 2025]]></summary>
   </entry>
 
   <entry>
