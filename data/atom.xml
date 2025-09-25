@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-23T11:32:00.000Z</updated>
+  <updated>2025-09-24T18:16:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Exercício testa cenários de segurança cibernética no transporte aéreo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/exercicio-testa-cenarios-de-seguranca-cibernetica-no-transporte-aereo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/exercicio-testa-cenarios-de-seguranca-cibernetica-no-transporte-aereo</id>
+    <updated>2025-09-24T18:16:00.000Z</updated>
+    <published>2025-09-24T18:16:00.000Z</published>
+    <summary type="html"><![CDATA[Em sua 7ª edição, Guardião Cibernético avaliou o preparo do Brasil na segurança nacional e na proteção de infraestruturas. A Anac coordenou atividades ligadas ao transporte aéreo]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Brasil e Arábia Saudita assinam Protocolo Adicional ao Acordo de Serviços Aéreos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-arabia-saudita-assinam-protocolo-adicional-ao-acordo-de-servicos-aereos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-arabia-saudita-assinam-protocolo-adicional-ao-acordo-de-servicos-aereos</id>
+    <updated>2025-09-24T17:57:00.000Z</updated>
+    <published>2025-09-24T17:57:00.000Z</published>
+    <summary type="html"><![CDATA[Acordo assinado no Canadá, durante a 42ª Assembleia da Oaci, permitirá aumento da frequência de voos]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Desafios e soluções para Mecânicos de Manutenção Aeronáutica foram o destaque da Anac no MRO Brasil 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2024/desafios-e-solucoes-para-mecanicos-de-manutencao-aeronautica-foram-o-destaque-da-anac-no-mro-brasil-2025" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2024/desafios-e-solucoes-para-mecanicos-de-manutencao-aeronautica-foram-o-destaque-da-anac-no-mro-brasil-2025</id>
+    <updated>2025-09-24T16:19:00.000Z</updated>
+    <published>2025-09-24T16:19:00.000Z</published>
+    <summary type="html"><![CDATA[Debates e programas estratégicos buscam suprir a demanda e qualificar mecânicos de aeronaves no Brasil]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Aberta a tomada de subsídios para tratar da regulamentação de serviços Camo no Brasil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-a-tomada-de-subsidios-para-tratar-da-regulamentacao-de-servicos-camo-no-brasil" />
@@ -199,15 +226,6 @@ Link Slido: https://app.sli.do/event/rVjVCi3bT29xAJYkYy9X4C]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Aberta consulta pública para atualizar regulamentos de aeroportos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-para-atualizar-regulamentos-de-aeroportos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-para-atualizar-regulamentos-de-aeroportos</id>
-    <updated>2025-09-01T17:52:00.000Z</updated>
-    <published>2025-09-01T17:52:00.000Z</published>
-    <summary type="html"><![CDATA[Anac quer ouvir comunidade aeronáutica para adaptar novas regras internacionais à realidade brasileira]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qwyqefU-Za8" />
     <id>urn:uuid:https://www.youtube.com/watch?v=qwyqefU-Za8</id>
@@ -222,24 +240,6 @@ Programação e mais informações no site do evento https://www.gov.br/anac/pt-
 Dúvidas e perguntas (Slido) - https://app.sli.do/event/gALPhZRPaRjKAD2H9cmW3Y
 
 APRESENTAÇÕES: Todas as apresentações: https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/arquivos/engenheira-de-aeroportos-apr-1.zip]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[País passa a contar com primeira empresa certificada para operar voos com balões]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/pais-passa-a-contar-com-primeira-empresa-certificada-para-operar-voos-com-baloes" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/pais-passa-a-contar-com-primeira-empresa-certificada-para-operar-voos-com-baloes</id>
-    <updated>2025-08-29T13:14:00.000Z</updated>
-    <published>2025-08-29T13:14:00.000Z</published>
-    <summary type="html"><![CDATA[Rubic Balões poderá fazer voos com passageiros utilizando aeronaves de fabricação própria, também certificadas pela Anac]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Nomeados os novos diretores da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/nomeados-os-novos-diretores-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/nomeados-os-novos-diretores-da-anac</id>
-    <updated>2025-08-29T12:19:00.000Z</updated>
-    <published>2025-08-29T12:19:00.000Z</published>
-    <summary type="html"><![CDATA[Nomeações de Tiago Faierstein, Rui Mesquita e Antonio Mathias Moreira foram publicadas no Diário Oficial da União desta sexta (29/8)]]></summary>
   </entry>
 
   <entry>
