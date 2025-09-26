@@ -2,16 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-24T18:16:00.000Z</updated>
+  <updated>2025-09-25T17:56:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Assinado acordo que moderniza o contrato de concessão do Galeão]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/assinado-acordo-que-moderniza-o-contrato-de-concessao-do-galeao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/assinado-acordo-que-moderniza-o-contrato-de-concessao-do-galeao</id>
+    <updated>2025-09-25T17:56:00.000Z</updated>
+    <published>2025-09-25T17:56:00.000Z</published>
+    <summary type="html"><![CDATA[Termo prevê a venda assistida da concessionária, nova cobrança de contribuição variável e compensação financeira relacionada à operação do Santos Dumont]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Exercício testa cenários de segurança cibernética no transporte aéreo]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/exercicio-testa-cenarios-de-seguranca-cibernetica-no-transporte-aereo" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/exercicio-testa-cenarios-de-seguranca-cibernetica-no-transporte-aereo</id>
     <updated>2025-09-24T18:16:00.000Z</updated>
     <published>2025-09-24T18:16:00.000Z</published>
-    <summary type="html"><![CDATA[Em sua 7ª edição, Guardião Cibernético avaliou o preparo do Brasil na segurança nacional e na proteção de infraestruturas. A Anac coordenou atividades ligadas ao transporte aéreo]]></summary>
+    <summary type="html"><![CDATA[Guardião Cibernético avaliou o preparo do Brasil na segurança e na proteção de infraestruturas. A Anac coordenou atividades ligadas ao transporte aéreo]]></summary>
   </entry>
 
   <entry>
@@ -214,15 +223,6 @@ Link Slido: https://app.sli.do/event/rVjVCi3bT29xAJYkYy9X4C]]></summary>
     <updated>2025-09-03T15:16:00.000Z</updated>
     <published>2025-09-03T15:16:00.000Z</published>
     <summary type="html"><![CDATA[Agência conquistou o 1º lugar no ranking da avaliação de satisfação dos usuários]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac lança manual inédito sobre o uso de drones em aeroportos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-manual-inedito-sobre-o-uso-de-drones-em-aeroportos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-manual-inedito-sobre-o-uso-de-drones-em-aeroportos</id>
-    <updated>2025-09-02T09:40:00.000Z</updated>
-    <published>2025-09-02T09:40:00.000Z</published>
-    <summary type="html"><![CDATA[Documento elaborado em parceria com a indústria traz orientações valiosas para o uso seguro e eficiente dessa tecnologia no setor]]></summary>
   </entry>
 
   <entry>
