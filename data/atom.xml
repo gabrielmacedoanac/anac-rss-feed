@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-25T17:56:00.000Z</updated>
+  <updated>2025-09-26T11:42:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Brasil atualiza plano para reduzir emissões de CO2 na aviação civil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-apresenta-5a-edicao-do-plano-de-acao-para-a-reducao-das-emissoes-de-co2-na-aviacao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-apresenta-5a-edicao-do-plano-de-acao-para-a-reducao-das-emissoes-de-co2-na-aviacao</id>
+    <updated>2025-09-26T11:42:00.000Z</updated>
+    <published>2025-09-26T11:42:00.000Z</published>
+    <summary type="html"><![CDATA[Documento foi apresentado a delegados estrangeiros durante a 42ª Assembleia da Oaci, em Montréal, Canadá]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Assinado acordo que moderniza o contrato de concessão do Galeão]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/assinado-acordo-que-moderniza-o-contrato-de-concessao-do-galeao" />
@@ -214,15 +223,6 @@ Link Slido: https://app.sli.do/event/rVjVCi3bT29xAJYkYy9X4C]]></summary>
     <updated>2025-09-03T16:45:00.000Z</updated>
     <published>2025-09-03T16:45:00.000Z</published>
     <summary type="html"><![CDATA[Documento traz informações sobre uso do software PCASE]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac é líder digital na qualidade de serviços no Governo Federal]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-lider-digital-na-qualidade-de-servicos-no-governo-federal" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-lider-digital-na-qualidade-de-servicos-no-governo-federal</id>
-    <updated>2025-09-03T15:16:00.000Z</updated>
-    <published>2025-09-03T15:16:00.000Z</published>
-    <summary type="html"><![CDATA[Agência conquistou o 1º lugar no ranking da avaliação de satisfação dos usuários]]></summary>
   </entry>
 
   <entry>
