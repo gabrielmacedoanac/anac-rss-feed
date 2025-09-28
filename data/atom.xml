@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-26T11:42:00.000Z</updated>
+  <updated>2025-09-27T11:14:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Brasil é o país mais votado em eleição para o Conselho da Oaci]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-reeleito-membro-do-conselho-da-oaci-para-o-trienio-2025-2028" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-reeleito-membro-do-conselho-da-oaci-para-o-trienio-2025-2028</id>
+    <updated>2025-09-27T11:14:00.000Z</updated>
+    <published>2025-09-27T11:14:00.000Z</published>
+    <summary type="html"><![CDATA[Durante o próximo triênio, Brasil terá assento em foro que decide o conjunto básico de regras da aviação mundial]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Brasil atualiza plano para reduzir emissões de CO2 na aviação civil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-apresenta-5a-edicao-do-plano-de-acao-para-a-reducao-das-emissoes-de-co2-na-aviacao" />
@@ -214,15 +223,6 @@ Link Slido: https://app.sli.do/event/rVjVCi3bT29xAJYkYy9X4C]]></summary>
     <updated>2025-09-09T17:09:00.000Z</updated>
     <published>2025-09-09T17:09:00.000Z</published>
     <summary type="html"><![CDATA[Projeto da Anac incentiva a formação de novos profissionais e contribui para o fortalecimento da aviação regional no Brasil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac lança manual para avaliar áreas não pavimentadas em aeródromos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-manual-para-avaliar-areas-nao-pavimentadas-em-aerodromos-1" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-manual-para-avaliar-areas-nao-pavimentadas-em-aerodromos-1</id>
-    <updated>2025-09-03T16:45:00.000Z</updated>
-    <published>2025-09-03T16:45:00.000Z</published>
-    <summary type="html"><![CDATA[Documento traz informações sobre uso do software PCASE]]></summary>
   </entry>
 
   <entry>
