@@ -2,9 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-09-30T03:23:38.000Z</updated>
+  <updated>2025-10-01T12:13:39.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Programa Asas para Todos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=eeWySesFFAk" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=eeWySesFFAk</id>
+    <updated>2025-10-01T12:13:39.000Z</updated>
+    <published>2025-10-01T12:13:39.000Z</published>
+    <summary type="html"><![CDATA[A aviação é feita de tecnologia, inovação e, acima de tudo, pessoas. 
+
+Com o programa Asas para Todos, a Agência Nacional de Aviação Civil (Anac) abre caminhos para que mais pessoas realizem seus sonhos no setor aéreo — da infância à formação profissional. 
+
+Conheça mais sobre o programa que inspira e abre oportunidades para as carreiras da aviação: https://hotsites.anac.gov.br/asasparatodos/]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Semana de Cibersegurança da ANAC 2025]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=59Nj2ERVgWE" />
@@ -375,18 +388,5 @@ o Camilo Baldy - Especialista em Regulação de Aviação Civil - Gerência Téc
 • 30 minutos finais - Esclarecimento de dúvidas.
 
 Dúvidas e perguntas: https://app.sli.do/event/qpPsKRbT5PvKa51bhTULqb]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário - Consulta Pública - SGSO em fabricantes aeronáuticos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=974dC6O1zPk" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=974dC6O1zPk</id>
-    <updated>2025-06-13T06:39:47.000Z</updated>
-    <published>2025-06-13T06:39:47.000Z</published>
-    <summary type="html"><![CDATA[O webinário visa esclarecer dúvidas e fomentar a participação da sociedade na Consulta Pública do Tema 11 da Agenda Regulatória que trata das propostas de requisitos de SGSO em fabricantes aeronáuticos.
-
-Para dúvidas e perguntas durante a transmissão: QR Code na tela ou pelo link https://app.sli.do/event/9uyCe3cVTd9H
-
-Para participar da consulta pública e enviar suas contribuições, acesse a página oficial disponível no site da Anac.]]></summary>
   </entry>
 </feed>
