@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-01T12:13:39.000Z</updated>
+  <updated>2025-10-02T15:38:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Governo autoriza convocação de 35 novos especialistas aprovados no concurso da Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/governo-autoriza-convocacao-de-35-novos-especialistas-aprovados-no-concurso-da-anac" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/governo-autoriza-convocacao-de-35-novos-especialistas-aprovados-no-concurso-da-anac</id>
+    <updated>2025-10-02T15:38:00.000Z</updated>
+    <published>2025-10-02T15:38:00.000Z</published>
+    <summary type="html"><![CDATA[Candidatos estavam no cadastro reserva do certame realizado em 2023]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Programa Asas para Todos]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=eeWySesFFAk" />
@@ -227,15 +236,6 @@ Link Slido: https://app.sli.do/event/rVjVCi3bT29xAJYkYy9X4C]]></summary>
     <updated>2025-09-15T16:21:00.000Z</updated>
     <published>2025-09-15T16:21:00.000Z</published>
     <summary type="html"><![CDATA[Adesão à Agenda Ambiental na Administração Pública (A3P), do Ministério do Meio Ambiente, incentiva práticas de sustentabilidade e qualidade de vida no ambiente de trabalho.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Demonstrações contábeis das empresas aéreas são   disponibilizadas em painel interativo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/demonstracoes-contabeis-das-empresas-aereas-sao-disponibilizadas-em-painel-interativo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/demonstracoes-contabeis-das-empresas-aereas-sao-disponibilizadas-em-painel-interativo</id>
-    <updated>2025-09-11T16:09:00.000Z</updated>
-    <published>2025-09-11T16:09:00.000Z</published>
-    <summary type="html"><![CDATA[Nova ferramenta possibilita consultas e comparações sobre a saúde financeira das companhias brasileiras]]></summary>
   </entry>
 
   <entry>
