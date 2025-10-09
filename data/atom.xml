@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-06T18:01:00.000Z</updated>
+  <updated>2025-10-08T16:48:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Agências federais discutem formas de aprimoramento da regulação]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/agencias-federais-discutem-formas-de-aprimoramento-da-regulacao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/agencias-federais-discutem-formas-de-aprimoramento-da-regulacao</id>
+    <updated>2025-10-08T16:48:00.000Z</updated>
+    <published>2025-10-08T16:48:00.000Z</published>
+    <summary type="html"><![CDATA[Comitê elegeu Guilherme Theo Sampaio (ANTT) para presidente e Tiago Faierstein (Anac) para vice-presidente da instituição]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Audiência pública sobre edital de venda assistida do Galeão será realizada em 14/10]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/audiencia-publica-sobre-edital-de-venda-assistida-do-galeao-sera-realizada-em-14-10" />
@@ -218,15 +227,6 @@ Link Slido: https://app.sli.do/event/rVjVCi3bT29xAJYkYy9X4C]]></summary>
     <summary type="html"><![CDATA[Início - 10:43
 1) Processo 00058.078972/2025-19 - 25:09
 2) Processo 00058.070806/2024-85 - 38:09]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Nova diretoria é empossada em solenidade na sede da Anac, em Brasília (DF)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/nova-diretoria-e-empossada-em-solenidade-na-sede-da-anac-em-brasilia-df" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/nova-diretoria-e-empossada-em-solenidade-na-sede-da-anac-em-brasilia-df</id>
-    <updated>2025-09-17T16:32:00.000Z</updated>
-    <published>2025-09-17T16:32:00.000Z</published>
-    <summary type="html"><![CDATA[Cerimônia contou com a presença de servidores, autoridades, parlamentares e representantes do setor aéreo]]></summary>
   </entry>
 
   <entry>
