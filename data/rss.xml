@@ -4,8 +4,21 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Fri, 10 Oct 2025 01:13:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 12:33:51 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA]]></title>
+    <link>https://www.youtube.com/watch?v=zgHAnR8oBsY</link>
+    <description><![CDATA[A SPL acaba de revisar a IS 65-001 com modificações significativas ao procedimento de exame prático para mecânico de manutenção aeronáutica (MMA) e contagem da experiência recente. É necessário explicar ao público interessado tais mudanças. 
+
+O objetivo é explicar os novos procedimentos para concessão de licença e habilitações para MMA.
+
+Link do slido: https://app.sli.do/event/e19sudAMXLa4CWaC5qJnVF]]></description>
+    <pubDate>Fri, 10 Oct 2025 11:10:51 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=zgHAnR8oBsY</guid>
+    <dc:date>2025-10-10T11:10:51.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[Agências federais discutem formas de aprimoramento da regulação]]></title>
     <link>https://www.gov.br/anac/pt-br/noticias/2025/agencias-federais-discutem-formas-de-aprimoramento-da-regulacao</link>
@@ -369,26 +382,6 @@ Processo 00058.016310/2020-32 - 2:13:53]]></description>
     <pubDate>Wed, 25 Jun 2025 09:00:39 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=w5UcldjPOtw</guid>
     <dc:date>2025-06-25T09:00:39.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Webinário - Consulta Pública Tema 9 Agenda Regulatória - Revisão das regras de Drones]]></title>
-    <link>https://www.youtube.com/watch?v=I1BtI840LHs</link>
-    <description><![CDATA[O evento visa esclarecer dúvidas e fomentar a participação da sociedade na Consulta Pública do Tema 9 da Agenda Regulatória que trata das propostas de alterações regulatórias para as operações de drones no Brasil.
-
-Programação: 
-• 10 minutos iniciais - Abertura - Superintendente de Aeronavegabilidade substituto
-• 1h20 subsequentes - Apresentação do assunto:
-o Kleber Jesuino - Coordenador de Normas de Aeronavegabilidade - Gerência Técnica de Normas e Inovação (SAR/Anac)
-o Rui Josino - Coordenador de Drones e Novas Tecnologias - Gerência Técnica de Programas de Certificação (SAR/Anac)
-o Conrado Klein - Gerente Técnico de Vigilância Continuada (SPO/Anac)
-o Camilo Baldy - Especialista em Regulação de Aviação Civil - Gerência Técnica de Normas (SPL/Anac)
-• 30 minutos finais - Esclarecimento de dúvidas.
-
-Dúvidas e perguntas: https://app.sli.do/event/qpPsKRbT5PvKa51bhTULqb]]></description>
-    <pubDate>Fri, 13 Jun 2025 20:30:10 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=I1BtI840LHs</guid>
-    <dc:date>2025-06-13T20:30:10.000Z</dc:date>
   </item>
   </channel>
 </rss>
