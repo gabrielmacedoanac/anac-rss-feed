@@ -2,16 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-10T11:10:51.000Z</updated>
+  <updated>2025-10-10T11:52:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Brasil consolida liderança na aviação civil mundial durante a 42ª Assembleia da Oaci]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-consolida-lideranca-na-aviacao-civil-mundial-durante-a-42a-assembleia-da-oaci" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-consolida-lideranca-na-aviacao-civil-mundial-durante-a-42a-assembleia-da-oaci</id>
+    <updated>2025-10-10T11:52:00.000Z</updated>
+    <published>2025-10-10T11:52:00.000Z</published>
+    <summary type="html"><![CDATA[Liderada pela Anac, delegação brasileira assinou acordos, participou de debates estratégicos e promoveu a indústria aeronáutica nacional]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zgHAnR8oBsY" />
     <id>urn:uuid:https://www.youtube.com/watch?v=zgHAnR8oBsY</id>
     <updated>2025-10-10T11:10:51.000Z</updated>
     <published>2025-10-10T11:10:51.000Z</published>
-    <summary type="html"><![CDATA[A SPL acaba de revisar a IS 65-001 com modificações significativas ao procedimento de exame prático para mecânico de manutenção aeronáutica (MMA) e contagem da experiência recente. É necessário explicar ao público interessado tais mudanças. 
+    <summary type="html"><![CDATA[A SPL acaba de revisar a IS 65-001 com modificações significativas ao procedimento de exame prático para mecânico de manutenção aeronáutica (MMA) e contagem da experiência prática. É necessário explicar ao público interessado tais mudanças. 
 
 O objetivo é explicar os novos procedimentos para concessão de licença e habilitações para MMA.
 
@@ -220,15 +229,6 @@ Link Slido: https://app.sli.do/event/rVjVCi3bT29xAJYkYy9X4C]]></summary>
     <updated>2025-09-18T18:15:00.000Z</updated>
     <published>2025-09-18T18:15:00.000Z</published>
     <summary type="html"><![CDATA[Renovação de parceria foi assinada no gabinete do ministro do STF Luís Roberto Barroso, com destaque para o compartilhamento de dados de voos]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac promove 3ª Oficina de Melhoria Contínua AVSEC para reforçar a segurança da aviação civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-3a-oficina-de-melhoria-continua-avsec-para-reforcar-a-seguranca-da-aviacao-civil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-promove-3a-oficina-de-melhoria-continua-avsec-para-reforcar-a-seguranca-da-aviacao-civil</id>
-    <updated>2025-09-18T14:17:00.000Z</updated>
-    <published>2025-09-18T14:17:00.000Z</published>
-    <summary type="html"><![CDATA[Evento reunirá profissionais entre 21 e 23/10 para alinhamento técnico e troca de experiências]]></summary>
   </entry>
 
   <entry>
