@@ -2,9 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-10T11:52:00.000Z</updated>
+  <updated>2025-10-13T19:18:56.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=oIgGzr1zey8" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=oIgGzr1zey8</id>
+    <updated>2025-10-13T19:18:56.000Z</updated>
+    <published>2025-10-13T19:18:56.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Exames teóricos para comissários de voo serão retomados]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/exames-teoricos-para-comissarios-voo-serao-retomados" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/exames-teoricos-para-comissarios-voo-serao-retomados</id>
+    <updated>2025-10-13T17:04:00.000Z</updated>
+    <published>2025-10-13T17:04:00.000Z</published>
+    <summary type="html"><![CDATA[Inscrições e agendamentos podem ser solicitados no site da FGV a partir desta segunda-feira (13/10)]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Já se perguntou como o avião consegue voar?]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=_-5lBoZoZCU" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=_-5lBoZoZCU</id>
+    <updated>2025-10-13T13:46:41.000Z</updated>
+    <published>2025-10-13T13:46:41.000Z</published>
+    <summary type="html"><![CDATA[Neste Dia das Crianças, embarque com a gente nessa aventura divertida sobre as forças que fazem a magia acontecer nos céus! 
+
+Porque aprender pode ser tão divertido quanto brincar! 💙
+
+Feliz Dia das Crianças! 🎉
+
+Letra:
+Como o avião voa?
+
+Olha o avião lá no céu a planar,
+Mas como será que ele consegue voar?
+As asas têm formato especial, você vai ver,
+Fazendo o ar se mover pra cima crescer.
+
+Por cima o ar corre mais depressa, é tensão,
+Por baixo ele vai lento, isso dá sustentação.
+É a física que cria essa força no ar,
+Chamamos de sustentação pra ele levantar!
+
+Voa, voa avião, no céu a planar,
+Com motor e asa, pronto pra voar!
+Empurrando lá na frente, turbinas a girar,
+É propulsão que ajuda ele a avançar!
+
+Mas não é só isso que faz o avião flutuar,
+O piloto também precisa o voo controlar.
+Usa leme, profundor e aileron pra guiar,
+Mudando direção pra rota manter no ar.
+
+Com motor, asas e ciência no coração,
+O avião corta o céu numa perfeita canção.
+É física, engenharia e um sonho no ar,
+Juntos fazendo o avião poder voar!
+
+Voa, voa avião, sobe lá no ar,
+Levando gente e sonhos pra viajar.
+Decola bonito, com ciência a soprar,
+Agora você sabe como o avião pode voar!
+
+*Vídeo e música produzida com inteligência artificial.]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Brasil consolida liderança na aviação civil mundial durante a 42ª Assembleia da Oaci]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-consolida-lideranca-na-aviacao-civil-mundial-durante-a-42a-assembleia-da-oaci" />
@@ -192,7 +258,7 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <published>2025-09-19T14:45:05.000Z</published>
     <summary type="html"><![CDATA[A ANAC firmou acordos de manutenção aeronáutica com as principais autoridades estrangeiras (EASA, UK, CAA e FAA) para convalidação de certificados, possibilitando que organizações de manutenção brasileiras possam realizar manutenção em aeronaves desses países. Para tanto, é necessário que a OM convalide seu certificado com a outra autoridade. O evento apresenta os requisitos e processo para convalidação de certificados de OM com autoridades estrangeiras.
 
-Link Slido: https://app.sli.do/event/rVjVCi3bT29xAJYkYy9X4C]]></summary>
+Link Slido: https://app.sli.do/event/o7T9gqeVfFuQ26efqcNjLr]]></summary>
   </entry>
 
   <entry>
@@ -220,15 +286,6 @@ Link Slido: https://app.sli.do/event/rVjVCi3bT29xAJYkYy9X4C]]></summary>
     <updated>2025-09-19T10:53:00.000Z</updated>
     <published>2025-09-19T10:53:00.000Z</published>
     <summary type="html"><![CDATA[Documento serve de referência para empresas internacionais e facilita o acesso às orientações pelas empresas aéreas estrangeiras que atuam no Brasil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac, CNJ e SAC firmam Acordo de Cooperação Técnica]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-cnj-e-sac-firmam-acordo-de-cooperacao-tecnica-1" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-cnj-e-sac-firmam-acordo-de-cooperacao-tecnica-1</id>
-    <updated>2025-09-18T18:15:00.000Z</updated>
-    <published>2025-09-18T18:15:00.000Z</published>
-    <summary type="html"><![CDATA[Renovação de parceria foi assinada no gabinete do ministro do STF Luís Roberto Barroso, com destaque para o compartilhamento de dados de voos]]></summary>
   </entry>
 
   <entry>
@@ -354,32 +411,5 @@ Perguntas: use o QR code na tela de transmissão ou pelo link https://app.sli.do
 Contamos com sua participação para promover o alinhamento técnico e regulatório, evitando suspensão de CA das aeronaves e contribuindo para a segurança e a regularidade das operações.
 
 Arquivo utilizado no vídeo disponível aqui: https://www.gov.br/anac/pt-br/arquivos/webinario-longarinas-air-tractor-final-11jul2025.pptx]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[6ª edição do Aviação Sustentável]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qrKLkBkd__M" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=qrKLkBkd__M</id>
-    <updated>2025-07-09T06:57:28.000Z</updated>
-    <published>2025-07-09T06:57:28.000Z</published>
-    <summary type="html"><![CDATA[O evento Aviação Sustentável já consta como um evento consolidado e perene no cronograma anual da ANAC. Trata-se de uma oportunidade para divulgação de informações relevantes relacionadas à sustentabilidade do setor, além de ser necessário para premiação dos aeroportos melhores classificados no programa Aeroportos Sustentáveis.
-
-Assim, o objetivo é reconhecer os melhores colocados no Aeroportos Sustentáveis.
-
-Participe!]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[9ª Reunião Deliberativa da Diretoria Colegiada (24/06/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=w5UcldjPOtw" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=w5UcldjPOtw</id>
-    <updated>2025-06-25T09:00:39.000Z</updated>
-    <published>2025-06-25T09:00:39.000Z</published>
-    <summary type="html"><![CDATA[Início - 1:58
-Processo 00058.032050/2020-42 - 2:30
-Processo 00058.016682/2025-73 - 18:47
-Processo 00058.034495/2025-71 - 52:43
-Processo 00058.021107/2025-92 - 1:43:44
-Processo 00058.016310/2020-32 - 2:13:53]]></summary>
   </entry>
 </feed>
