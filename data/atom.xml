@@ -2,9 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-13T19:18:56.000Z</updated>
+  <updated>2025-10-14T14:00:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac realiza webinário para apresentar novas revisões sobre exame prático e concessão de habilitações para Mecânicos de Manutenção Aeronáutica]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-webinario-para-apresentar-novas-revisoes-sobre-exame-pratico-e-concessao-de-habilitacoes-para-mecanicos-de-manutencao-aeronautica" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-webinario-para-apresentar-novas-revisoes-sobre-exame-pratico-e-concessao-de-habilitacoes-para-mecanicos-de-manutencao-aeronautica</id>
+    <updated>2025-10-14T14:00:00.000Z</updated>
+    <published>2025-10-14T14:00:00.000Z</published>
+    <summary type="html"><![CDATA[Evento será transmitido no dia 16/10 no canal da Agência no YouTube]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Audiência Pública Virtual da Consulta Pública nº 11/2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=6X1GXm4fgaM" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=6X1GXm4fgaM</id>
+    <updated>2025-10-14T13:31:10.000Z</updated>
+    <published>2025-10-14T13:31:10.000Z</published>
+    <summary type="html"><![CDATA[Audiência Pública da Consulta Pública nº 11/2025 - Proposta de Edital de Venda Assistida - Contrato de Concessão nº 001/ANAC/2014 - Aeroporto Internacional do Rio de Janeiro (Galeão)
+ 
+Descrição:
+A Consulta Pública nº 11/2025 propõe o processo de Venda Assistida do Contrato de Concessão nº 001/ANAC/2014-SBGL, relativas à concessão para ampliação, manutenção e exploração do Aeroporto Internacional do Rio de Janeiro - Galeão. 
+
+Acesse os documentos da Consulta Pública e faça a sua contribuição nos formulários eletrônicos disponíveis no endereço: https://www.gov.br/participamaisbrasil/cp-11-2025]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=oIgGzr1zey8" />
@@ -280,15 +303,6 @@ Link Slido: https://app.sli.do/event/o7T9gqeVfFuQ26efqcNjLr]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Manual da Anac sobre desinterdição de pista ganha versão em inglês]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/manual-da-anac-sobre-desinterdicao-de-pista-ganha-versao-em-ingles" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/manual-da-anac-sobre-desinterdicao-de-pista-ganha-versao-em-ingles</id>
-    <updated>2025-09-19T10:53:00.000Z</updated>
-    <published>2025-09-19T10:53:00.000Z</published>
-    <summary type="html"><![CDATA[Documento serve de referência para empresas internacionais e facilita o acesso às orientações pelas empresas aéreas estrangeiras que atuam no Brasil]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[12ª Reunião Deliberativa da Diretoria Colegiada (17/09/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=FBySE3Veewg" />
     <id>urn:uuid:https://www.youtube.com/watch?v=FBySE3Veewg</id>
@@ -389,27 +403,5 @@ Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
  
 1) Processo 00058.070782/2023-83  
 2) Processo 00058.041531/2021-20]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Workshop sobre o controle do limite de vida em serviço das longarinas dos Air Tractor]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=mtlWqyDEfxc" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=mtlWqyDEfxc</id>
-    <updated>2025-07-12T03:29:33.000Z</updated>
-    <published>2025-07-12T03:29:33.000Z</published>
-    <summary type="html"><![CDATA[O evento tem como objetivo esclarecer sobre as condicionantes técnicas e regulatórias para que o cumprimento das tarefas previstas nas FAA AD seja considerado regular, evitando, assim, suspensão de CA por serviços cumpridos, registrados e controlados de modo não aceitável.
-
-Durante o Webnário, receberemos o representante da Air Tractor e serão abordados os seguintes temas:
-- Introdução ao problema técnico do TIS das longarinas e tarefas previstas nas FAA AD n
-- Vigilância sobre o cumprimento das FAA AD pelos operadores 137
-- Condicionantes aplicáveis às OM que podem cumprir com as tarefas previstas nas FAA AD
-- Suporte técnico aos operadores e OM
-- Esclarecimento de dúvidas
-
-Perguntas: use o QR code na tela de transmissão ou pelo link https://app.sli.do/event/eHmoDPRWtPz4nSCrwoLJZm
-
-Contamos com sua participação para promover o alinhamento técnico e regulatório, evitando suspensão de CA das aeronaves e contribuindo para a segurança e a regularidade das operações.
-
-Arquivo utilizado no vídeo disponível aqui: https://www.gov.br/anac/pt-br/arquivos/webinario-longarinas-air-tractor-final-11jul2025.pptx]]></summary>
   </entry>
 </feed>
