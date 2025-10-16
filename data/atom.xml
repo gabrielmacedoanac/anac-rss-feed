@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-15T07:00:50.000Z</updated>
+  <updated>2025-10-15T12:05:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Mudanças nos aeroportos que impactam a vida do passageiro são tema de evento em São Paulo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-aeroportos-que-impactam-a-vida-do-passageiro-sao-tema-de-evento-em-sao-paulo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-aeroportos-que-impactam-a-vida-do-passageiro-sao-tema-de-evento-em-sao-paulo</id>
+    <updated>2025-10-15T12:05:00.000Z</updated>
+    <published>2025-10-15T12:05:00.000Z</published>
+    <summary type="html"><![CDATA[Anac apoia evento Tecnologia e Segurança - O Futuro dos Aeroportos no Brasil, realizado pela ABR]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Audiência Pública Virtual da Consulta Pública nº 11/2025]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=6X1GXm4fgaM" />
@@ -291,15 +300,6 @@ Link Slido: https://app.sli.do/event/o7T9gqeVfFuQ26efqcNjLr]]></summary>
     <updated>2025-09-19T13:47:00.000Z</updated>
     <published>2025-09-19T13:47:00.000Z</published>
     <summary type="html"><![CDATA[Mercado doméstico também tem o melhor movimento para agosto desde o início da série histórica, com 8,7 milhões de pessoas transportadas no mês]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac abre consulta setorial sobre requisitos de contenção de fogo em sistemas propulsivos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-setorial-sobre-requisitos-de-contencao-de-fogo-em-sistemas-propulsivos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-setorial-sobre-requisitos-de-contencao-de-fogo-em-sistemas-propulsivos</id>
-    <updated>2025-09-19T11:57:00.000Z</updated>
-    <published>2025-09-19T11:57:00.000Z</published>
-    <summary type="html"><![CDATA[Contribuições podem ser enviadas até o dia 20 de outubro]]></summary>
   </entry>
 
   <entry>
