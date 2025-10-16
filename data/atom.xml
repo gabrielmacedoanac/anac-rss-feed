@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-15T12:05:00.000Z</updated>
+  <updated>2025-10-15T23:01:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Medida cautelar é emitida pela Anac em sete aeroportos regionais]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/medida-cautelar-e-emitida-pela-anac-em-sete-aeroportos-regionais" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/medida-cautelar-e-emitida-pela-anac-em-sete-aeroportos-regionais</id>
+    <updated>2025-10-15T23:01:00.000Z</updated>
+    <published>2025-10-15T23:01:00.000Z</published>
+    <summary type="html"><![CDATA[Quantidade de voos fica limitada até que melhorias de infraestrutura sejam feitas conforme exigências da Anac]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Mudanças nos aeroportos que impactam a vida do passageiro são tema de evento em São Paulo]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-aeroportos-que-impactam-a-vida-do-passageiro-sao-tema-de-evento-em-sao-paulo" />
@@ -262,15 +271,6 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <updated>2025-09-23T11:32:00.000Z</updated>
     <published>2025-09-23T11:32:00.000Z</published>
     <summary type="html"><![CDATA[As participações devem ser registradas até o dia 15 de outubro, no site da Agência]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac chefiará delegação brasileira na 42ª Assembleia da Oaci, no Canadá]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-chefiara-delegacao-brasileira-na-42a-assembleia-da-oaci-no-canada" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-chefiara-delegacao-brasileira-na-42a-assembleia-da-oaci-no-canada</id>
-    <updated>2025-09-22T09:44:00.000Z</updated>
-    <published>2025-09-22T09:44:00.000Z</published>
-    <summary type="html"><![CDATA[Evento promoverá debates sobre temas estratégicos para o setor aéreo, como SAF, EVTOLS e inovação regulatória]]></summary>
   </entry>
 
   <entry>
