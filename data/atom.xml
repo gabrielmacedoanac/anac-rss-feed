@@ -2,9 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-15T23:01:00.000Z</updated>
+  <updated>2025-10-17T08:34:42.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zgHAnR8oBsY" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=zgHAnR8oBsY</id>
+    <updated>2025-10-17T08:34:42.000Z</updated>
+    <published>2025-10-17T08:34:42.000Z</published>
+    <summary type="html"><![CDATA[A SPL acaba de revisar a IS 65-001 com modificações significativas ao procedimento de exame prático para mecânico de manutenção aeronáutica (MMA) e contagem da experiência prática. É necessário explicar ao público interessado tais mudanças. 
+
+O objetivo é explicar os novos procedimentos para concessão de licença e habilitações para MMA.
+
+Link do slido: https://app.sli.do/event/e19sudAMXLa4CWaC5qJnVF]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Medida cautelar é emitida pela Anac em sete aeroportos regionais]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/medida-cautelar-e-emitida-pela-anac-em-sete-aeroportos-regionais" />
@@ -119,19 +132,6 @@ Agora você sabe como o avião pode voar!
     <updated>2025-10-10T11:52:00.000Z</updated>
     <published>2025-10-10T11:52:00.000Z</published>
     <summary type="html"><![CDATA[Liderada pela Anac, delegação brasileira assinou acordos, participou de debates estratégicos e promoveu a indústria aeronáutica nacional]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zgHAnR8oBsY" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=zgHAnR8oBsY</id>
-    <updated>2025-10-10T11:10:51.000Z</updated>
-    <published>2025-10-10T11:10:51.000Z</published>
-    <summary type="html"><![CDATA[A SPL acaba de revisar a IS 65-001 com modificações significativas ao procedimento de exame prático para mecânico de manutenção aeronáutica (MMA) e contagem da experiência prática. É necessário explicar ao público interessado tais mudanças. 
-
-O objetivo é explicar os novos procedimentos para concessão de licença e habilitações para MMA.
-
-Link do slido: https://app.sli.do/event/e19sudAMXLa4CWaC5qJnVF]]></summary>
   </entry>
 
   <entry>
