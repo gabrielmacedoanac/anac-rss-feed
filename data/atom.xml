@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-17T08:34:42.000Z</updated>
+  <updated>2025-10-17T11:25:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac tem portas abertas no Congresso para subsidiar PL das bagagens]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-tem-portas-abertas-no-congresso-para-subsidiar-pl-das-bagagens" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-tem-portas-abertas-no-congresso-para-subsidiar-pl-das-bagagens</id>
+    <updated>2025-10-17T11:25:00.000Z</updated>
+    <published>2025-10-17T11:25:00.000Z</published>
+    <summary type="html"><![CDATA[Em entrevista coletiva, presidente da Agência destacou que pretende encerrar discussões sobre bagagens entregando estudos técnicos para construção do projeto de lei]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zgHAnR8oBsY" />
@@ -291,15 +300,6 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <summary type="html"><![CDATA[A ANAC firmou acordos de manutenção aeronáutica com as principais autoridades estrangeiras (EASA, UK, CAA e FAA) para convalidação de certificados, possibilitando que organizações de manutenção brasileiras possam realizar manutenção em aeronaves desses países. Para tanto, é necessário que a OM convalide seu certificado com a outra autoridade. O evento apresenta os requisitos e processo para convalidação de certificados de OM com autoridades estrangeiras.
 
 Link Slido: https://app.sli.do/event/o7T9gqeVfFuQ26efqcNjLr]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aviação nacional registra 12 meses seguidos de crescimento no transporte de passageiros]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aviacao-nacional-registra-12-meses-seguidos-de-crescimento-no-transporte-de-passageiros" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aviacao-nacional-registra-12-meses-seguidos-de-crescimento-no-transporte-de-passageiros</id>
-    <updated>2025-09-19T13:47:00.000Z</updated>
-    <published>2025-09-19T13:47:00.000Z</published>
-    <summary type="html"><![CDATA[Mercado doméstico também tem o melhor movimento para agosto desde o início da série histórica, com 8,7 milhões de pessoas transportadas no mês]]></summary>
   </entry>
 
   <entry>
