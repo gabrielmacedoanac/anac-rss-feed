@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-17T11:25:00.000Z</updated>
+  <updated>2025-10-20T17:13:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
   <entry>
-    <title type="html"><![CDATA[Anac tem portas abertas no Congresso para subsidiar PL das bagagens]]></title>
+    <title type="html"><![CDATA[Com 8,5 milhões de passageiros transportados, aviação doméstica chega ao 13º mês consecutivo de alta]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/com-8-5-milhoes-de-passageiros-transportados-aviacao-domestica-chega-ao-13o-mes-consecutivo-de-alta" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/com-8-5-milhoes-de-passageiros-transportados-aviacao-domestica-chega-ao-13o-mes-consecutivo-de-alta</id>
+    <updated>2025-10-20T17:13:00.000Z</updated>
+    <published>2025-10-20T17:13:00.000Z</published>
+    <summary type="html"><![CDATA[Mercado internacional também mantém trajetória de crescimento, com 2,3 milhões de passageiros movimentados]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Tecnologia e Segurança: o futuro dos aeroportos brasileiros em debate]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/tecnologia-e-seguranca-o-futuro-dos-aeroportos-brasileiros-em-debate" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/tecnologia-e-seguranca-o-futuro-dos-aeroportos-brasileiros-em-debate</id>
+    <updated>2025-10-20T14:10:00.000Z</updated>
+    <published>2025-10-20T14:10:00.000Z</published>
+    <summary type="html"><![CDATA[Evento reuniu representantes dos setores público e privado para debater melhorias tecnológicas na segurança aeroportuária]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Estudo da Anac vai subsidiar PL das bagagens]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-tem-portas-abertas-no-congresso-para-subsidiar-pl-das-bagagens" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-tem-portas-abertas-no-congresso-para-subsidiar-pl-das-bagagens</id>
     <updated>2025-10-17T11:25:00.000Z</updated>
@@ -271,24 +289,6 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <updated>2025-09-24T16:19:00.000Z</updated>
     <published>2025-09-24T16:19:00.000Z</published>
     <summary type="html"><![CDATA[Debates e programas estratégicos buscam suprir a demanda e qualificar mecânicos de aeronaves no Brasil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aberta a tomada de subsídios para tratar da regulamentação de serviços Camo no Brasil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-a-tomada-de-subsidios-para-tratar-da-regulamentacao-de-servicos-camo-no-brasil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberta-a-tomada-de-subsidios-para-tratar-da-regulamentacao-de-servicos-camo-no-brasil</id>
-    <updated>2025-09-23T11:32:00.000Z</updated>
-    <published>2025-09-23T11:32:00.000Z</published>
-    <summary type="html"><![CDATA[As participações devem ser registradas até o dia 15 de outubro, no site da Agência]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac abre consulta pública sobre edital de venda assistida para a concessão do Aeroporto do Galeão]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-publica-sobre-edital-de-venda-assistida-para-a-concessao-do-aeroporto-do-galeao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-consulta-publica-sobre-edital-de-venda-assistida-para-a-concessao-do-aeroporto-do-galeao</id>
-    <updated>2025-09-19T15:07:00.000Z</updated>
-    <published>2025-09-19T15:07:00.000Z</published>
-    <summary type="html"><![CDATA[O processo também contará com audiência pública a ser realizada em 14/10]]></summary>
   </entry>
 
   <entry>
