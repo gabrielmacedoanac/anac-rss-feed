@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-22T14:48:00.000Z</updated>
+  <updated>2025-10-23T17:52:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[SMS Brasil: há 10 anos contribuindo com a segurança operacional da aviação civil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/sms-brasil-ha-10-anos-contribuindo-com-a-seguranca-operacional-da-aviacao-civil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/sms-brasil-ha-10-anos-contribuindo-com-a-seguranca-operacional-da-aviacao-civil</id>
+    <updated>2025-10-23T17:52:00.000Z</updated>
+    <published>2025-10-23T17:52:00.000Z</published>
+    <summary type="html"><![CDATA[Aprendizado e aprimoramento de todas as operações aéreas foram foco da 10ª edição]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Diretor-Presidente da Anac recebe Medalha da Ordem do Mérito Aeronáutico]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/diretor-presidente-da-recebe-medalha-da-ordem-do-merito-aeronautico" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/diretor-presidente-da-recebe-medalha-da-ordem-do-merito-aeronautico</id>
+    <updated>2025-10-23T17:10:00.000Z</updated>
+    <published>2025-10-23T17:10:00.000Z</published>
+    <summary type="html"><![CDATA[Comenda existe desde 1943 e destaca aqueles que contribuíram para o fomento da aeronáutica brasileira]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[SMS Brazil: Há 10 anos contribuindo com a segurança operacional da aviação civil.]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=PGYrnRdnq30" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=PGYrnRdnq30</id>
+    <updated>2025-10-23T15:56:07.000Z</updated>
+    <published>2025-10-23T15:56:07.000Z</published>
+    <summary type="html"><![CDATA[Realizado pela Agência Nacional de Aviação Civil (Anac), a 10ª edição do Safety Management Summit Brazil (SMS Brasil) consolida-se como o principal fórum nacional dedicado à segurança operacional da aviação civil brasileira.]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac sedia Workshop IOSA em parceria com a IATA no dia 4/11]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-sedia-workshop-iosa-em-parceria-com-a-iata-no-dia-4-11" />
@@ -274,24 +301,6 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Assinado acordo que moderniza o contrato de concessão do Galeão]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/assinado-acordo-que-moderniza-o-contrato-de-concessao-do-galeao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/assinado-acordo-que-moderniza-o-contrato-de-concessao-do-galeao</id>
-    <updated>2025-09-25T17:56:00.000Z</updated>
-    <published>2025-09-25T17:56:00.000Z</published>
-    <summary type="html"><![CDATA[Termo prevê a venda assistida da concessionária, nova cobrança de contribuição variável e compensação financeira relacionada à operação do Santos Dumont]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Exercício testa cenários de segurança cibernética no transporte aéreo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/exercicio-testa-cenarios-de-seguranca-cibernetica-no-transporte-aereo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/exercicio-testa-cenarios-de-seguranca-cibernetica-no-transporte-aereo</id>
-    <updated>2025-09-24T18:16:00.000Z</updated>
-    <published>2025-09-24T18:16:00.000Z</published>
-    <summary type="html"><![CDATA[Guardião Cibernético avaliou o preparo do Brasil na segurança e na proteção de infraestruturas. A Anac coordenou atividades ligadas ao transporte aéreo]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Webinário &quot;Acordos Bilaterais EASA, UK, CAA e FAA para Organizações de Manutenção&quot;]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=hlRq2eZOm18" />
     <id>urn:uuid:https://www.youtube.com/watch?v=hlRq2eZOm18</id>
@@ -391,17 +400,5 @@ O evento pretende atingir a maior quantidade de regulados possível e apresentar
 A iniciativa também é aderente ao Programa de Implementação do PSOE-ANAC, otimizando recursos e aperfeiçoando as ferramentas de disseminação da cultura de segurança operacional.
 
 Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[10ª Reunião Deliberativa da Diretoria Colegiada (04/08/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=I-sJmTR8bIE" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=I-sJmTR8bIE</id>
-    <updated>2025-08-05T07:25:14.000Z</updated>
-    <published>2025-08-05T07:25:14.000Z</published>
-    <summary type="html"><![CDATA[10ª Reunião Deliberativa da Diretoria Colegiada
- 
-1) Processo 00058.070782/2023-83  
-2) Processo 00058.041531/2021-20]]></summary>
   </entry>
 </feed>
