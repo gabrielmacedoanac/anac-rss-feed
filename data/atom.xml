@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-23T17:52:00.000Z</updated>
+  <updated>2025-10-28T10:45:08.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[TransformANAC 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CO9w47Hc1f0" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=CO9w47Hc1f0</id>
+    <updated>2025-10-28T10:45:08.000Z</updated>
+    <published>2025-10-28T10:45:08.000Z</published>
+    <summary type="html"><![CDATA[Para implementar as ações necessárias à gestão e implementação da estratégia é necessário ter boas práticas que são praticadas no dia a dia da instituição. Assim esse evento visa promover a cultura de gerenciamento de gestão, inovação e governança na ANAC por meio da participação de renomados palestrantes e profissionais que inspirem boas práticas para melhoria e transformação organizacional. 
+Nessa edição será abordado como tema: melhoria do engajamento do time para trabalhar com projetos e processos. Teremos palestrantes abordando essa temática trazendo sua experiência em outras organizações com o intuito de trazer ideias novas para melhoria desses aspectos.
+  
+Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[SMS Brasil: há 10 anos contribuindo com a segurança operacional da aviação civil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/sms-brasil-ha-10-anos-contribuindo-com-a-seguranca-operacional-da-aviacao-civil" />
@@ -385,20 +397,5 @@ Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]
     <updated>2025-08-26T18:29:10.000Z</updated>
     <published>2025-08-26T18:29:10.000Z</published>
     <summary type="html"><![CDATA[Processo 00058.030675/2025-84]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário BHEST - PROCESSO DECISÓRIO NA AVIAÇÃO DE ASAS ROTATIVAS]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=dTihSc1E3_M" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=dTihSc1E3_M</id>
-    <updated>2025-08-22T09:15:57.000Z</updated>
-    <published>2025-08-22T09:15:57.000Z</published>
-    <summary type="html"><![CDATA[Este evento faz parte da Ação Nacional de Aviação Civil, iniciativa instituída em 2011 pela ANAC com o objetivo de disseminar informações e conhecimentos sobre o transporte aéreo e de aumentar a proximidade da Agência com seus principais públicos, entre eles pilotos, profissionais, empresários, estudantes, pesquisadores ligados à aviação civil e demais interessados.
-
-O evento pretende atingir a maior quantidade de regulados possível e apresentar diversos assuntos, conforme indicado na Programação, para fomentar a discussão, tratar e receber as críticas e sugestões e promover a melhoria da segurança operacional no Brasil.
-
-A iniciativa também é aderente ao Programa de Implementação do PSOE-ANAC, otimizando recursos e aperfeiçoando as ferramentas de disseminação da cultura de segurança operacional.
-
-Perguntas: https://app.sli.do/event/gCBZJAp3Q6wDmCPPk994pb]]></summary>
   </entry>
 </feed>
