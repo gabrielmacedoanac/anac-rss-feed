@@ -2,9 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-28T10:45:08.000Z</updated>
+  <updated>2025-10-28T20:12:36.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[13ª Reunião Deliberativa da Diretoria Colegiada (28/10/2025)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=pvYoq4oXEEI" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=pvYoq4oXEEI</id>
+    <updated>2025-10-28T20:12:36.000Z</updated>
+    <published>2025-10-28T20:12:36.000Z</published>
+    <summary type="html"><![CDATA[1) Processo: 00058.009139/2024-39
+  
+Assunto: Proposta de resolução para regulamentar disposição transitória para a exploração de serviços aéreos com balão e de emenda ao RBAC nº 103 - Fase 1 do Tema 17 da Agenda Regulatória 2025-2026
+  
+Relator: Luiz Ricardo Nascimento]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[TransformANAC 2025]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CO9w47Hc1f0" />
@@ -388,14 +401,5 @@ A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
 Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
 
 Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[11ª Reunião Deliberativa da Diretoria Colegiada (26/08/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=gx-VCn_gx98" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=gx-VCn_gx98</id>
-    <updated>2025-08-26T18:29:10.000Z</updated>
-    <published>2025-08-26T18:29:10.000Z</published>
-    <summary type="html"><![CDATA[Processo 00058.030675/2025-84]]></summary>
   </entry>
 </feed>
