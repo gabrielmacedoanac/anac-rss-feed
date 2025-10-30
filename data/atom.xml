@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-28T20:12:36.000Z</updated>
+  <updated>2025-10-29T16:39:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[3ª Oficina de Melhoria Contínua AVSEC reúne 300 profissionais de aviação civil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/3a-oficina-de-melhoria-continua-avsec-reune-300-profissionais-de-aviacao-civil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/3a-oficina-de-melhoria-continua-avsec-reune-300-profissionais-de-aviacao-civil</id>
+    <updated>2025-10-29T16:39:00.000Z</updated>
+    <published>2025-10-29T16:39:00.000Z</published>
+    <summary type="html"><![CDATA[O evento abordou temas estratégicos como Programas de Segurança Aeroportuária e Segurança Cibernética]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Aeroporto do Rio Grande do Norte recebeu workshop sobre combate ao tráfico de pessoas na aviação civil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aeroporto-do-rio-grande-do-norte-recebeu-workshop-sobre-combate-ao-trafico-de-pessoas-na-aviacao-civil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aeroporto-do-rio-grande-do-norte-recebeu-workshop-sobre-combate-ao-trafico-de-pessoas-na-aviacao-civil</id>
+    <updated>2025-10-29T10:49:00.000Z</updated>
+    <published>2025-10-29T10:49:00.000Z</published>
+    <summary type="html"><![CDATA[Ação compõe o projeto Liberdade no Ar]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[13ª Reunião Deliberativa da Diretoria Colegiada (28/10/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=pvYoq4oXEEI" />
@@ -40,7 +58,7 @@ Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Diretor-Presidente da Anac recebe Medalha da Ordem do Mérito Aeronáutico]]></title>
+    <title type="html"><![CDATA[Diretor-Presidente e superintendente da Anac recebem Medalha da Ordem do Mérito Aeronáutico]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/diretor-presidente-da-recebe-medalha-da-ordem-do-merito-aeronautico" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/diretor-presidente-da-recebe-medalha-da-ordem-do-merito-aeronautico</id>
     <updated>2025-10-23T17:10:00.000Z</updated>
@@ -305,24 +323,6 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <updated>2025-09-29T17:37:00.000Z</updated>
     <published>2025-09-29T17:37:00.000Z</published>
     <summary type="html"><![CDATA[20º TSO Workshop reuniu autoridades e indústria para discutir inovação, harmonização de normas e segurança operacional]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Brasil é o país mais votado em eleição para o Conselho da Oaci]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-reeleito-membro-do-conselho-da-oaci-para-o-trienio-2025-2028" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-reeleito-membro-do-conselho-da-oaci-para-o-trienio-2025-2028</id>
-    <updated>2025-09-27T11:14:00.000Z</updated>
-    <published>2025-09-27T11:14:00.000Z</published>
-    <summary type="html"><![CDATA[Durante o próximo triênio, Brasil terá assento em foro que decide o conjunto básico de regras da aviação mundial]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Brasil atualiza plano para reduzir emissões de CO2 na aviação civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-apresenta-5a-edicao-do-plano-de-acao-para-a-reducao-das-emissoes-de-co2-na-aviacao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-apresenta-5a-edicao-do-plano-de-acao-para-a-reducao-das-emissoes-de-co2-na-aviacao</id>
-    <updated>2025-09-26T11:42:00.000Z</updated>
-    <published>2025-09-26T11:42:00.000Z</published>
-    <summary type="html"><![CDATA[Documento foi apresentado a delegados estrangeiros durante a 42ª Assembleia da Oaci, em Montréal, Canadá]]></summary>
   </entry>
 
   <entry>
