@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-29T16:39:00.000Z</updated>
+  <updated>2025-10-31T11:30:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Balonismo tem novas regras no Brasil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/balonismo-tera-novas-regras-no-brasil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/balonismo-tera-novas-regras-no-brasil</id>
+    <updated>2025-10-31T11:30:00.000Z</updated>
+    <published>2025-10-31T11:30:00.000Z</published>
+    <summary type="html"><![CDATA[Resolução aprovada pela Anac traz requisitos mínimos e processo de transição para prática de voos comerciais com balão de forma segura]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[3ª Oficina de Melhoria Contínua AVSEC reúne 300 profissionais de aviação civil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/3a-oficina-de-melhoria-continua-avsec-reune-300-profissionais-de-aviacao-civil" />
@@ -314,15 +323,6 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <updated>2025-09-30T03:23:38.000Z</updated>
     <published>2025-09-30T03:23:38.000Z</published>
     <summary type="html"><![CDATA[Dúvidas e perguntas: https://app.sli.do/event/6fTo3z3SUUhpjU3jS71RX2]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Workshop técnico de aviação fortalece cooperação internacional]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-fortalece-cooperacao-internacional-em-workshop-tecnico-de-aviacao-1" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-fortalece-cooperacao-internacional-em-workshop-tecnico-de-aviacao-1</id>
-    <updated>2025-09-29T17:37:00.000Z</updated>
-    <published>2025-09-29T17:37:00.000Z</published>
-    <summary type="html"><![CDATA[20º TSO Workshop reuniu autoridades e indústria para discutir inovação, harmonização de normas e segurança operacional]]></summary>
   </entry>
 
   <entry>
