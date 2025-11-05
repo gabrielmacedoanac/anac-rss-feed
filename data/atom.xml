@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-10-31T11:30:00.000Z</updated>
+  <updated>2025-11-04T11:15:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac sedia reunião de grupo de trabalho da Oaci sobre combustíveis sustentáveis]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-sedia-reuniao-de-grupo-de-trabalho-da-oaci-sobre-combustiveis-sustentaveis" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-sedia-reuniao-de-grupo-de-trabalho-da-oaci-sobre-combustiveis-sustentaveis</id>
+    <updated>2025-11-04T11:15:00.000Z</updated>
+    <published>2025-11-04T11:15:00.000Z</published>
+    <summary type="html"><![CDATA[Reunião foi realizada entre 27 e 31 de outubro para a discussão sobre rotas para estimular a adoção de combustíveis sustentáveis na aviação mundial]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac abre tomada de subsídios sobre aprovação de dados técnicos de reparos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-tomada-de-subsidios-sobre-aprovacao-de-dados-tecnicos-de-reparos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-tomada-de-subsidios-sobre-aprovacao-de-dados-tecnicos-de-reparos</id>
+    <updated>2025-11-04T10:01:00.000Z</updated>
+    <published>2025-11-04T10:01:00.000Z</published>
+    <summary type="html"><![CDATA[Prazo para contribuições vai até 1º de dezembro; objetivo é analisar a possibilidade de estender a aprovação de dados a outras organizações]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Balonismo tem novas regras no Brasil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/balonismo-tera-novas-regras-no-brasil" />
@@ -286,15 +304,6 @@ Agora você sabe como o avião pode voar!
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Governo autoriza convocação de 35 novos especialistas aprovados no concurso da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/governo-autoriza-convocacao-de-35-novos-especialistas-aprovados-no-concurso-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/governo-autoriza-convocacao-de-35-novos-especialistas-aprovados-no-concurso-da-anac</id>
-    <updated>2025-10-02T15:38:00.000Z</updated>
-    <published>2025-10-02T15:38:00.000Z</published>
-    <summary type="html"><![CDATA[Candidatos estavam no cadastro reserva do certame realizado em 2023]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Programa Asas para Todos]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=eeWySesFFAk" />
     <id>urn:uuid:https://www.youtube.com/watch?v=eeWySesFFAk</id>
@@ -305,15 +314,6 @@ Agora você sabe como o avião pode voar!
 Com o programa Asas para Todos, a Agência Nacional de Aviação Civil (Anac) abre caminhos para que mais pessoas realizem seus sonhos no setor aéreo — da infância à formação profissional. 
 
 Conheça mais sobre o programa que inspira e abre oportunidades para as carreiras da aviação: https://hotsites.anac.gov.br/asasparatodos/]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Audiência pública da Câmara debate acessibilidade no transporte aéreo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/audiencia-publica-da-camara-debate-acessibilidade-no-transporte-aereo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/audiencia-publica-da-camara-debate-acessibilidade-no-transporte-aereo</id>
-    <updated>2025-10-01T11:32:00.000Z</updated>
-    <published>2025-10-01T11:32:00.000Z</published>
-    <summary type="html"><![CDATA[Anac apresentou ações e compromisso em dialogar com a sociedade para aprimorar o atendimento às pessoas com deficiência]]></summary>
   </entry>
 
   <entry>
