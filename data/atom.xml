@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-04T11:15:00.000Z</updated>
+  <updated>2025-11-05T16:44:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Guia orienta condução de entrevistas para diretores e gerentes de manutenção]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/guia-orienta-conducao-de-entrevistas-para-diretores-e-gerentes-de-manutencao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/guia-orienta-conducao-de-entrevistas-para-diretores-e-gerentes-de-manutencao</id>
+    <updated>2025-11-05T16:44:00.000Z</updated>
+    <published>2025-11-05T16:44:00.000Z</published>
+    <summary type="html"><![CDATA[Material elenca temas técnicos e regulatórios a serem tratados em entrevistas com postulantes aos cargos]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac sedia reunião de grupo de trabalho da Oaci sobre combustíveis sustentáveis]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-sedia-reuniao-de-grupo-de-trabalho-da-oaci-sobre-combustiveis-sustentaveis" />
@@ -292,15 +301,6 @@ Agora você sabe como o avião pode voar!
     <updated>2025-10-06T18:01:00.000Z</updated>
     <published>2025-10-06T18:01:00.000Z</published>
     <summary type="html"><![CDATA[Interessados também podem se inscrever para participar remotamente até o dia 9]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aberta pesquisa para elaboração do Plano de Dados Abertos da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-pesquisa-para-elaboracao-do-plano-de-dados-abertos-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberta-pesquisa-para-elaboracao-do-plano-de-dados-abertos-da-anac</id>
-    <updated>2025-10-06T09:54:00.000Z</updated>
-    <published>2025-10-06T09:54:00.000Z</published>
-    <summary type="html"><![CDATA[As contribuições podem ser enviadas até 20/10]]></summary>
   </entry>
 
   <entry>
