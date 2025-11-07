@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-06T18:25:30.000Z</updated>
+  <updated>2025-11-07T03:40:37.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[TransformANAC 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CO9w47Hc1f0" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=CO9w47Hc1f0</id>
+    <updated>2025-11-07T03:40:37.000Z</updated>
+    <published>2025-11-07T03:40:37.000Z</published>
+    <summary type="html"><![CDATA[Para implementar as ações necessárias à gestão e implementação da estratégia é necessário ter boas práticas que são praticadas no dia a dia da instituição. Assim esse evento visa promover a cultura de gerenciamento de gestão, inovação e governança na ANAC por meio da participação de renomados palestrantes e profissionais que inspirem boas práticas para melhoria e transformação organizacional. 
+Nessa edição será abordado como tema: melhoria do engajamento do time para trabalhar com projetos e processos. Teremos palestrantes abordando essa temática trazendo sua experiência em outras organizações com o intuito de trazer ideias novas para melhoria desses aspectos.
+  
+Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=l9awSyOHY0g" />
@@ -88,18 +100,6 @@
 Assunto: Proposta de resolução para regulamentar disposição transitória para a exploração de serviços aéreos com balão e de emenda ao RBAC nº 103 - Fase 1 do Tema 17 da Agenda Regulatória 2025-2026
   
 Relator: Luiz Ricardo Nascimento]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[TransformANAC 2025]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=CO9w47Hc1f0" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=CO9w47Hc1f0</id>
-    <updated>2025-10-28T10:45:08.000Z</updated>
-    <published>2025-10-28T10:45:08.000Z</published>
-    <summary type="html"><![CDATA[Para implementar as ações necessárias à gestão e implementação da estratégia é necessário ter boas práticas que são praticadas no dia a dia da instituição. Assim esse evento visa promover a cultura de gerenciamento de gestão, inovação e governança na ANAC por meio da participação de renomados palestrantes e profissionais que inspirem boas práticas para melhoria e transformação organizacional. 
-Nessa edição será abordado como tema: melhoria do engajamento do time para trabalhar com projetos e processos. Teremos palestrantes abordando essa temática trazendo sua experiência em outras organizações com o intuito de trazer ideias novas para melhoria desses aspectos.
-  
-Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
   </entry>
 
   <entry>
