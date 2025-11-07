@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-05T16:44:00.000Z</updated>
+  <updated>2025-11-06T18:25:30.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=l9awSyOHY0g" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=l9awSyOHY0g</id>
+    <updated>2025-11-06T18:25:30.000Z</updated>
+    <published>2025-11-06T18:25:30.000Z</published>
+    <summary type="html"><![CDATA[Link do slido - https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv/live/questions]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Mudanças nos campos de categorias de aeronaves no RAB Digital irão acontecer em 1º de janeiro de 2026]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-campos-de-categorias-de-aeronaves-no-rab-digital-irao-acontecer-em-1o-de-janeiro-de-2026" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-campos-de-categorias-de-aeronaves-no-rab-digital-irao-acontecer-em-1o-de-janeiro-de-2026</id>
+    <updated>2025-11-06T15:36:00.000Z</updated>
+    <published>2025-11-06T15:36:00.000Z</published>
+    <summary type="html"><![CDATA[Os profissionais devem ficar atentos às alterações e providenciar mudanças, que buscam simplificar o registro de aeronaves, diminuir burocracia e reduzir custos]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Guia orienta condução de entrevistas para diretores e gerentes de manutenção]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/guia-orienta-conducao-de-entrevistas-para-diretores-e-gerentes-de-manutencao" />
@@ -295,15 +313,6 @@ Agora você sabe como o avião pode voar!
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Audiência pública sobre edital de venda assistida do Galeão será realizada em 14/10]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/audiencia-publica-sobre-edital-de-venda-assistida-do-galeao-sera-realizada-em-14-10" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/audiencia-publica-sobre-edital-de-venda-assistida-do-galeao-sera-realizada-em-14-10</id>
-    <updated>2025-10-06T18:01:00.000Z</updated>
-    <published>2025-10-06T18:01:00.000Z</published>
-    <summary type="html"><![CDATA[Interessados também podem se inscrever para participar remotamente até o dia 9]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Programa Asas para Todos]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=eeWySesFFAk" />
     <id>urn:uuid:https://www.youtube.com/watch?v=eeWySesFFAk</id>
@@ -386,20 +395,5 @@ A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
 Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
 
 Dúvidas e perguntas (Slido) - https://app.sli.do/event/aQHew5VUdemc28vnaP2W7H]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zoj9US-rtXA" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=zoj9US-rtXA</id>
-    <updated>2025-08-27T19:49:54.000Z</updated>
-    <published>2025-08-27T19:49:54.000Z</published>
-    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
-
-A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
-
-Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
-
-Dúvidas e perguntas (Slido) - https://app.sli.do/event/8bV8Lo8SZu5sNDqwgBdrGz]]></summary>
   </entry>
 </feed>
