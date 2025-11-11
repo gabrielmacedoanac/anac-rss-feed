@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-07T14:16:00.000Z</updated>
+  <updated>2025-11-10T19:00:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac trabalha há 18 meses pela segurança dos voos durante a COP30]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-trabalha-ha-18-meses-pela-seguranca-dos-voos-durante-a-cop30" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-trabalha-ha-18-meses-pela-seguranca-dos-voos-durante-a-cop30</id>
+    <updated>2025-11-10T19:00:00.000Z</updated>
+    <published>2025-11-10T19:00:00.000Z</published>
+    <summary type="html"><![CDATA[Equipe de técnicos atua para garantir o bom funcionamento das operações em Belém]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac firma acordos para fortalecer integração aérea na América Latina]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-acordos-para-fortalecer-integracao-aerea-na-america-latina" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-acordos-para-fortalecer-integracao-aerea-na-america-latina</id>
+    <updated>2025-11-10T17:19:00.000Z</updated>
+    <published>2025-11-10T17:19:00.000Z</published>
+    <summary type="html"><![CDATA[Assinatura de dois instrumentos de cooperação pela aviação regional ocorreu durante a 26ª Assembleia da Comissão Latino-Americana de Aviação Civil (CLAC)]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac participa de debates sobre concessões, investimentos e regulação em São Paulo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-de-debates-sobre-concessoes-investimentos-e-regulacao-em-sao-paulo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-de-debates-sobre-concessoes-investimentos-e-regulacao-em-sao-paulo</id>
+    <updated>2025-11-10T15:28:00.000Z</updated>
+    <published>2025-11-10T15:28:00.000Z</published>
+    <summary type="html"><![CDATA[Eventos trataram de perspectivas para modernizar aeroportos e aprimorar a gestão de contratos de concessão]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Webinário discute manutenção e operação segura do Embraer Ipanema]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/webinario-da-anac-discute-manutencao-e-operacao-segura-do-embraer-ipanema" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/webinario-da-anac-discute-manutencao-e-operacao-segura-do-embraer-ipanema</id>
+    <updated>2025-11-10T12:02:00.000Z</updated>
+    <published>2025-11-10T12:02:00.000Z</published>
+    <summary type="html"><![CDATA[Evento reúne profissionais para tratar de práticas que fortalecem a segurança das operações aeroagrícolas no país]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[São Paulo (SP) receberá a última etapa da Semana Safety de 2025, nos dias 17 a 19/11]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/sao-paulo-sp-recebera-a-ultima-etapa-da-semana-safety-de-2025-nos-dias-17-a-19-11" />
@@ -206,24 +242,6 @@ Link do slido: https://app.sli.do/event/e19sudAMXLa4CWaC5qJnVF]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Medida cautelar é emitida pela Anac em sete aeroportos regionais]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/medida-cautelar-e-emitida-pela-anac-em-sete-aeroportos-regionais" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/medida-cautelar-e-emitida-pela-anac-em-sete-aeroportos-regionais</id>
-    <updated>2025-10-15T23:01:00.000Z</updated>
-    <published>2025-10-15T23:01:00.000Z</published>
-    <summary type="html"><![CDATA[Quantidade de voos fica limitada até que melhorias de infraestrutura sejam feitas conforme exigências da Anac]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Mudanças nos aeroportos que impactam a vida do passageiro são tema de evento em São Paulo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-aeroportos-que-impactam-a-vida-do-passageiro-sao-tema-de-evento-em-sao-paulo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-aeroportos-que-impactam-a-vida-do-passageiro-sao-tema-de-evento-em-sao-paulo</id>
-    <updated>2025-10-15T12:05:00.000Z</updated>
-    <published>2025-10-15T12:05:00.000Z</published>
-    <summary type="html"><![CDATA[Anac apoia evento Tecnologia e Segurança - O Futuro dos Aeroportos no Brasil, realizado pela ABR]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Audiência Pública Virtual da Consulta Pública nº 11/2025]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=6X1GXm4fgaM" />
     <id>urn:uuid:https://www.youtube.com/watch?v=6X1GXm4fgaM</id>
@@ -238,30 +256,12 @@ Acesse os documentos da Consulta Pública e faça a sua contribuição nos formu
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Anac realiza webinário para apresentar novas revisões sobre exame prático e concessão de habilitações para Mecânicos de Manutenção Aeronáutica]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-webinario-para-apresentar-novas-revisoes-sobre-exame-pratico-e-concessao-de-habilitacoes-para-mecanicos-de-manutencao-aeronautica" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-webinario-para-apresentar-novas-revisoes-sobre-exame-pratico-e-concessao-de-habilitacoes-para-mecanicos-de-manutencao-aeronautica</id>
-    <updated>2025-10-14T14:00:00.000Z</updated>
-    <published>2025-10-14T14:00:00.000Z</published>
-    <summary type="html"><![CDATA[Evento será transmitido no dia 16/10 no canal da Agência no YouTube]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=oIgGzr1zey8" />
     <id>urn:uuid:https://www.youtube.com/watch?v=oIgGzr1zey8</id>
     <updated>2025-10-13T19:18:56.000Z</updated>
     <published>2025-10-13T19:18:56.000Z</published>
     <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Exames teóricos para comissários de voo serão retomados]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/exames-teoricos-para-comissarios-voo-serao-retomados" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/exames-teoricos-para-comissarios-voo-serao-retomados</id>
-    <updated>2025-10-13T17:04:00.000Z</updated>
-    <published>2025-10-13T17:04:00.000Z</published>
-    <summary type="html"><![CDATA[Inscrições e agendamentos podem ser solicitados no site da FGV a partir desta segunda-feira (13/10)]]></summary>
   </entry>
 
   <entry>
