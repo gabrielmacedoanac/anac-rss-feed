@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-10T19:00:00.000Z</updated>
+  <updated>2025-11-11T19:53:11.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=oIgGzr1zey8" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=oIgGzr1zey8</id>
+    <updated>2025-11-11T19:53:11.000Z</updated>
+    <published>2025-11-11T19:53:11.000Z</published>
+    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac e EASA assinam emenda ao acordo para certificação de aeronavegabilidade e ambiental]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-easa-assinam-emenda-ao-acordo-para-certificacao-de-aeronavegabilidade-e-ambiental" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-easa-assinam-emenda-ao-acordo-para-certificacao-de-aeronavegabilidade-e-ambiental</id>
+    <updated>2025-11-11T10:07:00.000Z</updated>
+    <published>2025-11-11T10:07:00.000Z</published>
+    <summary type="html"><![CDATA[Documento simplifica processos de certificação e promove outros ajustes na cooperação bilateral]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac trabalha há 18 meses pela segurança dos voos durante a COP30]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-trabalha-ha-18-meses-pela-seguranca-dos-voos-durante-a-cop30" />
@@ -15,7 +33,7 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Anac firma acordos para fortalecer integração aérea na América Latina]]></title>
+    <title type="html"><![CDATA[Novos acordos fortalecem integração aérea na América Latina]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-acordos-para-fortalecer-integracao-aerea-na-america-latina" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-firma-acordos-para-fortalecer-integracao-aerea-na-america-latina</id>
     <updated>2025-11-10T17:19:00.000Z</updated>
@@ -220,15 +238,6 @@ Relator: Luiz Ricardo Nascimento]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Estudo da Anac vai subsidiar PL das bagagens]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-tem-portas-abertas-no-congresso-para-subsidiar-pl-das-bagagens" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-tem-portas-abertas-no-congresso-para-subsidiar-pl-das-bagagens</id>
-    <updated>2025-10-17T11:25:00.000Z</updated>
-    <published>2025-10-17T11:25:00.000Z</published>
-    <summary type="html"><![CDATA[Em entrevista coletiva, presidente da Agência destacou que pretende encerrar discussões sobre bagagens entregando estudos técnicos para construção do projeto de lei]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zgHAnR8oBsY" />
     <id>urn:uuid:https://www.youtube.com/watch?v=zgHAnR8oBsY</id>
@@ -253,15 +262,6 @@ Descrição:
 A Consulta Pública nº 11/2025 propõe o processo de Venda Assistida do Contrato de Concessão nº 001/ANAC/2014-SBGL, relativas à concessão para ampliação, manutenção e exploração do Aeroporto Internacional do Rio de Janeiro - Galeão. 
 
 Acesse os documentos da Consulta Pública e faça a sua contribuição nos formulários eletrônicos disponíveis no endereço: https://www.gov.br/participamaisbrasil/cp-11-2025]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=oIgGzr1zey8" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=oIgGzr1zey8</id>
-    <updated>2025-10-13T19:18:56.000Z</updated>
-    <published>2025-10-13T19:18:56.000Z</published>
-    <summary type="html"><![CDATA[Link Slido: https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv]]></summary>
   </entry>
 
   <entry>
