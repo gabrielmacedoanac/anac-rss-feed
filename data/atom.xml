@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-12T18:37:00.000Z</updated>
+  <updated>2025-11-13T08:16:59.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=l9awSyOHY0g" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=l9awSyOHY0g</id>
+    <updated>2025-11-13T08:16:59.000Z</updated>
+    <published>2025-11-13T08:16:59.000Z</published>
+    <summary type="html"><![CDATA[Link do slido - https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv/live/questions]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Senado debate acessibilidade no transporte aéreo em audiência pública]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/senado-debate-acessibilidade-no-transporte-aereo-em-audiencia-publica" />
@@ -105,15 +114,6 @@
 Nessa edição será abordado como tema: melhoria do engajamento do time para trabalhar com projetos e processos. Teremos palestrantes abordando essa temática trazendo sua experiência em outras organizações com o intuito de trazer ideias novas para melhoria desses aspectos.
   
 Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=l9awSyOHY0g" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=l9awSyOHY0g</id>
-    <updated>2025-11-06T18:25:30.000Z</updated>
-    <published>2025-11-06T18:25:30.000Z</published>
-    <summary type="html"><![CDATA[Link do slido - https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv/live/questions]]></summary>
   </entry>
 
   <entry>
