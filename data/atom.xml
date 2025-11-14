@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-13T08:16:59.000Z</updated>
+  <updated>2025-11-13T16:53:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Brasil e El Salvador celebram promulgação de Acordo de Céus Abertos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-el-salvador-celebram-promulgacao-de-acordo-de-ceus-abertos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-el-salvador-celebram-promulgacao-de-acordo-de-ceus-abertos</id>
+    <updated>2025-11-13T16:53:00.000Z</updated>
+    <published>2025-11-13T16:53:00.000Z</published>
+    <summary type="html"><![CDATA[Em cerimônia no Senado Federal brasileiros, representantes dos dois países exaltaram as vantagens]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Aberta consulta pública sobre projeto, produção e identificação de peças aprovadas]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-sobre-alteracoes-em-requisitos-de-projeto-producao-e-identificacao-de-pecas-aprovadas" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-sobre-alteracoes-em-requisitos-de-projeto-producao-e-identificacao-de-pecas-aprovadas</id>
+    <updated>2025-11-13T16:31:00.000Z</updated>
+    <published>2025-11-13T16:31:00.000Z</published>
+    <summary type="html"><![CDATA[Contribuições para RBACs 21 e 45 serão recebidas até dia 29 de dezembro]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=l9awSyOHY0g" />
@@ -217,24 +235,6 @@ Relator: Luiz Ricardo Nascimento]]></summary>
     <updated>2025-10-23T15:56:07.000Z</updated>
     <published>2025-10-23T15:56:07.000Z</published>
     <summary type="html"><![CDATA[Realizado pela Agência Nacional de Aviação Civil (Anac), a 10ª edição do Safety Management Summit Brazil (SMS Brasil) consolida-se como o principal fórum nacional dedicado à segurança operacional da aviação civil brasileira.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac sedia Workshop IOSA em parceria com a IATA no dia 4/11]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-sedia-workshop-iosa-em-parceria-com-a-iata-no-dia-4-11" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-sedia-workshop-iosa-em-parceria-com-a-iata-no-dia-4-11</id>
-    <updated>2025-10-22T14:48:00.000Z</updated>
-    <published>2025-10-22T14:48:00.000Z</published>
-    <summary type="html"><![CDATA[Inscrições estão abertas e podem ser feitas por meio de formulário]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Operação Fronteira: Anac participa das operações da Receita Federal]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/operacao-fronteira-anac-participa-das-operacoes-da-receita-federal" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/operacao-fronteira-anac-participa-das-operacoes-da-receita-federal</id>
-    <updated>2025-10-22T10:13:00.000Z</updated>
-    <published>2025-10-22T10:13:00.000Z</published>
-    <summary type="html"><![CDATA[Iniciativa é a maior ação conjunta de vigilância nas fronteiras terrestres, marítimas e aéreas do país]]></summary>
   </entry>
 
   <entry>
