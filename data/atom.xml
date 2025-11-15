@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-13T16:53:00.000Z</updated>
+  <updated>2025-11-14T18:52:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac autoriza Air Transat a operar voos internacionais regulares de e para o Brasil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-autoriza-air-transat-a-operar-voos-internacionais-regulares-de-e-para-o-brasil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-autoriza-air-transat-a-operar-voos-internacionais-regulares-de-e-para-o-brasil</id>
+    <updated>2025-11-14T18:52:00.000Z</updated>
+    <published>2025-11-14T18:52:00.000Z</published>
+    <summary type="html"><![CDATA[Companhia canadense passa a integrar o grupo de empresas estrangeiras aptas a oferecer serviços regulares no país]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac avança em parcerias com 10 países e amplia conectividade aérea]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-avanca-em-parcerias-com-10-paises-e-amplia-conectividade-aerea" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-avanca-em-parcerias-com-10-paises-e-amplia-conectividade-aerea</id>
+    <updated>2025-11-14T18:23:00.000Z</updated>
+    <published>2025-11-14T18:23:00.000Z</published>
+    <summary type="html"><![CDATA[Acordos firmados no ICAN 2025 geram novas oportunidades de operação para empresas aéreas brasileiras e estrangeiras]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Escola do Núcleo Bandeirante (DF) recebe ação de contação de histórias]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/escola-do-nucleo-bandeirante-df-recebe-acao-de-contacao-de-historias" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/escola-do-nucleo-bandeirante-df-recebe-acao-de-contacao-de-historias</id>
+    <updated>2025-11-14T17:03:00.000Z</updated>
+    <published>2025-11-14T17:03:00.000Z</published>
+    <summary type="html"><![CDATA[Alunos do Centro Educacional Infantil participaram de atividades lúdicas sobre o mundo da aviação]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Coarf e presidente do Senado debatem medidas de fortalecimento das agências reguladoras federais]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/coarf-e-presidente-do-senado-debatem-medidas-de-fortalecimento-das-agencias-reguladoras-federais" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/coarf-e-presidente-do-senado-debatem-medidas-de-fortalecimento-das-agencias-reguladoras-federais</id>
+    <updated>2025-11-14T11:13:00.000Z</updated>
+    <published>2025-11-14T11:13:00.000Z</published>
+    <summary type="html"><![CDATA[Davi Alcolumbre manifestou apoio à pauta apresentada pelos dirigentes]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Brasil e El Salvador celebram promulgação de Acordo de Céus Abertos]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-el-salvador-celebram-promulgacao-de-acordo-de-ceus-abertos" />
@@ -180,24 +216,6 @@ Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[3ª Oficina de Melhoria Contínua AVSEC reúne 300 profissionais de aviação civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/3a-oficina-de-melhoria-continua-avsec-reune-300-profissionais-de-aviacao-civil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/3a-oficina-de-melhoria-continua-avsec-reune-300-profissionais-de-aviacao-civil</id>
-    <updated>2025-10-29T16:39:00.000Z</updated>
-    <published>2025-10-29T16:39:00.000Z</published>
-    <summary type="html"><![CDATA[O evento abordou temas estratégicos como Programas de Segurança Aeroportuária e Segurança Cibernética]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aeroporto do Rio Grande do Norte recebeu workshop sobre combate ao tráfico de pessoas na aviação civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aeroporto-do-rio-grande-do-norte-recebeu-workshop-sobre-combate-ao-trafico-de-pessoas-na-aviacao-civil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aeroporto-do-rio-grande-do-norte-recebeu-workshop-sobre-combate-ao-trafico-de-pessoas-na-aviacao-civil</id>
-    <updated>2025-10-29T10:49:00.000Z</updated>
-    <published>2025-10-29T10:49:00.000Z</published>
-    <summary type="html"><![CDATA[Ação compõe o projeto Liberdade no Ar]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[13ª Reunião Deliberativa da Diretoria Colegiada (28/10/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=pvYoq4oXEEI" />
     <id>urn:uuid:https://www.youtube.com/watch?v=pvYoq4oXEEI</id>
@@ -208,24 +226,6 @@ Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
 Assunto: Proposta de resolução para regulamentar disposição transitória para a exploração de serviços aéreos com balão e de emenda ao RBAC nº 103 - Fase 1 do Tema 17 da Agenda Regulatória 2025-2026
   
 Relator: Luiz Ricardo Nascimento]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[SMS Brasil: há 10 anos contribuindo com a segurança operacional da aviação civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/sms-brasil-ha-10-anos-contribuindo-com-a-seguranca-operacional-da-aviacao-civil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/sms-brasil-ha-10-anos-contribuindo-com-a-seguranca-operacional-da-aviacao-civil</id>
-    <updated>2025-10-23T17:52:00.000Z</updated>
-    <published>2025-10-23T17:52:00.000Z</published>
-    <summary type="html"><![CDATA[Aprendizado e aprimoramento de todas as operações aéreas foram foco da 10ª edição]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Diretor-Presidente e superintendente da Anac recebem Medalha da Ordem do Mérito Aeronáutico]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/diretor-presidente-da-recebe-medalha-da-ordem-do-merito-aeronautico" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/diretor-presidente-da-recebe-medalha-da-ordem-do-merito-aeronautico</id>
-    <updated>2025-10-23T17:10:00.000Z</updated>
-    <published>2025-10-23T17:10:00.000Z</published>
-    <summary type="html"><![CDATA[Comenda existe desde 1943 e destaca aqueles que contribuíram para o fomento da aeronáutica brasileira]]></summary>
   </entry>
 
   <entry>
