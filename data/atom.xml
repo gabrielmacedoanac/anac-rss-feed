@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-14T18:52:00.000Z</updated>
+  <updated>2025-11-17T15:01:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Escola do Núcleo Bandeirante (DF) recebe ação de contação de histórias]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/escola-do-nucleo-bandeirante-df-recebe-acao-de-contacao-de-historias-1" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/escola-do-nucleo-bandeirante-df-recebe-acao-de-contacao-de-historias-1</id>
+    <updated>2025-11-17T15:01:00.000Z</updated>
+    <published>2025-11-17T15:01:00.000Z</published>
+    <summary type="html"><![CDATA[Alunos do Centro Educacional Infantil participaram de atividades lúdicas sobre o mundo da aviação]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac autoriza Air Transat a operar voos internacionais regulares de e para o Brasil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-autoriza-air-transat-a-operar-voos-internacionais-regulares-de-e-para-o-brasil" />
@@ -204,15 +213,6 @@ Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
     <updated>2025-11-04T10:01:00.000Z</updated>
     <published>2025-11-04T10:01:00.000Z</published>
     <summary type="html"><![CDATA[Prazo para contribuições vai até 1º de dezembro; objetivo é analisar a possibilidade de estender a aprovação de dados a outras organizações]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Balonismo tem novas regras no Brasil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/balonismo-tera-novas-regras-no-brasil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/balonismo-tera-novas-regras-no-brasil</id>
-    <updated>2025-10-31T11:30:00.000Z</updated>
-    <published>2025-10-31T11:30:00.000Z</published>
-    <summary type="html"><![CDATA[Resolução aprovada pela Anac traz requisitos mínimos e processo de transição para prática de voos comerciais com balão de forma segura]]></summary>
   </entry>
 
   <entry>
