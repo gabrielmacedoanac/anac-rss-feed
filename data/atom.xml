@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-17T15:01:00.000Z</updated>
+  <updated>2025-11-18T13:02:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[SEI estará fora do ar das 18h de sexta (21/11) às 10h de sábado (22/11)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/sei-estara-fora-do-ar-das-18h-de-sexta-21-11-as-10h-de-sabado-22-11" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/sei-estara-fora-do-ar-das-18h-de-sexta-21-11-as-10h-de-sabado-22-11</id>
+    <updated>2025-11-18T13:02:00.000Z</updated>
+    <published>2025-11-18T13:02:00.000Z</published>
+    <summary type="html"><![CDATA[Sistema Eletrônico de Informações passará por atualização para correção de problemas e implementação de melhorias]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Escola do Núcleo Bandeirante (DF) recebe ação de contação de histórias]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/escola-do-nucleo-bandeirante-df-recebe-acao-de-contacao-de-historias-1" />
@@ -204,15 +213,6 @@ Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
     <updated>2025-11-04T11:15:00.000Z</updated>
     <published>2025-11-04T11:15:00.000Z</published>
     <summary type="html"><![CDATA[Reunião foi realizada entre 27 e 31 de outubro para a discussão sobre rotas para estimular a adoção de combustíveis sustentáveis na aviação mundial]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac abre tomada de subsídios sobre aprovação de dados técnicos de reparos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-tomada-de-subsidios-sobre-aprovacao-de-dados-tecnicos-de-reparos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-abre-tomada-de-subsidios-sobre-aprovacao-de-dados-tecnicos-de-reparos</id>
-    <updated>2025-11-04T10:01:00.000Z</updated>
-    <published>2025-11-04T10:01:00.000Z</published>
-    <summary type="html"><![CDATA[Prazo para contribuições vai até 1º de dezembro; objetivo é analisar a possibilidade de estender a aprovação de dados a outras organizações]]></summary>
   </entry>
 
   <entry>
