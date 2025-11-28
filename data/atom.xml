@@ -2,9 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-26T21:38:00.000Z</updated>
+  <updated>2025-11-27T17:47:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[AmpliAr: primeiro leilão de aeroportos regionais do país arrecada R$ 731 milhões em investimentos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/ampliar-primeiro-leilao-de-aeroportos-regionais-do-pais-arrecada-r-731-milhoes-em-investimentos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/ampliar-primeiro-leilao-de-aeroportos-regionais-do-pais-arrecada-r-731-milhoes-em-investimentos</id>
+    <updated>2025-11-27T17:47:00.000Z</updated>
+    <published>2025-11-27T17:47:00.000Z</published>
+    <summary type="html"><![CDATA[O programa tem o objetivo de fortalecer a aviação regional e modernizar a infraestrutura de aeroportos do Nordeste e da Amazônia Legal]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Brasil e Angola participam de capacitação em Aviação Sustentável]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-angola-participam-de-capacitacao-em-aviacao-sustentavel" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-angola-participam-de-capacitacao-em-aviacao-sustentavel</id>
+    <updated>2025-11-27T17:45:00.000Z</updated>
+    <published>2025-11-27T17:45:00.000Z</published>
+    <summary type="html"><![CDATA[Capacitação em Brasília destacou o desenvolvimento de novos combustíveis e descarbonização do setor aéreo]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Super App da Anac: Uma nova jornada, agora para pilotos comerciais]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/super-app-da-anac-uma-nova-jornada-agora-para-pilotos-comerciais" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/super-app-da-anac-uma-nova-jornada-agora-para-pilotos-comerciais</id>
+    <updated>2025-11-27T11:30:00.000Z</updated>
+    <published>2025-11-27T11:30:00.000Z</published>
+    <summary type="html"><![CDATA[Versão 2.6 do aplicativo traz funcionalidades ampliadas e mais integração com sistemas governamentais]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac realiza webinário sobre nova IS de autorização de drones]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-webinario-sobre-nova-is-de-autorizacao-de-drones" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-realiza-webinario-sobre-nova-is-de-autorizacao-de-drones</id>
+    <updated>2025-11-27T10:08:00.000Z</updated>
+    <published>2025-11-27T10:08:00.000Z</published>
+    <summary type="html"><![CDATA[Servidores da Agência apresentarão os principais pontos da IS E94-004 e responderão dúvidas sobre a norma]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac negocia débitos por meio do programa Resolve Dívidas AGU]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-negocia-debitos-por-meio-do-programa-resolve-dividas-agu" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-negocia-debitos-por-meio-do-programa-resolve-dividas-agu</id>
+    <updated>2025-11-27T09:57:00.000Z</updated>
+    <published>2025-11-27T09:57:00.000Z</published>
+    <summary type="html"><![CDATA[Interessados em quitar dívidas devem se cadastrar no portal Resolve Dívidas AGU até 30 de abril de 2026]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac atuará na implementação de projeto de fortalecimento da aviação civil de Moçambique]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-atuara-na-implementacao-de-projeto-de-fortalecimento-da-aviacao-civil-de-mocambique" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-atuara-na-implementacao-de-projeto-de-fortalecimento-da-aviacao-civil-de-mocambique</id>
+    <updated>2025-11-27T09:43:00.000Z</updated>
+    <published>2025-11-27T09:43:00.000Z</published>
+    <summary type="html"><![CDATA[Iniciativa faz parte dos acordos assinados pelo presidente Lula em cerimônia na capital de Moçambique, Maputo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac apoia decisão do STF que suspende processos judiciais contra aéreas]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-apoia-decisao-do-stf-que-suspende-processos-judiciais-contra-aereas" />
@@ -143,66 +197,12 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Escola do Núcleo Bandeirante (DF) recebe ação de contação de histórias]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/escola-do-nucleo-bandeirante-df-recebe-acao-de-contacao-de-historias" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/escola-do-nucleo-bandeirante-df-recebe-acao-de-contacao-de-historias</id>
-    <updated>2025-11-14T17:03:00.000Z</updated>
-    <published>2025-11-14T17:03:00.000Z</published>
-    <summary type="html"><![CDATA[Alunos do Centro Educacional Infantil participaram de atividades lúdicas sobre o mundo da aviação]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Coarf e presidente do Senado debatem medidas de fortalecimento das agências reguladoras federais]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/coarf-e-presidente-do-senado-debatem-medidas-de-fortalecimento-das-agencias-reguladoras-federais" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/coarf-e-presidente-do-senado-debatem-medidas-de-fortalecimento-das-agencias-reguladoras-federais</id>
-    <updated>2025-11-14T11:13:00.000Z</updated>
-    <published>2025-11-14T11:13:00.000Z</published>
-    <summary type="html"><![CDATA[Davi Alcolumbre manifestou apoio à pauta apresentada pelos dirigentes]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Brasil e El Salvador celebram promulgação de Acordo de Céus Abertos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-el-salvador-celebram-promulgacao-de-acordo-de-ceus-abertos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/brasil-e-el-salvador-celebram-promulgacao-de-acordo-de-ceus-abertos</id>
-    <updated>2025-11-13T16:53:00.000Z</updated>
-    <published>2025-11-13T16:53:00.000Z</published>
-    <summary type="html"><![CDATA[Em cerimônia no Senado Federal brasileiros, representantes dos dois países exaltaram as vantagens]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aberta consulta pública sobre alterações em requisitos de projeto, produção e identificação de peças aprovadas]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-sobre-alteracoes-em-requisitos-de-projeto-producao-e-identificacao-de-pecas-aprovadas" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-sobre-alteracoes-em-requisitos-de-projeto-producao-e-identificacao-de-pecas-aprovadas</id>
-    <updated>2025-11-13T16:31:00.000Z</updated>
-    <published>2025-11-13T16:31:00.000Z</published>
-    <summary type="html"><![CDATA[Contribuições para RBACs 21 e 45 serão recebidas até dia 29 de dezembro]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=l9awSyOHY0g" />
     <id>urn:uuid:https://www.youtube.com/watch?v=l9awSyOHY0g</id>
     <updated>2025-11-13T08:16:59.000Z</updated>
     <published>2025-11-13T08:16:59.000Z</published>
     <summary type="html"><![CDATA[Link do slido - https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv/live/questions]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Senado debate acessibilidade no transporte aéreo em audiência pública]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/senado-debate-acessibilidade-no-transporte-aereo-em-audiencia-publica" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/senado-debate-acessibilidade-no-transporte-aereo-em-audiencia-publica</id>
-    <updated>2025-11-12T18:37:00.000Z</updated>
-    <published>2025-11-12T18:37:00.000Z</published>
-    <summary type="html"><![CDATA[Anac apresentou ações e recolheu contribuições para a nova resolução voltada às pessoas com deficiência]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Workshop da Anac e da Asbrad discute combate e prevenção ao tráfico de pessoas no setor aéreo no dia 18/11, às 14h]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/workshop-da-anac-e-da-asbrad-discute-combate-e-prevencao-ao-trafico-de-pessoas-no-setor-aereo-no-dia-18-11-as-14h" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/workshop-da-anac-e-da-asbrad-discute-combate-e-prevencao-ao-trafico-de-pessoas-no-setor-aereo-no-dia-18-11-as-14h</id>
-    <updated>2025-11-12T16:59:00.000Z</updated>
-    <published>2025-11-12T16:59:00.000Z</published>
-    <summary type="html"><![CDATA[Evento em Brasília (DF) integra o Projeto Liberdade no Ar e busca capacitar profissionais da aviação civil para identificar e prevenir situações de tráfico de pessoas]]></summary>
   </entry>
 
   <entry>
@@ -346,17 +346,6 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Webinário &quot;Acordos Bilaterais EASA, UK, CAA e FAA para Organizações de Manutenção&quot;]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=hlRq2eZOm18" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=hlRq2eZOm18</id>
-    <updated>2025-09-19T14:45:05.000Z</updated>
-    <published>2025-09-19T14:45:05.000Z</published>
-    <summary type="html"><![CDATA[A ANAC firmou acordos de manutenção aeronáutica com as principais autoridades estrangeiras (EASA, UK, CAA e FAA) para convalidação de certificados, possibilitando que organizações de manutenção brasileiras possam realizar manutenção em aeronaves desses países. Para tanto, é necessário que a OM convalide seu certificado com a outra autoridade. O evento apresenta os requisitos e processo para convalidação de certificados de OM com autoridades estrangeiras.
-
-Link Slido: https://app.sli.do/event/o7T9gqeVfFuQ26efqcNjLr]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[12ª Reunião Deliberativa da Diretoria Colegiada (17/09/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=FBySE3Veewg" />
     <id>urn:uuid:https://www.youtube.com/watch?v=FBySE3Veewg</id>
@@ -391,5 +380,20 @@ Programação e mais informações no site do evento https://www.gov.br/anac/pt-
 Dúvidas e perguntas (Slido) - https://app.sli.do/event/gALPhZRPaRjKAD2H9cmW3Y
 
 APRESENTAÇÕES: Todas as apresentações: https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/arquivos/engenheira-de-aeroportos-apr-1.zip]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ijUF7KGaE1Q" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=ijUF7KGaE1Q</id>
+    <updated>2025-08-29T07:48:04.000Z</updated>
+    <published>2025-08-29T07:48:04.000Z</published>
+    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
+
+A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
+
+Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
+
+Dúvidas e perguntas (Slido) - https://app.sli.do/event/aQHew5VUdemc28vnaP2W7H]]></summary>
   </entry>
 </feed>
