@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-27T17:47:00.000Z</updated>
+  <updated>2025-11-28T16:10:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[COP30: Operação especial garantiu segurança e fluidez das operações aéreas em Belém]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cop30-operacao-especial-garantiu-seguranca-e-fluidez-das-operacoes-aereas-em-belem" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/cop30-operacao-especial-garantiu-seguranca-e-fluidez-das-operacoes-aereas-em-belem</id>
+    <updated>2025-11-28T16:10:00.000Z</updated>
+    <published>2025-11-28T16:10:00.000Z</published>
+    <summary type="html"><![CDATA[Ação da Anac mobilizou 25 profissionais em oito cidades, com mais de 80 inspeções realizadas no aeroporto da capital paraense]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[AmpliAr: primeiro leilão de aeroportos regionais do país arrecada R$ 731 milhões em investimentos]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/ampliar-primeiro-leilao-de-aeroportos-regionais-do-pais-arrecada-r-731-milhoes-em-investimentos" />
@@ -185,15 +194,6 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
     <updated>2025-11-14T18:52:00.000Z</updated>
     <published>2025-11-14T18:52:00.000Z</published>
     <summary type="html"><![CDATA[Companhia canadense passa a integrar o grupo de empresas estrangeiras aptas a oferecer serviços regulares no país]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac avança em parcerias com 10 países e amplia conectividade aérea]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-avanca-em-parcerias-com-10-paises-e-amplia-conectividade-aerea" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-avanca-em-parcerias-com-10-paises-e-amplia-conectividade-aerea</id>
-    <updated>2025-11-14T18:23:00.000Z</updated>
-    <published>2025-11-14T18:23:00.000Z</published>
-    <summary type="html"><![CDATA[Acordos firmados no ICAN 2025 geram novas oportunidades de operação para empresas aéreas brasileiras e estrangeiras]]></summary>
   </entry>
 
   <entry>
