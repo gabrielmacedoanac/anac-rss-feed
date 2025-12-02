@@ -2,9 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-01T12:31:00.000Z</updated>
+  <updated>2025-12-02T06:34:33.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Divulgação do processo de aprovação declaratória de projeto de RPAS, segundo IS E94-004]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=iEcQMszx6gI" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=iEcQMszx6gI</id>
+    <updated>2025-12-02T06:34:33.000Z</updated>
+    <published>2025-12-02T06:34:33.000Z</published>
+    <summary type="html"><![CDATA[Webinário para divulgação do processo de aprovação declaratória de projeto de RPAS, segundo IS E94-004 (Autorização de Projeto de Sistema de Aeronaves Remotamente Pilotadas, destinadas às operações de baixo risco, segundo metodologia SORA) 
+ 
+Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Falsas ameaças de bomba crescem 68% em menos de um ano]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/falsas-ameacas-de-bomba-crescem-68-em-menos-de-um-ano" />
@@ -165,17 +176,6 @@
     <updated>2025-11-21T11:31:00.000Z</updated>
     <published>2025-11-21T11:31:00.000Z</published>
     <summary type="html"><![CDATA[Integração fortalece cooperação institucional e aprimora setor aéreo por meio da troca de informações sobre aeroportos e tráfego aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Divulgação do processo de aprovação declaratória de projeto de RPAS, segundo IS E94-004]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=iEcQMszx6gI" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=iEcQMszx6gI</id>
-    <updated>2025-11-19T16:44:51.000Z</updated>
-    <published>2025-11-19T16:44:51.000Z</published>
-    <summary type="html"><![CDATA[Webinário para divulgação do processo de aprovação declaratória de projeto de RPAS, segundo IS E94-004 (Autorização de Projeto de Sistema de Aeronaves Remotamente Pilotadas, destinadas às operações de baixo risco, segundo metodologia SORA) 
- 
-Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
   </entry>
 
   <entry>
