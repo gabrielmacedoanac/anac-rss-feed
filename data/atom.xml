@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-11-28T16:10:00.000Z</updated>
+  <updated>2025-12-01T12:31:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Falsas ameaças de bomba crescem 68% em menos de um ano]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/falsas-ameacas-de-bomba-crescem-68-em-menos-de-um-ano" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/falsas-ameacas-de-bomba-crescem-68-em-menos-de-um-ano</id>
+    <updated>2025-12-01T12:31:00.000Z</updated>
+    <published>2025-12-01T12:31:00.000Z</published>
+    <summary type="html"><![CDATA[A prática é crime grave, pode levar à prisão e causar prejuízos em cadeia ao sistema aéreo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[COP30: Operação especial garantiu segurança e fluidez das operações aéreas em Belém]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cop30-operacao-especial-garantiu-seguranca-e-fluidez-das-operacoes-aereas-em-belem" />
@@ -185,15 +194,6 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
     <updated>2025-11-17T15:01:00.000Z</updated>
     <published>2025-11-17T15:01:00.000Z</published>
     <summary type="html"><![CDATA[Alunos do Centro Educacional Infantil participaram de atividades lúdicas sobre o mundo da aviação]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac autoriza Air Transat a operar voos internacionais regulares de e para o Brasil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-autoriza-air-transat-a-operar-voos-internacionais-regulares-de-e-para-o-brasil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-autoriza-air-transat-a-operar-voos-internacionais-regulares-de-e-para-o-brasil</id>
-    <updated>2025-11-14T18:52:00.000Z</updated>
-    <published>2025-11-14T18:52:00.000Z</published>
-    <summary type="html"><![CDATA[Companhia canadense passa a integrar o grupo de empresas estrangeiras aptas a oferecer serviços regulares no país]]></summary>
   </entry>
 
   <entry>
