@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-02T06:34:33.000Z</updated>
+  <updated>2025-12-03T17:01:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac e Polícia Federal apreendem aeronave com 51 kg de ouro provenientes do garimpo ilegal]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-policia-federal-apreendem-aeronave-com-51-kg-de-ouro-provenientes-do-garimpo-ilegal" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-policia-federal-apreendem-aeronave-com-51-kg-de-ouro-provenientes-do-garimpo-ilegal</id>
+    <updated>2025-12-03T17:01:00.000Z</updated>
+    <published>2025-12-03T17:01:00.000Z</published>
+    <summary type="html"><![CDATA[Ação teve início após a inteligência da Anac identificar incompatibilidades no plano de voo da aeronave e acionar os agentes federais para a verificação imediata]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac e Azul assinam renovação de acordo para treinamento de pilotos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-azul-assinam-renovacao-de-acordo-para-treinamento-de-pilotos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-azul-assinam-renovacao-de-acordo-para-treinamento-de-pilotos</id>
+    <updated>2025-12-03T16:38:00.000Z</updated>
+    <published>2025-12-03T16:38:00.000Z</published>
+    <summary type="html"><![CDATA[Parceria prevê intercâmbio de informações técnicas e reforça a segurança operacional]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Projeto Criando Asas leva jovens aos bastidores da aviação no Aeroporto de Congonhas (SP)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/projeto-criando-asas-leva-jovens-ao-coracao-da-aviacao-no-aeroporto-de-congonhas" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/projeto-criando-asas-leva-jovens-ao-coracao-da-aviacao-no-aeroporto-de-congonhas</id>
+    <updated>2025-12-03T10:36:00.000Z</updated>
+    <published>2025-12-03T10:36:00.000Z</published>
+    <summary type="html"><![CDATA[Em parceria com a Secretaria da Juventude e Aena Brasil, servidores da Anac conduziram visita que mostrou o mundo da aviação a 40 jovens]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Divulgação do processo de aprovação declaratória de projeto de RPAS, segundo IS E94-004]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=iEcQMszx6gI" />
@@ -12,6 +39,8 @@
     <updated>2025-12-02T06:34:33.000Z</updated>
     <published>2025-12-02T06:34:33.000Z</published>
     <summary type="html"><![CDATA[Webinário para divulgação do processo de aprovação declaratória de projeto de RPAS, segundo IS E94-004 (Autorização de Projeto de Sistema de Aeronaves Remotamente Pilotadas, destinadas às operações de baixo risco, segundo metodologia SORA) 
+
+Arquivo de apresentação: https://www.gov.br/anac/pt-br/centrais-de-conteudo/arquivos/is-e94-004-dezembro-2025.pdf
  
 Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
   </entry>
@@ -167,33 +196,6 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
     <updated>2025-11-21T14:48:00.000Z</updated>
     <published>2025-11-21T14:48:00.000Z</published>
     <summary type="html"><![CDATA[Manifestações devem ser enviadas até o dia 28/12 pela plataforma Participa + Brasil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac e Decea iniciam compartilhamento de dados de tráfego aéreo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/base-de-dados-da-anac-e-decea-passa-a-compartilhar-dados-de-trafego-aereo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/base-de-dados-da-anac-e-decea-passa-a-compartilhar-dados-de-trafego-aereo</id>
-    <updated>2025-11-21T11:31:00.000Z</updated>
-    <published>2025-11-21T11:31:00.000Z</published>
-    <summary type="html"><![CDATA[Integração fortalece cooperação institucional e aprimora setor aéreo por meio da troca de informações sobre aeroportos e tráfego aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[SEI estará fora do ar das 18h de sexta (21/11) às 10h de sábado (22/11)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/sei-estara-fora-do-ar-das-18h-de-sexta-21-11-as-10h-de-sabado-22-11" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/sei-estara-fora-do-ar-das-18h-de-sexta-21-11-as-10h-de-sabado-22-11</id>
-    <updated>2025-11-18T13:02:00.000Z</updated>
-    <published>2025-11-18T13:02:00.000Z</published>
-    <summary type="html"><![CDATA[Sistema Eletrônico de Informações passará por atualização para correção de problemas e implementação de melhorias]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Escola do Núcleo Bandeirante (DF) recebe ação de contação de histórias]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/escola-do-nucleo-bandeirante-df-recebe-acao-de-contacao-de-historias-1" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/escola-do-nucleo-bandeirante-df-recebe-acao-de-contacao-de-historias-1</id>
-    <updated>2025-11-17T15:01:00.000Z</updated>
-    <published>2025-11-17T15:01:00.000Z</published>
-    <summary type="html"><![CDATA[Alunos do Centro Educacional Infantil participaram de atividades lúdicas sobre o mundo da aviação]]></summary>
   </entry>
 
   <entry>
