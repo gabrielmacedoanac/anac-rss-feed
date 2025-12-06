@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-04T13:27:00.000Z</updated>
+  <updated>2025-12-05T13:27:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac incorpora drones e tecnologia Starlink às operações de fiscalização]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-incorpora-drones-e-tecnologia-starlink-as-operacoes-de-fiscalizacao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-incorpora-drones-e-tecnologia-starlink-as-operacoes-de-fiscalizacao</id>
+    <updated>2025-12-05T13:27:00.000Z</updated>
+    <published>2025-12-05T13:27:00.000Z</published>
+    <summary type="html"><![CDATA[Ferramentas ampliam alcance, precisão e conectividade das ações da Agência]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac tem primeira experiência de intercâmbio do Programa SAFA]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-tem-primeira-experiencia-de-intercambio-do-programa-safa" />
@@ -187,15 +196,6 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
     <updated>2025-11-21T15:24:00.000Z</updated>
     <published>2025-11-21T15:24:00.000Z</published>
     <summary type="html"><![CDATA[A Instrução Suplementar moderniza o processo de autorização de projeto de drones]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana Safety chega à 3ª edição de 2025, em São Paulo (SP)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-chega-a-3a-edicao-de-2025-em-sao-paulo-sp" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/semana-safety-chega-a-3a-edicao-de-2025-em-sao-paulo-sp</id>
-    <updated>2025-11-21T15:06:00.000Z</updated>
-    <published>2025-11-21T15:06:00.000Z</published>
-    <summary type="html"><![CDATA[Representantes da Anac e de regulados se reuniram para debater desafios e boas práticas de safety, com foco nas particularidades da Região Sudeste]]></summary>
   </entry>
 
   <entry>
