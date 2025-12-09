@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-05T13:27:00.000Z</updated>
+  <updated>2025-12-08T14:04:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Seminário discute autonomia das reguladoras para atrair investimentos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/seminario-discute-autonomia-das-reguladoras-para-atrair-investimentos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/seminario-discute-autonomia-das-reguladoras-para-atrair-investimentos</id>
+    <updated>2025-12-08T14:04:00.000Z</updated>
+    <published>2025-12-08T14:04:00.000Z</published>
+    <summary type="html"><![CDATA[Seminário Desafios da Regulação da Infraestrutura debateu caminhos para fortalecer a estabilidade regulatória e ampliar a atração de investimentos em infraestrutura]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac flexibiliza critérios de troca de materiais de aeronaves certificadas segundo CAR 3]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-flexibiliza-criterios-para-substituicao-de-materiais-de-interiores-de-aeronaves-certificadas-segundo-car-3" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-flexibiliza-criterios-para-substituicao-de-materiais-de-interiores-de-aeronaves-certificadas-segundo-car-3</id>
+    <updated>2025-12-08T13:02:00.000Z</updated>
+    <published>2025-12-08T13:02:00.000Z</published>
+    <summary type="html"><![CDATA[Agora, quaisquer revestimentos podem ser enquadrados como pequenas alterações; ensaios de inflamabilidade seguem mantidos]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac incorpora drones e tecnologia Starlink às operações de fiscalização]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-incorpora-drones-e-tecnologia-starlink-as-operacoes-de-fiscalizacao" />
@@ -178,24 +196,6 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
     <updated>2025-11-24T10:01:00.000Z</updated>
     <published>2025-11-24T10:01:00.000Z</published>
     <summary type="html"><![CDATA[Viagens nacionais registraram mais de 9 milhões de passageiros, marca superada em apenas três outros meses desde 2000]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Workshop evidencia desafios e reforça práticas de prevenção ao tráfico de pessoas na aviação civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/workshop-evidencia-desafios-e-reforca-praticas-de-prevencao-ao-trafico-de-pessoas-na-aviacao-civil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/workshop-evidencia-desafios-e-reforca-praticas-de-prevencao-ao-trafico-de-pessoas-na-aviacao-civil</id>
-    <updated>2025-11-21T17:36:00.000Z</updated>
-    <published>2025-11-21T17:36:00.000Z</published>
-    <summary type="html"><![CDATA[Evento fortalece a atuação conjunta entre instituições públicas, sociedade civil e setor aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac simplifica o processo de autorização para drones em operações de baixo risco]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-simplifica-o-processo-para-drones-em-operacoes-de-baixo-risco" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-simplifica-o-processo-para-drones-em-operacoes-de-baixo-risco</id>
-    <updated>2025-11-21T15:24:00.000Z</updated>
-    <published>2025-11-21T15:24:00.000Z</published>
-    <summary type="html"><![CDATA[A Instrução Suplementar moderniza o processo de autorização de projeto de drones]]></summary>
   </entry>
 
   <entry>
