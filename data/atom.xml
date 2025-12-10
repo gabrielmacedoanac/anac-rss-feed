@@ -2,16 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-08T14:04:00.000Z</updated>
+  <updated>2025-12-09T17:41:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Cultura de segurança na aviação civil é reforçada em oficina promovida pela Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cultura-de-seguranca-na-aviacao-civil-e-reforcada-em-oficina-promovida-pela-anac" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/cultura-de-seguranca-na-aviacao-civil-e-reforcada-em-oficina-promovida-pela-anac</id>
+    <updated>2025-12-09T17:41:00.000Z</updated>
+    <published>2025-12-09T17:41:00.000Z</published>
+    <summary type="html"><![CDATA[A oficina faz parte das iniciativas contínuas da Anac para disseminar conhecimentos e capacitar o setor aéreo em segurança.]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Táxi-aéreo ganha ferramenta digital para certificar operadores]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/taxi-aereo-ganha-ferramenta-digital-para-certificar-operadores" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/taxi-aereo-ganha-ferramenta-digital-para-certificar-operadores</id>
+    <updated>2025-12-09T16:28:00.000Z</updated>
+    <published>2025-12-09T16:28:00.000Z</published>
+    <summary type="html"><![CDATA[Com interatividade e inteligência artificial, Sistema Voe 135 facilita a certificação de empresas e estimula a conectividade aérea]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Seminário discute autonomia das reguladoras para atrair investimentos]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/seminario-discute-autonomia-das-reguladoras-para-atrair-investimentos" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/seminario-discute-autonomia-das-reguladoras-para-atrair-investimentos</id>
     <updated>2025-12-08T14:04:00.000Z</updated>
     <published>2025-12-08T14:04:00.000Z</published>
-    <summary type="html"><![CDATA[Seminário Desafios da Regulação da Infraestrutura debateu caminhos para fortalecer a estabilidade regulatória e ampliar a atração de investimentos em infraestrutura]]></summary>
+    <summary type="html"><![CDATA[Seminário Desafios da Regulação da Infraestrutura debateu caminhos para fortalecer a estabilidade regulatória]]></summary>
   </entry>
 
   <entry>
@@ -178,24 +196,6 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
     <updated>2025-11-26T15:47:00.000Z</updated>
     <published>2025-11-26T15:47:00.000Z</published>
     <summary type="html"><![CDATA[Delegação brasileira tratou de parcerias internacionais e de iniciativas inovadoras do país no transporte aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac participa do ANM 2025 com contribuições para o desenvolvimento da aviação brasileira]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-do-anm-2025-com-contribuicoes-para-o-desenvolvimento-da-aviacao-brasileira" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-participa-do-anm-2025-com-contribuicoes-para-o-desenvolvimento-da-aviacao-brasileira</id>
-    <updated>2025-11-25T19:16:00.000Z</updated>
-    <published>2025-11-25T19:16:00.000Z</published>
-    <summary type="html"><![CDATA[Agência reforçou diálogo regulatório, apresentou iniciativas de formação profissional e lançou projetos voltados à educação e à transformação digital]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Outubro bate novos recordes no transporte aéreo de passageiros]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/outubro-bate-novos-recordes-no-transporte-aereo-de-passageiros" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/outubro-bate-novos-recordes-no-transporte-aereo-de-passageiros</id>
-    <updated>2025-11-24T10:01:00.000Z</updated>
-    <published>2025-11-24T10:01:00.000Z</published>
-    <summary type="html"><![CDATA[Viagens nacionais registraram mais de 9 milhões de passageiros, marca superada em apenas três outros meses desde 2000]]></summary>
   </entry>
 
   <entry>
