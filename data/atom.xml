@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-12T02:21:48.000Z</updated>
+  <updated>2025-12-12T10:33:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Novos formulários de reporte de risco baloeiro e de raio laser estão disponíveis]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/novos-formularios-de-reporte-de-risco-baloeiro-e-de-raio-laser-estao-disponiveis" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/novos-formularios-de-reporte-de-risco-baloeiro-e-de-raio-laser-estao-disponiveis</id>
+    <updated>2025-12-12T10:33:00.000Z</updated>
+    <published>2025-12-12T10:33:00.000Z</published>
+    <summary type="html"><![CDATA[Reporte de situações que ameacem a segurança operacional são fundamentais para que a Anac atue de forma proativa]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[2ª Reunião Deliberativa Extraordinária da Diretoria Colegiada (11/12/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ctobZIU7IKE" />
@@ -33,7 +42,7 @@ Relator: Tiago Pereira]]></summary>
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Anac e MPor acompanham situação dos voos em todo o Brasil]]></title>
+    <title type="html"><![CDATA[Anac e MPor acompanham aeroportos após impactos causados pelo ciclone em SP]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-mpor-acompanham-situacao-dos-voos-em-todo-o-brasil" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-mpor-acompanham-situacao-dos-voos-em-todo-o-brasil</id>
     <updated>2025-12-11T12:34:00.000Z</updated>
@@ -214,15 +223,6 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
     <updated>2025-11-27T09:43:00.000Z</updated>
     <published>2025-11-27T09:43:00.000Z</published>
     <summary type="html"><![CDATA[Iniciativa faz parte dos acordos assinados pelo presidente Lula em cerimônia na capital de Moçambique, Maputo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac apoia decisão do STF que suspende processos judiciais contra aéreas]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-apoia-decisao-do-stf-que-suspende-processos-judiciais-contra-aereas" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-apoia-decisao-do-stf-que-suspende-processos-judiciais-contra-aereas</id>
-    <updated>2025-11-26T21:38:00.000Z</updated>
-    <published>2025-11-26T21:38:00.000Z</published>
-    <summary type="html"><![CDATA[Medida do STF busca reduzir decisões divergentes, conter ações repetitivas e aumentar a segurança jurídica no setor aéreo]]></summary>
   </entry>
 
   <entry>
