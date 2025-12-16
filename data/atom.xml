@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-12T10:33:00.000Z</updated>
+  <updated>2025-12-15T14:29:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Publicadas regras para o leilão do Aeroporto do Galeão (RJ)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/publicadas-regras-para-o-leilao-do-aeroporto-do-galeao-rj" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/publicadas-regras-para-o-leilao-do-aeroporto-do-galeao-rj</id>
+    <updated>2025-12-15T14:29:00.000Z</updated>
+    <published>2025-12-15T14:29:00.000Z</published>
+    <summary type="html"><![CDATA[Procedimento competitivo será realizado em março de 2026, com lance mínimo de R$ 932 milhões, e busca readequar o contrato de concessão]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Aberta consulta pública sobre melhorias nas descrições de infração às regras da Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-sobre-melhorias-nas-descricoes-de-infracao-as-regras-da-anac" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-sobre-melhorias-nas-descricoes-de-infracao-as-regras-da-anac</id>
+    <updated>2025-12-15T09:44:00.000Z</updated>
+    <published>2025-12-15T09:44:00.000Z</published>
+    <summary type="html"><![CDATA[Contribuições devem ser enviadas até o dia 22/1 pela plataforma Brasil Participativo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Novos formulários de reporte de risco baloeiro e de raio laser estão disponíveis]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/novos-formularios-de-reporte-de-risco-baloeiro-e-de-raio-laser-estao-disponiveis" />
@@ -205,24 +223,6 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
     <updated>2025-11-27T10:08:00.000Z</updated>
     <published>2025-11-27T10:08:00.000Z</published>
     <summary type="html"><![CDATA[Servidores da Agência apresentarão os principais pontos da IS E94-004 e responderão dúvidas sobre a norma]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac negocia débitos por meio do programa Resolve Dívidas AGU]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-negocia-debitos-por-meio-do-programa-resolve-dividas-agu" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-negocia-debitos-por-meio-do-programa-resolve-dividas-agu</id>
-    <updated>2025-11-27T09:57:00.000Z</updated>
-    <published>2025-11-27T09:57:00.000Z</published>
-    <summary type="html"><![CDATA[Interessados em quitar dívidas devem se cadastrar no portal Resolve Dívidas AGU até 30 de abril de 2026]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac atuará na implementação de projeto de fortalecimento da aviação civil de Moçambique]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-atuara-na-implementacao-de-projeto-de-fortalecimento-da-aviacao-civil-de-mocambique" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-atuara-na-implementacao-de-projeto-de-fortalecimento-da-aviacao-civil-de-mocambique</id>
-    <updated>2025-11-27T09:43:00.000Z</updated>
-    <published>2025-11-27T09:43:00.000Z</published>
-    <summary type="html"><![CDATA[Iniciativa faz parte dos acordos assinados pelo presidente Lula em cerimônia na capital de Moçambique, Maputo]]></summary>
   </entry>
 
   <entry>
