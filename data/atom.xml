@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-19T17:40:00.000Z</updated>
+  <updated>2025-12-22T09:53:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[BGAST lança o reforço de segurança operacional: “Transição eficaz das tarefas de manutenção”]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/bgast-lanca-o-reforco-de-seguranca-operacional-201ctransicao-eficaz-das-tarefas-de-manutencao201d" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/bgast-lanca-o-reforco-de-seguranca-operacional-201ctransicao-eficaz-das-tarefas-de-manutencao201d</id>
+    <updated>2025-12-22T09:53:00.000Z</updated>
+    <published>2025-12-22T09:53:00.000Z</published>
+    <summary type="html"><![CDATA[Publicação apresenta boas práticas para a segurança e a eficiência da manutenção aeronáutica]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Serviços digitais da Anac se destacam em avaliação do Governo Federal]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/servicos-digitais-da-anac-se-destacam-em-avaliacao-do-governo-federal" />
@@ -203,15 +212,6 @@ Relator: Tiago Pereira]]></summary>
     <updated>2025-12-04T13:27:00.000Z</updated>
     <published>2025-12-04T13:27:00.000Z</published>
     <summary type="html"><![CDATA[Inspetores de Aruba e servidores da Agência discutiram a padronização de inspeções de rampa entre operadores estrangeiros]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac e Polícia Federal apreendem aeronave com 51 kg de ouro provenientes do garimpo ilegal]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-policia-federal-apreendem-aeronave-com-51-kg-de-ouro-provenientes-do-garimpo-ilegal" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-policia-federal-apreendem-aeronave-com-51-kg-de-ouro-provenientes-do-garimpo-ilegal</id>
-    <updated>2025-12-03T17:01:00.000Z</updated>
-    <published>2025-12-03T17:01:00.000Z</published>
-    <summary type="html"><![CDATA[Ação teve início após a inteligência da Anac identificar incompatibilidades no plano de voo da aeronave e acionar os agentes federais para a verificação imediata]]></summary>
   </entry>
 
   <entry>
