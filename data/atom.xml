@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-23T18:28:00.000Z</updated>
+  <updated>2025-12-26T10:01:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac certifica duas novas aeronaves para aviação geral e táxi-aéreo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-certifica-duas-novas-aeronaves-para-aviacao-geral-e-taxi-aereo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-certifica-duas-novas-aeronaves-para-aviacao-geral-e-taxi-aereo</id>
+    <updated>2025-12-26T10:01:00.000Z</updated>
+    <published>2025-12-26T10:01:00.000Z</published>
+    <summary type="html"><![CDATA[Aeronaves podem ser usadas para transporte de carga e passageiros; uma delas está apta para evacuação médica e pouso automático em caso de emergência]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[BASeT elege vice-presidente]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/baset-elege-vice-presidente" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/baset-elege-vice-presidente</id>
+    <updated>2025-12-26T09:52:00.000Z</updated>
+    <published>2025-12-26T09:52:00.000Z</published>
+    <summary type="html"><![CDATA[Marcelo Alexandre Rosa, gerente de Segurança AVSEC da Aena Brasil, assume o cargo para o ciclo 2026/2027]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Instrução Suplementar define procedimentos para certificação de Operador Simples de táxi-aéreo]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/instrucao-suplementar-define-procedimentos-para-certificacao-de-operador-simples-de-taxi-aereo" />
@@ -194,24 +212,6 @@ Relator: Tiago Pereira]]></summary>
     <updated>2025-12-11T09:50:00.000Z</updated>
     <published>2025-12-11T09:50:00.000Z</published>
     <summary type="html"><![CDATA[Documento deve ser publicado no Diário Oficial da União na segunda-feira (15/12)]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Cultura de segurança na aviação civil é reforçada em oficina promovida pela Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/cultura-de-seguranca-na-aviacao-civil-e-reforcada-em-oficina-promovida-pela-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/cultura-de-seguranca-na-aviacao-civil-e-reforcada-em-oficina-promovida-pela-anac</id>
-    <updated>2025-12-09T17:41:00.000Z</updated>
-    <published>2025-12-09T17:41:00.000Z</published>
-    <summary type="html"><![CDATA[A oficina faz parte das iniciativas contínuas da Anac para disseminar conhecimentos e capacitar o setor aéreo em segurança.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Táxi-aéreo ganha ferramenta digital para certificar operadores]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/taxi-aereo-ganha-ferramenta-digital-para-certificar-operadores" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/taxi-aereo-ganha-ferramenta-digital-para-certificar-operadores</id>
-    <updated>2025-12-09T16:28:00.000Z</updated>
-    <published>2025-12-09T16:28:00.000Z</published>
-    <summary type="html"><![CDATA[Com interatividade e inteligência artificial, Sistema Voe 135 facilita a certificação de empresas e estimula a conectividade aérea]]></summary>
   </entry>
 
   <entry>
