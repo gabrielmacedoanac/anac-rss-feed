@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-29T18:03:00.000Z</updated>
+  <updated>2025-12-30T18:38:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Novas regras de fiscalização e autuação valem a partir de 1º de janeiro]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/novas-regras-de-fiscalizacao-e-autuacao-valem-a-partir-de-1o-de-janeiro" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/novas-regras-de-fiscalizacao-e-autuacao-valem-a-partir-de-1o-de-janeiro</id>
+    <updated>2025-12-30T18:38:00.000Z</updated>
+    <published>2025-12-30T18:38:00.000Z</published>
+    <summary type="html"><![CDATA[Novas regras vão considerar interação entre Anac e regulados, histórico de conduta e porte das operações. Objetivo é aumentar nível de conformidade e aprimorar a segurança no setor aéreo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Mudanças nos campos de categorias de aeronaves no RAB Digital entram em vigor em 1º de janeiro de 2026]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-campos-de-categorias-de-aeronaves-no-rab-digital-entram-em-vigor-em-1o-de-janeiro-de-2026" />
@@ -174,15 +183,6 @@
     <updated>2025-12-15T14:29:00.000Z</updated>
     <published>2025-12-15T14:29:00.000Z</published>
     <summary type="html"><![CDATA[Procedimento competitivo será realizado em março de 2026, com lance mínimo de R$ 932 milhões, e busca readequar o contrato de concessão]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aberta consulta pública sobre melhorias nas descrições de infração às regras da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-sobre-melhorias-nas-descricoes-de-infracao-as-regras-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/aberta-consulta-publica-sobre-melhorias-nas-descricoes-de-infracao-as-regras-da-anac</id>
-    <updated>2025-12-15T09:44:00.000Z</updated>
-    <published>2025-12-15T09:44:00.000Z</published>
-    <summary type="html"><![CDATA[Contribuições devem ser enviadas até o dia 22/1 pela plataforma Brasil Participativo]]></summary>
   </entry>
 
   <entry>
