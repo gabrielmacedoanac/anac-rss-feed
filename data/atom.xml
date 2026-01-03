@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2025-12-31T10:28:00.000Z</updated>
+  <updated>2026-01-02T16:44:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac altera prazo para solicitação de esclarecimentos por interessadas no edital de leilão do Aeroporto do Galeão (RJ)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-altera-prazo-para-solicitacao-de-esclarecimentos-por-interessadas-no-edital-de-leilao-do-aeroporto-do-galeao-rj" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-altera-prazo-para-solicitacao-de-esclarecimentos-por-interessadas-no-edital-de-leilao-do-aeroporto-do-galeao-rj</id>
+    <updated>2026-01-02T16:44:00.000Z</updated>
+    <published>2026-01-02T16:44:00.000Z</published>
+    <summary type="html"><![CDATA[Novo prazo para envio de pedidos é até 30 de janeiro]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Feliz 2026! Que venham novos caminhos e boas conquistas!]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/feliz-2026-que-venham-novos-caminhos-e-boas-conquistas" />
@@ -174,15 +183,6 @@
     <updated>2025-12-16T17:05:00.000Z</updated>
     <published>2025-12-16T17:05:00.000Z</published>
     <summary type="html"><![CDATA[Operação de fiscalização em nove aeroportos do país reforça o uso da plataforma Voe Seguro para contratar táxi-aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Novas regras para Diário de Bordo de aeronaves em consulta setorial]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/novas-regras-para-diario-de-bordo-de-aeronaves-em-consulta-setorial" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/novas-regras-para-diario-de-bordo-de-aeronaves-em-consulta-setorial</id>
-    <updated>2025-12-16T15:32:00.000Z</updated>
-    <published>2025-12-16T15:32:00.000Z</published>
-    <summary type="html"><![CDATA[Agência recebe contribuições até 2 de janeiro de 2026]]></summary>
   </entry>
 
   <entry>
