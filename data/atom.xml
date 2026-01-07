@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-02T16:44:00.000Z</updated>
+  <updated>2026-01-06T16:45:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac autoriza fabricação de aeronave leve esportiva SLING TSI para empresa brasileira]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-autoriza-fabricacao-de-aeronave-leve-esportiva-sling-tsi-para-empresa-brasileira" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-autoriza-fabricacao-de-aeronave-leve-esportiva-sling-tsi-para-empresa-brasileira</id>
+    <updated>2026-01-06T16:45:00.000Z</updated>
+    <published>2026-01-06T16:45:00.000Z</published>
+    <summary type="html"><![CDATA[A aeronave é a segunda ALE especial do mundo com capacidade para quatro lugares]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Publicada nova Instrução Suplementar sobre atuação de mecânicos aeronáuticos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/publicada-nova-instrucao-suplementar-sobre-atuacao-de-mecanicos-aeronauticos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/publicada-nova-instrucao-suplementar-sobre-atuacao-de-mecanicos-aeronauticos</id>
+    <updated>2026-01-06T11:33:00.000Z</updated>
+    <published>2026-01-06T11:33:00.000Z</published>
+    <summary type="html"><![CDATA[Norma esclarece prerrogativas, limitações e os meios necessários para a atuação desses profissionais]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac altera prazo para solicitação de esclarecimentos por interessadas no edital de leilão do Aeroporto do Galeão (RJ)]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-altera-prazo-para-solicitacao-de-esclarecimentos-por-interessadas-no-edital-de-leilao-do-aeroporto-do-galeao-rj" />
@@ -159,30 +177,12 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Anac intensifica ações nos aeroportos para garantir o bom funcionamento no período de festas]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-e-mpor-reforcam-fiscalizacao-para-garantir-normalidade-nos-aeroportos-durante-periodo-de-festas" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-e-mpor-reforcam-fiscalizacao-para-garantir-normalidade-nos-aeroportos-durante-periodo-de-festas</id>
-    <updated>2025-12-18T10:09:00.000Z</updated>
-    <published>2025-12-18T10:09:00.000Z</published>
-    <summary type="html"><![CDATA[Atuação buscar garantir a prestação adequada e segura do serviço de transporte aéreo aos passageiros]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Anac recebe delegação de Cabo Verde e assina Memorando de Cooperação Técnica entre as Autoridades]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-recebe-delegacao-de-cabo-verde-e-assina-memorando-de-cooperacao-tecnica-entre-as-autoridades" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-recebe-delegacao-de-cabo-verde-e-assina-memorando-de-cooperacao-tecnica-entre-as-autoridades</id>
     <updated>2025-12-18T10:01:00.000Z</updated>
     <published>2025-12-18T10:01:00.000Z</published>
     <summary type="html"><![CDATA[Visita reforça compromisso das entidades com o avanço contínuo da aviação civil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac lança campanha nacional contra o transporte aéreo clandestino (Taca)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-campanha-nacional-contra-o-transporte-aereo-clandestino-taca" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-lanca-campanha-nacional-contra-o-transporte-aereo-clandestino-taca</id>
-    <updated>2025-12-16T17:05:00.000Z</updated>
-    <published>2025-12-16T17:05:00.000Z</published>
-    <summary type="html"><![CDATA[Operação de fiscalização em nove aeroportos do país reforça o uso da plataforma Voe Seguro para contratar táxi-aéreo]]></summary>
   </entry>
 
   <entry>
