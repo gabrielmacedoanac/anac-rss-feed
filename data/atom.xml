@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-06T16:45:00.000Z</updated>
+  <updated>2026-01-07T18:04:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Semana Safety: confira o calendário dos eventos de segurança de 2026]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-confira-o-calendario-dos-eventos-de-seguranca-de-2026" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-confira-o-calendario-dos-eventos-de-seguranca-de-2026</id>
+    <updated>2026-01-07T18:04:00.000Z</updated>
+    <published>2026-01-07T18:04:00.000Z</published>
+    <summary type="html"><![CDATA[Especialistas renomados abordarão temas de segurança operacional específicos de cinco regiões brasileiras]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac autoriza fabricação de aeronave leve esportiva SLING TSI para empresa brasileira]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-autoriza-fabricacao-de-aeronave-leve-esportiva-sling-tsi-para-empresa-brasileira" />
@@ -174,15 +183,6 @@
     <updated>2025-12-18T17:07:00.000Z</updated>
     <published>2025-12-18T17:07:00.000Z</published>
     <summary type="html"><![CDATA[Especialistas renomados abordarão temas de segurança operacional específicos da região norte]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac recebe delegação de Cabo Verde e assina Memorando de Cooperação Técnica entre as Autoridades]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/anac-recebe-delegacao-de-cabo-verde-e-assina-memorando-de-cooperacao-tecnica-entre-as-autoridades" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/anac-recebe-delegacao-de-cabo-verde-e-assina-memorando-de-cooperacao-tecnica-entre-as-autoridades</id>
-    <updated>2025-12-18T10:01:00.000Z</updated>
-    <published>2025-12-18T10:01:00.000Z</published>
-    <summary type="html"><![CDATA[Visita reforça compromisso das entidades com o avanço contínuo da aviação civil]]></summary>
   </entry>
 
   <entry>
