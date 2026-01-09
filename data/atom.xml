@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-07T18:04:00.000Z</updated>
+  <updated>2026-01-08T11:53:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Participe da Consulta Setorial para simplificação do Diário de Bordo de aeronaves]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/participe-da-consulta-setorial-para-simplificacao-do-diario-de-bordo-de-aeronaves" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/participe-da-consulta-setorial-para-simplificacao-do-diario-de-bordo-de-aeronaves</id>
+    <updated>2026-01-08T11:53:00.000Z</updated>
+    <published>2026-01-08T11:53:00.000Z</published>
+    <summary type="html"><![CDATA[Contribuições até 21 de janeiro de 2026]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac revisa norma para Aeronaves Leves Esportivas (ALE)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-sobre-navegacao-aerea-para-aeronaves-leves-esportivas-ale" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-sobre-navegacao-aerea-para-aeronaves-leves-esportivas-ale</id>
+    <updated>2026-01-08T11:21:00.000Z</updated>
+    <published>2026-01-08T11:21:00.000Z</published>
+    <summary type="html"><![CDATA[A atualização permite que as aeronaves realizem voos por instrumentos (IFR) no Brasil]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Semana Safety: confira o calendário dos eventos de segurança de 2026]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-confira-o-calendario-dos-eventos-de-seguranca-de-2026" />
@@ -165,24 +183,6 @@
     <updated>2025-12-19T15:53:00.000Z</updated>
     <published>2025-12-19T15:53:00.000Z</published>
     <summary type="html"><![CDATA[Documentos podem ser acessados no portal da Anac pela página do BGAST]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Realizada a primeira produção e entrega de SAF 100% brasileiro]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/realizada-a-primeira-producao-e-entrega-de-saf-100-brasileiro" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/realizada-a-primeira-producao-e-entrega-de-saf-100-brasileiro</id>
-    <updated>2025-12-18T17:45:00.000Z</updated>
-    <published>2025-12-18T17:45:00.000Z</published>
-    <summary type="html"><![CDATA[Anac participou de cerimônia da Petrobras para o novo combustível sustentável de aviação, que conta com certificação internacional]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[1ª edição da Semana Safety de 2026 será em Manaus (AM)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/1a-edicao-da-semana-safety-de-2026-sera-em-manaus-am" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/1a-edicao-da-semana-safety-de-2026-sera-em-manaus-am</id>
-    <updated>2025-12-18T17:07:00.000Z</updated>
-    <published>2025-12-18T17:07:00.000Z</published>
-    <summary type="html"><![CDATA[Especialistas renomados abordarão temas de segurança operacional específicos da região norte]]></summary>
   </entry>
 
   <entry>
