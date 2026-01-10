@@ -1,18 +1,26 @@
 [
   {
+    "title": "Audiência Pública - Exploração de serviços aéreos com balão",
+    "link": "https://www.youtube.com/watch?v=-8_H8qqHFN4",
+    "date": "09/01/2026 17h59",
+    "description": "",
+    "image": "https://i2.ytimg.com/vi/-8_H8qqHFN4/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Anac revisa norma para Aeronaves Leves Esportivas (ALE)",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-para-aeronaves-leves-esportivas-ale",
+    "date": "09/01/2026 12h53",
+    "description": "A atualização permite que as aeronaves realizem voos por instrumentos (IFR) no Brasil",
+    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-para-aeronaves-leves-esportivas-ale/aleportal.png/@@images/b62095a2-1bc7-4a66-bb9a-3757c9d32b9b.png",
+    "type": "texto"
+  },
+  {
     "title": "Participe da Consulta Setorial para simplificação do Diário de Bordo de aeronaves",
     "link": "https://www.gov.br/anac/pt-br/noticias/2026/participe-da-consulta-setorial-para-simplificacao-do-diario-de-bordo-de-aeronaves",
     "date": "08/01/2026 11h53",
     "description": "Contribuições até 21 de janeiro de 2026",
     "image": null,
-    "type": "texto"
-  },
-  {
-    "title": "Anac revisa norma para Aeronaves Leves Esportivas (ALE)",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-sobre-navegacao-aerea-para-aeronaves-leves-esportivas-ale",
-    "date": "08/01/2026 11h21",
-    "description": "A atualização permite que as aeronaves realizem voos por instrumentos (IFR) no Brasil",
-    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-sobre-navegacao-aerea-para-aeronaves-leves-esportivas-ale/aleportal.png/@@images/326d0ecb-1d00-4480-ab84-c0960729874e.png",
     "type": "texto"
   },
   {
@@ -269,14 +277,6 @@
     "date": "17/09/2025 14h51",
     "description": "",
     "image": "https://i3.ytimg.com/vi/jTD_JdU6otI/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "Webinário Engenharia de Aeroportos 2025",
-    "link": "https://www.youtube.com/watch?v=qwyqefU-Za8",
-    "date": "30/08/2025 07h56",
-    "description": "O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. \n\nA meta é difundir o conhecimento, aumentando a conscientização dos regulados.\n\nProgramação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025\n\nDúvidas e perguntas (Slido) - https://app.sli.do/event/gALPhZRPaRjKAD2H9cmW3Y\n\nAPRESENTAÇÕES: Todas as apresentações: https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/arquivos/engenheira-de-aeroportos-apr-1.zip",
-    "image": "https://i2.ytimg.com/vi/qwyqefU-Za8/hqdefault.jpg",
     "type": "vídeo"
   }
 ]

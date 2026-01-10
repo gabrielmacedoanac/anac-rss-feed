@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-08T11:53:00.000Z</updated>
+  <updated>2026-01-09T17:59:35.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Audiência Pública - Exploração de serviços aéreos com balão]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=-8_H8qqHFN4" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=-8_H8qqHFN4</id>
+    <updated>2026-01-09T17:59:35.000Z</updated>
+    <published>2026-01-09T17:59:35.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac revisa norma para Aeronaves Leves Esportivas (ALE)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-para-aeronaves-leves-esportivas-ale" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-para-aeronaves-leves-esportivas-ale</id>
+    <updated>2026-01-09T12:53:00.000Z</updated>
+    <published>2026-01-09T12:53:00.000Z</published>
+    <summary type="html"><![CDATA[A atualização permite que as aeronaves realizem voos por instrumentos (IFR) no Brasil]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Participe da Consulta Setorial para simplificação do Diário de Bordo de aeronaves]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/participe-da-consulta-setorial-para-simplificacao-do-diario-de-bordo-de-aeronaves" />
@@ -12,15 +30,6 @@
     <updated>2026-01-08T11:53:00.000Z</updated>
     <published>2026-01-08T11:53:00.000Z</published>
     <summary type="html"><![CDATA[Contribuições até 21 de janeiro de 2026]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac revisa norma para Aeronaves Leves Esportivas (ALE)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-sobre-navegacao-aerea-para-aeronaves-leves-esportivas-ale" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-sobre-navegacao-aerea-para-aeronaves-leves-esportivas-ale</id>
-    <updated>2026-01-08T11:21:00.000Z</updated>
-    <published>2026-01-08T11:21:00.000Z</published>
-    <summary type="html"><![CDATA[A atualização permite que as aeronaves realizem voos por instrumentos (IFR) no Brasil]]></summary>
   </entry>
 
   <entry>
@@ -394,22 +403,5 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <updated>2025-09-17T14:51:48.000Z</updated>
     <published>2025-09-17T14:51:48.000Z</published>
     <summary type="html"><![CDATA[]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário Engenharia de Aeroportos 2025]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qwyqefU-Za8" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=qwyqefU-Za8</id>
-    <updated>2025-08-30T07:56:49.000Z</updated>
-    <published>2025-08-30T07:56:49.000Z</published>
-    <summary type="html"><![CDATA[O evento objetiva o compartilhamento de temas relevantes no contexto da Engenharia de Aeroportos, levando a todos os participantes conhecimento a respeito das mudanças regulatórias que estarão em breve em vigor, seus impactos e como se adequar à nova realidade. Busca-se, também, que cada palestrante seja capaz de trazer assuntos relevantes, proporcionando melhoria na cultura de segurança operacional a partir da divulgação das melhores técnicas de Engenharia de Aeroportos existentes. 
-
-A meta é difundir o conhecimento, aumentando a conscientização dos regulados.
-
-Programação e mais informações no site do evento https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/webinario-de-engenharia-de-aeroportos-2025
-
-Dúvidas e perguntas (Slido) - https://app.sli.do/event/gALPhZRPaRjKAD2H9cmW3Y
-
-APRESENTAÇÕES: Todas as apresentações: https://www.gov.br/anac/pt-br/centrais-de-conteudo/eventos/eventos-da-anac/eventos/arquivos/engenheira-de-aeroportos-apr-1.zip]]></summary>
   </entry>
 </feed>
