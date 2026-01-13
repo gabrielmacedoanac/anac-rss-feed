@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-09T17:59:35.000Z</updated>
+  <updated>2026-01-12T16:20:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Inscrições abertas para Curso Técnico em Manutenção Aeronáutica em Grupo Motopropulsor]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/inscricoes-abertas-para-curso-tecnico-em-manutencao-aeronautica-em-grupo-motopropulsor" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/inscricoes-abertas-para-curso-tecnico-em-manutencao-aeronautica-em-grupo-motopropulsor</id>
+    <updated>2026-01-12T16:20:00.000Z</updated>
+    <published>2026-01-12T16:20:00.000Z</published>
+    <summary type="html"><![CDATA[Parceria entre Anac e IFSP; o curso é voltado à formação de Mecânicos de Manutenção Aeronáutica e prioriza pessoas de baixa renda, preferencialmente mulheres]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Audiência Pública - Exploração de serviços aéreos com balão]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=-8_H8qqHFN4" />
@@ -183,15 +192,6 @@
     <updated>2025-12-19T17:40:00.000Z</updated>
     <published>2025-12-19T17:40:00.000Z</published>
     <summary type="html"><![CDATA[Premiação reconhece a percepção positiva dos usuários]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[BGAST disponibiliza cartilhas sobre promoção do bem-estar psicológico e segurança operacional na aviação geral]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/bgast-disponibiliza-cartilhas-sobre-promocao-do-bem-estar-psicologico-e-seguranca-operacional-na-aviacao-geral" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/bgast-disponibiliza-cartilhas-sobre-promocao-do-bem-estar-psicologico-e-seguranca-operacional-na-aviacao-geral</id>
-    <updated>2025-12-19T15:53:00.000Z</updated>
-    <published>2025-12-19T15:53:00.000Z</published>
-    <summary type="html"><![CDATA[Documentos podem ser acessados no portal da Anac pela página do BGAST]]></summary>
   </entry>
 
   <entry>
