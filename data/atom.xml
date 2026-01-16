@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-12T16:20:00.000Z</updated>
+  <updated>2026-01-15T18:23:10.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Encontro com o Ministro Silvio Costa Filho e com o Presidente da Anac, Tiago Faierstein]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=lLJ7SqQXyFE" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=lLJ7SqQXyFE</id>
+    <updated>2026-01-15T18:23:10.000Z</updated>
+    <published>2026-01-15T18:23:10.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Consulta pública sobre infrações e multas da aviação civil termina em 22/1]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/consulta-publica-sobre-infracoes-e-multas-da-aviacao-civil-termina-em-22-1" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/consulta-publica-sobre-infracoes-e-multas-da-aviacao-civil-termina-em-22-1</id>
+    <updated>2026-01-15T17:14:00.000Z</updated>
+    <published>2026-01-15T17:14:00.000Z</published>
+    <summary type="html"><![CDATA[Consulta trata da Resolução nº 762, que descreve infrações e penalidades aplicadas pela Anac.]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Inscrições abertas para Curso Técnico em Manutenção Aeronáutica em Grupo Motopropulsor]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/inscricoes-abertas-para-curso-tecnico-em-manutencao-aeronautica-em-grupo-motopropulsor" />
@@ -183,15 +201,6 @@
     <updated>2025-12-19T18:15:00.000Z</updated>
     <published>2025-12-19T18:15:00.000Z</published>
     <summary type="html"><![CDATA[Setor alcançou, em novembro, a maior movimentação desde 2000, com 25,8 milhões de passageiros]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Serviços digitais da Anac se destacam em avaliação do Governo Federal]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/servicos-digitais-da-anac-se-destacam-em-avaliacao-do-governo-federal" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/servicos-digitais-da-anac-se-destacam-em-avaliacao-do-governo-federal</id>
-    <updated>2025-12-19T17:40:00.000Z</updated>
-    <published>2025-12-19T17:40:00.000Z</published>
-    <summary type="html"><![CDATA[Premiação reconhece a percepção positiva dos usuários]]></summary>
   </entry>
 
   <entry>
@@ -394,14 +403,5 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <summary type="html"><![CDATA[Início - 10:43
 1) Processo 00058.078972/2025-19 - 25:09
 2) Processo 00058.070806/2024-85 - 38:09]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Cerimônia de posse da nova diretoria da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=jTD_JdU6otI" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=jTD_JdU6otI</id>
-    <updated>2025-09-17T14:51:48.000Z</updated>
-    <published>2025-09-17T14:51:48.000Z</published>
-    <summary type="html"><![CDATA[]]></summary>
   </entry>
 </feed>
