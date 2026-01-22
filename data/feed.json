@@ -1,5 +1,13 @@
 [
   {
+    "title": "Ministério de Portos e Aeroportos abre consulta pública para aprimorar sistema de embarque biométrico",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2026/ministerio-de-portos-e-aeroportos-abre-consulta-publica-para-aprimorar-sistema-de-embarque-biometrico",
+    "date": "21/01/2026 16h05",
+    "description": "Iniciativa deve tornar operações mais ágeis e seguras em aeroportos e terminais portuários e hidroviários",
+    "image": null,
+    "type": "texto"
+  },
+  {
     "title": "1ª Reunião Deliberativa da Diretoria Colegiada (20/01/2026)",
     "link": "https://www.youtube.com/watch?v=ZuHcl1ahxSk",
     "date": "21/01/2026 07h45",
@@ -12,7 +20,7 @@
     "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-abrira-consulta-publica-para-atualizar-regras-sobre-direitos-e-deveres-dos-passageiros",
     "date": "20/01/2026 18h16",
     "description": "Proposta traz maior clareza sobre as informações prestadas ao passageiro e reorganiza a assistência em caso de atrasos de voos",
-    "image": null,
+    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-abrira-consulta-publica-para-atualizar-regras-sobre-direitos-e-deveres-dos-passageiros/portal-3.png/@@images/d712fbd9-0428-4a57-aeeb-9f4c54532143.png",
     "type": "texto"
   },
   {
@@ -164,14 +172,6 @@
     "link": "https://www.gov.br/anac/pt-br/noticias/2025/instrucao-suplementar-define-procedimentos-para-certificacao-de-operador-simples-de-taxi-aereo",
     "date": "23/12/2025 18h28",
     "description": "Revisão da IS 119-004 estabelece procedimentos alinhados ao porte dos operadores",
-    "image": null,
-    "type": "texto"
-  },
-  {
-    "title": "Publicados os novos valores para teto de tarifas de 20 aeroportos",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2025/publicados-os-novos-valores-para-teto-de-tarifas-de-20-aeroportos",
-    "date": "23/12/2025 17h04",
-    "description": "Portarias da Anac limitam as receitas tarifárias dos aeroportos para o ano de 2026",
     "image": null,
     "type": "texto"
   },
