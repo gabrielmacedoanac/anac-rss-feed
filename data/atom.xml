@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-23T14:48:00.000Z</updated>
+  <updated>2026-01-24T12:36:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac lamenta a morte de Constantino Jr., fundador da Gol Linhas Aéreas]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-lamenta-a-morte-de-constantino-jr-fundador-da-gol-linhas-aereas" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-lamenta-a-morte-de-constantino-jr-fundador-da-gol-linhas-aereas</id>
+    <updated>2026-01-24T12:36:00.000Z</updated>
+    <published>2026-01-24T12:36:00.000Z</published>
+    <summary type="html"><![CDATA[Empresário faleceu na manhã de 24 de janeiro]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Plataforma da Anac InfoVoo consolida informações da aviação civil e fortalece análises do judiciário]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/plataforma-da-anac-infovoo-consolida-informacoes-da-aviacao-civil-e-fortalece-analises-do-judiciario" />
@@ -199,15 +208,6 @@ Relator: Rui Mesquita]]></summary>
     <updated>2025-12-29T16:35:00.000Z</updated>
     <published>2025-12-29T16:35:00.000Z</published>
     <summary type="html"><![CDATA[Redação alinha processos brasileiros às melhores práticas internacionais e fortalece a gestão de riscos]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Certificação de aeronaves com IA ganha marco regulatório da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/certificacao-de-aeronaves-com-ia-ganha-marco-regulatorio-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/certificacao-de-aeronaves-com-ia-ganha-marco-regulatorio-da-anac</id>
-    <updated>2025-12-29T14:55:00.000Z</updated>
-    <published>2025-12-29T14:55:00.000Z</published>
-    <summary type="html"><![CDATA[Agência estabelece marco regulatório para certificação de aeronaves com sistema desenvolvido com base em IA]]></summary>
   </entry>
 
   <entry>
