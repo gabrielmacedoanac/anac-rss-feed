@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-26T09:34:00.000Z</updated>
+  <updated>2026-01-27T14:43:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Ministério de Portos e Aeroportos lança edital com bolsas de formação para mecânicos aeronáuticos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/ministerio-de-portos-e-aeroportos-lanca-edital-com-bolsas-de-formacao-para-mecanicos-aeronauticos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/ministerio-de-portos-e-aeroportos-lanca-edital-com-bolsas-de-formacao-para-mecanicos-aeronauticos</id>
+    <updated>2026-01-27T14:43:00.000Z</updated>
+    <published>2026-01-27T14:43:00.000Z</published>
+    <summary type="html"><![CDATA[Programa abre caminho para quem quer construir uma carreira no setor aéreo com qualificação técnica e gratuita]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Formação de especialistas do concurso da Anac reforçará quadro técnico da Agência]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/formacao-de-especialistas-do-concurso-da-anac-reforcara-quadro-tecnico-da-agencia" />
@@ -199,15 +208,6 @@ Relator: Rui Mesquita]]></summary>
     <updated>2025-12-30T18:38:00.000Z</updated>
     <published>2025-12-30T18:38:00.000Z</published>
     <summary type="html"><![CDATA[Novas regras vão considerar interação entre Anac e regulados, histórico de conduta e porte das operações. Objetivo é aumentar nível de conformidade e aprimorar a segurança no setor aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Mudanças nos campos de categorias de aeronaves no RAB Digital entram em vigor em 1º de janeiro de 2026]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-campos-de-categorias-de-aeronaves-no-rab-digital-entram-em-vigor-em-1o-de-janeiro-de-2026" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/mudancas-nos-campos-de-categorias-de-aeronaves-no-rab-digital-entram-em-vigor-em-1o-de-janeiro-de-2026</id>
-    <updated>2025-12-29T18:03:00.000Z</updated>
-    <published>2025-12-29T18:03:00.000Z</published>
-    <summary type="html"><![CDATA[Os profissionais devem ficar atentos às alterações, que buscam simplificar o registro de aeronaves, diminuir burocracia e reduzir custos]]></summary>
   </entry>
 
   <entry>
