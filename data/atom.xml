@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-28T15:19:00.000Z</updated>
+  <updated>2026-01-29T15:23:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Balonismo será tema de audiência pública no dia 10/2]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/balonismo-sera-tema-de-audiencia-publica-no-dia-10-2" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/balonismo-sera-tema-de-audiencia-publica-no-dia-10-2</id>
+    <updated>2026-01-29T15:23:00.000Z</updated>
+    <published>2026-01-29T15:23:00.000Z</published>
+    <summary type="html"><![CDATA[Interessados em fazer manifestações devem se inscrever até o dia 6 de fevereiro na plataforma Brasil Participativo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Roadshow apresenta Galeão para investidores]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/roadshow-apresenta-galeao-para-investidores" />
@@ -199,15 +208,6 @@ Relator: Rui Mesquita]]></summary>
     <updated>2026-01-02T16:44:00.000Z</updated>
     <published>2026-01-02T16:44:00.000Z</published>
     <summary type="html"><![CDATA[Novo prazo para envio de pedidos é até 30 de janeiro]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Feliz 2026! Que venham novos caminhos e boas conquistas!]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2025/feliz-2026-que-venham-novos-caminhos-e-boas-conquistas" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2025/feliz-2026-que-venham-novos-caminhos-e-boas-conquistas</id>
-    <updated>2025-12-31T10:28:00.000Z</updated>
-    <published>2025-12-31T10:28:00.000Z</published>
-    <summary type="html"><![CDATA[Sem descrição]]></summary>
   </entry>
 
   <entry>
