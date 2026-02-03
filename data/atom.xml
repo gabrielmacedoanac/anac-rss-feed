@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-01-29T15:23:00.000Z</updated>
+  <updated>2026-02-02T14:13:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Inscrições abertas para o Prêmio Acessibilidade e Inovação 2026]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/inscricoes-abertas-para-o-premio-acessibilidade-e-inovacao-2026-1" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/inscricoes-abertas-para-o-premio-acessibilidade-e-inovacao-2026-1</id>
+    <updated>2026-02-02T14:13:00.000Z</updated>
+    <published>2026-02-02T14:13:00.000Z</published>
+    <summary type="html"><![CDATA[Em parceria com o MPor e o MDHC, iniciativa reconhece práticas inovadoras de acessibilidade implementadas ao longo de 2025]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Nova tipologia de atos normativos da Anac entra em vigor]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/nova-tipologia-de-atos-normativos-da-anac-entra-em-vigor-1" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/nova-tipologia-de-atos-normativos-da-anac-entra-em-vigor-1</id>
+    <updated>2026-02-02T12:03:00.000Z</updated>
+    <published>2026-02-02T12:03:00.000Z</published>
+    <summary type="html"><![CDATA[Resolução Interna nº 1, que contém nova classificação, entrou em vigor hoje; Instrução normativa com tipificação anterior foi revogada]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Balonismo será tema de audiência pública no dia 10/2]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/balonismo-sera-tema-de-audiencia-publica-no-dia-10-2" />
@@ -190,24 +208,6 @@ Relator: Rui Mesquita]]></summary>
     <updated>2026-01-06T16:45:00.000Z</updated>
     <published>2026-01-06T16:45:00.000Z</published>
     <summary type="html"><![CDATA[A aeronave é a segunda ALE especial do mundo com capacidade para quatro lugares]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Publicada nova Instrução Suplementar sobre atuação de mecânicos aeronáuticos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/publicada-nova-instrucao-suplementar-sobre-atuacao-de-mecanicos-aeronauticos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/publicada-nova-instrucao-suplementar-sobre-atuacao-de-mecanicos-aeronauticos</id>
-    <updated>2026-01-06T11:33:00.000Z</updated>
-    <published>2026-01-06T11:33:00.000Z</published>
-    <summary type="html"><![CDATA[Norma esclarece prerrogativas, limitações e os meios necessários para a atuação desses profissionais]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac altera prazo para solicitação de esclarecimentos por interessadas no edital de leilão do Aeroporto do Galeão (RJ)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-altera-prazo-para-solicitacao-de-esclarecimentos-por-interessadas-no-edital-de-leilao-do-aeroporto-do-galeao-rj" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-altera-prazo-para-solicitacao-de-esclarecimentos-por-interessadas-no-edital-de-leilao-do-aeroporto-do-galeao-rj</id>
-    <updated>2026-01-02T16:44:00.000Z</updated>
-    <published>2026-01-02T16:44:00.000Z</published>
-    <summary type="html"><![CDATA[Novo prazo para envio de pedidos é até 30 de janeiro]]></summary>
   </entry>
 
   <entry>
