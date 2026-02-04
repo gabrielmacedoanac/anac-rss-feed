@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-02T14:13:00.000Z</updated>
+  <updated>2026-02-03T16:00:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac acumula Selo Ouro pelo 2° ano consecutivo por excelência regulatória]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-acumula-selo-ouro-pelo-2deg-ano-consecutivo-por-excelencia-regulatoria" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-acumula-selo-ouro-pelo-2deg-ano-consecutivo-por-excelencia-regulatoria</id>
+    <updated>2026-02-03T16:00:00.000Z</updated>
+    <published>2026-02-03T16:00:00.000Z</published>
+    <summary type="html"><![CDATA[Prêmio reconhece o compromisso da Agência com a melhoria regulatória, a inovação normativa e a adoção das melhores práticas internacionais]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Brasil e Japão assinam carta de intenções sobre mobilidade aérea avançada]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/brasil-e-japao-assinam-carta-de-intencoes-sobre-mobilidade-aerea-avancada" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/brasil-e-japao-assinam-carta-de-intencoes-sobre-mobilidade-aerea-avancada</id>
+    <updated>2026-02-03T12:03:00.000Z</updated>
+    <published>2026-02-03T12:03:00.000Z</published>
+    <summary type="html"><![CDATA[Parceria entre os países vai desenvolver a regulação e a indústria voltada para eVTOLs, vertiportos e demais segmentos relacionados]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Inscrições abertas para o Prêmio Acessibilidade e Inovação 2026]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/inscricoes-abertas-para-o-premio-acessibilidade-e-inovacao-2026-1" />
@@ -190,24 +208,6 @@ Relator: Rui Mesquita]]></summary>
     <updated>2026-01-08T11:53:00.000Z</updated>
     <published>2026-01-08T11:53:00.000Z</published>
     <summary type="html"><![CDATA[Contribuições até 21 de janeiro de 2026]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Semana Safety: confira o calendário dos eventos de segurança de 2026]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-confira-o-calendario-dos-eventos-de-seguranca-de-2026" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-confira-o-calendario-dos-eventos-de-seguranca-de-2026</id>
-    <updated>2026-01-07T18:04:00.000Z</updated>
-    <published>2026-01-07T18:04:00.000Z</published>
-    <summary type="html"><![CDATA[Especialistas renomados abordarão temas de segurança operacional específicos de cinco regiões brasileiras]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac autoriza fabricação de aeronave leve esportiva SLING TSI para empresa brasileira]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-autoriza-fabricacao-de-aeronave-leve-esportiva-sling-tsi-para-empresa-brasileira" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-autoriza-fabricacao-de-aeronave-leve-esportiva-sling-tsi-para-empresa-brasileira</id>
-    <updated>2026-01-06T16:45:00.000Z</updated>
-    <published>2026-01-06T16:45:00.000Z</published>
-    <summary type="html"><![CDATA[A aeronave é a segunda ALE especial do mundo com capacidade para quatro lugares]]></summary>
   </entry>
 
   <entry>
