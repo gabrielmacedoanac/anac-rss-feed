@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-04T14:26:00.000Z</updated>
+  <updated>2026-02-05T17:41:51.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Audiência Pública nº 01/2026]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=BzWHYGSDuYU" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=BzWHYGSDuYU</id>
+    <updated>2026-02-05T17:41:51.000Z</updated>
+    <published>2026-02-05T17:41:51.000Z</published>
+    <summary type="html"><![CDATA[Proposta de resolução que dispões sobre a Alteração das Condições de Transporte Aéreo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac acumula Selo Ouro pelo 4° ano consecutivo por excelência regulatória]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-acumula-selo-ouro-pelo4deg-ano-consecutivo-por-excelencia-regulatoria-1" />
@@ -399,16 +408,5 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <updated>2025-09-30T03:23:38.000Z</updated>
     <published>2025-09-30T03:23:38.000Z</published>
     <summary type="html"><![CDATA[Dúvidas e perguntas: https://app.sli.do/event/6fTo3z3SUUhpjU3jS71RX2]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[12ª Reunião Deliberativa da Diretoria Colegiada (17/09/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=FBySE3Veewg" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=FBySE3Veewg</id>
-    <updated>2025-09-18T00:39:56.000Z</updated>
-    <published>2025-09-18T00:39:56.000Z</published>
-    <summary type="html"><![CDATA[Início - 10:43
-1) Processo 00058.078972/2025-19 - 25:09
-2) Processo 00058.070806/2024-85 - 38:09]]></summary>
   </entry>
 </feed>
