@@ -4,8 +4,26 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Fri, 06 Feb 2026 12:53:38 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 01:48:28 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[Anac publica perguntas e respostas sobre a atualização da Resolução nº 400]]></title>
+    <link>https://www.gov.br/anac/pt-br/noticias/2026/anac-publica-perguntas-e-respostas-sobre-a-atualizacao-da-resolucao-no-400</link>
+    <description><![CDATA[Documento esclarece dúvidas sobre a proposta e apoia a sociedade a contribuir com a audiência pública no dia 11/2]]></description>
+    <pubDate>Fri, 06 Feb 2026 15:59:00 GMT</pubDate>
+    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2026/anac-publica-perguntas-e-respostas-sobre-a-atualizacao-da-resolucao-no-400</guid>
+    <dc:date>2026-02-06T15:59:00.000Z</dc:date>
+  </item>
+
+  <item>
+    <title><![CDATA[Confira a programação da 1ª etapa da Semana Safety em Manaus (AM), nos dias 24 a 26/2]]></title>
+    <link>https://www.gov.br/anac/pt-br/noticias/2026/inscreva-se-ate-23-2-para-a-1a-etapa-da-semana-safety-manaus-am</link>
+    <description><![CDATA[O evento traz uma programação voltada à segurança das operações aéreas na Região Norte do país.  Inscreva-se até 23/2]]></description>
+    <pubDate>Fri, 06 Feb 2026 12:56:00 GMT</pubDate>
+    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2026/inscreva-se-ate-23-2-para-a-1a-etapa-da-semana-safety-manaus-am</guid>
+    <dc:date>2026-02-06T12:56:00.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[Audiência Pública nº 01/2026]]></title>
     <link>https://www.youtube.com/watch?v=BzWHYGSDuYU</link>
@@ -203,24 +221,6 @@ Relator: Rui Mesquita]]></description>
   </item>
 
   <item>
-    <title><![CDATA[Anac revisa norma para Aeronaves Leves Esportivas (ALE)]]></title>
-    <link>https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-para-aeronaves-leves-esportivas-ale</link>
-    <description><![CDATA[A atualização permite que as aeronaves realizem voos por instrumentos (IFR) no Brasil]]></description>
-    <pubDate>Fri, 09 Jan 2026 12:53:00 GMT</pubDate>
-    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-para-aeronaves-leves-esportivas-ale</guid>
-    <dc:date>2026-01-09T12:53:00.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Participe da Consulta Setorial para simplificação do Diário de Bordo de aeronaves]]></title>
-    <link>https://www.gov.br/anac/pt-br/noticias/2026/participe-da-consulta-setorial-para-simplificacao-do-diario-de-bordo-de-aeronaves</link>
-    <description><![CDATA[Contribuições até 21 de janeiro de 2026]]></description>
-    <pubDate>Thu, 08 Jan 2026 11:53:00 GMT</pubDate>
-    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2026/participe-da-consulta-setorial-para-simplificacao-do-diario-de-bordo-de-aeronaves</guid>
-    <dc:date>2026-01-08T11:53:00.000Z</dc:date>
-  </item>
-
-  <item>
     <title><![CDATA[2ª Reunião Deliberativa Extraordinária da Diretoria Colegiada (11/12/2025)]]></title>
     <link>https://www.youtube.com/watch?v=ctobZIU7IKE</link>
     <description><![CDATA[Início: 21:52
@@ -317,11 +317,9 @@ Relator: Luiz Ricardo Nascimento]]></description>
   <item>
     <title><![CDATA[Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA]]></title>
     <link>https://www.youtube.com/watch?v=zgHAnR8oBsY</link>
-    <description><![CDATA[A SPL acaba de revisar a IS 65-001 com modificações significativas ao procedimento de exame prático para mecânico de manutenção aeronáutica (MMA) e contagem da experiência prática. É necessário explicar ao público interessado tais mudanças. 
+    <description><![CDATA[Ao contrário do informado na resposta à pergunta que se inicia no minuto 1:50:47 do webinário, no caso da execução apenas de provas de MMA relativas a uma habilitação (sem o módulo básico), não é possível ficar de segunda época, sendo necessário ser aprovado em ambas as provas que compõem o exame. Conforme o parágrafo (c) da seção 5.13.2 da Instrução Suplementar (IS) 00 003H (https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-003): “Segunda época (2EP): quando o candidato não obtiver aproveitamento superior ao estabelecido para aprovação em no máximo um número inteiro de provas inferior ou igual a (N–1)/2, onde N é o número total de provas que compõem o exame. Em cada uma dessas provas em que o candidato não foi aprovado, ele deverá ter atingido, no mínimo, 30% de acertos.” Como, neste caso, o exame é composto por apenas duas provas, o resultado da expressão (N–1)/2 é 0,5, não havendo, portanto, possibilidade de segunda época para esse exame.
 
-O objetivo é explicar os novos procedimentos para concessão de licença e habilitações para MMA.
-
-Link do slido: https://app.sli.do/event/e19sudAMXLa4CWaC5qJnVF]]></description>
+Recebemos esse pedido via ouvidoria: SEAM 1065482.]]></description>
     <pubDate>Fri, 17 Oct 2025 08:34:42 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=zgHAnR8oBsY</guid>
     <dc:date>2025-10-17T08:34:42.000Z</dc:date>

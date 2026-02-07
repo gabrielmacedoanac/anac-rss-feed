@@ -1,5 +1,21 @@
 [
   {
+    "title": "Anac publica perguntas e respostas sobre a atualização da Resolução nº 400",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-publica-perguntas-e-respostas-sobre-a-atualizacao-da-resolucao-no-400",
+    "date": "06/02/2026 15h59",
+    "description": "Documento esclarece dúvidas sobre a proposta e apoia a sociedade a contribuir com a audiência pública no dia 11/2",
+    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-publica-perguntas-e-respostas-sobre-a-atualizacao-da-resolucao-no-400/portal-5.png/@@images/7c978c56-247d-4f79-b1e9-52e1aface515.png",
+    "type": "texto"
+  },
+  {
+    "title": "Confira a programação da 1ª etapa da Semana Safety em Manaus (AM), nos dias 24 a 26/2",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2026/inscreva-se-ate-23-2-para-a-1a-etapa-da-semana-safety-manaus-am",
+    "date": "06/02/2026 12h56",
+    "description": "O evento traz uma programação voltada à segurança das operações aéreas na Região Norte do país.  Inscreva-se até 23/2",
+    "image": "https://www.gov.br/anac/pt-br/noticias/2026/inscreva-se-ate-23-2-para-a-1a-etapa-da-semana-safety-manaus-am/ss-linkedin-manaus.jpeg/@@images/03646884-1e88-46fe-ba3b-0ffe8db3ca6c.jpeg",
+    "type": "texto"
+  },
+  {
     "title": "Audiência Pública nº 01/2026",
     "link": "https://www.youtube.com/watch?v=BzWHYGSDuYU",
     "date": "05/02/2026 17h41",
@@ -168,22 +184,6 @@
     "type": "vídeo"
   },
   {
-    "title": "Anac revisa norma para Aeronaves Leves Esportivas (ALE)",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-para-aeronaves-leves-esportivas-ale",
-    "date": "09/01/2026 12h53",
-    "description": "A atualização permite que as aeronaves realizem voos por instrumentos (IFR) no Brasil",
-    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-revisa-norma-para-aeronaves-leves-esportivas-ale/aleportal.png/@@images/b62095a2-1bc7-4a66-bb9a-3757c9d32b9b.png",
-    "type": "texto"
-  },
-  {
-    "title": "Participe da Consulta Setorial para simplificação do Diário de Bordo de aeronaves",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2026/participe-da-consulta-setorial-para-simplificacao-do-diario-de-bordo-de-aeronaves",
-    "date": "08/01/2026 11h53",
-    "description": "Contribuições até 21 de janeiro de 2026",
-    "image": null,
-    "type": "texto"
-  },
-  {
     "title": "2ª Reunião Deliberativa Extraordinária da Diretoria Colegiada (11/12/2025)",
     "link": "https://www.youtube.com/watch?v=ctobZIU7IKE",
     "date": "12/12/2025 02h21",
@@ -243,7 +243,7 @@
     "title": "Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA",
     "link": "https://www.youtube.com/watch?v=zgHAnR8oBsY",
     "date": "17/10/2025 08h34",
-    "description": "A SPL acaba de revisar a IS 65-001 com modificações significativas ao procedimento de exame prático para mecânico de manutenção aeronáutica (MMA) e contagem da experiência prática. É necessário explicar ao público interessado tais mudanças. \n\nO objetivo é explicar os novos procedimentos para concessão de licença e habilitações para MMA.\n\nLink do slido: https://app.sli.do/event/e19sudAMXLa4CWaC5qJnVF",
+    "description": "Ao contrário do informado na resposta à pergunta que se inicia no minuto 1:50:47 do webinário, no caso da execução apenas de provas de MMA relativas a uma habilitação (sem o módulo básico), não é possível ficar de segunda época, sendo necessário ser aprovado em ambas as provas que compõem o exame. Conforme o parágrafo (c) da seção 5.13.2 da Instrução Suplementar (IS) 00 003H (https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-003): “Segunda época (2EP): quando o candidato não obtiver aproveitamento superior ao estabelecido para aprovação em no máximo um número inteiro de provas inferior ou igual a (N–1)/2, onde N é o número total de provas que compõem o exame. Em cada uma dessas provas em que o candidato não foi aprovado, ele deverá ter atingido, no mínimo, 30% de acertos.” Como, neste caso, o exame é composto por apenas duas provas, o resultado da expressão (N–1)/2 é 0,5, não havendo, portanto, possibilidade de segunda época para esse exame.\n\nRecebemos esse pedido via ouvidoria: SEAM 1065482.",
     "image": "https://i3.ytimg.com/vi/zgHAnR8oBsY/hqdefault.jpg",
     "type": "vídeo"
   },
