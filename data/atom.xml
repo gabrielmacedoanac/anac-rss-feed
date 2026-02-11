@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-09T15:17:00.000Z</updated>
+  <updated>2026-02-11T10:16:02.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Audiência Pública - Exploração de serviços aéreos com balão]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=-8_H8qqHFN4" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=-8_H8qqHFN4</id>
+    <updated>2026-02-11T10:16:02.000Z</updated>
+    <published>2026-02-11T10:16:02.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac abre chamamento para pesquisa sobre nova interface do Portal Santos Dumont]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-chamamento-para-pesquisa-sobre-nova-interface-do-portal-santos-dumont" />
@@ -208,15 +217,6 @@ Relator: Rui Mesquita]]></summary>
     <updated>2026-01-15T17:14:00.000Z</updated>
     <published>2026-01-15T17:14:00.000Z</published>
     <summary type="html"><![CDATA[Consulta trata da Resolução nº 762, que descreve infrações e penalidades aplicadas pela Anac.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Audiência Pública - Exploração de serviços aéreos com balão]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=-8_H8qqHFN4" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=-8_H8qqHFN4</id>
-    <updated>2026-01-09T17:59:35.000Z</updated>
-    <published>2026-01-09T17:59:35.000Z</published>
-    <summary type="html"><![CDATA[]]></summary>
   </entry>
 
   <entry>
