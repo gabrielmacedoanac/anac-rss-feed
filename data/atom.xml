@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-11T10:46:00.000Z</updated>
+  <updated>2026-02-12T08:15:08.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Audiência Pública nº 01/2026]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=BzWHYGSDuYU" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=BzWHYGSDuYU</id>
+    <updated>2026-02-12T08:15:08.000Z</updated>
+    <published>2026-02-12T08:15:08.000Z</published>
+    <summary type="html"><![CDATA[Proposta de resolução que dispões sobre a Alteração das Condições de Transporte Aéreo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Aberta consulta pública sobre requisitos para pilotos de aeronaves de decolagem e pouso vertical]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/aberta-consulta-publica-sobre-requisitos-para-pilotos-de-aeronaves-de-decolagem-e-pouso-vertical" />
@@ -48,15 +57,6 @@
     <updated>2026-02-06T12:56:00.000Z</updated>
     <published>2026-02-06T12:56:00.000Z</published>
     <summary type="html"><![CDATA[O evento traz uma programação voltada à segurança das operações aéreas na Região Norte do país.  Inscreva-se até 23/2]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Audiência Pública nº 01/2026]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=BzWHYGSDuYU" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=BzWHYGSDuYU</id>
-    <updated>2026-02-05T17:41:51.000Z</updated>
-    <published>2026-02-05T17:41:51.000Z</published>
-    <summary type="html"><![CDATA[Proposta de resolução que dispões sobre a Alteração das Condições de Transporte Aéreo]]></summary>
   </entry>
 
   <entry>
