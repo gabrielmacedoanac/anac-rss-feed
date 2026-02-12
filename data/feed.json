@@ -1,5 +1,13 @@
 [
   {
+    "title": "Aberta consulta pública sobre requisitos para pilotos de aeronaves de decolagem e pouso vertical",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2026/aberta-consulta-publica-sobre-requisitos-para-pilotos-de-aeronaves-de-decolagem-e-pouso-vertical",
+    "date": "11/02/2026 10h46",
+    "description": "Proposta da Anac é criar nova categoria de pilotos, com a possibilidade de profissionais já licenciados em helicóptero ou avião realizarem treinamento de transição",
+    "image": null,
+    "type": "texto"
+  },
+  {
     "title": "Audiência Pública - Exploração de serviços aéreos com balão",
     "link": "https://www.youtube.com/watch?v=-8_H8qqHFN4",
     "date": "11/02/2026 10h16",
@@ -12,7 +20,7 @@
     "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-chamamento-para-pesquisa-sobre-nova-interface-do-portal-santos-dumont",
     "date": "09/02/2026 15h17",
     "description": "Sem descrição",
-    "image": null,
+    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-chamamento-para-pesquisa-sobre-nova-interface-do-portal-santos-dumont/SantosDumontPORTAL4.png/@@images/fdffda8e-8631-4772-a516-816cdee46239.png",
     "type": "texto"
   },
   {
@@ -173,14 +181,6 @@
     "date": "19/01/2026 16h45",
     "description": "Somente no segmento doméstico, foram movimentados mais de 100 milhões de passageiros no ano",
     "image": "https://www.gov.br/anac/pt-br/noticias/2026/com-quase-130-milhoes-de-viajantes-aviacao-alcanca-melhores-indices-de-movimentacao-de-passageiros-da-historia/d-do-setor-aereo_2025_card-6.png/@@images/0231420e-37ab-4c4c-b8f9-b7bcbf9b2116.png",
-    "type": "texto"
-  },
-  {
-    "title": "Consulta pública sobre infrações e multas da aviação civil termina em 22/1",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2026/consulta-publica-sobre-infracoes-e-multas-da-aviacao-civil-termina-em-22-1",
-    "date": "15/01/2026 17h14",
-    "description": "Consulta trata da Resolução nº 762, que descreve infrações e penalidades aplicadas pela Anac.",
-    "image": "https://www.gov.br/anac/pt-br/noticias/2026/consulta-publica-sobre-infracoes-e-multas-da-aviacao-civil-termina-em-22-1/whatsapp_regulacao_responsiva_contribuicoes.jpg/@@images/be93cbce-666c-49c0-87a1-310b5e4bbfaf.jpeg",
     "type": "texto"
   },
   {
