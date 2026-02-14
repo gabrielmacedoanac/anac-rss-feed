@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-12T18:17:00.000Z</updated>
+  <updated>2026-02-13T10:12:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac discute com sociedade proposta de atualização da Resolução nº 400]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-discute-com-sociedade-proposta-de-atualizacao-da-resolucao-no-400" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-discute-com-sociedade-proposta-de-atualizacao-da-resolucao-no-400</id>
+    <updated>2026-02-13T10:12:00.000Z</updated>
+    <published>2026-02-13T10:12:00.000Z</published>
+    <summary type="html"><![CDATA[Audiência pública foi realizada na tarde de 11 de fevereiro na sede da Agência]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Homem é preso em flagrante durante exame teórico da Anac]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/homem-e-preso-em-flagrante-durante-exame-teorico-da-anac" />
@@ -208,15 +217,6 @@ Relator: Rui Mesquita]]></summary>
     <updated>2026-01-20T18:16:00.000Z</updated>
     <published>2026-01-20T18:16:00.000Z</published>
     <summary type="html"><![CDATA[Proposta traz maior clareza sobre as informações prestadas ao passageiro e reorganiza a assistência em caso de atrasos de voos]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Recordes, capacitação e segurança: Anac anuncia novidades para a aviação em 2026]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/recordes-capacitacao-e-seguranca-anac-anuncia-novidades-para-a-aviacao-em-2026" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/recordes-capacitacao-e-seguranca-anac-anuncia-novidades-para-a-aviacao-em-2026</id>
-    <updated>2026-01-20T15:52:00.000Z</updated>
-    <published>2026-01-20T15:52:00.000Z</published>
-    <summary type="html"><![CDATA[Com reforço de R$ 40 milhões no orçamento, Anac incrementará ações de fiscalização e ampliação do corpo técnico]]></summary>
   </entry>
 
   <entry>
