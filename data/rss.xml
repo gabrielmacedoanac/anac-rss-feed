@@ -4,8 +4,31 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Fri, 20 Feb 2026 01:52:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 12:53:08 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[Confiança não tem atalho]]></title>
+    <link>https://www.youtube.com/watch?v=LRBd-yfAkts</link>
+    <description><![CDATA[Antes de voar, verifique se a empresa é autorizada pela Anac.
+O transporte aéreo clandestino é um risco real para você e sua família!
+
+Confira a regularidade da empresa em
+https://voeseguro.anac.gov.br
+
+Ou consulte pelo Super App da Anac.
+
+Baixe o Super App na App Store:
+https://apps.apple.com/br/app/anac/id6479522513
+
+Baixe o Super App no Google Play:
+https://play.google.com/store/apps/details?id=br.gov.anac.superapp
+
+#voeseguro]]></description>
+    <pubDate>Fri, 20 Feb 2026 12:11:53 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=LRBd-yfAkts</guid>
+    <dc:date>2026-02-20T12:11:53.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[Anac discute com sociedade proposta de atualização da Resolução nº 400]]></title>
     <link>https://www.gov.br/anac/pt-br/noticias/2026/anac-discute-com-sociedade-proposta-de-atualizacao-da-resolucao-no-400</link>
@@ -398,15 +421,6 @@ Conheça mais sobre o programa que inspira e abre oportunidades para as carreira
     <pubDate>Wed, 01 Oct 2025 12:13:39 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=eeWySesFFAk</guid>
     <dc:date>2025-10-01T12:13:39.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Semana de Cibersegurança da ANAC 2025]]></title>
-    <link>https://www.youtube.com/watch?v=59Nj2ERVgWE</link>
-    <description><![CDATA[Dúvidas e perguntas: https://app.sli.do/event/6fTo3z3SUUhpjU3jS71RX2]]></description>
-    <pubDate>Tue, 30 Sep 2025 03:23:38 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=59Nj2ERVgWE</guid>
-    <dc:date>2025-09-30T03:23:38.000Z</dc:date>
   </item>
   </channel>
 </rss>
