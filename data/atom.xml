@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-20T12:11:53.000Z</updated>
+  <updated>2026-02-20T16:33:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac presta homenagem no Dia Internacional em Memória das Vítimas de Acidentes Aéreos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-reforca-solidariedade-e-compromisso-com-a-seguranca-no-dia-internacional-em-memoria-das-vitimas-de-acidentes-aereos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-reforca-solidariedade-e-compromisso-com-a-seguranca-no-dia-internacional-em-memoria-das-vitimas-de-acidentes-aereos</id>
+    <updated>2026-02-20T16:33:00.000Z</updated>
+    <published>2026-02-20T16:33:00.000Z</published>
+    <summary type="html"><![CDATA[Data foi instituída para reforçar a importância da melhoria contínua do setor aéreo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Confiança não tem atalho]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=LRBd-yfAkts" />
@@ -231,15 +240,6 @@ Relator: Rui Mesquita
 2) Processo: 00058.111394/2025-21 - 24:41
 Assunto: Proposta de consulta e audiência pública sobre a alteração da Resolução nº 400, de 13 de dezembro de 2016, que dispõe sobre as Condições Gerais de Transporte Aéreo
 Relator: Rui Mesquita]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac abrirá consulta pública para atualizar regras sobre direitos e deveres dos passageiros]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-abrira-consulta-publica-para-atualizar-regras-sobre-direitos-e-deveres-dos-passageiros" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-abrira-consulta-publica-para-atualizar-regras-sobre-direitos-e-deveres-dos-passageiros</id>
-    <updated>2026-01-20T18:16:00.000Z</updated>
-    <published>2026-01-20T18:16:00.000Z</published>
-    <summary type="html"><![CDATA[Proposta traz maior clareza sobre as informações prestadas ao passageiro e reorganiza a assistência em caso de atrasos de voos]]></summary>
   </entry>
 
   <entry>
