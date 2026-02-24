@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-20T16:33:00.000Z</updated>
+  <updated>2026-02-23T17:41:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac abre consulta pública para modernizar equipamentos de inspeção em aeroportos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-consulta-publica-para-modernizar-equipamentos-de-inspecao-em-aeroportos" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-consulta-publica-para-modernizar-equipamentos-de-inspecao-em-aeroportos</id>
+    <updated>2026-02-23T17:41:00.000Z</updated>
+    <published>2026-02-23T17:41:00.000Z</published>
+    <summary type="html"><![CDATA[Contribuições podem ser enviadas até 16/3]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Operação da Anac no Rio de Janeiro fiscaliza voos privados e serviços aéreos especializados]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/operacao-da-anac-no-rio-de-janeiro-fiscaliza-voos-privados-e-servicos-aereos-especializados" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/operacao-da-anac-no-rio-de-janeiro-fiscaliza-voos-privados-e-servicos-aereos-especializados</id>
+    <updated>2026-02-23T16:02:00.000Z</updated>
+    <published>2026-02-23T16:02:00.000Z</published>
+    <summary type="html"><![CDATA[Foco da campanha Voe Seguro é combater o transporte aéreo clandestino e sensibilizar operadores aéreos e passageiros]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac presta homenagem no Dia Internacional em Memória das Vítimas de Acidentes Aéreos]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-reforca-solidariedade-e-compromisso-com-a-seguranca-no-dia-internacional-em-memoria-das-vitimas-de-acidentes-aereos" />
@@ -206,24 +224,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
     <updated>2026-01-22T14:13:00.000Z</updated>
     <published>2026-01-22T14:13:00.000Z</published>
     <summary type="html"><![CDATA[Consulta pública estará aberta para receber sugestões até 9 de março]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac estabelecerá nova tipologia para atos normativos a partir de 2/2]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-estabelecera-nova-tipologia-para-atos-normativos-a-partir-de-2-2" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-estabelecera-nova-tipologia-para-atos-normativos-a-partir-de-2-2</id>
-    <updated>2026-01-22T13:08:00.000Z</updated>
-    <published>2026-01-22T13:08:00.000Z</published>
-    <summary type="html"><![CDATA[Resolução Interna nº 1 implementará as diretrizes do Decreto nº 12.002/24 no âmbito da Agência]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Ministério de Portos e Aeroportos abre consulta pública para aprimorar sistema de embarque biométrico]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/ministerio-de-portos-e-aeroportos-abre-consulta-publica-para-aprimorar-sistema-de-embarque-biometrico" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/ministerio-de-portos-e-aeroportos-abre-consulta-publica-para-aprimorar-sistema-de-embarque-biometrico</id>
-    <updated>2026-01-21T16:05:00.000Z</updated>
-    <published>2026-01-21T16:05:00.000Z</published>
-    <summary type="html"><![CDATA[Iniciativa deve tornar operações mais ágeis e seguras em aeroportos e terminais portuários e hidroviários]]></summary>
   </entry>
 
   <entry>
