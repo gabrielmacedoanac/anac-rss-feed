@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-23T17:41:00.000Z</updated>
+  <updated>2026-02-24T17:20:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Curitiba será a casa da segunda etapa da Semana Safety]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/curitiba-sera-a-casa-da-segunda-etapa-da-semanasafety-1" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/curitiba-sera-a-casa-da-segunda-etapa-da-semanasafety-1</id>
+    <updated>2026-02-24T17:20:00.000Z</updated>
+    <published>2026-02-24T17:20:00.000Z</published>
+    <summary type="html"><![CDATA[Anac reúne comunidade aeronáutica e especialistas entre os dias 24 e 26/3]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac abre consulta pública para modernizar equipamentos de inspeção em aeroportos]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-consulta-publica-para-modernizar-equipamentos-de-inspecao-em-aeroportos" />
@@ -215,15 +224,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
     <updated>2026-01-23T14:48:00.000Z</updated>
     <published>2026-01-23T14:48:00.000Z</published>
     <summary type="html"><![CDATA[Mais clareza, menos litígios e maior conectividade para o Brasil. Ferramenta amplia transparência e agiliza decisões judiciais no setor aéreo.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Sociedade pode contribuir com revisão da norma sobre direitos dos passageiros]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/sociedade-pode-contribuir-com-revisao-da-norma-sobre-direitos-dos-passageiros" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/sociedade-pode-contribuir-com-revisao-da-norma-sobre-direitos-dos-passageiros</id>
-    <updated>2026-01-22T14:13:00.000Z</updated>
-    <published>2026-01-22T14:13:00.000Z</published>
-    <summary type="html"><![CDATA[Consulta pública estará aberta para receber sugestões até 9 de março]]></summary>
   </entry>
 
   <entry>
