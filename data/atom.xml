@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-24T17:20:00.000Z</updated>
+  <updated>2026-02-25T10:05:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac abre pesquisa para ouvir passageiros e regulados sobre transporte aéreo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-pesquisa-para-ouvir-passageiros-e-regulados-sobre-transporte-aereo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-pesquisa-para-ouvir-passageiros-e-regulados-sobre-transporte-aereo</id>
+    <updated>2026-02-25T10:05:00.000Z</updated>
+    <published>2026-02-25T10:05:00.000Z</published>
+    <summary type="html"><![CDATA[Questionário eletrônico é anônimo e fica aberto até 31 de março]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Curitiba será a casa da segunda etapa da Semana Safety]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/curitiba-sera-a-casa-da-segunda-etapa-da-semanasafety-1" />
@@ -215,15 +224,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
     <updated>2026-01-24T12:36:00.000Z</updated>
     <published>2026-01-24T12:36:00.000Z</published>
     <summary type="html"><![CDATA[Empresário faleceu na manhã de 24 de janeiro]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Plataforma da Anac InfoVoo consolida informações da aviação civil e fortalece análises do judiciário]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/plataforma-da-anac-infovoo-consolida-informacoes-da-aviacao-civil-e-fortalece-analises-do-judiciario" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/plataforma-da-anac-infovoo-consolida-informacoes-da-aviacao-civil-e-fortalece-analises-do-judiciario</id>
-    <updated>2026-01-23T14:48:00.000Z</updated>
-    <published>2026-01-23T14:48:00.000Z</published>
-    <summary type="html"><![CDATA[Mais clareza, menos litígios e maior conectividade para o Brasil. Ferramenta amplia transparência e agiliza decisões judiciais no setor aéreo.]]></summary>
   </entry>
 
   <entry>
