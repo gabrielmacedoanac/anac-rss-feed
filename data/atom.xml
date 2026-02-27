@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-25T10:05:00.000Z</updated>
+  <updated>2026-02-26T13:05:34.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[ROADSHOW | ANAC - AEROPORTO DO GALEÃO - SESSÃO DE ESCLARECIMENTOS]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=NlRj-vswCnk" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=NlRj-vswCnk</id>
+    <updated>2026-02-26T13:05:34.000Z</updated>
+    <published>2026-02-26T13:05:34.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac abre pesquisa para ouvir passageiros e regulados sobre transporte aéreo]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-pesquisa-para-ouvir-passageiros-e-regulados-sobre-transporte-aereo" />
@@ -407,18 +416,5 @@ Decola bonito, com ciência a soprar,
 Agora você sabe como o avião pode voar!
 
 *Vídeo e música produzida com inteligência artificial.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Programa Asas para Todos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=eeWySesFFAk" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=eeWySesFFAk</id>
-    <updated>2025-10-01T12:13:39.000Z</updated>
-    <published>2025-10-01T12:13:39.000Z</published>
-    <summary type="html"><![CDATA[A aviação é feita de tecnologia, inovação e, acima de tudo, pessoas. 
-
-Com o programa Asas para Todos, a Agência Nacional de Aviação Civil (Anac) abre caminhos para que mais pessoas realizem seus sonhos no setor aéreo — da infância à formação profissional. 
-
-Conheça mais sobre o programa que inspira e abre oportunidades para as carreiras da aviação: https://hotsites.anac.gov.br/asasparatodos/]]></summary>
   </entry>
 </feed>
