@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-26T13:05:34.000Z</updated>
+  <updated>2026-02-27T02:06:40.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
   <entry>
     <title type="html"><![CDATA[ROADSHOW | ANAC - AEROPORTO DO GALEÃO - SESSÃO DE ESCLARECIMENTOS]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=NlRj-vswCnk" />
     <id>urn:uuid:https://www.youtube.com/watch?v=NlRj-vswCnk</id>
-    <updated>2026-02-26T13:05:34.000Z</updated>
-    <published>2026-02-26T13:05:34.000Z</published>
+    <updated>2026-02-27T02:06:40.000Z</updated>
+    <published>2026-02-27T02:06:40.000Z</published>
     <summary type="html"><![CDATA[]]></summary>
   </entry>
 
