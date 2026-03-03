@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-02-27T16:48:00.000Z</updated>
+  <updated>2026-03-02T18:22:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Câmara debate regras para passageiros indisciplinados nesta terça (3/3)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/camara-debate-regras-para-passageiros-indisciplinados-nesta-terca-3-3" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/camara-debate-regras-para-passageiros-indisciplinados-nesta-terca-3-3</id>
+    <updated>2026-03-02T18:22:00.000Z</updated>
+    <published>2026-03-02T18:22:00.000Z</published>
+    <summary type="html"><![CDATA[Diretor-presidente da Anac apresentará as propostas da Agência durante audiência pública]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac autoriza operações da aeronave L410 NG no Brasil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-autoriza-operacoes-da-aeronave-l410-ng-no-brasil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-autoriza-operacoes-da-aeronave-l410-ng-no-brasil</id>
+    <updated>2026-03-02T15:29:00.000Z</updated>
+    <published>2026-03-02T15:29:00.000Z</published>
+    <summary type="html"><![CDATA[Modelo foi certificado em 10 de fevereiro]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Licenças de piloto comercial e de helicóptero deverão ser solicitadas exclusivamente pelo Super App da Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/licencas-de-piloto-comercial-e-de-helicoptero-deverao-ser-solicitadas-exclusivamente-pelo-super-app-da-anac" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/licencas-de-piloto-comercial-e-de-helicoptero-deverao-ser-solicitadas-exclusivamente-pelo-super-app-da-anac</id>
+    <updated>2026-03-02T13:15:00.000Z</updated>
+    <published>2026-03-02T13:15:00.000Z</published>
+    <summary type="html"><![CDATA[Mudança passa a valer a partir do dia 6 de abril. Plataforma se consolida como o único canal oficial para solicitações de licenças e declarações.]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Memorando entre Brasil e Peru amplia voos e fortalece transporte aéreo entre os países]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/memorando-entre-brasil-e-peru-amplia-voos-e-fortalece-transporte-aereo-entre-os-paises" />
@@ -206,33 +233,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
     <updated>2026-02-02T12:03:00.000Z</updated>
     <published>2026-02-02T12:03:00.000Z</published>
     <summary type="html"><![CDATA[Resolução Interna nº 1, que contém nova classificação, entrou em vigor hoje; Instrução normativa com tipificação anterior foi revogada]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Balonismo será tema de audiência pública no dia 10/2]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/balonismo-sera-tema-de-audiencia-publica-no-dia-10-2" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/balonismo-sera-tema-de-audiencia-publica-no-dia-10-2</id>
-    <updated>2026-01-29T15:23:00.000Z</updated>
-    <published>2026-01-29T15:23:00.000Z</published>
-    <summary type="html"><![CDATA[Interessados em fazer manifestações devem se inscrever até o dia 6 de fevereiro na plataforma Brasil Participativo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Roadshow apresenta Galeão para investidores]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/roadshow-apresenta-galeao-para-investidores" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/roadshow-apresenta-galeao-para-investidores</id>
-    <updated>2026-01-28T15:19:00.000Z</updated>
-    <published>2026-01-28T15:19:00.000Z</published>
-    <summary type="html"><![CDATA[Representantes da Agência, do MPor e do Programa de Parcerias de Investimentos farão apresentações sobre a venda assistida do aeroporto]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Ministério de Portos e Aeroportos lança edital com bolsas de formação para mecânicos aeronáuticos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/ministerio-de-portos-e-aeroportos-lanca-edital-com-bolsas-de-formacao-para-mecanicos-aeronauticos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/ministerio-de-portos-e-aeroportos-lanca-edital-com-bolsas-de-formacao-para-mecanicos-aeronauticos</id>
-    <updated>2026-01-27T14:43:00.000Z</updated>
-    <published>2026-01-27T14:43:00.000Z</published>
-    <summary type="html"><![CDATA[Programa abre caminho para quem quer construir uma carreira no setor aéreo com qualificação técnica e gratuita]]></summary>
   </entry>
 
   <entry>
