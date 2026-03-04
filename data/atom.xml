@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-02T18:22:00.000Z</updated>
+  <updated>2026-03-03T13:07:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac participa do IX Encontro Mulheres na Aviação, nos dias 7 e 8/3, em São José dos Campos (SP)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-ix-encontro-mulheres-na-aviacao-nos-dias-7-e-8-3-em-sao-jose-dos-campos-sp" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-ix-encontro-mulheres-na-aviacao-nos-dias-7-e-8-3-em-sao-jose-dos-campos-sp</id>
+    <updated>2026-03-03T13:07:00.000Z</updated>
+    <published>2026-03-03T13:07:00.000Z</published>
+    <summary type="html"><![CDATA[Evento promovido pela Aviadoras terá programação voltada para equidade de gênero, formação profissional e à ampliação do acesso às carreiras do setor aéreo]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac lança Plano de Dados Abertos (2026/2027) e anuncia novos conjuntos de dados prioritários]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-lanca-plano-de-dados-abertos-2026-2027-e-anuncia-novos-conjuntos-de-dados-prioritarios" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-lanca-plano-de-dados-abertos-2026-2027-e-anuncia-novos-conjuntos-de-dados-prioritarios</id>
+    <updated>2026-03-03T11:33:00.000Z</updated>
+    <published>2026-03-03T11:33:00.000Z</published>
+    <summary type="html"><![CDATA[Plano reforça governança da informação e estabelece diretrizes para ampliar transparência no setor aéreo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Câmara debate regras para passageiros indisciplinados nesta terça (3/3)]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/camara-debate-regras-para-passageiros-indisciplinados-nesta-terca-3-3" />
@@ -215,24 +233,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
     <updated>2026-02-03T12:03:00.000Z</updated>
     <published>2026-02-03T12:03:00.000Z</published>
     <summary type="html"><![CDATA[Parceria entre os países vai desenvolver a regulação e a indústria voltada para eVTOLs, vertiportos e demais segmentos relacionados]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Inscrições abertas para o Prêmio Acessibilidade e Inovação 2026]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/inscricoes-abertas-para-o-premio-acessibilidade-e-inovacao-2026-1" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/inscricoes-abertas-para-o-premio-acessibilidade-e-inovacao-2026-1</id>
-    <updated>2026-02-02T14:13:00.000Z</updated>
-    <published>2026-02-02T14:13:00.000Z</published>
-    <summary type="html"><![CDATA[Em parceria com o MPor e o MDHC, iniciativa reconhece práticas inovadoras de acessibilidade implementadas ao longo de 2025]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Nova tipologia de atos normativos da Anac entra em vigor]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/nova-tipologia-de-atos-normativos-da-anac-entra-em-vigor-1" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/nova-tipologia-de-atos-normativos-da-anac-entra-em-vigor-1</id>
-    <updated>2026-02-02T12:03:00.000Z</updated>
-    <published>2026-02-02T12:03:00.000Z</published>
-    <summary type="html"><![CDATA[Resolução Interna nº 1, que contém nova classificação, entrou em vigor hoje; Instrução normativa com tipificação anterior foi revogada]]></summary>
   </entry>
 
   <entry>
