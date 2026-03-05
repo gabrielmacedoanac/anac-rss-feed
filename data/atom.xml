@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-04T18:05:00.000Z</updated>
+  <updated>2026-03-05T09:17:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac passa a ocupar o posto de Comissário de Navegação Aérea do Brasil na Oaci]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-passa-a-ocupar-o-posto-de-comissario-de-navegacao-aerea-do-brasil-na-oaci" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-passa-a-ocupar-o-posto-de-comissario-de-navegacao-aerea-do-brasil-na-oaci</id>
+    <updated>2026-03-05T09:17:00.000Z</updated>
+    <published>2026-03-05T09:17:00.000Z</published>
+    <summary type="html"><![CDATA[Transição marca o fortalecimento da atuação da Agência em âmbito internacional]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac nomeia novos especialistas em Regulação de Aviação Civil]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-nomeia-novos-especialistas-em-regulacao-de-aviacao-civil" />
@@ -233,15 +242,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
     <updated>2026-02-06T15:59:00.000Z</updated>
     <published>2026-02-06T15:59:00.000Z</published>
     <summary type="html"><![CDATA[Documento esclarece dúvidas sobre a proposta e apoia a sociedade a contribuir com a audiência pública no dia 11/2]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Confira a programação da 1ª etapa da Semana Safety em Manaus (AM), nos dias 24 a 26/2]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/inscreva-se-ate-23-2-para-a-1a-etapa-da-semana-safety-manaus-am" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/inscreva-se-ate-23-2-para-a-1a-etapa-da-semana-safety-manaus-am</id>
-    <updated>2026-02-06T12:56:00.000Z</updated>
-    <published>2026-02-06T12:56:00.000Z</published>
-    <summary type="html"><![CDATA[O evento traz uma programação voltada à segurança das operações aéreas na Região Norte do país.  Inscreva-se até 23/2]]></summary>
   </entry>
 
   <entry>
