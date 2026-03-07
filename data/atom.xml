@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-05T09:17:00.000Z</updated>
+  <updated>2026-03-06T10:01:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Série de webinários da Anac traz inovações e segurança para as organizações de manutenção]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/serie-de-webinarios-da-anac-traz-inovacoes-e-seguranca-para-as-organizacoes-de-manutencao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/serie-de-webinarios-da-anac-traz-inovacoes-e-seguranca-para-as-organizacoes-de-manutencao</id>
+    <updated>2026-03-06T10:01:00.000Z</updated>
+    <published>2026-03-06T10:01:00.000Z</published>
+    <summary type="html"><![CDATA[Semana + OM ocorre entre os dias 9 e 13/3, com transmissão pelo canal oficial da Agência no YouTube]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac passa a ocupar o posto de Comissário de Navegação Aérea do Brasil na Oaci]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-passa-a-ocupar-o-posto-de-comissario-de-navegacao-aerea-do-brasil-na-oaci" />
@@ -236,15 +245,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Anac publica perguntas e respostas sobre a atualização da Resolução nº 400]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-publica-perguntas-e-respostas-sobre-a-atualizacao-da-resolucao-no-400" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-publica-perguntas-e-respostas-sobre-a-atualizacao-da-resolucao-no-400</id>
-    <updated>2026-02-06T15:59:00.000Z</updated>
-    <published>2026-02-06T15:59:00.000Z</published>
-    <summary type="html"><![CDATA[Documento esclarece dúvidas sobre a proposta e apoia a sociedade a contribuir com a audiência pública no dia 11/2]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[1ª Reunião Deliberativa da Diretoria Colegiada (20/01/2026)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ZuHcl1ahxSk" />
     <id>urn:uuid:https://www.youtube.com/watch?v=ZuHcl1ahxSk</id>
@@ -258,6 +258,15 @@ Relator: Rui Mesquita
 2) Processo: 00058.111394/2025-21 - 24:41
 Assunto: Proposta de consulta e audiência pública sobre a alteração da Resolução nº 400, de 13 de dezembro de 2016, que dispõe sobre as Condições Gerais de Transporte Aéreo
 Relator: Rui Mesquita]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[2ª Reunião Deliberativa da Diretoria Colegiada (06/03/2026)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=jffGukQJVIk" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=jffGukQJVIk</id>
+    <updated>2026-01-06T12:17:06.000Z</updated>
+    <published>2026-01-06T12:17:06.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
   </entry>
 
   <entry>
@@ -363,19 +372,5 @@ Relator: Luiz Ricardo Nascimento]]></summary>
     <summary type="html"><![CDATA[Ao contrário do informado na resposta à pergunta que se inicia no minuto 1:50:47 do webinário, no caso da execução apenas de provas de MMA relativas a uma habilitação (sem o módulo básico), não é possível ficar de segunda época, sendo necessário ser aprovado em ambas as provas que compõem o exame. Conforme o parágrafo (c) da seção 5.13.2 da Instrução Suplementar (IS) 00 003H (https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-003): “Segunda época (2EP): quando o candidato não obtiver aproveitamento superior ao estabelecido para aprovação em no máximo um número inteiro de provas inferior ou igual a (N–1)/2, onde N é o número total de provas que compõem o exame. Em cada uma dessas provas em que o candidato não foi aprovado, ele deverá ter atingido, no mínimo, 30% de acertos.” Como, neste caso, o exame é composto por apenas duas provas, o resultado da expressão (N–1)/2 é 0,5, não havendo, portanto, possibilidade de segunda época para esse exame.
 
 Recebemos esse pedido via ouvidoria: SEAM 1065482.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Audiência Pública Virtual da Consulta Pública nº 11/2025]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=6X1GXm4fgaM" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=6X1GXm4fgaM</id>
-    <updated>2025-10-15T07:00:50.000Z</updated>
-    <published>2025-10-15T07:00:50.000Z</published>
-    <summary type="html"><![CDATA[Audiência Pública da Consulta Pública nº 11/2025 - Proposta de Edital de Venda Assistida - Contrato de Concessão nº 001/ANAC/2014 - Aeroporto Internacional do Rio de Janeiro (Galeão)
- 
-Descrição:
-A Consulta Pública nº 11/2025 propõe o processo de Venda Assistida do Contrato de Concessão nº 001/ANAC/2014-SBGL, relativas à concessão para ampliação, manutenção e exploração do Aeroporto Internacional do Rio de Janeiro - Galeão. 
-
-Acesse os documentos da Consulta Pública e faça a sua contribuição nos formulários eletrônicos disponíveis no endereço: https://www.gov.br/participamaisbrasil/cp-11-2025]]></summary>
   </entry>
 </feed>

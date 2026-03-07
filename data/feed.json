@@ -1,5 +1,13 @@
 [
   {
+    "title": "Série de webinários da Anac traz inovações e segurança para as organizações de manutenção",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2026/serie-de-webinarios-da-anac-traz-inovacoes-e-seguranca-para-as-organizacoes-de-manutencao",
+    "date": "06/03/2026 10h01",
+    "description": "Semana + OM ocorre entre os dias 9 e 13/3, com transmissão pelo canal oficial da Agência no YouTube",
+    "image": null,
+    "type": "texto"
+  },
+  {
     "title": "Anac passa a ocupar o posto de Comissário de Navegação Aérea do Brasil na Oaci",
     "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-passa-a-ocupar-o-posto-de-comissario-de-navegacao-aerea-do-brasil-na-oaci",
     "date": "05/03/2026 09h17",
@@ -192,19 +200,19 @@
     "type": "texto"
   },
   {
-    "title": "Anac publica perguntas e respostas sobre a atualização da Resolução nº 400",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-publica-perguntas-e-respostas-sobre-a-atualizacao-da-resolucao-no-400",
-    "date": "06/02/2026 15h59",
-    "description": "Documento esclarece dúvidas sobre a proposta e apoia a sociedade a contribuir com a audiência pública no dia 11/2",
-    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-publica-perguntas-e-respostas-sobre-a-atualizacao-da-resolucao-no-400/portal-5.png/@@images/7c978c56-247d-4f79-b1e9-52e1aface515.png",
-    "type": "texto"
-  },
-  {
     "title": "1ª Reunião Deliberativa da Diretoria Colegiada (20/01/2026)",
     "link": "https://www.youtube.com/watch?v=ZuHcl1ahxSk",
     "date": "21/01/2026 07h45",
     "description": "Início - 6:49\n1) Processo: 00058.014794/2023-28 - 8:36\nAssunto: Proposta de emenda ao RBAC nº 121, objeto da Consulta Pública nº 16/2023, encerrada em 4 de janeiro de 2024 - tema 18 da Agenda Regulatória 2023-2024\nRelator: Rui Mesquita\n \n2) Processo: 00058.111394/2025-21 - 24:41\nAssunto: Proposta de consulta e audiência pública sobre a alteração da Resolução nº 400, de 13 de dezembro de 2016, que dispõe sobre as Condições Gerais de Transporte Aéreo\nRelator: Rui Mesquita",
     "image": "https://i3.ytimg.com/vi/ZuHcl1ahxSk/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "2ª Reunião Deliberativa da Diretoria Colegiada (06/03/2026)",
+    "link": "https://www.youtube.com/watch?v=jffGukQJVIk",
+    "date": "06/01/2026 12h17",
+    "description": "",
+    "image": "https://i3.ytimg.com/vi/jffGukQJVIk/hqdefault.jpg",
     "type": "vídeo"
   },
   {
@@ -269,14 +277,6 @@
     "date": "17/10/2025 08h34",
     "description": "Ao contrário do informado na resposta à pergunta que se inicia no minuto 1:50:47 do webinário, no caso da execução apenas de provas de MMA relativas a uma habilitação (sem o módulo básico), não é possível ficar de segunda época, sendo necessário ser aprovado em ambas as provas que compõem o exame. Conforme o parágrafo (c) da seção 5.13.2 da Instrução Suplementar (IS) 00 003H (https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-003): “Segunda época (2EP): quando o candidato não obtiver aproveitamento superior ao estabelecido para aprovação em no máximo um número inteiro de provas inferior ou igual a (N–1)/2, onde N é o número total de provas que compõem o exame. Em cada uma dessas provas em que o candidato não foi aprovado, ele deverá ter atingido, no mínimo, 30% de acertos.” Como, neste caso, o exame é composto por apenas duas provas, o resultado da expressão (N–1)/2 é 0,5, não havendo, portanto, possibilidade de segunda época para esse exame.\n\nRecebemos esse pedido via ouvidoria: SEAM 1065482.",
     "image": "https://i3.ytimg.com/vi/zgHAnR8oBsY/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "Audiência Pública Virtual da Consulta Pública nº 11/2025",
-    "link": "https://www.youtube.com/watch?v=6X1GXm4fgaM",
-    "date": "15/10/2025 07h00",
-    "description": "Audiência Pública da Consulta Pública nº 11/2025 - Proposta de Edital de Venda Assistida - Contrato de Concessão nº 001/ANAC/2014 - Aeroporto Internacional do Rio de Janeiro (Galeão)\n \nDescrição:\nA Consulta Pública nº 11/2025 propõe o processo de Venda Assistida do Contrato de Concessão nº 001/ANAC/2014-SBGL, relativas à concessão para ampliação, manutenção e exploração do Aeroporto Internacional do Rio de Janeiro - Galeão. \n\nAcesse os documentos da Consulta Pública e faça a sua contribuição nos formulários eletrônicos disponíveis no endereço: https://www.gov.br/participamaisbrasil/cp-11-2025",
-    "image": "https://i3.ytimg.com/vi/6X1GXm4fgaM/hqdefault.jpg",
     "type": "vídeo"
   }
 ]
