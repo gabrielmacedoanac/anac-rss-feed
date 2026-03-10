@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-07T07:19:16.000Z</updated>
+  <updated>2026-03-09T15:19:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac recebe inscrições para a Semana Safety Curitiba]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-recebe-inscricoes-para-a-semana-safety-curitiba" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-recebe-inscricoes-para-a-semana-safety-curitiba</id>
+    <updated>2026-03-09T15:19:00.000Z</updated>
+    <published>2026-03-09T15:19:00.000Z</published>
+    <summary type="html"><![CDATA[Atividades ocorrerão entre os dias 24 e 26/3 e vão abordar temas ligados à segurança operacional da região]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[2ª Reunião Deliberativa da Diretoria Colegiada (06/03/2026)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=jffGukQJVIk" />
@@ -242,15 +251,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
     <updated>2026-02-11T10:16:02.000Z</updated>
     <published>2026-02-11T10:16:02.000Z</published>
     <summary type="html"><![CDATA[]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac abre chamamento para pesquisa sobre nova interface do Portal Santos Dumont]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-chamamento-para-pesquisa-sobre-nova-interface-do-portal-santos-dumont" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-chamamento-para-pesquisa-sobre-nova-interface-do-portal-santos-dumont</id>
-    <updated>2026-02-09T15:17:00.000Z</updated>
-    <published>2026-02-09T15:17:00.000Z</published>
-    <summary type="html"><![CDATA[Sem descrição]]></summary>
   </entry>
 
   <entry>
