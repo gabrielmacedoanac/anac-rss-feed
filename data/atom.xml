@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-09T15:19:00.000Z</updated>
+  <updated>2026-03-10T18:27:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Consulta pública sobre licença de pilotos de “carros voadores” está aberta até 16/3]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/consulta-publica-sobre-licenca-de-pilotos-de-201ccarros-voadores201d-esta-aberta-ate-16-3" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/consulta-publica-sobre-licenca-de-pilotos-de-201ccarros-voadores201d-esta-aberta-ate-16-3</id>
+    <updated>2026-03-10T18:27:00.000Z</updated>
+    <published>2026-03-10T18:27:00.000Z</published>
+    <summary type="html"><![CDATA[Contribuições devem ser enviadas pela plataforma Brasil Participativo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac recebe inscrições para a Semana Safety Curitiba]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-recebe-inscricoes-para-a-semana-safety-curitiba" />
@@ -233,15 +242,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
     <updated>2026-02-12T08:15:08.000Z</updated>
     <published>2026-02-12T08:15:08.000Z</published>
     <summary type="html"><![CDATA[Proposta de resolução que dispões sobre a Alteração das Condições de Transporte Aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Aberta consulta pública sobre requisitos para pilotos de aeronaves de decolagem e pouso vertical]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/aberta-consulta-publica-sobre-requisitos-para-pilotos-de-aeronaves-de-decolagem-e-pouso-vertical" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/aberta-consulta-publica-sobre-requisitos-para-pilotos-de-aeronaves-de-decolagem-e-pouso-vertical</id>
-    <updated>2026-02-11T10:46:00.000Z</updated>
-    <published>2026-02-11T10:46:00.000Z</published>
-    <summary type="html"><![CDATA[Proposta da Anac é criar nova categoria de pilotos, com a possibilidade de profissionais já licenciados em helicóptero ou avião realizarem treinamento de transição]]></summary>
   </entry>
 
   <entry>
