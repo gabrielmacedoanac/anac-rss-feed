@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-10T18:27:00.000Z</updated>
+  <updated>2026-03-12T15:02:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac aprova norma para punir passageiros indisciplinados]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/diretoria-colegiada-aprova-norma-para-punir-passageiros-indisciplinados" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/diretoria-colegiada-aprova-norma-para-punir-passageiros-indisciplinados</id>
+    <updated>2026-03-12T15:02:00.000Z</updated>
+    <published>2026-03-12T15:02:00.000Z</published>
+    <summary type="html"><![CDATA[Resolução aprovada por unanimidade pela Diretoria Colegiada passa a valer em voos nacionais a partir de 14/9/26]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Consulta pública sobre licença de pilotos de “carros voadores” está aberta até 16/3]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/consulta-publica-sobre-licenca-de-pilotos-de-201ccarros-voadores201d-esta-aberta-ate-16-3" />
@@ -224,15 +233,6 @@ https://play.google.com/store/apps/details?id=br.gov.anac.superapp
     <updated>2026-02-13T10:12:00.000Z</updated>
     <published>2026-02-13T10:12:00.000Z</published>
     <summary type="html"><![CDATA[Audiência pública foi realizada na tarde de 11 de fevereiro na sede da Agência]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Homem é preso em flagrante durante exame teórico da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/homem-e-preso-em-flagrante-durante-exame-teorico-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/homem-e-preso-em-flagrante-durante-exame-teorico-da-anac</id>
-    <updated>2026-02-12T18:17:00.000Z</updated>
-    <published>2026-02-12T18:17:00.000Z</published>
-    <summary type="html"><![CDATA[Candidato com identidade falsa foi identificado em ação conjunta entre Agência e Polícia Federal]]></summary>
   </entry>
 
   <entry>
