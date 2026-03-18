@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-13T18:04:00.000Z</updated>
+  <updated>2026-03-17T17:24:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Semana Safety define programação para a etapa de Curitiba (PR)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-define-programacao-para-a-etapa-de-curitiba-pr" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-define-programacao-para-a-etapa-de-curitiba-pr</id>
+    <updated>2026-03-17T17:24:00.000Z</updated>
+    <published>2026-03-17T17:24:00.000Z</published>
+    <summary type="html"><![CDATA[Anac realizará 20 atividades entre paineis, palestras e mesas redondas sobre segurança operacional]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Novidade: envio de notificações em lote agora está disponível no Portal Único da Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/novidade-envio-de-notificacoes-em-lote-agora-esta-disponivel-no-portal-unico-da-anac" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/novidade-envio-de-notificacoes-em-lote-agora-esta-disponivel-no-portal-unico-da-anac</id>
+    <updated>2026-03-17T15:09:00.000Z</updated>
+    <published>2026-03-17T15:09:00.000Z</published>
+    <summary type="html"><![CDATA[O reporte de situações de ameaça à segurança operacional são fundamentais para a atuação proativa da Agência]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Autoridades destacam papel da Anac no desenvolvimento da aviação brasileira, em sessão especial no Senado Federal]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/autoridades-destacam-papel-da-anac-no-desenvolvimento-da-aviacao-brasileira-em-sessao-especial-no-senado-federal" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/autoridades-destacam-papel-da-anac-no-desenvolvimento-da-aviacao-brasileira-em-sessao-especial-no-senado-federal</id>
+    <updated>2026-03-17T14:48:00.000Z</updated>
+    <published>2026-03-17T14:48:00.000Z</published>
+    <summary type="html"><![CDATA[Autoridades do Congresso Nacional, do Governo Federal e da indústria destacaram a importância da atuação da Agência para a segurança, a modernização regulatória e o crescimento do setor aéreo no Brasil]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Auditoria Interna da Anac recebe reconhecimento por certificação no Nível 2 do IA-CM]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/auditoria-interna-da-anac-recebe-reconhecimento-por-certificacao-no-nivel-2-do-ia-cm" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/auditoria-interna-da-anac-recebe-reconhecimento-por-certificacao-no-nivel-2-do-ia-cm</id>
+    <updated>2026-03-17T13:37:00.000Z</updated>
+    <published>2026-03-17T13:37:00.000Z</published>
+    <summary type="html"><![CDATA[Certificação reconhece a solidez das práticas para a execução das atividades de auditoria interna na Agência]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Evento no Rio de Janeiro abre as comemorações de 20 anos da Anac]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/evento-no-rio-de-janeiro-abre-as-comemoracoes-de-20-anos-da-anac" />
@@ -168,48 +204,12 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Licenças de piloto comercial e de helicóptero deverão ser solicitadas exclusivamente pelo Super App da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/licencas-de-piloto-comercial-e-de-helicoptero-deverao-ser-solicitadas-exclusivamente-pelo-super-app-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/licencas-de-piloto-comercial-e-de-helicoptero-deverao-ser-solicitadas-exclusivamente-pelo-super-app-da-anac</id>
-    <updated>2026-03-02T13:15:00.000Z</updated>
-    <published>2026-03-02T13:15:00.000Z</published>
-    <summary type="html"><![CDATA[Mudança passa a valer a partir do dia 6 de abril. Plataforma se consolida como o único canal oficial para solicitações de licenças e declarações.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Memorando entre Brasil e Peru amplia voos e fortalece transporte aéreo entre os países]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/memorando-entre-brasil-e-peru-amplia-voos-e-fortalece-transporte-aereo-entre-os-paises" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/memorando-entre-brasil-e-peru-amplia-voos-e-fortalece-transporte-aereo-entre-os-paises</id>
-    <updated>2026-02-27T16:48:00.000Z</updated>
-    <published>2026-02-27T16:48:00.000Z</published>
-    <summary type="html"><![CDATA[Empresas aéreas poderão definir livremente a quantidade de voos conforme a demanda do mercado]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Janeiro tem a maior movimentação mensal na série histórica]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/janeiro-tem-a-maior-movimentacao-mensal-na-serie-historica" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/janeiro-tem-a-maior-movimentacao-mensal-na-serie-historica</id>
-    <updated>2026-02-27T15:10:00.000Z</updated>
-    <published>2026-02-27T15:10:00.000Z</published>
-    <summary type="html"><![CDATA[Movimento de passageiros no mês supera pela primeira vez a marca de 12 milhões]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[ROADSHOW | ANAC - AEROPORTO DO GALEÃO - SESSÃO DE ESCLARECIMENTOS]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=NlRj-vswCnk" />
     <id>urn:uuid:https://www.youtube.com/watch?v=NlRj-vswCnk</id>
     <updated>2026-02-27T02:06:40.000Z</updated>
     <published>2026-02-27T02:06:40.000Z</published>
     <summary type="html"><![CDATA[]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac abre pesquisa para ouvir passageiros e regulados sobre transporte aéreo]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-pesquisa-para-ouvir-passageiros-e-regulados-sobre-transporte-aereo" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-pesquisa-para-ouvir-passageiros-e-regulados-sobre-transporte-aereo</id>
-    <updated>2026-02-25T10:05:00.000Z</updated>
-    <published>2026-02-25T10:05:00.000Z</published>
-    <summary type="html"><![CDATA[Questionário eletrônico é anônimo e fica aberto até 31 de março]]></summary>
   </entry>
 
   <entry>
