@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-17T17:24:00.000Z</updated>
+  <updated>2026-03-19T16:10:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac realiza aula inaugural do Projeto Pilotos do Semiárido em Pernambuco]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-realiza-aula-inaugural-do-projeto-pilotos-do-semiarido-em-pernambuco" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-realiza-aula-inaugural-do-projeto-pilotos-do-semiarido-em-pernambuco</id>
+    <updated>2026-03-19T16:10:00.000Z</updated>
+    <published>2026-03-19T16:10:00.000Z</published>
+    <summary type="html"><![CDATA[Iniciativa do programa Asas para Todos vai capacitar 20 alunos para atuação como pilotos, com formação completa e foco em inclusão e diversidade no setor]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Semana Safety define programação para a etapa de Curitiba (PR)]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-define-programacao-para-a-etapa-de-curitiba-pr" />
@@ -15,7 +24,7 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Novidade: envio de notificações em lote agora está disponível no Portal Único da Anac]]></title>
+    <title type="html"><![CDATA[Novidade: envio de notificações em lote agora está disponível no Portal Único]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/novidade-envio-de-notificacoes-em-lote-agora-esta-disponivel-no-portal-unico-da-anac" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/novidade-envio-de-notificacoes-em-lote-agora-esta-disponivel-no-portal-unico-da-anac</id>
     <updated>2026-03-17T15:09:00.000Z</updated>
@@ -192,15 +201,6 @@
     <updated>2026-03-02T18:22:00.000Z</updated>
     <published>2026-03-02T18:22:00.000Z</published>
     <summary type="html"><![CDATA[Diretor-presidente da Anac apresentará as propostas da Agência durante audiência pública]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac autoriza operações da aeronave L410 NG no Brasil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-autoriza-operacoes-da-aeronave-l410-ng-no-brasil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-autoriza-operacoes-da-aeronave-l410-ng-no-brasil</id>
-    <updated>2026-03-02T15:29:00.000Z</updated>
-    <published>2026-03-02T15:29:00.000Z</published>
-    <summary type="html"><![CDATA[Modelo foi certificado em 10 de fevereiro]]></summary>
   </entry>
 
   <entry>
