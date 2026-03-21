@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-19T16:10:00.000Z</updated>
+  <updated>2026-03-20T17:38:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Fevereiro bate recorde e supera 10 milhões de viajantes no transporte aéreo]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/fevereiro-bate-recorde-e-supera-10-milhoes-de-viajantes-no-transporte-aereo" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/fevereiro-bate-recorde-e-supera-10-milhoes-de-viajantes-no-transporte-aereo</id>
+    <updated>2026-03-20T17:38:00.000Z</updated>
+    <published>2026-03-20T17:38:00.000Z</published>
+    <summary type="html"><![CDATA[Segmentos doméstico e internacional registram melhor resultado para o mês na série histórica]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac celebra 20 anos como referência internacional e reforça papel estratégico para a aviação brasileira]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-celebra-20-anos-como-referencia-internacional-e-reforca-papel-estrategico-para-a-aviacao-brasileira" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-celebra-20-anos-como-referencia-internacional-e-reforca-papel-estrategico-para-a-aviacao-brasileira</id>
+    <updated>2026-03-20T16:22:00.000Z</updated>
+    <published>2026-03-20T16:22:00.000Z</published>
+    <summary type="html"><![CDATA[Evento em Brasília (DF) reúne autoridades nacionais e internacionais, que destacam a trajetória da Agência, homenageiam servidores e trazem os desafios para o futuro do setor aéreo]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac 20 Anos: compromisso para desenvolver o transporte aéreo com segurança]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-20-anos-compromisso-para-desenvolver-o-transporte-aereo-com-seguranca" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-20-anos-compromisso-para-desenvolver-o-transporte-aereo-com-seguranca</id>
+    <updated>2026-03-20T14:28:00.000Z</updated>
+    <published>2026-03-20T14:28:00.000Z</published>
+    <summary type="html"><![CDATA[Trajetória da Agência, construída com excelência técnica, levou o Brasil a se tornar liderança no setor aéreo internacional]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac realiza aula inaugural do Projeto Pilotos do Semiárido em Pernambuco]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-realiza-aula-inaugural-do-projeto-pilotos-do-semiarido-em-pernambuco" />
@@ -174,33 +201,6 @@
     <updated>2026-03-04T15:00:00.000Z</updated>
     <published>2026-03-04T15:00:00.000Z</published>
     <summary type="html"><![CDATA[Proposta da Anac foi apresentada em comissão antes de votação na Diretoria Colegiada, agendada para esta sexta (6/3)]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac participa do IX Encontro Mulheres na Aviação, nos dias 7 e 8/3, em São José dos Campos (SP)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-ix-encontro-mulheres-na-aviacao-nos-dias-7-e-8-3-em-sao-jose-dos-campos-sp" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-ix-encontro-mulheres-na-aviacao-nos-dias-7-e-8-3-em-sao-jose-dos-campos-sp</id>
-    <updated>2026-03-03T13:07:00.000Z</updated>
-    <published>2026-03-03T13:07:00.000Z</published>
-    <summary type="html"><![CDATA[Evento promovido pela Aviadoras terá programação voltada para equidade de gênero, formação profissional e à ampliação do acesso às carreiras do setor aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac lança Plano de Dados Abertos (2026/2027) e anuncia novos conjuntos de dados prioritários]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-lanca-plano-de-dados-abertos-2026-2027-e-anuncia-novos-conjuntos-de-dados-prioritarios" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-lanca-plano-de-dados-abertos-2026-2027-e-anuncia-novos-conjuntos-de-dados-prioritarios</id>
-    <updated>2026-03-03T11:33:00.000Z</updated>
-    <published>2026-03-03T11:33:00.000Z</published>
-    <summary type="html"><![CDATA[Plano reforça governança da informação e estabelece diretrizes para ampliar transparência no setor aéreo]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Câmara debate regras para passageiros indisciplinados nesta terça (3/3)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/camara-debate-regras-para-passageiros-indisciplinados-nesta-terca-3-3" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/camara-debate-regras-para-passageiros-indisciplinados-nesta-terca-3-3</id>
-    <updated>2026-03-02T18:22:00.000Z</updated>
-    <published>2026-03-02T18:22:00.000Z</published>
-    <summary type="html"><![CDATA[Diretor-presidente da Anac apresentará as propostas da Agência durante audiência pública]]></summary>
   </entry>
 
   <entry>
