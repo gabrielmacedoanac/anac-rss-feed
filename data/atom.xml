@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-20T17:38:00.000Z</updated>
+  <updated>2026-03-23T15:14:07.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac 20 anos]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=1PI2kziB8j8" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=1PI2kziB8j8</id>
+    <updated>2026-03-23T15:14:07.000Z</updated>
+    <published>2026-03-23T15:14:07.000Z</published>
+    <summary type="html"><![CDATA[Anac 20 anos: Uma trajetória de dedicação e excelência técnica para o setor aéreo]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Anac participa do III Congresso da ABRAPAVAA sobre assistência a vítimas na aviação civil]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-iii-congresso-da-abrapavaa-sobre-assistencia-a-vitimas-na-aviacao-civil" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-iii-congresso-da-abrapavaa-sobre-assistencia-a-vitimas-na-aviacao-civil</id>
+    <updated>2026-03-23T12:59:00.000Z</updated>
+    <published>2026-03-23T12:59:00.000Z</published>
+    <summary type="html"><![CDATA[Encontro promoveu troca de experiências e discussão de práticas voltadas ao atendimento de vítimas e familiares no setor aéreo]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Fevereiro bate recorde e supera 10 milhões de viajantes no transporte aéreo]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/fevereiro-bate-recorde-e-supera-10-milhoes-de-viajantes-no-transporte-aereo" />
@@ -195,15 +213,6 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Regra para passageiro indisciplinado é debatida em audiência pública na Câmara]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/regra-para-passageiro-indisciplinado-e-debatida-em-audiencia-publica-na-camara" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/regra-para-passageiro-indisciplinado-e-debatida-em-audiencia-publica-na-camara</id>
-    <updated>2026-03-04T15:00:00.000Z</updated>
-    <published>2026-03-04T15:00:00.000Z</published>
-    <summary type="html"><![CDATA[Proposta da Anac foi apresentada em comissão antes de votação na Diretoria Colegiada, agendada para esta sexta (6/3)]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[ROADSHOW | ANAC - AEROPORTO DO GALEÃO - SESSÃO DE ESCLARECIMENTOS]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=NlRj-vswCnk" />
     <id>urn:uuid:https://www.youtube.com/watch?v=NlRj-vswCnk</id>
@@ -361,16 +370,5 @@ Relator: Luiz Ricardo Nascimento]]></summary>
     <updated>2025-10-23T15:56:07.000Z</updated>
     <published>2025-10-23T15:56:07.000Z</published>
     <summary type="html"><![CDATA[Realizado pela Agência Nacional de Aviação Civil (Anac), a 10ª edição do Safety Management Summit Brazil (SMS Brasil) consolida-se como o principal fórum nacional dedicado à segurança operacional da aviação civil brasileira.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=zgHAnR8oBsY" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=zgHAnR8oBsY</id>
-    <updated>2025-10-17T08:34:42.000Z</updated>
-    <published>2025-10-17T08:34:42.000Z</published>
-    <summary type="html"><![CDATA[Ao contrário do informado na resposta à pergunta que se inicia no minuto 1:50:47 do webinário, no caso da execução apenas de provas de MMA relativas a uma habilitação (sem o módulo básico), não é possível ficar de segunda época, sendo necessário ser aprovado em ambas as provas que compõem o exame. Conforme o parágrafo (c) da seção 5.13.2 da Instrução Suplementar (IS) 00 003H (https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-003): “Segunda época (2EP): quando o candidato não obtiver aproveitamento superior ao estabelecido para aprovação em no máximo um número inteiro de provas inferior ou igual a (N–1)/2, onde N é o número total de provas que compõem o exame. Em cada uma dessas provas em que o candidato não foi aprovado, ele deverá ter atingido, no mínimo, 30% de acertos.” Como, neste caso, o exame é composto por apenas duas provas, o resultado da expressão (N–1)/2 é 0,5, não havendo, portanto, possibilidade de segunda época para esse exame.
-
-Recebemos esse pedido via ouvidoria: SEAM 1065482.]]></summary>
   </entry>
 </feed>

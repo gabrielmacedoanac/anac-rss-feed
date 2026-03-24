@@ -1,5 +1,21 @@
 [
   {
+    "title": "Anac 20 anos",
+    "link": "https://www.youtube.com/watch?v=1PI2kziB8j8",
+    "date": "23/03/2026 15h14",
+    "description": "Anac 20 anos: Uma trajetória de dedicação e excelência técnica para o setor aéreo",
+    "image": "https://i2.ytimg.com/vi/1PI2kziB8j8/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Anac participa do III Congresso da ABRAPAVAA sobre assistência a vítimas na aviação civil",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-iii-congresso-da-abrapavaa-sobre-assistencia-a-vitimas-na-aviacao-civil",
+    "date": "23/03/2026 12h59",
+    "description": "Encontro promoveu troca de experiências e discussão de práticas voltadas ao atendimento de vítimas e familiares no setor aéreo",
+    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-iii-congresso-da-abrapavaa-sobre-assistencia-a-vitimas-na-aviacao-civil/whatsapp-image-2026-03-18-at-10-54-47-1.jpeg/@@images/d82e769c-7610-4ab7-832a-6e5110cb0c55.jpeg",
+    "type": "texto"
+  },
+  {
     "title": "Fevereiro bate recorde e supera 10 milhões de viajantes no transporte aéreo",
     "link": "https://www.gov.br/anac/pt-br/noticias/2026/fevereiro-bate-recorde-e-supera-10-milhoes-de-viajantes-no-transporte-aereo",
     "date": "20/03/2026 17h38",
@@ -168,14 +184,6 @@
     "type": "vídeo"
   },
   {
-    "title": "Regra para passageiro indisciplinado é debatida em audiência pública na Câmara",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2026/regra-para-passageiro-indisciplinado-e-debatida-em-audiencia-publica-na-camara",
-    "date": "04/03/2026 15h00",
-    "description": "Proposta da Anac foi apresentada em comissão antes de votação na Diretoria Colegiada, agendada para esta sexta (6/3)",
-    "image": "https://www.gov.br/anac/pt-br/noticias/2026/regra-para-passageiro-indisciplinado-e-debatida-em-audiencia-publica-na-camara/20260303_162835.jpg/@@images/36e8ea85-c0e5-44de-b946-428c49abe7ab.jpeg",
-    "type": "texto"
-  },
-  {
     "title": "ROADSHOW | ANAC - AEROPORTO DO GALEÃO - SESSÃO DE ESCLARECIMENTOS",
     "link": "https://www.youtube.com/watch?v=NlRj-vswCnk",
     "date": "27/02/2026 02h06",
@@ -269,14 +277,6 @@
     "date": "23/10/2025 15h56",
     "description": "Realizado pela Agência Nacional de Aviação Civil (Anac), a 10ª edição do Safety Management Summit Brazil (SMS Brasil) consolida-se como o principal fórum nacional dedicado à segurança operacional da aviação civil brasileira.",
     "image": "https://i1.ytimg.com/vi/PGYrnRdnq30/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA",
-    "link": "https://www.youtube.com/watch?v=zgHAnR8oBsY",
-    "date": "17/10/2025 08h34",
-    "description": "Ao contrário do informado na resposta à pergunta que se inicia no minuto 1:50:47 do webinário, no caso da execução apenas de provas de MMA relativas a uma habilitação (sem o módulo básico), não é possível ficar de segunda época, sendo necessário ser aprovado em ambas as provas que compõem o exame. Conforme o parágrafo (c) da seção 5.13.2 da Instrução Suplementar (IS) 00 003H (https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-003): “Segunda época (2EP): quando o candidato não obtiver aproveitamento superior ao estabelecido para aprovação em no máximo um número inteiro de provas inferior ou igual a (N–1)/2, onde N é o número total de provas que compõem o exame. Em cada uma dessas provas em que o candidato não foi aprovado, ele deverá ter atingido, no mínimo, 30% de acertos.” Como, neste caso, o exame é composto por apenas duas provas, o resultado da expressão (N–1)/2 é 0,5, não havendo, portanto, possibilidade de segunda época para esse exame.\n\nRecebemos esse pedido via ouvidoria: SEAM 1065482.",
-    "image": "https://i3.ytimg.com/vi/zgHAnR8oBsY/hqdefault.jpg",
     "type": "vídeo"
   }
 ]

@@ -4,8 +4,26 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Mon, 23 Mar 2026 13:01:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 01:52:38 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[Anac 20 anos]]></title>
+    <link>https://www.youtube.com/watch?v=1PI2kziB8j8</link>
+    <description><![CDATA[Anac 20 anos: Uma trajetória de dedicação e excelência técnica para o setor aéreo]]></description>
+    <pubDate>Mon, 23 Mar 2026 15:14:07 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=1PI2kziB8j8</guid>
+    <dc:date>2026-03-23T15:14:07.000Z</dc:date>
+  </item>
+
+  <item>
+    <title><![CDATA[Anac participa do III Congresso da ABRAPAVAA sobre assistência a vítimas na aviação civil]]></title>
+    <link>https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-iii-congresso-da-abrapavaa-sobre-assistencia-a-vitimas-na-aviacao-civil</link>
+    <description><![CDATA[Encontro promoveu troca de experiências e discussão de práticas voltadas ao atendimento de vítimas e familiares no setor aéreo]]></description>
+    <pubDate>Mon, 23 Mar 2026 12:59:00 GMT</pubDate>
+    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2026/anac-participa-do-iii-congresso-da-abrapavaa-sobre-assistencia-a-vitimas-na-aviacao-civil</guid>
+    <dc:date>2026-03-23T12:59:00.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[Fevereiro bate recorde e supera 10 milhões de viajantes no transporte aéreo]]></title>
     <link>https://www.gov.br/anac/pt-br/noticias/2026/fevereiro-bate-recorde-e-supera-10-milhoes-de-viajantes-no-transporte-aereo</link>
@@ -196,15 +214,6 @@
   </item>
 
   <item>
-    <title><![CDATA[Regra para passageiro indisciplinado é debatida em audiência pública na Câmara]]></title>
-    <link>https://www.gov.br/anac/pt-br/noticias/2026/regra-para-passageiro-indisciplinado-e-debatida-em-audiencia-publica-na-camara</link>
-    <description><![CDATA[Proposta da Anac foi apresentada em comissão antes de votação na Diretoria Colegiada, agendada para esta sexta (6/3)]]></description>
-    <pubDate>Wed, 04 Mar 2026 15:00:00 GMT</pubDate>
-    <guid isPermaLink="true">https://www.gov.br/anac/pt-br/noticias/2026/regra-para-passageiro-indisciplinado-e-debatida-em-audiencia-publica-na-camara</guid>
-    <dc:date>2026-03-04T15:00:00.000Z</dc:date>
-  </item>
-
-  <item>
     <title><![CDATA[ROADSHOW | ANAC - AEROPORTO DO GALEÃO - SESSÃO DE ESCLARECIMENTOS]]></title>
     <link>https://www.youtube.com/watch?v=NlRj-vswCnk</link>
     <description><![CDATA[]]></description>
@@ -362,17 +371,6 @@ Relator: Luiz Ricardo Nascimento]]></description>
     <pubDate>Thu, 23 Oct 2025 15:56:07 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=PGYrnRdnq30</guid>
     <dc:date>2025-10-23T15:56:07.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Webinário IS 65-001F - Concessão de Licença e Habilitações para MMA]]></title>
-    <link>https://www.youtube.com/watch?v=zgHAnR8oBsY</link>
-    <description><![CDATA[Ao contrário do informado na resposta à pergunta que se inicia no minuto 1:50:47 do webinário, no caso da execução apenas de provas de MMA relativas a uma habilitação (sem o módulo básico), não é possível ficar de segunda época, sendo necessário ser aprovado em ambas as provas que compõem o exame. Conforme o parágrafo (c) da seção 5.13.2 da Instrução Suplementar (IS) 00 003H (https://www.anac.gov.br/assuntos/legislacao/legislacao-1/iac-e-is/is/is-00-003): “Segunda época (2EP): quando o candidato não obtiver aproveitamento superior ao estabelecido para aprovação em no máximo um número inteiro de provas inferior ou igual a (N–1)/2, onde N é o número total de provas que compõem o exame. Em cada uma dessas provas em que o candidato não foi aprovado, ele deverá ter atingido, no mínimo, 30% de acertos.” Como, neste caso, o exame é composto por apenas duas provas, o resultado da expressão (N–1)/2 é 0,5, não havendo, portanto, possibilidade de segunda época para esse exame.
-
-Recebemos esse pedido via ouvidoria: SEAM 1065482.]]></description>
-    <pubDate>Fri, 17 Oct 2025 08:34:42 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=zgHAnR8oBsY</guid>
-    <dc:date>2025-10-17T08:34:42.000Z</dc:date>
   </item>
   </channel>
 </rss>
