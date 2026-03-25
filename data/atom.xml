@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-23T15:14:07.000Z</updated>
+  <updated>2026-03-24T19:30:48.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac 20 anos: Mensagem das autoridades de aviação civil estrangeiras]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=jatAS4IHXBo" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=jatAS4IHXBo</id>
+    <updated>2026-03-24T19:30:48.000Z</updated>
+    <published>2026-03-24T19:30:48.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[BGAST lança o guia “4 passos para a conformidade”]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/bgast-lanca-o-guia-201c4-passos-para-a-conformidade201d" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/bgast-lanca-o-guia-201c4-passos-para-a-conformidade201d</id>
+    <updated>2026-03-24T15:33:00.000Z</updated>
+    <published>2026-03-24T15:33:00.000Z</published>
+    <summary type="html"><![CDATA[Com apoio de especialistas do setor, o grupo publica orientações práticas para operadores da aviação geral se manterem atualizados]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Exercício cibernético para fortalecer a segurança da aviação civil brasileira é promovido pela Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/exercicio-cibernetico-para-fortalecer-a-seguranca-da-aviacao-civil-brasileira-e-promovido-pela-anac" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/exercicio-cibernetico-para-fortalecer-a-seguranca-da-aviacao-civil-brasileira-e-promovido-pela-anac</id>
+    <updated>2026-03-24T14:59:00.000Z</updated>
+    <published>2026-03-24T14:59:00.000Z</published>
+    <summary type="html"><![CDATA[Iniciativa reuniu operadores aéreos, aeroportos e instituições estratégicas em simulação de resposta a incidentes cibernéticos]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Salvador receberá, no dia 26/3, programa Asas para Todos com a participação de crianças e jovens de Santo Estêvão (BA)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/salvador-recebera-no-dia-26-3-programa-asas-para-todos-com-a-participacaode-criancas-e-jovens-de-santo-estevao-ba" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/salvador-recebera-no-dia-26-3-programa-asas-para-todos-com-a-participacaode-criancas-e-jovens-de-santo-estevao-ba</id>
+    <updated>2026-03-24T14:16:00.000Z</updated>
+    <published>2026-03-24T14:16:00.000Z</published>
+    <summary type="html"><![CDATA[Projeto aproxima novas gerações do universo da aviação civil, despertando o interesse por carreiras no setor e ampliando oportunidades para grupos minoritários]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Anac 20 anos]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=1PI2kziB8j8" />
@@ -177,33 +213,6 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Série de webinários da Anac traz inovações e segurança para as organizações de manutenção]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/serie-de-webinarios-da-anac-traz-inovacoes-e-seguranca-para-as-organizacoes-de-manutencao" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/serie-de-webinarios-da-anac-traz-inovacoes-e-seguranca-para-as-organizacoes-de-manutencao</id>
-    <updated>2026-03-06T10:01:00.000Z</updated>
-    <published>2026-03-06T10:01:00.000Z</published>
-    <summary type="html"><![CDATA[Semana + OM ocorre entre os dias 9 e 13/3, com transmissão pelo canal oficial da Agência no YouTube]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac passa a ocupar o posto de Comissário de Navegação Aérea do Brasil na Oaci]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-passa-a-ocupar-o-posto-de-comissario-de-navegacao-aerea-do-brasil-na-oaci" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-passa-a-ocupar-o-posto-de-comissario-de-navegacao-aerea-do-brasil-na-oaci</id>
-    <updated>2026-03-05T09:17:00.000Z</updated>
-    <published>2026-03-05T09:17:00.000Z</published>
-    <summary type="html"><![CDATA[Transição marca o fortalecimento da atuação da Agência em âmbito internacional]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Anac nomeia novos especialistas em Regulação de Aviação Civil]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-nomeia-novos-especialistas-em-regulacao-de-aviacao-civil" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-nomeia-novos-especialistas-em-regulacao-de-aviacao-civil</id>
-    <updated>2026-03-04T18:05:00.000Z</updated>
-    <published>2026-03-04T18:05:00.000Z</published>
-    <summary type="html"><![CDATA[Medida amplia a força de trabalho da Agência nas áreas técnicas de regulação]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[Sessão pública do leilão da Venda Assistida do Galeão]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=7XZ5YTYlrdE" />
     <id>urn:uuid:https://www.youtube.com/watch?v=7XZ5YTYlrdE</id>
@@ -361,14 +370,5 @@ Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
 Assunto: Proposta de resolução para regulamentar disposição transitória para a exploração de serviços aéreos com balão e de emenda ao RBAC nº 103 - Fase 1 do Tema 17 da Agenda Regulatória 2025-2026
   
 Relator: Luiz Ricardo Nascimento]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[SMS Brazil: Há 10 anos contribuindo com a segurança operacional da aviação civil.]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=PGYrnRdnq30" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=PGYrnRdnq30</id>
-    <updated>2025-10-23T15:56:07.000Z</updated>
-    <published>2025-10-23T15:56:07.000Z</published>
-    <summary type="html"><![CDATA[Realizado pela Agência Nacional de Aviação Civil (Anac), a 10ª edição do Safety Management Summit Brazil (SMS Brasil) consolida-se como o principal fórum nacional dedicado à segurança operacional da aviação civil brasileira.]]></summary>
   </entry>
 </feed>
