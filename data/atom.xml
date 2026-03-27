@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-25T15:08:00.000Z</updated>
+  <updated>2026-03-26T17:41:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Leilão da venda assistida do Aeroporto do Galeão será no dia 30/3, às 15h]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/leilao-da-venda-assistida-do-aeroporto-do-galeao-sera-no-dia-30-3-as-15h" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/leilao-da-venda-assistida-do-aeroporto-do-galeao-sera-no-dia-30-3-as-15h</id>
+    <updated>2026-03-26T17:41:00.000Z</updated>
+    <published>2026-03-26T17:41:00.000Z</published>
+    <summary type="html"><![CDATA[Jornalistas interessados em acompanhar a sessão na B3, em SP, devem confirmar presença pelo e-mail imprensa@b3.com.br]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Agenda Conectar impulsiona a expansão da conectividade aérea nos próximos anos]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/agenda-conectar-impulsiona-a-expansao-da-conectividade-aerea-nos-proximos-anos" />
@@ -192,15 +201,6 @@
     <updated>2026-03-13T15:16:00.000Z</updated>
     <published>2026-03-13T15:16:00.000Z</published>
     <summary type="html"><![CDATA[Eleição fortalece a presença estratégica da Agência nas discussões regionais sobre segurança operacional da aviação civil]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Senado Federal realiza sessão especial em homenagem aos 20 anos da Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/senado-federal-realiza-sessao-solene-em-homenagem-aos-20-anos-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/senado-federal-realiza-sessao-solene-em-homenagem-aos-20-anos-da-anac</id>
-    <updated>2026-03-13T14:43:00.000Z</updated>
-    <published>2026-03-13T14:43:00.000Z</published>
-    <summary type="html"><![CDATA[Criada em 2006, a Agência é referência mundial em regulação do transporte aéreo e segurança operacional]]></summary>
   </entry>
 
   <entry>
