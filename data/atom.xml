@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-03-26T17:41:00.000Z</updated>
+  <updated>2026-03-27T17:30:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac forma os dois primeiros inspetores sêniores no Programa SAFA]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-forma-os-dois-primeiros-inspetores-seniores-no-programa-safa" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-forma-os-dois-primeiros-inspetores-seniores-no-programa-safa</id>
+    <updated>2026-03-27T17:30:00.000Z</updated>
+    <published>2026-03-27T17:30:00.000Z</published>
+    <summary type="html"><![CDATA[Essa formação representa um marco estratégico para a Agência na avaliação de segurança de aeronaves estrangeiras]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Primeira edição nordestina do programa Criando Asas inspira jovens em Salvador]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/primeira-edicao-nordestina-do-programa-criando-asas-inspira-jovens-em-salvador" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/primeira-edicao-nordestina-do-programa-criando-asas-inspira-jovens-em-salvador</id>
+    <updated>2026-03-27T17:25:00.000Z</updated>
+    <published>2026-03-27T17:25:00.000Z</published>
+    <summary type="html"><![CDATA[Estudantes de Santo Estêvão participam de experiências imersivas do universo da aviação]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Leilão da venda assistida do Aeroporto do Galeão será no dia 30/3, às 15h]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/leilao-da-venda-assistida-do-aeroporto-do-galeao-sera-no-dia-30-3-as-15h" />
@@ -183,24 +201,6 @@
     <updated>2026-03-13T16:10:00.000Z</updated>
     <published>2026-03-13T16:10:00.000Z</published>
     <summary type="html"><![CDATA[A decisão permitirá ampliar a conectividade logística internacional e fortalecer a integração com as cadeias globais de suprimento]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Últimos dias da consulta de modernização de equipamentos de inspeção em aeroportos]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/ultimos-dias-para-participar-da-consulta-publica-para-modernizar-equipamentos-de-inspecao-em-aeroportos" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/ultimos-dias-para-participar-da-consulta-publica-para-modernizar-equipamentos-de-inspecao-em-aeroportos</id>
-    <updated>2026-03-13T15:36:00.000Z</updated>
-    <published>2026-03-13T15:36:00.000Z</published>
-    <summary type="html"><![CDATA[Contribuições podem ser enviadas até 16/3]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Servidor da Anac assume posição de liderança em grupo da Região Pan-Americana de segurança operacional]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/servidor-da-anac-assume-posicao-de-lideranca-em-grupo-da-regiao-pan-americana-de-seguranca-operacional" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/servidor-da-anac-assume-posicao-de-lideranca-em-grupo-da-regiao-pan-americana-de-seguranca-operacional</id>
-    <updated>2026-03-13T15:16:00.000Z</updated>
-    <published>2026-03-13T15:16:00.000Z</published>
-    <summary type="html"><![CDATA[Eleição fortalece a presença estratégica da Agência nas discussões regionais sobre segurança operacional da aviação civil]]></summary>
   </entry>
 
   <entry>
