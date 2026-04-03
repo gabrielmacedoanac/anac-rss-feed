@@ -2,16 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-04-01T17:42:00.000Z</updated>
+  <updated>2026-04-02T15:25:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Anac atua na COP 15 para garantir segurança operacional na aviação]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/anac-atua-na-cop-15-para-garantir-seguranca-operacional-na-aviacao" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/anac-atua-na-cop-15-para-garantir-seguranca-operacional-na-aviacao</id>
+    <updated>2026-04-02T15:25:00.000Z</updated>
+    <published>2026-04-02T15:25:00.000Z</published>
+    <summary type="html"><![CDATA[O evento ocorreu em Campo Grande (MS) e debate a conservação ambiental aeroportuária em escala internacional]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Servidor da Anac assume posição de liderança em painel da Oaci]]></title>
+    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/servidor-da-anac-assume-posicao-de-lideranca-em-painel-da-oaci" />
+    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/servidor-da-anac-assume-posicao-de-lideranca-em-painel-da-oaci</id>
+    <updated>2026-04-02T15:06:00.000Z</updated>
+    <published>2026-04-02T15:06:00.000Z</published>
+    <summary type="html"><![CDATA[Eleição de Marcus Ramos fortalece a presença estratégica da Agência nas discussões regulatórias mundiais sobre segurança operacional da aviação civil]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Aeroporto do Galeão é arrematado pela Aena em leilão de venda assistida]]></title>
     <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/aeroporto-do-galeao-e-arrematado-pelaaenaem-leilao-de-venda-assistida" />
     <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/aeroporto-do-galeao-e-arrematado-pelaaenaem-leilao-de-venda-assistida</id>
     <updated>2026-04-01T17:42:00.000Z</updated>
     <published>2026-04-01T17:42:00.000Z</published>
-    <summary type="html"><![CDATA[Lance vencedor teve ágio de 210,8% e sinaliza o potencial do aeroporto carioca para o transporte aéreo brasileiro]]></summary>
+    <summary type="html"><![CDATA[Lance vencedor de R$ 2,9 bi sinaliza o potencial do aeroporto carioca para o transporte aéreo brasileiro]]></summary>
   </entry>
 
   <entry>
@@ -195,24 +213,6 @@
   </entry>
 
   <entry>
-    <title type="html"><![CDATA[Semana Safety define programação para a etapa de Curitiba (PR)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-define-programacao-para-a-etapa-de-curitiba-pr" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-define-programacao-para-a-etapa-de-curitiba-pr</id>
-    <updated>2026-03-17T17:24:00.000Z</updated>
-    <published>2026-03-17T17:24:00.000Z</published>
-    <summary type="html"><![CDATA[Anac realizará 20 atividades entre paineis, palestras e mesas redondas sobre segurança operacional]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Novidade: envio de notificações em lote agora está disponível no Portal Único]]></title>
-    <link rel="alternate" type="text/html" href="https://www.gov.br/anac/pt-br/noticias/2026/novidade-envio-de-notificacoes-em-lote-agora-esta-disponivel-no-portal-unico-da-anac" />
-    <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias/2026/novidade-envio-de-notificacoes-em-lote-agora-esta-disponivel-no-portal-unico-da-anac</id>
-    <updated>2026-03-17T15:09:00.000Z</updated>
-    <published>2026-03-17T15:09:00.000Z</published>
-    <summary type="html"><![CDATA[O reporte de situações de ameaça à segurança operacional são fundamentais para a atuação proativa da Agência]]></summary>
-  </entry>
-
-  <entry>
     <title type="html"><![CDATA[2ª Reunião Deliberativa da Diretoria Colegiada (06/03/2026)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=jffGukQJVIk" />
     <id>urn:uuid:https://www.youtube.com/watch?v=jffGukQJVIk</id>
@@ -288,6 +288,15 @@ Relator: Rui Mesquita]]></summary>
   </entry>
 
   <entry>
+    <title type="html"><![CDATA[3ª Reunião Deliberativa da Diretoria Colegiada (02/04/2026)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=u_fBr0YuZDA" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=u_fBr0YuZDA</id>
+    <updated>2026-01-06T12:20:56.000Z</updated>
+    <published>2026-01-06T12:20:56.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
     <title type="html"><![CDATA[2ª Reunião Deliberativa Extraordinária da Diretoria Colegiada (11/12/2025)]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ctobZIU7IKE" />
     <id>urn:uuid:https://www.youtube.com/watch?v=ctobZIU7IKE</id>
@@ -357,18 +366,5 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></summary>
 Nessa edição será abordado como tema: melhoria do engajamento do time para trabalhar com projetos e processos. Teremos palestrantes abordando essa temática trazendo sua experiência em outras organizações com o intuito de trazer ideias novas para melhoria desses aspectos.
   
 Link Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[13ª Reunião Deliberativa da Diretoria Colegiada (28/10/2025)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=pvYoq4oXEEI" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=pvYoq4oXEEI</id>
-    <updated>2025-10-28T20:12:36.000Z</updated>
-    <published>2025-10-28T20:12:36.000Z</published>
-    <summary type="html"><![CDATA[1) Processo: 00058.009139/2024-39
-  
-Assunto: Proposta de resolução para regulamentar disposição transitória para a exploração de serviços aéreos com balão e de emenda ao RBAC nº 103 - Fase 1 do Tema 17 da Agenda Regulatória 2025-2026
-  
-Relator: Luiz Ricardo Nascimento]]></summary>
   </entry>
 </feed>
