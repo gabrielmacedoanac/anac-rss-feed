@@ -1,5 +1,29 @@
 [
   {
+    "title": "Webinário do BHEST Tema: Fatores Humanos na Aviação de Helicópteros",
+    "link": "https://www.youtube.com/watch?v=khhjOz1Grwg",
+    "date": "06/04/2026 16h44",
+    "description": "LINK SLIDO: https://app.sli.do/event/rao4YZUceYybrNZXrR3rqg",
+    "image": "https://i4.ytimg.com/vi/khhjOz1Grwg/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "PagTesouro substitui GRU Simples e Judicial e moderniza arrecadação",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2026/pagtesouro-substitui-gru-simples-e-judicial-e-moderniza-arrecadacao-1",
+    "date": "06/04/2026 15h06",
+    "description": "A plataforma moderniza a arrecadação ao substituir os boletos tradicionais, permitindo emissão da GRU Simples com pagamento instantâneo via Pix ou cartão de crédito",
+    "image": null,
+    "type": "texto"
+  },
+  {
+    "title": "Anac e Reino Unido assinam revisão de acordo para certificação ambiental e de aeronavegabilidade entre os países",
+    "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-e-reino-unido-assinam-revisao-de-acordo-para-certificacao-ambiental-e-de-aeronavegabilidade-entre-os-paises",
+    "date": "06/04/2026 14h22",
+    "description": "Revisão aprimora procedimentos baseados em risco para aceitação e validação de artigos aeronáuticos estrangeiros",
+    "image": null,
+    "type": "texto"
+  },
+  {
     "title": "3ª Reunião Deliberativa da Diretoria Colegiada (02/04/2026)",
     "link": "https://www.youtube.com/watch?v=u_fBr0YuZDA",
     "date": "03/04/2026 07h04",
@@ -176,22 +200,6 @@
     "type": "texto"
   },
   {
-    "title": "Anac 20 Anos: compromisso para desenvolver o transporte aéreo com segurança",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-20-anos-compromisso-para-desenvolver-o-transporte-aereo-com-seguranca",
-    "date": "20/03/2026 14h28",
-    "description": "Trajetória da Agência, construída com excelência técnica, levou o Brasil a se tornar liderança no setor aéreo internacional",
-    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-20-anos-compromisso-para-desenvolver-o-transporte-aereo-com-seguranca/banner-portal___.png/@@images/251cd189-c690-48ff-8638-4e739e958641.png",
-    "type": "texto"
-  },
-  {
-    "title": "Anac realiza aula inaugural do Projeto Pilotos do Semiárido em Pernambuco",
-    "link": "https://www.gov.br/anac/pt-br/noticias/2026/anac-realiza-aula-inaugural-do-projeto-pilotos-do-semiarido-em-pernambuco",
-    "date": "19/03/2026 16h10",
-    "description": "Iniciativa do programa Asas para Todos vai capacitar 20 alunos para atuação como pilotos, com formação completa e foco em inclusão e diversidade no setor",
-    "image": "https://www.gov.br/anac/pt-br/noticias/2026/anac-realiza-aula-inaugural-do-projeto-pilotos-do-semiarido-em-pernambuco/dsc05094.jpg/@@images/e7812fb0-e666-4d1d-a8f0-767b836b732f.jpeg",
-    "type": "texto"
-  },
-  {
     "title": "2ª Reunião Deliberativa da Diretoria Colegiada (06/03/2026)",
     "link": "https://www.youtube.com/watch?v=jffGukQJVIk",
     "date": "07/03/2026 07h19",
@@ -269,14 +277,6 @@
     "date": "11/11/2025 19h53",
     "description": "Link Slido: https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv",
     "image": "https://i4.ytimg.com/vi/oIgGzr1zey8/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "TransformANAC 2025",
-    "link": "https://www.youtube.com/watch?v=CO9w47Hc1f0",
-    "date": "07/11/2025 03h40",
-    "description": "Para implementar as ações necessárias à gestão e implementação da estratégia é necessário ter boas práticas que são praticadas no dia a dia da instituição. Assim esse evento visa promover a cultura de gerenciamento de gestão, inovação e governança na ANAC por meio da participação de renomados palestrantes e profissionais que inspirem boas práticas para melhoria e transformação organizacional. \nNessa edição será abordado como tema: melhoria do engajamento do time para trabalhar com projetos e processos. Teremos palestrantes abordando essa temática trazendo sua experiência em outras organizações com o intuito de trazer ideias novas para melhoria desses aspectos.\n  \nLink Slido: https://app.sli.do/event/pkzkZ3XZ8tNaZGR5ASXMrF",
-    "image": "https://i4.ytimg.com/vi/CO9w47Hc1f0/hqdefault.jpg",
     "type": "vídeo"
   }
 ]
