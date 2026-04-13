@@ -1,5 +1,13 @@
 [
   {
+    "title": "Evento de Lançamento da Plataforma Anac Passageiro",
+    "link": "https://www.youtube.com/watch?v=qfrgn5l3DL8",
+    "date": "13/04/2026 11h48",
+    "description": "",
+    "image": "https://i2.ytimg.com/vi/qfrgn5l3DL8/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
     "title": "Semana Safety Curitiba destaca a importância da aproximação entre Anac e comunidade aeronáutica",
     "link": "https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-curitiba-destaca-a-importancia-da-aproximacao-entre-anac-e-comunidade-aeronautica",
     "date": "09/04/2026 17h45",
@@ -269,14 +277,6 @@
     "date": "13/11/2025 08h16",
     "description": "Link do slido - https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv/live/questions",
     "image": "https://i1.ytimg.com/vi/l9awSyOHY0g/hqdefault.jpg",
-    "type": "vídeo"
-  },
-  {
-    "title": "Embraer Ipanema: boas práticas de segurança",
-    "link": "https://www.youtube.com/watch?v=oIgGzr1zey8",
-    "date": "11/11/2025 19h53",
-    "description": "Link Slido: https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv",
-    "image": "https://i4.ytimg.com/vi/oIgGzr1zey8/hqdefault.jpg",
     "type": "vídeo"
   }
 ]

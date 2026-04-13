@@ -4,8 +4,17 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Mon, 13 Apr 2026 02:27:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 13:20:37 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[Evento de Lançamento da Plataforma Anac Passageiro]]></title>
+    <link>https://www.youtube.com/watch?v=qfrgn5l3DL8</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Mon, 13 Apr 2026 11:48:41 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=qfrgn5l3DL8</guid>
+    <dc:date>2026-04-13T11:48:41.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[Semana Safety Curitiba destaca a importância da aproximação entre Anac e comunidade aeronáutica]]></title>
     <link>https://www.gov.br/anac/pt-br/noticias/2026/semana-safety-curitiba-destaca-a-importancia-da-aproximacao-entre-anac-e-comunidade-aeronautica</link>
@@ -359,15 +368,6 @@ Link Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW]]></description>
     <pubDate>Thu, 13 Nov 2025 08:16:59 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=l9awSyOHY0g</guid>
     <dc:date>2025-11-13T08:16:59.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Embraer Ipanema: boas práticas de segurança]]></title>
-    <link>https://www.youtube.com/watch?v=oIgGzr1zey8</link>
-    <description><![CDATA[Link Slido: https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv]]></description>
-    <pubDate>Tue, 11 Nov 2025 19:53:11 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=oIgGzr1zey8</guid>
-    <dc:date>2025-11-11T19:53:11.000Z</dc:date>
   </item>
   </channel>
 </rss>
