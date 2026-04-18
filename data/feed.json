@@ -72,6 +72,14 @@
     "type": "texto"
   },
   {
+    "title": "Evento de Lançamento da Plataforma Anac Passageiro",
+    "link": "https://www.youtube.com/watch?v=qfrgn5l3DL8",
+    "date": "15/04/2026 02h23",
+    "description": "",
+    "image": "https://i2.ytimg.com/vi/qfrgn5l3DL8/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
     "title": "Agência lança plataforma digital para solucionar problemas entre passageiros e empresas aéreas",
     "link": "https://www.gov.br/anac/pt-br/noticias/2026/agencia-lanca-plataforma-digital-para-solucionar-problemas-entre-passageiros-e-empresas-aereas",
     "date": "14/04/2026 18h40",
@@ -120,6 +128,14 @@
     "type": "texto"
   },
   {
+    "title": "Webinário do BHEST Tema: Fatores Humanos na Aviação de Helicópteros",
+    "link": "https://www.youtube.com/watch?v=khhjOz1Grwg",
+    "date": "06/04/2026 16h44",
+    "description": "LINK SLIDO: https://app.sli.do/event/rao4YZUceYybrNZXrR3rqg",
+    "image": "https://i4.ytimg.com/vi/khhjOz1Grwg/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
     "title": "PagTesouro substitui GRU Simples e Judicial e moderniza arrecadação",
     "link": "https://www.gov.br/anac/pt-br/noticias/2026/pagtesouro-substitui-gru-simples-e-judicial-e-moderniza-arrecadacao-1",
     "date": "06/04/2026 15h06",
@@ -134,6 +150,14 @@
     "description": "Revisão aprimora procedimentos baseados em risco para aceitação e validação de artigos aeronáuticos estrangeiros",
     "image": null,
     "type": "texto"
+  },
+  {
+    "title": "3ª Reunião Deliberativa da Diretoria Colegiada (02/04/2026)",
+    "link": "https://www.youtube.com/watch?v=u_fBr0YuZDA",
+    "date": "03/04/2026 07h04",
+    "description": "Início - 9:48\nProcesso: 00058.000910/2025-93 - 10:34\nProcesso: 00058.011873/2023-87 - 20:58\nProcesso: 00066.021549/2019-91 - 35:00",
+    "image": "https://i2.ytimg.com/vi/u_fBr0YuZDA/hqdefault.jpg",
+    "type": "vídeo"
   },
   {
     "title": "Anac atua na COP 15 para garantir segurança operacional na aviação",
@@ -158,5 +182,101 @@
     "description": "Lance vencedor de R$ 2,9 bi sinaliza o potencial do aeroporto carioca para o transporte aéreo brasileiro",
     "image": "https://www.gov.br/anac/pt-br/noticias/2026/aeroporto-do-galeao-e-arrematado-pelaaenaem-leilao-de-venda-assistida/leilao-aeroporto-galeao-b3-cauediniz-9239.jpg/@@images/06d43a50-857c-413b-a221-b536a222c0d1.jpeg",
     "type": "texto"
+  },
+  {
+    "title": "Sessão pública do leilão da Venda Assistida do Galeão",
+    "link": "https://www.youtube.com/watch?v=7XZ5YTYlrdE",
+    "date": "30/03/2026 20h56",
+    "description": "",
+    "image": "https://i4.ytimg.com/vi/7XZ5YTYlrdE/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Anac 20 anos: Mensagem das autoridades de aviação civil estrangeiras",
+    "link": "https://www.youtube.com/watch?v=jatAS4IHXBo",
+    "date": "24/03/2026 19h30",
+    "description": "",
+    "image": "https://i3.ytimg.com/vi/jatAS4IHXBo/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Anac 20 anos",
+    "link": "https://www.youtube.com/watch?v=1PI2kziB8j8",
+    "date": "23/03/2026 15h14",
+    "description": "Anac 20 anos: Uma trajetória de dedicação e excelência técnica para o setor aéreo",
+    "image": "https://i2.ytimg.com/vi/1PI2kziB8j8/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "2ª Reunião Deliberativa da Diretoria Colegiada (06/03/2026)",
+    "link": "https://www.youtube.com/watch?v=jffGukQJVIk",
+    "date": "07/03/2026 07h19",
+    "description": "Início - 9:50\nProcesso: 00058.061730/2022-35 - 11:13",
+    "image": "https://i3.ytimg.com/vi/jffGukQJVIk/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "ROADSHOW | ANAC - AEROPORTO DO GALEÃO - SESSÃO DE ESCLARECIMENTOS",
+    "link": "https://www.youtube.com/watch?v=NlRj-vswCnk",
+    "date": "27/02/2026 02h06",
+    "description": "",
+    "image": "https://i3.ytimg.com/vi/NlRj-vswCnk/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Confiança não tem atalho",
+    "link": "https://www.youtube.com/watch?v=LRBd-yfAkts",
+    "date": "20/02/2026 12h11",
+    "description": "Antes de voar, verifique se a empresa é autorizada pela Anac.\nO transporte aéreo clandestino é um risco real para você e sua família!\n\nConfira a regularidade da empresa em\nhttps://voeseguro.anac.gov.br\n\nOu consulte pelo Super App da Anac.\n\nBaixe o Super App na App Store:\nhttps://apps.apple.com/br/app/anac/id6479522513\n\nBaixe o Super App no Google Play:\nhttps://play.google.com/store/apps/details?id=br.gov.anac.superapp\n\n#voeseguro",
+    "image": "https://i1.ytimg.com/vi/LRBd-yfAkts/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Audiência Pública nº 01/2026",
+    "link": "https://www.youtube.com/watch?v=BzWHYGSDuYU",
+    "date": "12/02/2026 08h15",
+    "description": "Proposta de resolução que dispões sobre a Alteração das Condições de Transporte Aéreo",
+    "image": "https://i3.ytimg.com/vi/BzWHYGSDuYU/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Audiência Pública - Exploração de serviços aéreos com balão",
+    "link": "https://www.youtube.com/watch?v=-8_H8qqHFN4",
+    "date": "11/02/2026 10h16",
+    "description": "",
+    "image": "https://i2.ytimg.com/vi/-8_H8qqHFN4/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "1ª Reunião Deliberativa da Diretoria Colegiada (20/01/2026)",
+    "link": "https://www.youtube.com/watch?v=ZuHcl1ahxSk",
+    "date": "21/01/2026 07h45",
+    "description": "Início - 6:49\n1) Processo: 00058.014794/2023-28 - 8:36\nAssunto: Proposta de emenda ao RBAC nº 121, objeto da Consulta Pública nº 16/2023, encerrada em 4 de janeiro de 2024 - tema 18 da Agenda Regulatória 2023-2024\nRelator: Rui Mesquita\n \n2) Processo: 00058.111394/2025-21 - 24:41\nAssunto: Proposta de consulta e audiência pública sobre a alteração da Resolução nº 400, de 13 de dezembro de 2016, que dispõe sobre as Condições Gerais de Transporte Aéreo\nRelator: Rui Mesquita",
+    "image": "https://i3.ytimg.com/vi/ZuHcl1ahxSk/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "2ª Reunião Deliberativa Extraordinária da Diretoria Colegiada (11/12/2025)",
+    "link": "https://www.youtube.com/watch?v=ctobZIU7IKE",
+    "date": "12/12/2025 02h21",
+    "description": "Início: 21:52\n\n1)Processo: 00058.078972/2025-19 | 22:59\nInteressado: Concessionária Aeroporto Rio de Janeiro S.A.\nAssunto: Propostas de Edital da Venda Assistida e do Termo Aditivo de Repactuação ao Contrato de Concessão nº 001/ANAC/2014, objeto da Consulta Pública nº 11/2025, encerrada em 5 de novembro de 2025\nRelator: Tiago Faierstein\n \n \n2) Processo: 00066.001958/2022-77 | 48:32\nAssunto: Propostas de revogação das Instruções de Aviação Civil - IACs 3130-121-1296 e 121-1013 e de emenda ao Regulamento Brasileiro da Aviação Civil - RBAC n° 121, objeto da Consulta Pública nº 01/2024, encerrada em 25 de março de 2024\nRelator: Tiago Pereira\n \n \n3) Processo:  00058.057456/2022-08 | 01:25:09\nAssunto: Proposta de emenda ao RBAC nº 21, objeto da Consulta Pública nº 08/2025, encerrada em 11 de julho de 2025 - tema 11 da Agenda Regulatória 2025-2026\nRelator: Tiago Pereira\n \n \n4) Processo:  00058.093872/2024-23 | 01:33:30\nAssunto: Proposta de alteração da Resolução nº 293, de 19 de novembro de 2013\nRelator: Tiago Pereira",
+    "image": "https://i4.ytimg.com/vi/ctobZIU7IKE/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Divulgação do processo de aprovação declaratória de projeto de RPAS, segundo IS E94-004",
+    "link": "https://www.youtube.com/watch?v=iEcQMszx6gI",
+    "date": "02/12/2025 06h34",
+    "description": "Webinário para divulgação do processo de aprovação declaratória de projeto de RPAS, segundo IS E94-004 (Autorização de Projeto de Sistema de Aeronaves Remotamente Pilotadas, destinadas às operações de baixo risco, segundo metodologia SORA) \n\nArquivo de apresentação: https://www.gov.br/anac/pt-br/centrais-de-conteudo/arquivos/is-e94-004-dezembro-2025.pdf\n \nLink Slido: https://app.sli.do/event/kvL7LynY1TFZBYuCXFuiRW",
+    "image": "https://i2.ytimg.com/vi/iEcQMszx6gI/hqdefault.jpg",
+    "type": "vídeo"
+  },
+  {
+    "title": "Embraer Ipanema: boas práticas de segurança",
+    "link": "https://www.youtube.com/watch?v=l9awSyOHY0g",
+    "date": "13/11/2025 08h16",
+    "description": "Link do slido - https://app.sli.do/event/uJdihManRuctcUxhaZV3Wv/live/questions",
+    "image": "https://i1.ytimg.com/vi/l9awSyOHY0g/hqdefault.jpg",
+    "type": "vídeo"
   }
 ]
