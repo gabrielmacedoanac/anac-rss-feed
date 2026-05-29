@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-05-28T08:10:54.000Z</updated>
+  <updated>2026-05-29T07:46:00.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Jornada do MMA - Da qualificação à certificação Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=EbfpnZEGWmw" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=EbfpnZEGWmw</id>
+    <updated>2026-05-29T07:46:00.000Z</updated>
+    <published>2026-05-29T07:46:00.000Z</published>
+    <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/baE11rAvhHUsmWDG6aTvqs]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Semana do MMA - DATA: 27 de maio de 2026]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=HBfWzgsDR-k" />
@@ -32,15 +41,6 @@ Página e manutenção aeronáutica: https://www.gov.br/anac/om]]></summary>
     <updated>2026-05-20T20:32:07.000Z</updated>
     <published>2026-05-20T20:32:07.000Z</published>
     <summary type="html"><![CDATA[Link para perguntas - https://app.sli.do/event/6UQR9xHDCHFtR32ZWLTexX]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Jornada do MMA - Da qualificação à certificação Anac]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=EbfpnZEGWmw" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=EbfpnZEGWmw</id>
-    <updated>2026-05-18T21:01:09.000Z</updated>
-    <published>2026-05-18T21:01:09.000Z</published>
-    <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/baE11rAvhHUsmWDG6aTvqs]]></summary>
   </entry>
 
   <entry>
