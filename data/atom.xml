@@ -2,9 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-05-29T07:46:00.000Z</updated>
+  <updated>2026-06-12T11:16:41.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[4ª Reunião Deliberativa da Diretoria Colegiada (12/06/2026)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=VBTSVhD8bOk" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=VBTSVhD8bOk</id>
+    <updated>2026-06-12T11:16:41.000Z</updated>
+    <published>2026-06-12T11:16:41.000Z</published>
+    <summary type="html"><![CDATA[Processo: 00058.040824/2019-75
+Assunto: Proposta de edição do RBAC nº 100, objeto da Consulta Pública nº 09/2025, encerrada em 18 de julho de 2025 - tema 9 da Agenda Regulatória 2025-2026
+Relator: Mathias Moreira
+
+
+Processo: 00066.002919/2026-11
+Interessado: Helimotors Táxi Aéreo Ltda.
+Assunto: Pedido de isenção de cumprimento do requisito de que trata o parágrafo 91.329(a)(2) do RBAC nº 91
+Relator: Roberto Honorato
+
+
+Processo: 00058.104578/2025-35
+Interessado: Companhia de Participações em Concessões - CPC
+Assunto: Pedido de anuência prévia para transferência do controle societário de sociedades concessionárias de serviços aeroportuários
+Relator: Roberto Honorato]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Jornada do MMA - Da qualificação à certificação Anac]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=EbfpnZEGWmw" />
@@ -135,14 +158,5 @@ Processo: 00066.021549/2019-91 - 35:00]]></summary>
     <published>2026-03-07T07:19:16.000Z</published>
     <summary type="html"><![CDATA[Início - 9:50
 Processo: 00058.061730/2022-35 - 11:13]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[ROADSHOW | ANAC - AEROPORTO DO GALEÃO - SESSÃO DE ESCLARECIMENTOS]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=NlRj-vswCnk" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=NlRj-vswCnk</id>
-    <updated>2026-02-27T02:06:40.000Z</updated>
-    <published>2026-02-27T02:06:40.000Z</published>
-    <summary type="html"><![CDATA[]]></summary>
   </entry>
 </feed>
