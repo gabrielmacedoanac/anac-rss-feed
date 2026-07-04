@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-06-27T06:19:37.000Z</updated>
+  <updated>2026-07-03T14:05:37.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Cabine e equipamentos de segurança]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=f9wMJMIz2n8" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=f9wMJMIz2n8</id>
+    <updated>2026-07-03T14:05:37.000Z</updated>
+    <published>2026-07-03T14:05:37.000Z</published>
+    <summary type="html"><![CDATA[ELEMENTARY AVIATION ENGLISH VOCABULARY - MÓDULO I]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Os Novos Desafios do MGM sob a IS nº 121-024 Revisão A]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=YqD1b4K7-CA" />
@@ -150,15 +159,5 @@ Processo: 00066.021549/2019-91 - 35:00]]></summary>
     <updated>2026-03-30T20:56:51.000Z</updated>
     <published>2026-03-30T20:56:51.000Z</published>
     <summary type="html"><![CDATA[]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[2ª Reunião Deliberativa da Diretoria Colegiada (06/03/2026)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=jffGukQJVIk" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=jffGukQJVIk</id>
-    <updated>2026-03-07T07:19:16.000Z</updated>
-    <published>2026-03-07T07:19:16.000Z</published>
-    <summary type="html"><![CDATA[Início - 9:50
-Processo: 00058.061730/2022-35 - 11:13]]></summary>
   </entry>
 </feed>
