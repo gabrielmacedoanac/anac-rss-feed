@@ -4,8 +4,35 @@
     <title>Notícias ANAC</title>
     <link>https://www.gov.br/anac/pt-br/noticias</link>
     <description>Últimas notícias da Agência Nacional de Aviação Civil</description>
-    <lastBuildDate>Fri, 10 Jul 2026 02:42:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 02:23:15 GMT</lastBuildDate>
     
+  <item>
+    <title><![CDATA[Webinário de Engenharia de Aeroportos 2026 - Dia 3]]></title>
+    <link>https://www.youtube.com/watch?v=u28k1pCUecA</link>
+    <description><![CDATA[LINK SLIDO: https://app.sli.do/event/7XceUW3udCWUL8peQgtC4W]]></description>
+    <pubDate>Fri, 10 Jul 2026 20:29:58 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=u28k1pCUecA</guid>
+    <dc:date>2026-07-10T20:29:58.000Z</dc:date>
+  </item>
+
+  <item>
+    <title><![CDATA[Webinário de Engenharia de Aeroportos 2026 - Dia 2]]></title>
+    <link>https://www.youtube.com/watch?v=qk7aAlmb1Eo</link>
+    <description><![CDATA[LINK SLIDO: https://app.sli.do/event/7XceUW3udCWUL8peQgtC4W]]></description>
+    <pubDate>Fri, 10 Jul 2026 20:28:13 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=qk7aAlmb1Eo</guid>
+    <dc:date>2026-07-10T20:28:13.000Z</dc:date>
+  </item>
+
+  <item>
+    <title><![CDATA[Webinário de Engenharia de Aeroportos 2026 - Dia 1]]></title>
+    <link>https://www.youtube.com/watch?v=VI09U4ePqj0</link>
+    <description><![CDATA[LINK SLIDO: https://app.sli.do/event/7XceUW3udCWUL8peQgtC4W]]></description>
+    <pubDate>Fri, 10 Jul 2026 20:26:09 GMT</pubDate>
+    <guid isPermaLink="true">https://www.youtube.com/watch?v=VI09U4ePqj0</guid>
+    <dc:date>2026-07-10T20:26:09.000Z</dc:date>
+  </item>
+
   <item>
     <title><![CDATA[Cabine e equipamentos de segurança]]></title>
     <link>https://www.youtube.com/watch?v=f9wMJMIz2n8</link>
@@ -130,36 +157,6 @@ Página e manutenção aeronáutica: https://www.gov.br/anac/om]]></description>
     <pubDate>Wed, 29 Apr 2026 09:38:12 GMT</pubDate>
     <guid isPermaLink="true">https://www.youtube.com/watch?v=khhjOz1Grwg</guid>
     <dc:date>2026-04-29T09:38:12.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Evento de Lançamento da Plataforma Anac Passageiro]]></title>
-    <link>https://www.youtube.com/watch?v=qfrgn5l3DL8</link>
-    <description><![CDATA[]]></description>
-    <pubDate>Wed, 15 Apr 2026 02:23:34 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=qfrgn5l3DL8</guid>
-    <dc:date>2026-04-15T02:23:34.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[3ª Reunião Deliberativa da Diretoria Colegiada (02/04/2026)]]></title>
-    <link>https://www.youtube.com/watch?v=u_fBr0YuZDA</link>
-    <description><![CDATA[Início - 9:48
-Processo: 00058.000910/2025-93 - 10:34
-Processo: 00058.011873/2023-87 - 20:58
-Processo: 00066.021549/2019-91 - 35:00]]></description>
-    <pubDate>Fri, 03 Apr 2026 07:04:52 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=u_fBr0YuZDA</guid>
-    <dc:date>2026-04-03T07:04:52.000Z</dc:date>
-  </item>
-
-  <item>
-    <title><![CDATA[Sessão pública do leilão da Venda Assistida do Galeão]]></title>
-    <link>https://www.youtube.com/watch?v=7XZ5YTYlrdE</link>
-    <description><![CDATA[]]></description>
-    <pubDate>Mon, 30 Mar 2026 20:56:51 GMT</pubDate>
-    <guid isPermaLink="true">https://www.youtube.com/watch?v=7XZ5YTYlrdE</guid>
-    <dc:date>2026-03-30T20:56:51.000Z</dc:date>
   </item>
   </channel>
 </rss>
