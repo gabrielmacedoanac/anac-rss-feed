@@ -2,9 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-07-10T20:29:58.000Z</updated>
+  <updated>2026-07-14T18:35:21.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Episodio 07]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=FNRWpr_n-RM" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=FNRWpr_n-RM</id>
+    <updated>2026-07-14T18:35:21.000Z</updated>
+    <published>2026-07-14T18:35:21.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Episodio 06]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=SgvCSgp3eyc" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=SgvCSgp3eyc</id>
+    <updated>2026-07-14T18:35:03.000Z</updated>
+    <published>2026-07-14T18:35:03.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Episódio 5: Requisitos de Aeronavegabilidade Continuada]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=IJnmJ-7KFPU" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=IJnmJ-7KFPU</id>
+    <updated>2026-07-14T18:34:45.000Z</updated>
+    <published>2026-07-14T18:34:45.000Z</published>
+    <summary type="html"><![CDATA[A Reunião de Orientação Prévia – ROP é a primeira fase do processo de certificação de uma empresa conforme o Regulamento Brasileiro de Aviação Civil - RBAC 135, que regulamenta os táxis aéreos. A série de vídeos &quot;VOE 135 - Certificação Descomplicada&quot; foi criada com informações para preparação para ROP.]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Episodio 04]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=YxqP77zCIns" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=YxqP77zCIns</id>
+    <updated>2026-07-14T18:34:24.000Z</updated>
+    <published>2026-07-14T18:34:24.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Episodio 02]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=WXj1ndYiEJM" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=WXj1ndYiEJM</id>
+    <updated>2026-07-14T18:34:05.000Z</updated>
+    <published>2026-07-14T18:34:05.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[EPISÓDIO 1]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=EQ789pkcqTE" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=EQ789pkcqTE</id>
+    <updated>2026-07-14T18:33:39.000Z</updated>
+    <published>2026-07-14T18:33:39.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Webinário de Engenharia de Aeroportos 2026 - Dia 3]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=u28k1pCUecA" />
@@ -100,61 +154,5 @@ Relator: Roberto Honorato]]></summary>
     <updated>2026-05-28T08:10:54.000Z</updated>
     <published>2026-05-28T08:10:54.000Z</published>
     <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/pdpU1rYnM1ihv8mwbvd74a]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Entrevista com Camilo de Brito e Ricardo Pinheiro, MMAs e sócios da ALFA - Manutenção de Aeronaves]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=l-Orscs_4E4" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=l-Orscs_4E4</id>
-    <updated>2026-05-27T07:36:35.000Z</updated>
-    <published>2026-05-27T07:36:35.000Z</published>
-    <summary type="html"><![CDATA[Perguntas: https://app.sli.do/event/noFFjhyNSipz8rm1RTKwZL
-
-Página e manutenção aeronáutica: https://www.gov.br/anac/om]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Desafios da Aviação Civil para os próximos 5 anos (Sustentabilidade e Pessoas)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=iQADLK0Vtlg" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=iQADLK0Vtlg</id>
-    <updated>2026-05-20T20:32:07.000Z</updated>
-    <published>2026-05-20T20:32:07.000Z</published>
-    <summary type="html"><![CDATA[Link para perguntas - https://app.sli.do/event/6UQR9xHDCHFtR32ZWLTexX]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Desafios da Aviação Civil para os próximos 5 anos (Inovação e Segurança)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=tAmalUI7gHs" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=tAmalUI7gHs</id>
-    <updated>2026-05-13T22:11:51.000Z</updated>
-    <published>2026-05-13T22:11:51.000Z</published>
-    <summary type="html"><![CDATA[https://app.sli.do/event/t1EuLm6eQgLxVecPq4Wfdn]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Desafios da Aviação Civil para os próximos 5 anos (Mercado e Conectividade)]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=cOrbBoeLnhg" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=cOrbBoeLnhg</id>
-    <updated>2026-05-06T21:11:27.000Z</updated>
-    <published>2026-05-06T21:11:27.000Z</published>
-    <summary type="html"><![CDATA[Link Sli.do - https://app.sli.do/event/spPW9N9CCDreJJNYEE32Ko]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário BGAST – Alerta sobre a saúde e bem-estar dos tripulantes para a segurança na aviação geral]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=YGjzs2CY1JU" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=YGjzs2CY1JU</id>
-    <updated>2026-05-06T08:57:28.000Z</updated>
-    <published>2026-05-06T08:57:28.000Z</published>
-    <summary type="html"><![CDATA[Slido: https://app.sli.do/event/3Sbx59wFJ1hCYQodV3HpgC]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Webinário do BHEST Tema: Fatores Humanos na Aviação de Helicópteros]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=khhjOz1Grwg" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=khhjOz1Grwg</id>
-    <updated>2026-04-29T09:38:12.000Z</updated>
-    <published>2026-04-29T09:38:12.000Z</published>
-    <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/rao4YZUceYybrNZXrR3rqg]]></summary>
   </entry>
 </feed>
