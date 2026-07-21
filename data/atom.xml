@@ -2,7 +2,157 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-07-21T02:23:57.365Z</updated>
+  <updated>2026-07-14T18:35:21.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Episodio 07]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=FNRWpr_n-RM" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=FNRWpr_n-RM</id>
+    <updated>2026-07-14T18:35:21.000Z</updated>
+    <published>2026-07-14T18:35:21.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Episodio 06]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=SgvCSgp3eyc" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=SgvCSgp3eyc</id>
+    <updated>2026-07-14T18:35:03.000Z</updated>
+    <published>2026-07-14T18:35:03.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Episódio 5: Requisitos de Aeronavegabilidade Continuada]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=IJnmJ-7KFPU" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=IJnmJ-7KFPU</id>
+    <updated>2026-07-14T18:34:45.000Z</updated>
+    <published>2026-07-14T18:34:45.000Z</published>
+    <summary type="html"><![CDATA[A Reunião de Orientação Prévia – ROP é a primeira fase do processo de certificação de uma empresa conforme o Regulamento Brasileiro de Aviação Civil - RBAC 135, que regulamenta os táxis aéreos. A série de vídeos &quot;VOE 135 - Certificação Descomplicada&quot; foi criada com informações para preparação para ROP.]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Episodio 04]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=YxqP77zCIns" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=YxqP77zCIns</id>
+    <updated>2026-07-14T18:34:24.000Z</updated>
+    <published>2026-07-14T18:34:24.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Episodio 02]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=WXj1ndYiEJM" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=WXj1ndYiEJM</id>
+    <updated>2026-07-14T18:34:05.000Z</updated>
+    <published>2026-07-14T18:34:05.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[EPISÓDIO 1]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=EQ789pkcqTE" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=EQ789pkcqTE</id>
+    <updated>2026-07-14T18:33:39.000Z</updated>
+    <published>2026-07-14T18:33:39.000Z</published>
+    <summary type="html"><![CDATA[]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Webinário de Engenharia de Aeroportos 2026 - Dia 3]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=u28k1pCUecA" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=u28k1pCUecA</id>
+    <updated>2026-07-10T20:29:58.000Z</updated>
+    <published>2026-07-10T20:29:58.000Z</published>
+    <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/7XceUW3udCWUL8peQgtC4W]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Webinário de Engenharia de Aeroportos 2026 - Dia 2]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=qk7aAlmb1Eo" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=qk7aAlmb1Eo</id>
+    <updated>2026-07-10T20:28:13.000Z</updated>
+    <published>2026-07-10T20:28:13.000Z</published>
+    <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/7XceUW3udCWUL8peQgtC4W]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Webinário de Engenharia de Aeroportos 2026 - Dia 1]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=VI09U4ePqj0" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=VI09U4ePqj0</id>
+    <updated>2026-07-10T20:26:09.000Z</updated>
+    <published>2026-07-10T20:26:09.000Z</published>
+    <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/7XceUW3udCWUL8peQgtC4W]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Cabine e equipamentos de segurança]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=f9wMJMIz2n8" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=f9wMJMIz2n8</id>
+    <updated>2026-07-03T14:05:37.000Z</updated>
+    <published>2026-07-03T14:05:37.000Z</published>
+    <summary type="html"><![CDATA[ELEMENTARY AVIATION ENGLISH VOCABULARY - MÓDULO I]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Os Novos Desafios do MGM sob a IS nº 121-024 Revisão A]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=YqD1b4K7-CA" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=YqD1b4K7-CA</id>
+    <updated>2026-06-27T06:19:37.000Z</updated>
+    <published>2026-06-27T06:19:37.000Z</published>
+    <summary type="html"><![CDATA[LINK DO SLIDO: https://app.sli.do/event/bNeCn3M5X1PSiLYVYtsao4]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Divulgação das novas regras de Drones]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=UEwao1QD8rM" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=UEwao1QD8rM</id>
+    <updated>2026-06-24T19:08:06.000Z</updated>
+    <published>2026-06-24T19:08:06.000Z</published>
+    <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/aUVLsbiwsJqUhExAmUwEtS]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[4ª Reunião Deliberativa da Diretoria Colegiada (12/06/2026)]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=VBTSVhD8bOk" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=VBTSVhD8bOk</id>
+    <updated>2026-06-13T03:05:56.000Z</updated>
+    <published>2026-06-13T03:05:56.000Z</published>
+    <summary type="html"><![CDATA[Início - 9:55
+
+Processo: 00058.040824/2019-75 - 11:02
+Assunto: Proposta de edição do RBAC nº 100, objeto da Consulta Pública nº 09/2025, encerrada em 18 de julho de 2025 - tema 9 da Agenda Regulatória 2025-2026
+Relator: Mathias Moreira
+
+
+Processo: 00066.002919/2026-11 - 01:11:03
+Interessado: Helimotors Táxi Aéreo Ltda.
+Assunto: Pedido de isenção de cumprimento do requisito de que trata o parágrafo 91.329(a)(2) do RBAC nº 91
+Relator: Roberto Honorato
+
+
+Processo: 00058.104578/2025-35 - 01:25:10
+Interessado: Companhia de Participações em Concessões - CPC
+Assunto: Pedido de anuência prévia para transferência do controle societário de sociedades concessionárias de serviços aeroportuários
+Relator: Roberto Honorato]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Jornada do MMA - Da qualificação à certificação Anac]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=EbfpnZEGWmw" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=EbfpnZEGWmw</id>
+    <updated>2026-05-29T07:46:00.000Z</updated>
+    <published>2026-05-29T07:46:00.000Z</published>
+    <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/baE11rAvhHUsmWDG6aTvqs]]></summary>
+  </entry>
+
+  <entry>
+    <title type="html"><![CDATA[Semana do MMA - DATA: 27 de maio de 2026]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=HBfWzgsDR-k" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=HBfWzgsDR-k</id>
+    <updated>2026-05-28T08:10:54.000Z</updated>
+    <published>2026-05-28T08:10:54.000Z</published>
+    <summary type="html"><![CDATA[LINK SLIDO: https://app.sli.do/event/pdpU1rYnM1ihv8mwbvd74a]]></summary>
+  </entry>
 </feed>
