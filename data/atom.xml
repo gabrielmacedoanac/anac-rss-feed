@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notícias ANAC</title>
   <link href="https://www.gov.br/anac/pt-br/noticias"/>
-  <updated>2026-07-28T17:23:41.000Z</updated>
+  <updated>2026-07-30T07:06:36.000Z</updated>
   <id>urn:uuid:https://www.gov.br/anac/pt-br/noticias</id>
   
+  <entry>
+    <title type="html"><![CDATA[Audiência Pública da Consulta Pública nº 10/2026]]></title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=UulPvc5Rpis" />
+    <id>urn:uuid:https://www.youtube.com/watch?v=UulPvc5Rpis</id>
+    <updated>2026-07-30T07:06:36.000Z</updated>
+    <published>2026-07-30T07:06:36.000Z</published>
+    <summary type="html"><![CDATA[Proposta de Edital do Procedimento Competitivo de Repactuação do Contrato de Concessão nº 001/ANAC/2012-SBBR, relativo ao Aeroporto Internacional de Brasília (DF) - Presidente Juscelino Kubitschek.]]></summary>
+  </entry>
+
   <entry>
     <title type="html"><![CDATA[Obra em pista de pouso e decolagem interditada]]></title>
     <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=tBKUL1PLyr0" />
@@ -12,15 +21,6 @@
     <updated>2026-07-28T17:23:41.000Z</updated>
     <published>2026-07-28T17:23:41.000Z</published>
     <summary type="html"><![CDATA[As obras e os serviços de manutenção na área operacional de um aeródromo precisam ser planejados com antecedência para garantir segurança das operações aéreas e aeroportuária e não gerar custos proibitivos para sua operacionalização.]]></summary>
-  </entry>
-
-  <entry>
-    <title type="html"><![CDATA[Audiência Pública da Consulta Pública nº 10/2026]]></title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=UulPvc5Rpis" />
-    <id>urn:uuid:https://www.youtube.com/watch?v=UulPvc5Rpis</id>
-    <updated>2026-07-28T16:28:39.000Z</updated>
-    <published>2026-07-28T16:28:39.000Z</published>
-    <summary type="html"><![CDATA[Proposta de Edital do Procedimento Competitivo de Repactuação do Contrato de Concessão nº 001/ANAC/2012-SBBR, relativo ao Aeroporto Internacional de Brasília (DF) - Presidente Juscelino Kubitschek.]]></summary>
   </entry>
 
   <entry>
